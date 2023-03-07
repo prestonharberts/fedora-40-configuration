@@ -9,8 +9,8 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Add the output of the last line to your GitHub page's SSH keys. Push any commits with this line (using the SSH clone link):
+Add the output of the last line to your GitHub page's SSH keys. Clone using the following template ([source](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)):
 
 ```
-git push git@github.com:username/repo.git
+git clone ssh://git@ssh.github.com:443/YOUR-USERNAME/YOUR-REPOSITORY.git
 ```
