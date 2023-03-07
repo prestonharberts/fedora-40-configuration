@@ -1,0 +1,43 @@
+# System settings
+
+- Bluetooth
+  - Disable Bluetooth if not needed, or connect devices as needed
+- Appearance
+  - Pick background
+- Notifications
+  - Do Not Disturb: On
+  - Lock Screen Notifications: Off
+- Multitasking
+  - Hot Corner: Off
+- Privacy
+  - Screen
+    - Blank Screen Delay: Never
+  - File History & Trash
+    - Automatically Delete Trash Content: On
+- Power
+  - Power Mode: Select preferred power mode
+- Displays
+  - Rearrange displays if needed
+  - Change refresh rate if needed
+- Keyboard
+  - View and Customize Shortcuts
+    - Close window: `Super-W`
+    - Hide all normal windows: `Super-M`
+    - Show the notification list: `Super-Tab`
+    - Switch applications: `Alt-Tab`
+    - Move window one monitor down: `Alt-Super-X`
+    - Move window one monitor to the left: `Alt-Super-A`
+    - Move window one monitor to the right: `Alt-Super-D`
+    - Move window one monitor up: `Alt-Super-W`
+    - Settings: `Super-I`
+    - Show the overview: `Super-O`
+    - Show all applications: `Shift-Ctrl-Alt-O`
+    - Move to workspace on the left: `Shift-Super-A`
+    - Move to workspace on the right: `Shift-Super-D`
+    - Move window one workspace to the left: `Shift-Super-Q`
+    - Move window one workspace to the right: `Shift-Super-E`
+    - Toggle fulslcreen mode: `Super-F`
+- Date & Time
+  - Time Format: AM/PM
+- About
+  - Device Name: Pick name

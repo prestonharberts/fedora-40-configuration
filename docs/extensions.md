@@ -1,0 +1,218 @@
+# Extensions
+
+Install Extensions by The GNOME Project from Software, and open. Disable the Background Logo built-in extension. Visit https://extensions.gnome.org, and install the following extensions while changing their settings, as well:
+
+(run `gsettings set org.gnome.shell disable-extension-version-validation true` if an extension is incompatible with the current GNOME version)
+
+- AATWS - Advanced Alt-Tab Window Switcher by GdH
+  - Common
+    - Behaviour
+      - Placement: Center
+      - Default Monitor: Monitor with focused window
+      - Search Mode as Default: Off
+      - Up/Down Keys Action: Toggle Single App Mode
+      - Delay Showing Switcher (ms): 150
+    - Appearance and Content
+      - Tooltip Titles: Disable
+    - Hot Edge
+      - Hot Edge Position: Disabled
+  - Window Switcher
+    - Behavior
+      - Minimize Windows Last: Off
+    - Appearance
+      - Show Workspace Index: Off
+  - App Switcher
+    - Behaviour
+      - Include Favorite Apps: Off
+      - Include Show Apps Icon: Off
+    - Appearance
+      - Show Window Counter: Off
+- ArcMenu by andrew.zaech
+  - General
+    - Panel Display Options
+      - Position in Panel: Center
+      - Show Activities Button: On
+    - General Settings
+      - Hotkey: Custom Hotkey
+      - Current Hotkey: Shift+Ctrl+Alt+Space
+  - Menu
+    - Menu Layout: Launcher Menu Layouts > Runner
+    - Menu Theme
+      - Override Theme: On
+      - Menu Themes
+        - Current Theme: Light Blue
+      - Menu Styling
+        - Background Color: #eaeaea
+        - Foreground color: #000000
+        - Save the theme as "Light"
+    - Menu Visual Appearance
+      - Menu Location
+        - Override Menu Location: Top Centered
+        - Override Menu Rise: On; 9
+    - Runner Layout Tweaks
+      - Position: Centered
+      - Font Size: 12
+    - Pinned Apps: (in order) Firefox, Tutanota, Todoist, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator
+  - Menu Button
+    - Menu Button Appearance
+      - Display Style: Hidden
+- Autohide Battery by iskin
+- Autohide Volume by t184256
+- Caffeine by eon
+  - General
+    - Remember state: On
+    - Toggle shortcut: Shift+Super+C
+  - Display
+    - Show status indicator in top panel: Never
+- Compiz alike magic lamp effect by hermes83
+  - Duration (ms): 250
+- Dash to Dock by michele_g
+  - Position and size
+    - Intelligent autohide
+      - Autohide
+        - Show dock for urgent notifications: Off
+      - Dodge windows: Off
+    - Dock size limit: 80%
+    - Icon size limit: 40 px
+  - Launchers
+    - Keep the focused application always visible in the dash: Off
+    - Show Appplications icon: Off
+  - Behavior
+    - Use keyboard shortcuts to activate apps
+      - Number overlay: Off
+      - Show the dock if it is hidden: Off
+      - Shortcut for the options above: Empty
+    - Click action: Minimize or show previews
+      - Shift+Click action: Launch new instance
+      - Middle-Click action: Quit
+      - Shift+Middle-Click action: Quit
+  - Appearance
+    - Shrink the dash: On
+    - Show overview on startup: Off
+    - Customize windows counter indicators: Dots
+      - Customize indicator style: On
+      - Color: #1b1b1b
+    - Customize the dash color: On; #ebebeb
+    - Customize opacity: Fixed
+    - Opacity: 100%
+  - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Todoist, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator
+- Date Menu Formatter by mjakubowski
+  - Pattern: EEEE K:mm aaa
+  - Font size: 11 pt
+- Floating Panel by aylur
+  - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
+- Just Another Search Bar by xelad0m
+  - Click the "+" button next to Default search
+    - Name: firefox
+    - Command: xdg-open https://#
+    - Wildcard: #
+    - Query delimiter: +
+    - Example query: test query
+    - Save: Click save button
+- Just Perfection by JustPerfection
+  - Visibility
+    - World Clock: Off
+    - Weather: Off
+    - Events: Off
+    - Search: Off
+    - Show Applications Button: Off
+    - Workspace Popup: Off
+    - Workspace Switcher: Off
+    - Workspaces App Grid: Off
+    - Window Picker Close Button: Off
+    - Window Picker Caption: Off
+    - Background Menu: Off
+    - Ripple Box: Off
+  - Icons
+    - Panel Notification Icon: Off
+    - Power Icon: Off
+  - Behaviour
+    - Window Demands Attention Focus: On
+    - Double Super to App Grid: Off
+    - Startup Status: Desktop
+  - Customize
+    - Clock menu position: Right
+    - Clock menu offset: 7
+    - Notification Banner Position: Top End
+- Logo Menu by Aryan_K
+  - Icon
+    - Icon: Choose OS logo without color
+    - Icon Size: 18px
+- Mpris Label by moon-0xff
+  - Panel
+    - Left padding: 0
+    - Right padding: 0
+  - Label
+    - Max string length (each field): 150
+    - Button placeholder (can be left empty): Empty
+    - Divider string (you can use spaces): " by "
+    - Visible fields and order: title artist none
+    - Show source icon: off
+- Notification Timeout by chlumskyvaclav
+- Power Profile Switcher by eliapasquali
+  - Default profiles
+    - On AC: Balanced
+    - On battery: Power Saving
+- Quick Settings Tweaker by qwreey75
+  - Notifications
+    - Visible: Off
+  - Media Controls
+    - Visible: Off
+  - Other
+    - Remove Notifications On Date Menu: Off
+    - Remove Media Control On Date Menu: Off
+- Rounded Corners by lennart-k
+  - Border radius: 14px
+- Rounded Window Corners by yilozt
+  - General
+    - Global Settings
+      - Border Width: 1.0
+      - Border Color: #808080 Half transparent
+- Tiling Assistant by Leleat
+  - Advanced (click the lightbulb at the top left)
+    - Advanced/Experimental Settings: On
+  - General
+    - Tiling Popup
+      - Open after tiling a window: Off
+    - Tile Groups
+      - Raise together: Off
+    - Gaps
+      - Windows: 8
+      - Screen Edge Top: 8
+      - Screen Edge Left: 8
+      - Screen Edge Right: 8
+      - Screen Edge Bottom: 8
+      - Maximized Windows: On
+    - Default Window Movement Mode: Adaptive Tiling
+  - Keybindings
+    - General
+      - Toggle 'Always on Top': `Ctrl-Super-W`
+      - Toggle Maximization: `Super-S`
+      - Restore Window Size: `Shift-Super-S`
+      - Move Window to Center: `Shift-Ctrl-Super-S`
+    - Edge Tiling
+      - Tile to top: `Shift-Super-W`
+      - Tile to bottom: `Shift-Super-X`
+      - Tile to left: `Super-A`
+      - Tile to right: `Super-D`
+    - Corner Tiling
+      - Tile to top-left: `Super-Q`
+      - Tile to top-right: `Super-E`
+      - Tile to bottom-left: `Super-Z`
+      - Tile to bottom-right: `Super-C`
+- Top Bar Organizer by jspp
+  - After installing the Just Another Search Bar extension, move Right Top Bar Box > undefined to the very end
+  - After installing the Mpris Label extension, move Mpris Label to the middle
+- Unite by hardpixel
+  - General
+    - Extend top bar left box: Off
+    - Show system tray in top bar: Off
+    - Show desktop name in top bar: Off
+    - Restrict funcitonalities to the primary screen: Off
+    - Hide activities button: Never
+    - Hide window titlebars: Always
+    - Show window title in app menu: Never
+    - Show window buttons in top bar: Never
+- User Themes by fmuellner
+- Worksapce Dry Names (typo included) by exrevisseMiroir
+  - Name workspaces Primary, Secondary, Tertiary
