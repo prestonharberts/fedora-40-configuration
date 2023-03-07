@@ -184,6 +184,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Screen Edge Bottom: 8
       - Maximized Windows: On
     - Default Window Movement Mode: Adaptive Tiling
+    - Other
+      - Restore Window Size on: Grab End
   - Keybindings
     - General
       - Toggle 'Always on Top': `Ctrl-Super-W`
