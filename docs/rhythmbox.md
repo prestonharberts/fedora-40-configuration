@@ -11,7 +11,7 @@ Open Preferences, and change the following settings:
 
 - General
 	- Visible Columns
-        - Genre: Off
+ 	       - Genre: Off
 - Plugins
     - Song Lyrics: On
         - Preferences
