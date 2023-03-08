@@ -14,7 +14,7 @@ Open Preferences, and change the following settings
 Open Terminal, and run the following command:
 
 ```
-cd && mkdir Audio Applications src Documents/Vault
+cd && mkdir Audio Applications Games src Documents/Vault
 ```
 
-Open Nautilus, and drag each created directory to the left sidebar to create a bookmark. Sort them alphabetically by dragging to rearrange.
+Open Nautilus, and drag each created directory to the left sidebar to create a bookmark in the opposite order they were created (to avoid having to sort them).
