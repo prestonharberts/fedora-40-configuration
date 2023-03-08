@@ -11,7 +11,7 @@ make
 sudo make install
 ```
 
-Copy `logid.cfg` to `/etc/` with `sudo cp logid.cdf /etc/`.
+Copy `logid.cfg` to `/etc/` with `sudo cp /dir/to/logid.cfg /etc/`.
 
 Run the following to enable the daemon to start at boot:
 
