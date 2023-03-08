@@ -17,3 +17,5 @@ git clone https://github.com/p-chan5/EasyPulse
 ```
 
 Add them through the top menu of Easy Effects.
+
+When finished adding the presets, change the Maximizer output to 20.0 dB for the hifi preset.
