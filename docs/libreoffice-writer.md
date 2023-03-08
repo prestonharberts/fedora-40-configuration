@@ -18,3 +18,9 @@ Change the following settings from the toolbar:
 	- Scrollbars
 		- Vertical Scroll Bar: Off
 	- Sidebar: Off (toggle if needed)
+- Tools
+  - Customize
+    - Context Menus
+      - Text; Add Menubar; Move Menubar to to top and insert separator beneath it
+
+Use Ctrl+F5 to reveal the Sidebar. If it is broken, first undock it from the side within its menu, and close that window. Then, use the shortcut.
