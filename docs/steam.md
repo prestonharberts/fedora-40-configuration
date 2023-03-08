@@ -14,6 +14,13 @@ Install Steam by Valve Corporation from Software. Also, open Terminal and run `s
   - Show game icons in the left column: Off
 - Remote Play
   - Enable Remote Play: Off
+- Controller
+  - General controller settings
+    - PlayStation Configuration Support: On
+    - Xbox Configuration Support: On
+    - Switch Configuration Support: On
+    - Use Nintendo Button Layout: Off
+    - Generic Gamepad Configuration Support: On
 
 Collapse all collections by right-clicking on one, and selecting "Collapse all collections".
 
