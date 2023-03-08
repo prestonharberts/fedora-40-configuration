@@ -50,13 +50,12 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Override Menu Location: Top Centered
         - Override Menu Rise: On; 9
     - Runner Layout Tweaks
-      - Position: Centered
       - Font Size: 12
     - Pinned Apps: (in order) Firefox, Tutanota, Todoist, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator
   - Menu Button
     - Menu Button Appearance
       - Display Style: Hidden
-- Autohide Battery by iskin
+- Autohide Battery by iskin (only if current machine is has a battery)
 - Autohide Volume by t184256
 - Caffeine by eon
   - General
@@ -64,6 +63,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Toggle shortcut: Shift+Super+C
   - Display
     - Show status indicator in top panel: Never
+    - Notifications: Off
 - Compiz alike magic lamp effect by hermes83
   - Duration (ms): 250
 - Dash to Dock by michele_g
@@ -125,7 +125,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Ripple Box: Off
   - Icons
     - Panel Notification Icon: Off
-    - Power Icon: Off
+    - Power Icon: Off (only if device does not have a battery)
   - Behaviour
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
@@ -205,6 +205,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
 - Top Bar Organizer by jspp
   - After installing the Just Another Search Bar extension, move Right Top Bar Box > undefined to the very end
   - After installing the Mpris Label extension, move Mpris Label to the middle
+  - After installing the Worksapce Dry Names extension (typo included), move workspace-name-indicator to immediately after activites in the Left Top Bar Box
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off

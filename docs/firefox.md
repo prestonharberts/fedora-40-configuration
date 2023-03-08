@@ -18,6 +18,8 @@ Open Application Menu, and open Settings. Change the following settings:
 		- Snippets: Off
 - Search
 	- Default Search Engine: DuckDuckGo
+	- Search Suggestions
+		- Provide search suggestions: Off
 	- Search Shortcuts
 		- Google: Off
 		- Amazon.com: Off

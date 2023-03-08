@@ -26,7 +26,6 @@ Now, change the following settings under Configure Konsole:
       - Miscellaneous
         - Terminal contents
           - Margins: 16 px
-          - Align to center: On
           -  Window > Show Hint for terminal size after resizing: Off
     - Scrolling
       - Scrollbar position: Hidden
@@ -35,6 +34,7 @@ Now, change the following settings under Configure Konsole:
 - Tab Bar / Splitters
   - Appearance
     - Position: Above terminal area
+    - Show Close Tab Button: None
     - Miscellaneous
       - Expand individual tab widths to full window: On
   - Behavior

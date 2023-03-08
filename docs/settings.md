@@ -19,10 +19,14 @@
 - Displays
   - Rearrange displays if needed
   - Change refresh rate if needed
+- Mouse & Touchpad
+  - Touchpad
+    - Tap to Click: On
 - Keyboard
   - View and Customize Shortcuts
     - Close window: `Super-W`
     - Hide all normal windows: `Super-M`
+    - Hide window: `Super-X`
     - Show the notification list: `Super-Tab`
     - Switch applications: `Alt-Tab`
     - Move window one monitor down: `Alt-Super-X`
@@ -37,6 +41,10 @@
     - Move window one workspace to the left: `Shift-Super-Q`
     - Move window one workspace to the right: `Shift-Super-E`
     - Toggle fulslcreen mode: `Super-F`
+    - View split on left: Disabled
+    - View split on right: Disabled
+    - Maximize window: Disabled
+    - Restore window: Disabled
 - Date & Time
   - Time Format: AM/PM
 - About

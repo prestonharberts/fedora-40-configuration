@@ -1,4 +1,4 @@
-# Tutanora
+# Tutanota
 
 ## Installation
 
