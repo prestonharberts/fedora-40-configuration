@@ -16,5 +16,3 @@ Install Steam by Valve Corporation from Software. Also, open Terminal and run `s
   - Enable Remote Play: Off
 
 Collapse all collections by right-clicking on one, and selecting "Collapse all collections".
-
-Install Proton versions as needed when suggested by protondb.com.
