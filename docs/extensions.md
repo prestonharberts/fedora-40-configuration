@@ -51,7 +51,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Override Menu Rise: On; 9
     - Runner Layout Tweaks
       - Font Size: 12
-    - Pinned Apps: (in order) Firefox, Tutanota, Todoist, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator
+      - Show Frequent Apps: On
   - Menu Button
     - Menu Button Appearance
       - Display Style: Hidden
