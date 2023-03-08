@@ -16,3 +16,5 @@ Install Steam by Valve Corporation from Software. Also, open Terminal and run `s
   - Enable Remote Play: Off
 
 Collapse all collections by right-clicking on one, and selecting "Collapse all collections".
+
+Add gamemoderun %command% to Properties > General > Launch Options for demanding games.
