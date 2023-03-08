@@ -140,6 +140,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Icon Size: 18px
 - Mpris Label by moon-0xff
   - Panel
+    - Extension place: center
     - Left padding: 0
     - Right padding: 0
   - Label
