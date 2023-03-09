@@ -24,4 +24,13 @@ Install Steam by Valve Corporation from Software. Also, open Terminal and run `s
 
 Collapse all collections by right-clicking on one, and selecting "Collapse all collections".
 
-Add gamemoderun %command% to Properties > General > Launch Options for demanding games.
+Add `gamemoderun %command% prime-run %command%` to Properties > General > Launch Options for demanding games.
+
+Run the following to make any installed games into shortcuts located in `~/Desktop/`:
+
+```
+python -m ensurepip --upgrade
+python3 -m pip install --user pillow vdf steam
+git clone https://github.com/gasinvein/steam-desktop-updater
+./steam_desktop_updater.py ~/.var/app/com.valvesoftware.Steam/data/Steam
+```
