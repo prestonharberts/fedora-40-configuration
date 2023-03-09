@@ -16,6 +16,8 @@
     - Automatically Delete Trash Content: On
 - Power
   - Power Mode: Select preferred power mode
+  - Automatic Screen Brightness: Off
+  - Dim Screen: Off
 - Displays
   - Rearrange displays if needed
   - Change refresh rate if needed
