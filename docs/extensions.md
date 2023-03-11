@@ -48,7 +48,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Menu Visual Appearance
       - Menu Location
         - Override Menu Location: Top Centered
-        - Override Menu Rise: On; 9
+        - Override Menu Rise: On; 8
     - Runner Layout Tweaks
       - Font Size: 12
       - Show Frequent Apps: On
