@@ -14,3 +14,10 @@ Add the output of the last line to your GitHub page's SSH keys. Clone using the 
 ```
 git clone ssh://git@ssh.github.com:443/YOUR-USERNAME/YOUR-REPOSITORY.git
 ```
+
+Run the following to finish setting up Git:
+
+```
+git config --global user.email "putemail@here.com"
+git config --global user.name "Full Name"
+```
