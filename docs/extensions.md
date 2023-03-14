@@ -46,10 +46,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Foreground color: #000000
         - Save the theme as "Light"
     - Menu Visual Appearance
-      - Menu Location
-        - Override Menu Location: Top Centered
-        - Override Menu Rise: On; 8
     - Runner Layout Tweaks
+      - Position: Centered
       - Font Size: 12
       - Show Frequent Apps: On
   - Menu Button
@@ -101,6 +99,12 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Font size: 11 pt
 - Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
+- Hide Top Bar by tuxor1337
+  - Sensitivity
+    - Show panel when mouse approaches edge of screen: On
+    - In the above case, also show panel when fullscreen: Off
+  - Keyboard shortcuts
+    - Key that triggers the bar to be shown: `Control-Alt-T`
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
     - Name: firefox
@@ -162,14 +166,14 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Other
     - Remove Notifications On Date Menu: Off
     - Remove Media Control On Date Menu: Off
-- Rounded Corners by lennart-k
-  - Border radius: 14px
 - Rounded Window Corners by yilozt
   - General
     - Global Settings
       - Border Width: 1.0
       - Border Color: #808080 Half transparent
 - Smart Auto Move by khimaros
+  - Sync Frequency (milliseconds): 200
+  - Save Frequency (milliseconds): 200
 - Tiling Assistant by Leleat
   - Advanced (click the lightbulb at the top left)
     - Advanced/Experimental Settings: On
@@ -180,7 +184,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Raise together: Off
     - Gaps
       - Windows: 8
-      - Screen Edge Top: 8
+      - Screen Edge Top: 44
       - Screen Edge Left: 8
       - Screen Edge Right: 8
       - Screen Edge Bottom: 8
