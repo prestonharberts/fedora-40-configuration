@@ -47,7 +47,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Save the theme as "Light"
     - Menu Visual Appearance
       - Menu Location
-        - Override Menu Rise: On; 10
+        - Override Menu Rise: On; 8
     - Runner Layout Tweaks
       - Font Size: 12
       - Show Frequent Apps: On
@@ -102,7 +102,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Appearance
     - Window
       - Gaps
-        - Gaps Size: 5
+        - Gaps Size: 8 for 4K resolution (use `Control-Super-+` or `Control-Super--` to change gap)
   - Keyboard
     - Focus Shortcuts
       - focus-border-toggle: Empty
