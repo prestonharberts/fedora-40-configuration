@@ -46,8 +46,9 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Foreground color: #000000
         - Save the theme as "Light"
     - Menu Visual Appearance
+      - Menu Location
+        - Override Menu Rise: On; 10
     - Runner Layout Tweaks
-      - Position: Centered
       - Font Size: 12
       - Show Frequent Apps: On
   - Menu Button
@@ -99,12 +100,17 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Font size: 11 pt
 - Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
-- Hide Top Bar by tuxor1337
-  - Sensitivity
-    - Show panel when mouse approaches edge of screen: On
-    - In the above case, also show panel when fullscreen: Off
-  - Keyboard shortcuts
-    - Key that triggers the bar to be shown: `Control-Alt-T`
+- Forge by forge-ext
+  - Appearance
+    - Window
+      - Gaps
+        - Gaps Size: 5
+  - Keyboard
+    - Focus Shortcuts
+      - focus-border-toggle: Empty
+    - Other Shortcuts
+      - prefs-open: Empty
+      - prefs-tiling-toggle: Empty
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
     - Name: firefox
@@ -137,6 +143,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Customize
     - Clock menu position: Right
     - Clock menu offset: 7
+    - Animation: No Animation
     - Notification Banner Position: Top End
 - Logo Menu by Aryan_K
   - Icon
@@ -171,47 +178,11 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Global Settings
       - Border Width: 1.0
       - Border Color: #808080 Half transparent
-- Smart Auto Move by khimaros
-  - Sync Frequency (milliseconds): 200
-  - Save Frequency (milliseconds): 200
-- Tiling Assistant by Leleat
-  - Advanced (click the lightbulb at the top left)
-    - Advanced/Experimental Settings: On
-  - General
-    - Tiling Popup
-      - Open after tiling a window: Off
-    - Tile Groups
-      - Raise together: Off
-    - Gaps
-      - Windows: 8
-      - Screen Edge Top: 44
-      - Screen Edge Left: 8
-      - Screen Edge Right: 8
-      - Screen Edge Bottom: 8
-      - Maximized Windows: On
-    - Default Window Movement Mode: Adaptive Tiling
-    - Other
-      - Restore Window Size on: Grab End
-  - Keybindings
-    - General
-      - Toggle 'Always on Top': `Ctrl-Super-W`
-      - Toggle Maximization: `Super-S`
-      - Restore Window Size: `Shift-Super-S`
-      - Move Window to Center: `Shift-Ctrl-Super-S`
-    - Edge Tiling
-      - Tile to top: `Shift-Super-W`
-      - Tile to bottom: `Shift-Super-X`
-      - Tile to left: `Super-A`
-      - Tile to right: `Super-D`
-    - Corner Tiling
-      - Tile to top-left: `Super-Q`
-      - Tile to top-right: `Super-E`
-      - Tile to bottom-left: `Super-Z`
-      - Tile to bottom-right: `Super-C`
 - Top Bar Organizer by jspp
   - After installing the Just Another Search Bar extension, move Right Top Bar Box > undefined to the very end
   - After installing the Mpris Label extension, move Mpris Label to the middle
   - After installing the Worksapce Dry Names extension (typo included), move workspace-name-indicator to immediately after activites in the Left Top Bar Box
+  - After installing the Forge extension, move ForgeExt to be right after Left Top Bar Box > menuButton
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off

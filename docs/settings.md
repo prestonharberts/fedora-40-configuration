@@ -42,7 +42,7 @@
     - Move to workspace on the right: `Shift-Super-D`
     - Move window one workspace to the left: `Shift-Super-Q`
     - Move window one workspace to the right: `Shift-Super-E`
-    - Toggle fulslcreen mode: `Super-F`
+    - Toggle fulslcreen mode: `Super-S`
     - View split on left: Disabled
     - View split on right: Disabled
     - Maximize window: Disabled
