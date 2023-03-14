@@ -102,7 +102,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Appearance
     - Window
       - Gaps
-        - Gaps Size: 8 for 4K resolution (use `Control-Super-+` or `Control-Super--` to change gap)
+        - Gaps Size: 5 (use `Control-Super-+` or `Control-Super--` to change gap)
   - Keyboard
     - Focus Shortcuts
       - focus-border-toggle: Empty
