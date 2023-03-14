@@ -131,17 +131,17 @@ Right click empty space on the toolbar (same bar as the search bar), and go to C
 - Remove the New Tab button next to the open tabs
 - Remove the Homepage button
 
-## userChrome CSS (not necessary at the moment)
+## GNOME Theme
 
-Press `Alt` while in Firefox, and click Help then Troubleshooting. Click Open Directory next to Profile Folder. Open the folder in Terminal, and run the following to create and edit `userChrome.css`:
-
-```
-mkdir chrome
-vim userChrome.css
-```
-
-Enter `about:config` into the URL bar in Firefox, and search for `userprof` in the search bar. Double-click the following item to change it from false to true:
+Run the following to install a GNOME theme for Firefox (source: https://github.com/rafaelmardojai/firefox-gnome-theme):
 
 ```
-toolkit.legacyUserProfileCustomizations.stylesheets
+git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
+./scripts/auto-install.sh
+```
+
+Enter `about:config` into the URL bar, and agree to enter. Click the + button for the following setting:
+
+```
+gnomeTheme.hideSingleTab
 ```
