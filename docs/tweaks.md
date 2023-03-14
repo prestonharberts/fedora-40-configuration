@@ -10,7 +10,6 @@ Install Tweaks from Software. Change the following settings:
     - Middle-Click: Menu
 - Windows
   - Attach Modal Dialogs: Off
-  - Center New Windows: On
   - Resize with Secondary-Click: On
   - Window Action Key: Alt
 

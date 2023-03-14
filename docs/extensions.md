@@ -169,6 +169,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Global Settings
       - Border Width: 1.0
       - Border Color: #808080 Half transparent
+- Smart Auto Move by khimaros
 - Tiling Assistant by Leleat
   - Advanced (click the lightbulb at the top left)
     - Advanced/Experimental Settings: On
