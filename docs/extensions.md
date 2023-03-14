@@ -63,8 +63,6 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Display
     - Show status indicator in top panel: Never
     - Notifications: Off
-- Compiz alike magic lamp effect by hermes83
-  - Duration (ms): 250
 - Dash to Dock by michele_g
   - Position and size
     - Intelligent autohide
@@ -111,6 +109,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Other Shortcuts
       - prefs-open: Empty
       - prefs-tiling-toggle: Empty
+  - If `Super-I` is not opening Settings, try to set it to `Super-I` again in Settings > Keyboard.
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
     - Name: firefox
