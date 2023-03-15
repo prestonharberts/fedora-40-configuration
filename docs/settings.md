@@ -27,22 +27,29 @@
 - Keyboard
   - View and Customize Shortcuts
     - Close window: `Super-W`
-    - Hide all normal windows: `Super-M`
-    - Hide window: `Super-X`
+    - Hide all normal windows: `Super-D`
+    - Hide window: `Super-S`
     - Show the notification list: `Super-Tab`
     - Switch applications: `Alt-Tab`
-    - Move window one monitor down: `Alt-Super-X`
-    - Move window one monitor to the left: `Alt-Super-A`
-    - Move window one monitor to the right: `Alt-Super-D`
-    - Move window one monitor up: `Alt-Super-W`
+    - Move window one monitor down: `Alt-Super-J`
+    - Move window one monitor to the left: `Alt-Super-H`
+    - Move window one monitor to the right: `Alt-Super-L`
+    - Move window one monitor up: `Alt-Super-K`
     - Settings: `Super-I`
-    - Show the overview: `Super-O`
-    - Show all applications: `Shift-Ctrl-Alt-O`
-    - Move to workspace on the left: `Shift-Super-A`
-    - Move to workspace on the right: `Shift-Super-D`
-    - Move window one workspace to the left: `Shift-Super-Q`
-    - Move window one workspace to the right: `Shift-Super-E`
-    - Toggle fulslcreen mode: `Super-S`
+    - Show the overview: `Shift-Super-O`
+    - Show all applications: `Shift-Ctrl-Super-O`
+    - Move window to leftward monitor: Disabled
+    - Move window to lower monitor: Disabled
+    - Move window to rightward monitor: Disabled
+    - Move window to upper monitor: Disabled
+    - Move window to lower workspace: Disabled
+    - Move window to upper workspace: Disabled
+    - Move to workspace on the left: `Shift-Super-H`
+    - Move to workspace on the right: `Shift-Super-L`
+    - Move window one workspace to the left: `Shift-Super-J`
+    - Move window one workspace to the right: `Shift-Super-K`
+    - Home folder: Disabled
+    - Toggle fullscreen mode: `Super-F
     - View split on left: Disabled
     - View split on right: Disabled
     - Maximize window: Disabled

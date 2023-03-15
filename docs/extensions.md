@@ -98,18 +98,6 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Font size: 11 pt
 - Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
-- Forge by forge-ext
-  - Appearance
-    - Window
-      - Gaps
-        - Gaps Size: 5 (use `Control-Super-+` or `Control-Super--` to change gap)
-  - Keyboard
-    - Focus Shortcuts
-      - focus-border-toggle: Empty
-    - Other Shortcuts
-      - prefs-open: Empty
-      - prefs-tiling-toggle: Empty
-  - If `Super-I` is not opening Settings, try to set it to `Super-I` again in Settings > Keyboard.
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
     - Name: firefox
@@ -172,6 +160,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Other
     - Remove Notifications On Date Menu: Off
     - Remove Media Control On Date Menu: Off
+- Rounded Corners by lennart-k
+  - Border radius: 14px
 - Rounded Window Corners by yilozt
   - General
     - Global Settings
