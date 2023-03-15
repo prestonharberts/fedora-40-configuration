@@ -26,7 +26,7 @@
     - Tap to Click: On
 - Keyboard
   - View and Customize Shortcuts
-    - Close window: `Super-W`
+    - Close window: `Super-Q`
     - Hide all normal windows: `Super-D`
     - Hide window: `Super-S`
     - Show the notification list: `Super-Tab`
