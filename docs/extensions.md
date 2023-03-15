@@ -29,6 +29,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Show Window Counter: Off
   - Hotkeys
     - Custom hotkeys (you can assign up to 2 characters (keys) to each action)
+      - Filter mode: W
       - Close Window / Quit Application: Q
 - ArcMenu by andrew.zaech
   - General
