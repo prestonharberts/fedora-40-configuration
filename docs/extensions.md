@@ -167,11 +167,33 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Global Settings
       - Border Width: 1.0
       - Border Color: #808080 Half transparent
+- Simple System Monitor by LGiki
+  - CPU Usage
+    - CPU Usage Text: `🏿   C`
+  - Memory Usage
+    - Memory Usage Text: ` M`
+  - Swap Usage
+    - Show Swap Usage: On
+    - Swap Usage Text: ` S`
+  - Download Speed
+    - Download Speed Text: ` D`
+  - Upload Speed
+    - Upload Speed Text: ` U`
+  - Customize
+    - Font: SF Pro Text 14
+    - Font Weight: 500
+    - Text Color: #030303
+  - Position
+    - Extension Position: Center
+  - Misc
+    - Item Separator: `  |  `
+    - Refresh Interval (second): 2
+    - Show Extra Spaces: Off
 - Top Bar Organizer by jspp
-  - After installing the Just Another Search Bar extension, move Right Top Bar Box > undefined to the very end
-  - After installing the Mpris Label extension, move Mpris Label to the middle
-  - After installing the Worksapce Dry Names extension (typo included), move workspace-name-indicator to immediately after activites in the Left Top Bar Box
-  - After installing the Forge extension, move ForgeExt to be right after Left Top Bar Box > menuButton
+  - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
+  - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
+  - After installing the Simple System Monitor, move ssm-gnome@lgiki.net to the end of the Center Top Bar Box
+  - After installing the Worksapce Dry Names extension (typo included), move workspace-name-indicator to be right after activites in the Left Top Bar Box
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off
