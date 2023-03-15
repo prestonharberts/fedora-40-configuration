@@ -189,6 +189,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Text Color: #030303
   - Position
     - Extension Position: Center
+    - Extension Order: 0
   - Misc
     - Item Separator: `  |  `
     - Refresh Interval (second): 2
