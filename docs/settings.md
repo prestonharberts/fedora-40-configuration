@@ -3,7 +3,7 @@
 - Bluetooth
   - Disable Bluetooth if not needed, or connect devices as needed
 - Appearance
-  - Pick background
+  - Pick background from `conf/wallpapers` if desired
 - Notifications
   - Do Not Disturb: On
   - Lock Screen Notifications: Off
