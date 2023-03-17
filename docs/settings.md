@@ -44,10 +44,10 @@
     - Move window to upper monitor: Disabled
     - Move window to lower workspace: Disabled
     - Move window to upper workspace: Disabled
-    - Move to workspace on the left: `Shift-Super-H`
-    - Move to workspace on the right: `Shift-Super-L`
-    - Move window one workspace to the left: `Shift-Super-J`
-    - Move window one workspace to the right: `Shift-Super-K`
+    - Move to workspace on the left: `Super-;`
+    - Move to workspace on the right: `Super-'`
+    - Move window one workspace to the left: `Super-[`
+    - Move window one workspace to the right: `Super-/`
     - Home folder: Disabled
     - Toggle fullscreen mode: `Super-F
     - View split on left: Disabled
