@@ -40,4 +40,11 @@ Now, change the following settings under Configure Konsole:
   - Behavior
     - Put new tabs: After current tab
 
+Edit the following keyboard shortcuts from 
+
+- Last Used Tabs: None
+- Last Used Tabs (Reverse): None
+- Next Tab: `Ctrl+Tab`
+- Previous Tab: `Ctrl+Shift+Tab`
+
 Disable Show Menubar from the menubar. Open again when needed with `Ctrl-Shift-M`.
