@@ -10,4 +10,4 @@ cd cli-visualizer
 ./install.sh
 ```
 
-Run with `vis`. See source for configurable settings.
+Copy the provided configs in `conf` to `~/.config/vis/`. Then, run with `vis`. See source for configurable settings.
