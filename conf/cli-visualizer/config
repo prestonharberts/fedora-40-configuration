@@ -39,7 +39,7 @@
 #visualizer.spectrum.character=#
 
 ##Spectrum bar width. Defaults to 2.
-visualizer.spectrum.bar.width=4
+#visualizer.spectrum.bar.width=2
 
 ##The amount of space between each bar in the spectrum visualizer. Defaults to 1. It's possible to set this to
 ##zero to have no space between bars
