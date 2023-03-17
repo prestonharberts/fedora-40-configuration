@@ -96,7 +96,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Customize the dash color: On; #ebebeb
     - Customize opacity: Fixed
     - Opacity: 100%
-  - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Todoist, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator
+  - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
 - Date Menu Formatter by mjakubowski
   - Pattern: EEEE K:mm aaa
   - Font size: 11 pt
