@@ -109,6 +109,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Keyboard shortcuts
     - Key that triggers the bar to be shown: `Control-Alt-T` (it may show up as "Invalid" but it still works)
   - Intellihide
+    - hide panel when a window takes the space: Off
     - Only when the active window takes the space: Off
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
