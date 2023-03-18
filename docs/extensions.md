@@ -46,12 +46,12 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Menu Themes
         - Current Theme: Light Blue
       - Menu Styling
-        - Background Color: #eaeaea
+        - Background Color: #ffffff
         - Foreground color: #000000
         - Save the theme as "Light"
     - Menu Visual Appearance
       - Menu Location
-        - Override Menu Rise: On; 8
+        - Override Menu Rise: On; 20
     - Runner Layout Tweaks
       - Font Size: 12
       - Show Frequent Apps: On
@@ -102,6 +102,14 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Font size: 11 pt
 - Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
+- Hide Top Bar bu tuxor1337
+  - Sensitivity  
+    - In the above case, also show panel when fullscreen: Off
+    - Show panel in overview: On
+  - Keyboard shortcuts
+    - Key that triggers the bar to be shown: `Control-Alt-T` (it may show up as "Invalid" but it still works)
+  - Intellihide
+    - Only when the active window takes the space: Off
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
     - Name: firefox
