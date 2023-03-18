@@ -58,8 +58,6 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Menu Button
     - Menu Button Appearance
       - Display Style: Hidden
-- Autohide Battery by iskin (only if current machine is has a battery)
-- Autohide Volume by t184256
 - Caffeine by eon
   - General
     - Remember state: On
@@ -71,8 +69,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Position and size
     - Intelligent autohide
       - Autohide
-        - Show dock for urgent notifications: Off
-      - Dodge windows: Off
+        - Autohide: Off
+        - Dodge windows: Off
     - Dock size limit: 80%
     - Icon size limit: 40 px
   - Launchers
@@ -97,28 +95,13 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Customize opacity: Fixed
     - Opacity: 100%
   - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
-- Date Menu Formatter by mjakubowski
-  - Pattern: EEEE K:mm aaa
-  - Font size: 11 pt
-- Hide Top Bar bu tuxor1337
-  - Sensitivity  
-    - In the above case, also show panel when fullscreen: Off
-    - Show panel in overview: On
-  - Keyboard shortcuts
-    - Key that triggers the bar to be shown: `Control-Alt-T` (it may show up as "Invalid" but it still works)
-  - Intellihide
-    - hide panel when a window takes the space: Off
-    - Only when the active window takes the space: Off
-- Just Another Search Bar by xelad0m
-  - Click the "+" button next to Default search
-    - Name: firefox
-    - Command: xdg-open https://#
-    - Wildcard: #
-    - Query delimiter: +
-    - Example query: test query
-    - Save: Click save button
 - Just Perfection by JustPerfection
   - Visibility
+    - Activities Button: Off
+    - App Menu: Off
+    - App Menu Label: Off
+    - Screen Sharing Indicator: Off
+    - Screen Recording Indicator: Off
     - World Clock: Off
     - Weather: Off
     - Events: Off
@@ -131,30 +114,16 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Window Picker Caption: Off
     - Background Menu: Off
     - Ripple Box: Off
-  - Icons
-    - Panel Notification Icon: Off
-    - Power Icon: Off (only if device does not have a battery)
   - Behaviour
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
     - Startup Status: Desktop
   - Customize
-    - Clock menu position: Right
-    - Clock menu offset: 7
+    - Panel Size 1px
+    - Clock menu position: Left
+    - Clock menu offset: 20
     - Animation: No Animation
     - Notification Banner Position: Top End
-- Mpris Label by moon-0xff
-  - Panel
-    - Extension place: center
-    - Left padding: 0
-    - Right padding: 0
-  - Label
-    - Max string length (each field): 150
-    - Button placeholder (can be left empty): Empty
-    - Divider string (you can use spaces): " by "
-    - Visible fields and order: title artist none
-    - Show source icon: off
-- Notification Timeout by chlumskyvaclav
 - Power Profile Switcher by eliapasquali
   - Default profiles
     - On AC: Balanced
@@ -174,11 +143,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Global Settings
       - Border Width: 1.0
       - Border Color: #808080 Half transparent
-- Top Bar Organizer by jspp
-  - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
-  - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
-  - After installing the Simple System Monitor, move ssm-gnome@lgiki.net to the end of the Center Top Bar Box
-  - After installing the Worksapce Dry Names extension (typo included), move workspace-name-indicator to be right after activites in the Left Top Bar Box
+      - Keep Rounded Corners when Maximized: On
+      - Keep Rounded Corners when Fullscreen: On
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off
@@ -190,5 +156,3 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Show window title in app menu: Never
     - Show window buttons in top bar: Never
 - User Themes by fmuellner
-- Worksapce Dry Names (typo included) by exrevisseMiroir
-  - Name workspaces Primary, Secondary, Tertiary
