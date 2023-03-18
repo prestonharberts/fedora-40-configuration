@@ -100,8 +100,6 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
 - Date Menu Formatter by mjakubowski
   - Pattern: EEEE K:mm aaa
   - Font size: 11 pt
-- Floating Panel by aylur
-  - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Hide Top Bar bu tuxor1337
   - Sensitivity  
     - In the above case, also show panel when fullscreen: Off
