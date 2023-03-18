@@ -51,7 +51,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Save the theme as "Light"
     - Menu Visual Appearance
       - Menu Location
-        - Override Menu Rise: On; 20
+        - Override Menu Rise: On; 8
     - Runner Layout Tweaks
       - Font Size: 12
       - Show Frequent Apps: On
