@@ -101,11 +101,14 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Date/Time Format: `%-I:%M %p`
       - Text Style
         - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
+        - Text Color: Change color to best fit wallpaper brightness
     - Date Label
       - Date/Time Format: `%A, %B %d`
-      - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
+      - Text Style
+        - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
+        - Text Color: Change color to best fit wallpaper brightness
   - Digital Clock Widget
-    - Gear > Change position to best fit wallpaper (I prefer the default position)
+    - Gear > Change position to best fit wallpaper
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
@@ -153,7 +156,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - General
     - Global Settings
       - Border Width: 1.0
-      - Border Color: #808080 Half transparent
+      - Border Color: #ffffff Zero transparency
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
 - Unite by hardpixel
