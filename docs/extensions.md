@@ -105,7 +105,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Date/Time Format: `%A, %B %d`
       - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
   - Digital Clock Widget
-    - Gear > Change position to best fit wallpaper
+    - Gear > Change position to best fit wallpaper (I prefer the default position)
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
