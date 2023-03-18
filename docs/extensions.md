@@ -151,12 +151,13 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Remove Notifications On Date Menu: Off
     - Remove Media Control On Date Menu: Off
 - Rounded Corners by lennart-k
-  - Border radius: 14px
+  - Border radius: 16px
 - Rounded Window Corners by yilozt
   - General
     - Global Settings
       - Border Width: 1.0
       - Border Color: #ffffff Zero transparency
+      - Border Radius: 14.0
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
 - Unite by hardpixel
