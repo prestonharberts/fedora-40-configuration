@@ -95,7 +95,18 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Customize opacity: Fixed
     - Opacity: 100%
   - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
-- Just Perfection by JustPerfection
+- Desktop Clock by andrew.zaech
+  - Settings
+    - Time Label
+      - Date/Time Format: `%-I:%M %p`
+      - Text Style
+        - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
+    - Date Label
+      - Date/Time Format: `%A, %B %d`
+      - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
+  - Digital Clock Widget
+    - Gear > Change position to best fit wallpaper
+- Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
     - App Menu: Off
