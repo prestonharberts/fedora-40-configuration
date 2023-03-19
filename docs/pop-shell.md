@@ -11,6 +11,7 @@ Sign out and log back in, once this is complete. Change the following settings f
 - Allow stacking with mouse: Off
 - Gaps
   - Outer: 0
+  - Inner: Match bezel thickness of monitor the best you can
 
 Click the tray icon for Pop Shell, and change the following settings:
 
