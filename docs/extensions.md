@@ -154,6 +154,9 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Border radius: 16px
 - Rounded Window Corners by yilozt
   - General
+    - Applications
+      - Window Shadow
+        - Opacity: 100.0
     - Global Settings
       - Border Width: 1.0
       - Border Color: #ffffff Zero transparency
