@@ -96,7 +96,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Opacity: 100%
   - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
 - Focus by scaryawr
-  - Inactive Opacity: One notch away from the right (use arrow keys to move)
+  - Inactive Opacity: Two notches away from the right (use arrow keys to move)
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
