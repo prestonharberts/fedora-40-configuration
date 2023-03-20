@@ -95,20 +95,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Customize opacity: Fixed
     - Opacity: 100%
   - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
-- Desktop Clock by andrew.zaech
-  - Settings
-    - Time Label
-      - Date/Time Format: `%-I:%M %p`
-      - Text Style
-        - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
-        - Text Color: Change color to best fit wallpaper brightness
-    - Date Label
-      - Date/Time Format: `%A, %B %d`
-      - Text Style
-        - Override Font Family: SF Pro Display (after following `sf-fonts.md`)
-        - Text Color: Change color to best fit wallpaper brightness
-  - Digital Clock Widget
-    - Gear > Change position to best fit wallpaper
+- Focus by scaryawr
+  - Inactive Opacity: One notch away from the right (use arrow keys to move)
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
@@ -156,8 +144,12 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - General
     - Applications
       - Window Shadow
-        - Spread Radius: 12.0
-        - Opacity: 100.0
+        - Focus Window
+          - Spread Radius: -10.0
+        - Unfocus Window
+          - Vertical Offset: 4.0
+          - Blur Offset: 28.0
+          - Spread Radius: -10.0
     - Global Settings
       - Border Width: 1.0
       - Border Color: #ffffff Zero transparency
