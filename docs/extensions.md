@@ -126,6 +126,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Clock menu offset: 20
     - Animation: No Animation
     - Notification Banner Position: Top End
+- Mouse Follows Focus by LeonMatthes
 - Power Profile Switcher by eliapasquali
   - Default profiles
     - On AC: Balanced
@@ -156,6 +157,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Border Radius: 14.0
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
+- Time in date menu by knedme
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off
