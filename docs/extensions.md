@@ -156,6 +156,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - General
     - Applications
       - Window Shadow
+        - Spread Radius: 12.0
         - Opacity: 100.0
     - Global Settings
       - Border Width: 1.0
