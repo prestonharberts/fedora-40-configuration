@@ -158,6 +158,11 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
 - Time in date menu by knedme
+  - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
+    - Line 18: `let dateFormat = Shell.util_translate_time_string(N_("(%Y/%m/%d)"));`
+    - Line 19: `let timeFormat = Shell.util_translate_time_string(N_("%-I:%M %p"));`
+    - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
+    - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off
