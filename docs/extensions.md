@@ -51,7 +51,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Save the theme as "Light"
     - Menu Visual Appearance
       - Menu Location
-        - Override Menu Rise: On; 8
+        - Override Menu Rise: On; 0
     - Runner Layout Tweaks
       - Font Size: 12
       - Show Frequent Apps: On
@@ -163,6 +163,9 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Line 19: `let timeFormat = Shell.util_translate_time_string(N_("%-I:%M %p"));`
     - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
     - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
+- Transparent Window Moving by Noobsai
+  - Opacity (0..255): 230
+  - Animation time: 0.00
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off
