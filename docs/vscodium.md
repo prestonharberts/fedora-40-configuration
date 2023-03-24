@@ -48,6 +48,6 @@ Install Material Icon Theme by PKief, and change the following settings:
   - Appearance
     - Icon Theme: Material Icon Theme
 
-Install the Vim extension by vscodevim, Error Lens by usernamehw, Python by ms-python, clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first)
+Install the Vim extension by vscodevim, Error Lens by usernamehw, Python by ms-python, clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first), Bash IDE by mads-hartmann, and ShellCheck by timonwong.
 
 Select View from the top bar, and under Appearance, disable the Menu Bar.
