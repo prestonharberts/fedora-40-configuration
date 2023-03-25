@@ -8,4 +8,4 @@ Go to the [AppImageLauncher website](https://github.com/TheAssassin/AppImageLaun
 sudo dnf install ~/net/filename.rpm
 ```
 
-When asked for a location, select `~/com/appimages`. Integrate and run.
+When asked for a location, select `~/com/app`. Integrate and run.
