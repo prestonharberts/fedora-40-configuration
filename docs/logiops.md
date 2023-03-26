@@ -3,6 +3,7 @@
 Install logiops by running the following commands:
 
 ```
+cd src && git clone https://github.com/PixlOne/logiops && cd logiops
 sudo dnf install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++
 mkdir build
 cd build
