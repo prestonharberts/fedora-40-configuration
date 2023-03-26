@@ -17,6 +17,7 @@ Change the following settings from the toolbar:
 		- Rulers: Off
 	- Scrollbars
 		- Vertical Scroll Bar: Off
+    - Text Boundaries: Off
 	- Sidebar: Off (toggle if needed)
 - Tools
   - Customize
