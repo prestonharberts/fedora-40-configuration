@@ -3,7 +3,7 @@
 Install Login Manager Settings by Mazhar Hussain from Software.
 
 - Appearance
-  - Backgorund
+  - Background
     - Type: Color
     - Color: #000000
 - Fonts
