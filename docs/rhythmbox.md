@@ -20,4 +20,4 @@ Open Preferences, and change the following settings:
                 - Dark Lyrics: On
                 - Jlyric: On
                 - Jetlyrics: On
-            - Lyrics folder: `~/Music/Lyrics`
+            - Lyrics folder: `~/mus/lrx`
