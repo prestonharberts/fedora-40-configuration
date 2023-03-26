@@ -15,7 +15,7 @@ Install Tweaks from Software. Change the following settings:
   - Window Focus: Focus on Hover
   - Raise Windows When Focused: On
 
-Move the `Grey-Top-Bar` theme to `.themes/` after following the instructions in `sf-font.md`, and change the following setting:
+Move the `invisible-top-bar` theme to `.themes/` after following the instructions in `sf-font.md`, and change the following setting:
 
 - Appearance
   - Themes
