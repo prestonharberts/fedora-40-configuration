@@ -145,3 +145,7 @@ Enter `about:config` into the URL bar, and agree to enter. Click the + button fo
 ```
 gnomeTheme.hideSingleTab
 ```
+
+## Netflix 1080p
+
+Follow the directions [here](https://github.com/vladikoff/netflix-1080p-firefox/issues/63#issuecomment-1470154520), downloading the file, renaming the file extension, and installing it manually from the Firefox extensions page.
