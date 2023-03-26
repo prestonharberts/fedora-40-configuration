@@ -18,4 +18,4 @@ git clone https://github.com/p-chan5/EasyPulse
 
 Add them through the top menu of Easy Effects.
 
-When finished adding the presets, change the Maximizer output to 20.0 dB for the hifi preset.
+When finished adding the presets, load `hifi` and change the Output of Equalizer to 20.0 dB. Save as `hifi-louder`.
