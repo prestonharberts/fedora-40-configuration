@@ -17,5 +17,3 @@ Click the tray icon for Pop Shell, and change the following settings:
 
 - Tile windows: On
 - Active hint color: (right click to change) #80b9ff
-
-Open the Top Bar Organizer extension settings, and move pop-shell to be at the beginning of Left Top Bar Box.
