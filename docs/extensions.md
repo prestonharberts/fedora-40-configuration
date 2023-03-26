@@ -122,10 +122,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Startup Status: Desktop
   - Customize
     - Panel Size 1px
-    - Clock menu position: Center
-    - Clock menu offset: 20
     - Animation: No Animation
-    - Notification Banner Position: Top End
+    - Notification Banner Position: Top Center
 - Mouse Follows Focus by LeonMatthes
 - Power Profile Switcher by eliapasquali
   - Default profiles
