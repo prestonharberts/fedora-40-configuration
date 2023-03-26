@@ -16,6 +16,7 @@ Now, change the following settings under Configure Konsole:
   - Create new and name "Personal"
     - General
       - General Settings
+        - Default profile: On
         - Initial terminal size: 80 columns; 30 rows
         - Terminal bell mode: System Bell
     - Appearance
@@ -30,7 +31,6 @@ Now, change the following settings under Configure Konsole:
     - Scrolling
       - Scrollbar position: Hidden
       - Highlighting > Highlight the lines coming into view: Off
-  - Select Personal, and set as default
 - Tab Bar / Splitters
   - Appearance
     - Position: Above terminal area
@@ -40,7 +40,7 @@ Now, change the following settings under Configure Konsole:
   - Behavior
     - Put new tabs: After current tab
 
-Edit the following keyboard shortcuts from 
+Edit the following keyboard shortcuts from Configure Keyboard Shortcuts:
 
 - Last Used Tabs: None
 - Last Used Tabs (Reverse): None
