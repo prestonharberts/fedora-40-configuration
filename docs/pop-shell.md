@@ -17,3 +17,14 @@ Click the tray icon for Pop Shell, and change the following settings:
 
 - Tile windows: On
 - Active hint color: (right click to change) #80b9ff
+
+Adjust the following settings in Settings > Keyboard > View and Customize Shortcuts:
+
+- Move window to leftward monitor: Disabled
+- Move window to lower monitor: Disabled
+- Move window to rightward monitor: Disabled
+- Move window to upper monitor: Disabled
+- Move window to lower workspace: Disabled
+- Move window to upper workspace: Disabled
+- Home folder: Disabled
+- Toggle maximization state: Disabled
