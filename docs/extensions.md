@@ -142,6 +142,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
 - Rounded Window Corners by yilozt
   - General
     - Applications
+      - Skip LibAdwaita Applications: Off
       - Window Shadow
         - Focus Window
           - Spread Radius: -10.0
