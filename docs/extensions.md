@@ -125,7 +125,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Animation: No Animation
     - Notification Banner Position: Top Center
 - Mouse Follows Focus by LeonMatthes
-- Power Profile Switcher by eliapasquali
+- Power Profile Switcher by eliapasquali (only if on laptop)
   - Default profiles
     - On AC: Balanced
     - On battery: Power Saving
