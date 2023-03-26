@@ -8,7 +8,7 @@ Go to the [Tutanota website](https://tutanota.com/), and download the Linux AppI
 	- Execute
 		- Allow executing file as program
 
-Move the file to `~/Applications/AppImages`, and execute the file.
+Move the file to `~/com/app/`, and execute the file.
 
 ## Settings
 
@@ -24,5 +24,5 @@ Go to Settings, and change the following settings:
 		- Week start: Sunday
 - Desktop
 	- Run in background: No
-	- Default download path: ~/Downloads
+	- Default download path: `~/net`
 	- Desktop integration: Activated
