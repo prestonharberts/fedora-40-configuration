@@ -150,6 +150,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
           - Vertical Offset: 4.0
           - Blur Offset: 28.0
           - Spread Radius: -10.0
+          - Opacity: 60.0
     - Global Settings
       - Border Width: 1.0
       - Border Color: #ffffff Zero transparency
