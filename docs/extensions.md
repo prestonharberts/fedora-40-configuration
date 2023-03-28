@@ -180,3 +180,16 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Show window title in app menu: Never
     - Show window buttons in top bar: Never
 - User Themes by fmuellner
+- Workspace Switcher Manager by GdH
+  - General
+    - Workspaces
+      - Number of Workspaces in Static Mode: 1
+    - Workspace Switcher
+      - Wraparound: On
+  - Colors
+    - Pop-up Opacity
+      - Global Opacity (%): 100
+    - Pop-up Colors
+      - Allow Custom Colors: On
+      - Background color / Opacity: #FFFFFF
+      - Border color / opacity: #DADADA; Opacity 15 notches from the right
