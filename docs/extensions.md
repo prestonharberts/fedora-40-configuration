@@ -11,22 +11,25 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Default Monitor: Monitor with focused window
       - Search Mode as Default: Off
       - Up/Down Keys Action: Toggle Single App Mode
-      - Delay Showing Switcher (ms): 150
     - Appearance and Content
-      - Tooltip Titles: Disable
+      - Tooltip Titles: Show Centered
+      - Tooltip Title Scale (%): 100
     - Hot Edge
       - Hot Edge Position: Disabled
   - Window Switcher
     - Behavior
+      - Default Filter: Current Workspace
       - Minimize Windows Last: Off
     - Appearance
-      - Show Workspace Index: Off
+      - Show Window Titles: Disabled
   - App Switcher
     - Behaviour
+      - Default Filter: Current Workspace
+      - Raise First Window Only: On
       - Include Favorite Apps: Off
       - Include Show Apps Icon: Off
     - Appearance
-      - Show Window Counter: Off
+      - Hide Window Counter For Single-Window Apps: On
   - Hotkeys
     - Custom hotkeys (you can assign up to 2 characters (keys) to each action)
       - Filter mode: W
