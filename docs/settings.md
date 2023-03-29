@@ -21,6 +21,10 @@
 - Displays
   - Rearrange displays if needed
   - Change refresh rate if needed
+  - Night Light
+    - Night Light: On
+    - Schedule: Manual Schedule
+      - Times: 8:00 PM to 8:00 AM
 - Mouse & Touchpad
   - Touchpad
     - Tap to Click: On

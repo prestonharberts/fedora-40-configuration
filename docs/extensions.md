@@ -62,7 +62,14 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Display Style: Hidden
 - Autohide Battery by iskin (only if current machine is has a battery)
 - Autohide Volume by t184256
-- Burn My Windows by Simme
+- Bedtime Mode by ionutbortis
+  - Automatic Schedule: On
+    - Start Time: 20:00
+    - End Time: 8:00
+  - On-Demand
+    - Show Button: Always
+    - Button Location: System Menu
+- Burn My Windows by Simme (only if computer will not lag)
   - Disable Fire and enable Glide
 - Caffeine by eon
   - General
@@ -71,7 +78,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Display
     - Show status indicator in top panel: Never
     - Notifications: Off
-- Compiz alike magic lamp effect
+- Compiz alike magic lamp effect (only if computer will not lag)
   - Duration (ms): 250
 - Dash to Dock by michele_g
   - Position and size
@@ -143,6 +150,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Customize
    - Clock menu position: Right
     - Clock menu offset: 7
+    - Animation: No Animation (only if computer is lagging)
     - Notification Banner Position: Top End
 - Mouse Follows Focus by LeonMatthes
 - Mpris Label by moon-0xff
