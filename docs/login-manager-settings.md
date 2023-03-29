@@ -25,7 +25,7 @@ Install Login Manager Settings by Mazhar Hussain from Software.
   - Night Light
     - Enable: On
       - Schedule: Manual Schedule
-      - Times: 18:0 to 8:0
+      - Times: 20:0 to 8:0
       - Color Temperature: Roughly 75%
 - Login Screen
   - Disable User List: On
