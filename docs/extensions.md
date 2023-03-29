@@ -24,7 +24,6 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Show Window Titles: Disabled
   - App Switcher
     - Behaviour
-      - Default Filter: Current Workspace
       - Raise First Window Only: On
       - Include Favorite Apps: Off
       - Include Show Apps Icon: Off
@@ -54,13 +53,17 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
         - Save the theme as "Light"
     - Menu Visual Appearance
       - Menu Location
-        - Override Menu Rise: On; 0
+        - Override Menu Rise: On; 8
     - Runner Layout Tweaks
       - Font Size: 12
       - Show Frequent Apps: On
   - Menu Button
     - Menu Button Appearance
       - Display Style: Hidden
+- Autohide Battery by iskin (only if current machine is has a battery)
+- Autohide Volume by t184256
+- Burn My Windows by Simme
+  - Disable Fire and enable Glide
 - Caffeine by eon
   - General
     - Remember state: On
@@ -68,6 +71,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Display
     - Show status indicator in top panel: Never
     - Notifications: Off
+- Compiz alike magic lamp effect
+  - Duration (ms): 250
 - Dash to Dock by michele_g
   - Position and size
     - Intelligent autohide
@@ -98,13 +103,23 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Customize opacity: Fixed
     - Opacity: 100%
   - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
+- Date Menu Formatter by mjakubowski
+  - Pattern: EEEE K:mm aaa
+  - Font size: 11 pt
+- Floating Panel by aylur
+  - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
+- Just Another Search Bar by xelad0m
+  - Click the "+" button next to Default search
+    - Name: firefox
+    - Command: xdg-open https://#
+    - Wildcard: #
+    - Query delimiter: +
+    - Example query: test query
+    - Save: Click save button
 - Just Perfection by JustPerfection
   - Visibility
-    - Activities Button: Off
-    - App Menu: Off
-    - App Menu Label: Off
     - Screen Sharing Indicator: Off
     - Screen Recording Indicator: Off
     - World Clock: Off
@@ -119,15 +134,28 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Window Picker Caption: Off
     - Background Menu: Off
     - Ripple Box: Off
+  - Icons
+    - Panel Notification Icon: Off
   - Behaviour
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
     - Startup Status: Desktop
   - Customize
-    - Panel Size 1px
-    - Animation: No Animation
-    - Notification Banner Position: Top Center
+   - Clock menu position: Right
+    - Clock menu offset: 7
+    - Notification Banner Position: Top End
 - Mouse Follows Focus by LeonMatthes
+- Mpris Label by moon-0xff
+  - Panel
+    - Extension place: center
+    - Left padding: 0
+    - Right padding: 0
+  - Label
+    - Max string length (each field): 150
+    - Button placeholder (can be left empty): Empty
+    - Divider string (you can use spaces): " by "
+    - Visible fields and order: title artist none
+    - Show source icon: off
 - Power Profile Switcher by eliapasquali (only if on laptop)
   - Default profiles
     - On AC: Balanced
@@ -166,6 +194,10 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Line 19: `let timeFormat = Shell.util_translate_time_string(N_("%-I:%M %p"));`
     - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
     - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
+- Top Bar Organizer by jspp
+  - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
+  - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
+  - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
 - Transparent Window Moving by Noobsai
   - Opacity (0..255): 230
   - Animation time: 0.00
@@ -180,6 +212,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Show window title in app menu: Never
     - Show window buttons in top bar: Never
 - User Themes by fmuellner
+- Worksapce Dry Names by ecrevisseMiroir (typo included)
+  - Name workspaces Primary, Secondary, and so on
 - Workspace Switcher Manager by GdH
   - General
     - Workspaces
@@ -193,3 +227,10 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Allow Custom Colors: On
       - Background color / Opacity: #FFFFFF
       - Border color / opacity: #DADADA; Opacity 15 notches from the right
+  - Content
+    - Pop-up Active Workspace Indicator Content
+      - Show Workspace Index: Off
+      - Show Workspace Name: On
+    - Pop-up Inactive Workspace Indicator Content
+      - Show Workspace Index: On
+      - Show Workspace Name: Off
