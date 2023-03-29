@@ -36,7 +36,7 @@ PERL_MM_OPT="INSTALL_BASE=/home/prestonharberts/perl5"; export PERL_MM_OPT;
 
 alias c='codium'
 alias g='gio open'
-alias n='nautilus $1&'
+alias n='nautilus'
 alias v='vim'
 alias z='zathura --fork'
 
