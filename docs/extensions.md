@@ -80,6 +80,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Notifications: Off
 - Compiz alike magic lamp effect (only if computer will not lag)
   - Duration (ms): 250
+- Control Blur Effect on Lock Screen by pratap@fastmail.fm
+  - Adjust Sigma: 200
 - Dash to Dock by michele_g
   - Position and size
     - Intelligent autohide
