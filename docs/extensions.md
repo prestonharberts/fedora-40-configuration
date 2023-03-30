@@ -1,8 +1,11 @@
 # Extensions
 
-Install Extensions by The GNOME Project from Software, and open. Disable the Background Logo built-in extension. Visit https://extensions.gnome.org, and install the following extensions while changing their settings, as well:
+Install Extensions by The GNOME Project from Software, and open. Change the following settings for the Built-In extensions:
 
-(run `gsettings set org.gnome.shell disable-extension-version-validation true` if an extension is incompatible with the current GNOME version)
+- Background Logo: Off
+- Pomodoro: On
+
+Run `gsettings set org.gnome.shell disable-extension-version-validation true` so incompatible extensions will run with the current GNOME version. Visit https://extensions.gnome.org, and install the following extensions while changing their settings, as well:
 
 - AATWS - Advanced Alt-Tab Window Switcher by GdH
   - Common
@@ -78,6 +81,8 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - Display
     - Show status indicator in top panel: Never
     - Notifications: Off
+- Clipboard History by SUPERCILEX
+  - What to show in status bar: Neither
 - Compiz alike magic lamp effect (only if computer will not lag)
   - Duration (ms): 250
 - Control Blur Effect on Lock Screen by pratap@fastmail.fm
@@ -115,10 +120,13 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
 - Date Menu Formatter by mjakubowski
   - Pattern: EEEE K:mm aaa
   - Font size: 11 pt
+- Favorites Menu by cvine
 - Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
+- Fullscreen Avoider by Noobsai
+- Fullscreen On New Workspace by satran
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
     - Name: firefox
@@ -198,6 +206,9 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
       - Border Radius: 14.0
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
+- Simple Message by fredz
+  - Write your message: `Tasks  /`
+  - Command to execute on click: `konsole --workdir ~/inb/ -e vim -y tasks.md` (remove `-y` to open Vim without easy mode)
 - Time in date menu by knedme
   - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
     - Line 18: `let dateFormat = Shell.util_translate_time_string(N_("(%Y/%m/%d)"));`
@@ -208,6 +219,9 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
   - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
+  - After installing the Simple Message extension, move simple-message to be right before date-menu in the Right Top Bar Box
+  - After installing the Favorites Menu extension, move favorites to be right after activities in the Left Top Bar Box
+  - Move gnome-pomodoro to be at the end of the Right Top Bar Box
 - Transparent Window Moving by Noobsai
   - Opacity (0..255): 230
   - Animation time: 0.00
@@ -222,6 +236,7 @@ Install Extensions by The GNOME Project from Software, and open. Disable the Bac
     - Show window title in app menu: Never
     - Show window buttons in top bar: Never
 - User Themes by fmuellner
+- Volume Scroller by trflynn89
 - Worksapce Dry Names by ecrevisseMiroir (typo included)
   - Name workspaces Primary, Secondary, and so on
 - Workspace Switcher Manager by GdH
