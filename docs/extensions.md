@@ -120,7 +120,6 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
 - Date Menu Formatter by mjakubowski
   - Pattern: EEEE K:mm aaa
   - Font size: 11 pt
-- Favorites Menu by cvine
 - Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr
