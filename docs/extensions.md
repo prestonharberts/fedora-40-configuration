@@ -207,8 +207,8 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
 - Simple Message by fredz
-  - Write your message: `Tasks  /`
-  - Command to execute on click: `konsole --workdir ~/inb/ -e vim -y tasks.md` (remove `-y` to open Vim without easy mode)
+  - Write your message: `Tasks  `
+  - Command to execute on click: `konsole --workdir ~/inb/ -e vim tasks.md`
 - Time in date menu by knedme
   - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
     - Line 18: `let dateFormat = Shell.util_translate_time_string(N_("(%Y/%m/%d)"));`
@@ -219,8 +219,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
-  - After installing the Simple Message extension, move simple-message to be right before date-menu in the Right Top Bar Box
-  - After installing the Favorites Menu extension, move favorites to be right after activities in the Left Top Bar Box
+  - After installing the Simple Message extension, move simple-message to be right after activities in the Left Top Bar Box
   - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
   - Move gnome-pomodoro to be at the beginning of the Left Top Bar Box
 - Transparent Window Moving by Noobsai
