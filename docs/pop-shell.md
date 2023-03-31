@@ -16,7 +16,7 @@ Click the tray icon for Pop Shell, and change the following settings:
 - Active hint color: (right click to change) #80b9ff
 - Gaps: 3
 
-Open the Top Bar Organizer extension settings, and move pop-shell to be after mpris-label in the Left Top Bar Box.
+Open the Top Bar Organizer extension settings, and move pop-shell to be before quickSettings in the Right Top Bar Box.
 
 Adjust the following settings in Settings > Keyboard > View and Customize Shortcuts:
 
