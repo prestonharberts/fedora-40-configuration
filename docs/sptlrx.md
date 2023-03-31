@@ -2,10 +2,15 @@
 
 Source: https://github.com/raitonoberu/sptlrx
 
-Run the following:
+Run the following commands:
 
 ```
-curl -sSL instl.sh/raitonoberu/sptlrx/linux | bash
+git clone https://github.com/raitonoberu/sptlrx
+cd sptlrx
+sudo dnf install go
+go get
+go build -ldflags '-w -s'
+./sptlrx
 ```
 
 Change the following in `~/.config/sptlrx/config.yaml`:
