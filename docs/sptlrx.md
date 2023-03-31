@@ -11,6 +11,7 @@ sudo dnf install go
 go get
 go build -ldflags '-w -s'
 ./sptlrx
+mv sptlrx ~/bin
 ```
 
 Change the following in `~/.config/sptlrx/config.yaml`:

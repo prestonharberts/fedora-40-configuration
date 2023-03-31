@@ -25,6 +25,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 
 export PATH=/home/prestonharberts/src/fedora-37-configuration/bin/:$PATH
+export PATH=/home/prestonharberts/bin/:$PATH
 
 unset rc
 
