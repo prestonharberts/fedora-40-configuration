@@ -124,7 +124,6 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
-- Fullscreen Avoider by Noobsai
 - Fullscreen On New Workspace by satran
 - Just Another Search Bar by xelad0m
   - Click the "+" button next to Default search
