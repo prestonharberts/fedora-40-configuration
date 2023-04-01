@@ -20,11 +20,11 @@ Change the following settings from Preferences:
 - Shortcuts
   - Navigation
     - Back ten pages: `H` (Key 1)
-    - First page: `G`
-    - Forward ten pages: `L`
-    - Go to page: `F`
-    - Last page: `Shift-G`
-    - Next page: `J`
-    - Previous page: `K`
+    - First page: `G` (Key 1)
+    - Forward ten pages: `L` (Key 1)
+    - Go to page: `F` (Key 1)
+    - Last page: `Shift-G` (Key 1)
+    - Next page: `J` (Key 1)
+    - Previous page: `K` (Key 1)
 
 Press `I` to hide all UI. Add all manga to library by right-clicking the application's blank space.
