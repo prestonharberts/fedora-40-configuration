@@ -167,11 +167,18 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Left padding: 0
     - Right padding: 0
   - Label
+    - Switch to the most recent source automatically: On
+    - Hide when paused: Off
     - Max string length (each field): 150
     - Button placeholder (can be left empty): Empty
     - Divider string (you can use spaces): " by "
     - Visible fields and order: title artist none
     - Show source icon: off
+  - Controls
+    - Mouse bindings
+      - Left click action: play/pause
+      - Middle click action: open app
+      - Right click action: next track
 - Power Profile Switcher by eliapasquali (only if on laptop)
   - Default profiles
     - On AC: Balanced
