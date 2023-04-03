@@ -177,8 +177,8 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - Controls
     - Mouse bindings
       - Left click action: play/pause
-      - Middle click action: open app
-      - Right click action: next track
+      - Middle click action: next track
+      - Right click action: open app
 - Power Profile Switcher by eliapasquali (only if on laptop)
   - Default profiles
     - On AC: Balanced
