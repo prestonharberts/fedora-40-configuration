@@ -12,9 +12,6 @@ Change the following settings:
   - Fullscreen Mode
     - Start in Fullscreen Mode: On
   - Bilinear Filtering: On
-- Core
-  - Manage Cores
-    - Select and delete each core with "Delete Core"
 - Saving
   - Sort Saves into Folders by Core Name: On
   - Sort Save States into Folders by Core Name: On
@@ -44,11 +41,20 @@ Change the following settings:
 //  - Display Overlay: Off
 - User Interface
   - Menu Item Visibility
+    - Quick Menu
+      - Show 'Replay Controls': Off
+      - Show 'Start Streaming': Off
+      - Show 'Latency': Off
+      - Show 'Rewind': Off
+      - Show 'Cheats': Off
+      - Show 'Set Core Association': Off
+      - Show 'Reset Core Association': Off
+      - Show 'Download Thumbnails': Off
+      - Show 'Information': Off
     - Show 'Dump Disc': Off
     - Show 'Online Updater': On
     - Show 'Core Downloader': On
     - Show 'Information': Off
-    - Show 'Configuration File': Off
     - Show 'Help': Off
     - Show 'Images': Off
     - Show 'Videos': Off
@@ -57,12 +63,11 @@ Change the following settings:
     - Show Battery Level: Off
     - Show Core Name: Off
   - Appearance
-    - Menu Scale Factor: 0.90x
+    - Menu Scale Factor: 0.70x
     - Collapse the Sidebar: On
     - Sort Playlists After Name Truncation (Restart Required): On
     - Menu Color Theme: Basic White
   - Pause Content When Controller Disconnects: On
-  - Navigation Wrap-Around: Off
 - Playlists
   - Show Playlist Sub-Labels: Off
   - Scan Without Core Math: Off
@@ -70,6 +75,8 @@ Change the following settings:
   - Username: Enter first name
 - Directory
   - File Browser: ~/fun/emu
+
+Quit and reopen Retroarch to save configuration, at this point.
 
 Run the following before continuing:
 ```
@@ -94,6 +101,11 @@ cp /usr/share/libretro/autoconfig/* autoconfig/ -r
   - Video filters: ~/.config/retroarch/filters/video
   - Audio filters: ~/.config/retroarch/filters/audio
   - Controller Profiles: ~/.config/retroarch/autoconfig
+- Core (above Directory setting)
+  - Manage Cores
+    - Select and delete each core with "Delete Core"
+
+Quit and reopen Retroarch to save configuration, at this point.
 
 Go to Online Updater, and complete the following:
 
@@ -104,8 +116,14 @@ Go to Online Updater, and complete the following:
 - Update Overlays
 - Update GLSL Shaders
 
-Change the following setting:
+Change the following settings from the Settings page:
 
+- Drivers
+  - Video: Vulkan
+
+Update and change the following setting from the Online Updater:
+
+- Update Slang Shaders
 - On-Demand Thumbnail Downloads: On
 
 Download the following from the respective Downloader:
@@ -115,13 +133,14 @@ Download the following from the respective Downloader:
   - Nintendo - DS (DeSmuME)
   - Nintendo - Game Boy / Color (Gambatte)
   - Nintendo - Game Boy Advance (mGBA)
+  - Nintendo - GameCube / Wii (Dolphin)
   - Nintendo - NES / Famicon (Nestopia UE)
   - Nintendo - Nintendo 64 (ParaLLEl N64)
   - Nintendo - SNES / SFC (Snes9x - Current)
-  - Sega - MS/GG/MD/CD (Genesis Plus GX Wide)
+  - Sega - MS/GG/MD/CD (Genesis Plus GX)
   - Sony - PlayStation (Beetle PSX HW)
   - Sony - PlayStation 2 (LRPS2)
-  - Sony - PlayStation Portable (PPSSPP)
+//- Sony - PlayStation Portable (PPSSPP) Currently broken
 
 After all this, import all content from `~/fun/emu/`. Change the following settings:
 
@@ -130,3 +149,90 @@ After all this, import all content from `~/fun/emu/`. Change the following setti
     - Every playlist
       - Default Core: Choose respective core
       - Label Display Mode: Keep Disc Index
+
+Quit and reopen Retroarch to save configuration, at this point.
+
+Run `ln -s .config/retroarch/ ret`, sync `~/ret/` with Tresorit, and add `~/ret/` to Nautilus's bookmarks in it's alphabetical position. Move system files (BIOS, firmware, etc.) to `~/ret/system`.
+
+Change the following settings with games loaded in their respective core:
+
+//- NEC - PC Engine / SuperGrafx / CD (Beetle PCE)
+//- Nintendo - DS (DeSmuME)
+//- Nintendo - Game Boy / Color (Gambatte)
+//- Nintendo - Game Boy Advance (mGBA)
+//- Nintendo - GameCube / Wii (Dolphin)
+- Nintendo - NES / Famicon (Nestopia UE)
+  - Quick Menu
+    - Shaders
+      - Video Shaders: On
+      - Remember Last Used Shader Directory
+      - Load: shaders_slang/crt/crt-royale.slangp
+      - Shader Parameters
+        - Interlacing - Toggle: 0.00
+     - Apply Changes (above Shader Parameters)
+     - Save (above Apply Changes)
+       - Save Core Preset
+- Nintendo - Nintendo 64 (ParaLLEl N64)
+  - Quick Menu
+    - Shaders
+      - Video Shaders: On
+      - Remember Last Used Shader Directory
+      - Load: shaders_slang/crt/crt-royale.slangp
+      - Shader Parameters
+        - Interlacing - Toggle: 0.00
+     - Apply Changes (above Shader Parameters)
+     - Save (above Apply Changes)
+       - Save Core Preset
+- Nintendo - SNES / SFC (Snes9x - Current)
+  - Quick Menu
+    - Shaders
+      - Video Shaders: On
+      - Remember Last Used Shader Directory
+      - Load: shaders_slang/crt/crt-royale.slangp
+      - Shader Parameters
+        - Interlacing - Toggle: 0.00
+     - Apply Changes (above Shader Parameters)
+     - Save (above Apply Changes)
+       - Save Core Preset
+- Sega - MS/GG/MD/CD (Genesis Plus GX)
+  - Quick Menu
+    - Shaders
+      - Video Shaders: On
+      - Remember Last Used Shader Directory
+      - Load: shaders_slang/crt/crt-royale.slangp
+      - Shader Parameters
+        - Interlacing - Toggle: 0.00
+     - Apply Changes (above Shader Parameters)
+     - Save (above Apply Changes)
+       - Save Core Preset
+- Sony - PlayStation (Beetle PSX HW)
+  - Quick Menu
+    - Shaders
+      - Video Shaders: On
+      - Remember Last Used Shader Directory
+      - Load: shaders_slang/crt/crt-royale.slangp
+      - Shader Parameters
+        - Interlacing - Toggle: 0.00
+     - Apply Changes (above Shader Parameters)
+     - Save (above Apply Changes)
+       - Save Core Preset
+- Sony - PlayStation 2 (LRPS2)
+  - Quick Menu
+    - Core Options
+      - System
+        - BIOS: USA v01.60(07/02/2002) Console
+        - Fast Loading: On
+      - Video
+        - Aspect Ratio: Widescreen (16:9)
+        - Enable Widescreen Patches: On
+    - Shaders
+      - Video Shaders: On
+      - Remember Last Used Shader Directory
+      - Load: shaders_slang/crt/crt-royale.slangp
+      - Shader Parameters
+        - Interlacing - Toggle: 0.00
+     - Apply Changes (above Shader Parameters)
+     - Save (above Apply Changes)
+       - Save Core Preset
+     - Close Content to save to RetroArch doesn't freeze
+//- Sony - PlayStation Portable (PPSSPP) Currently broken
