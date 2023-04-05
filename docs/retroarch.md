@@ -11,7 +11,6 @@ Change the following settings:
 - Video
   - Fullscreen Mode
     - Start in Fullscreen Mode: On
-    - Windowed Fullscreen Mode: Off
   - Bilinear Filtering: On
 - Core
   - Manage Cores
@@ -58,7 +57,8 @@ Change the following settings:
     - Show Battery Level: Off
     - Show Core Name: Off
   - Appearance
-//  - Collapse the Sidebar: On
+    - Menu Scale Factor: 0.90x
+    - Collapse the Sidebar: On
     - Sort Playlists After Name Truncation (Restart Required): On
     - Menu Color Theme: Basic White
   - Pause Content When Controller Disconnects: On
