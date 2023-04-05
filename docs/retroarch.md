@@ -121,4 +121,12 @@ Download the following from the respective Downloader:
   - Sega - MS/GG/MD/CD (Genesis Plus GX Wide)
   - Sony - PlayStation (Beetle PSX HW)
   - Sony - PlayStation 2 (LRPS2)
-//- Sony - PlayStation Portable (PPSSPP)
+  - Sony - PlayStation Portable (PPSSPP)
+
+After all this, import all content from `~/fun/emu/`. Change the following settings:
+
+- Playlists
+  - Manage Playlists
+    - Every playlist
+      - Default Core: Choose respective core
+      - Label Display Mode: Keep Disc Index
