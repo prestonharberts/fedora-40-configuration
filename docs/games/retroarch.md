@@ -63,16 +63,9 @@ Change the following settings:
 - On-Screen Display
   - On-Screen Notifications
     - Notification Visibility
-//    - "Load Content" Startup Notification: Off
-//    - Input (Autoconfig) Connection Notifications: Off
-//    - Cheat Code Notifications: Off
-//    - Patch Notifications: Off
-//    - Input Remap Loaded Notifications: Off
-//    - Config Override Loaded Notifications: Off
-//    - Initial Disc Restored Notifications: Off
       - Menu-only Notifications: On
   - On-Screen Overlay
-//  - Display Overlay: Off
+    - Display Overlay: Off
 - User Interface
   - Menu Item Visibility
     - Quick Menu
