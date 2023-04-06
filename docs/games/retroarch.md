@@ -179,7 +179,7 @@ After all this, import all content from `~/fun/emu/`. Change the following setti
 
 Quit and reopen Retroarch to save configuration, at this point.
 
-Run `ln -s .config/retroarch/ ret`, sync `~/ret/` with Tresorit, and add `~/ret/` to Nautilus's bookmarks in it's alphabetical position. Move system files (BIOS, firmware, etc.) to `~/ret/system`.
+Run `ln -s ~/.config/retroarch/ ret`, sync `~/ret/` with Tresorit, and add `~/ret/` to Nautilus's bookmarks in it's alphabetical position. Move system files (BIOS, firmware, etc.) to `~/ret/system`.
 
 Change the following Input settings:
 
