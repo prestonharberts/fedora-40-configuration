@@ -1,4 +1,4 @@
-## Discord
+# Discord
 
 Install Discord by Discord Inc. from Software. Change the following settings:
 
