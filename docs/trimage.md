@@ -8,13 +8,14 @@ python setup.py build
 sudo python setup.py install
 sudo dnf install PyQt5 jpegoptim optipng pngcrush
 ```
-Download advancecomp2.5.tar.gz from http://www.advancemame.it/download. Extract it, and open it in terminal. Run the following:
+Download advancecomp2.5.tar.gz from http://www.advancemame.it/download and extract it. Then, open it in terminal. Run the following:
 
 ```
 ./configure
 make
 make check
 sudo -i
+cd /home/USERNAME/net/advancecomp-2.5/
 make install
 exit
 ```
