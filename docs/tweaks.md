@@ -19,4 +19,4 @@ Move the `invisible-top-bar` theme to `.themes/` after following the instruction
 
 - Appearance
   - Themes
-     Shell: invisible-top-bar
+     Shell: light-top-bar
