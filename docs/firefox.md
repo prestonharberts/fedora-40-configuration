@@ -1,7 +1,5 @@
 # Firefox
 
-## Settings
-
 Open Application Menu, and open Settings. Change the following settings:
 
 - Sync
@@ -103,7 +101,7 @@ Click the Enhancer for YouTube extension button, and change the following settin
 	- Playback quality
 		- Automatically select a playback quality
 			- Videos: Use one resolution less than monitor resolution (max 1080p)
-			- Playlists: Same as above
+			- Playlists: Use one resolution less than monitor resolution (max 1080p)
 			- Select a different playback quality when entering the full screen mode: On
 				- Videos (full screen): 2160p 4K
 				- Playlists (full screen): 2160p 4K
@@ -148,4 +146,4 @@ gnomeTheme.hideSingleTab
 
 ## Netflix 1080p
 
-Follow the directions [here](https://github.com/vladikoff/netflix-1080p-firefox/issues/63#issuecomment-1470154520), downloading the file, renaming the file extension, and installing it manually from the Firefox extensions page.
+Follow the directions [here](https://github.com/vladikoff/netflix-1080p-firefox/issues/63#issuecomment-1470154520), downloading the file, renaming the file extension from `.zip` to `.xpi`, and installing it manually from the Firefox extensions page.
