@@ -225,7 +225,6 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
   - After installing the Simple Message extension, move simple-message to be right after activities in the Left Top Bar Box
-  - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
   - Move gnome-pomodoro to be at the beginning of the Left Top Bar Box
 - Transparent Window Moving by Noobsai
   - Opacity (0..255): 230
@@ -263,4 +262,4 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Show Workspace Name: On
     - Pop-up Inactive Workspace Indicator Content
       - Show Workspace Index: On
-      - Show Workspace Name: Off
+      - Show Workspace Name: On
