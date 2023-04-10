@@ -24,7 +24,7 @@
   - Night Light
     - Night Light: On
     - Schedule: Manual Schedule
-      - Times: 8:00 PM to 8:00 AM
+      - Times: 20:00 to 8:00
 - Mouse & Touchpad
   - Touchpad
     - Tap to Click: On
