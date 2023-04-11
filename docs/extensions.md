@@ -65,7 +65,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Display Style: Hidden
 - Autohide Battery by iskin (only if current machine is has a battery)
 - Autohide Volume by t184256
-- Bedtime Mode by ionutbortis
+- Bedtime Mode by ionutbortis (currently disabled)
   - Automatic Schedule: On
     - Start Time: 20:00
     - End Time: 8:00
