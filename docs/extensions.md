@@ -56,7 +56,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
         - Save the theme as "Light"
     - Menu Visual Appearance
       - Menu Location
-        - Override Menu Rise: On; 8
+        - Override Menu Rise: On; 12
     - Runner Layout Tweaks
       - Font Size: 12
       - Show Frequent Apps: On
