@@ -44,4 +44,6 @@ Install the GitHub Theme extension by GitHub, and change the following settings:
 
 Install the Vim extension by vscodevim, Error Lens by usernamehw, Python by ms-python, clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first), Bash IDE by mads-hartmann, and ShellCheck by timonwong.
 
+Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/gosh@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
+
 Select View from the top bar, and under Appearance, disable the Menu Bar.
