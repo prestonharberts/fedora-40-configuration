@@ -147,3 +147,13 @@ gnomeTheme.hideSingleTab
 ## Netflix 1080p
 
 Follow the directions [here](https://github.com/vladikoff/netflix-1080p-firefox/issues/63#issuecomment-1470154520), downloading the file, renaming the file extension from `.zip` to `.xpi`, and installing it manually from the Firefox extensions page.
+
+## VA-API
+
+Go to `about:config`, and change the following settings:
+
+```
+media.ffmpeg.vaapi.enabled = true
+media.ffvpx.enabled = false
+media.rdd-vpx.enabled = false
+```
