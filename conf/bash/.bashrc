@@ -67,7 +67,7 @@ alias cdsrc='cd ~/src/'
 alias cdtmp='cd ~/tmp/'
 alias tasks='vi ~/doc/tasks'
 alias fedora='cd ~/src/fedora-37-configuration/docs/'
-alias bible='cd ~/src/biblegateway-to-markdown/'
+alias bible='cd ~/src/biblegateway-to-obsidian/ && c .'
 
 # frequently used commands: git
 alias gits='git status'
