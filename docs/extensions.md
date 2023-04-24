@@ -213,7 +213,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Keep Rounded Corners when Fullscreen: On
 - Simple Message by fredz
   - Write your message: `Tasks  `
-  - Command to execute on click: `konsole --workdir ~/inb/ -e vim tasks.md`
+  - Command to execute on click: `konsole --workdir ~/doc/ -e vim todo`
 - Time in date menu by knedme
   - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
     - Line 18: `let dateFormat = Shell.util_translate_time_string(N_("(%Y/%m/%d)"));`
