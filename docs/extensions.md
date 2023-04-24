@@ -83,6 +83,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Notifications: Off
 - Clipboard History by SUPERCILEX
   - What to show in status bar: Neither
+- Color Picker by grroot (only enable when needed)
 - Compiz alike magic lamp effect (only if computer will not lag)
   - Duration (ms): 250
 - Control Blur Effect on Lock Screen by pratap@fastmail.fm
