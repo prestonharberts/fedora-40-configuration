@@ -50,7 +50,7 @@ alias cduu='cd ../..'
 alias cduu='cd ../../..'
 
 # frequently used commands: system
-alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove && sudo flatpak upgrade'
+alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && sudo flatpak upgrade -y'
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
