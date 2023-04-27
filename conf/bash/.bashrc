@@ -40,7 +40,7 @@ PERL_MM_OPT="INSTALL_BASE=/home/prestonharberts/perl5"; export PERL_MM_OPT;
 alias c='codium'
 alias d='detox -s hyphenated'
 alias g='gio open'
-alias v='vim'
+alias v='vi'
 alias z='zathura --fork'
 
 # frequently used commands: navigation
