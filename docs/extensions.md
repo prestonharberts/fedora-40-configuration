@@ -1,6 +1,12 @@
 # Extensions
 
-Install Extensions by The GNOME Project from Software, and open. Change the following settings for the Built-In extensions:
+Install with the following line:
+
+```
+sudo dnf install gnome-extensions-app
+```
+
+Change the following settings for the Built-In extensions:
 
 - Background Logo: Off
 - Pomodoro: On
