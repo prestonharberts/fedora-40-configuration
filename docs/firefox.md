@@ -114,7 +114,6 @@ Click the Enhancer for YouTube extension button, and change the following settin
 Right click empty space on the toolbar (same bar as the search bar), and go to Customize Toolbar. Complete the following actions:
 
 - Remove the Flexible Space items on both sides of the search bar
-- Remove the Save to Pocket item
 - Remove the Firefox account button
 - Remove the New Tab button next to the open tabs
 - Remove the Homepage button
