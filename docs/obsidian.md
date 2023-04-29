@@ -1,3 +1,9 @@
 # Obsidian
 
-Install Obsidian by Obsidian from Software. Import your existing vault.
+Install with the following:
+
+```
+flatpak install flathub md.obsidian.Obsidian
+```
+
+Import your existing vault.

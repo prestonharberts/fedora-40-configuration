@@ -2,7 +2,11 @@
 
 ## Installation
 
-Install "Bitwarden" by 8bit Solutions LLC from the Software program.
+Run the following to install:
+
+```
+flatpak install flathub com.bitwarden.desktop
+```
 
 ## Settings
 

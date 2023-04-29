@@ -27,7 +27,6 @@ Adjust the following settings in Settings > Keyboard > View and Customize Shortc
 - Move window to lower workspace: Disabled
 - Move window to upper workspace: Disabled
 - Home folder: Disabled
-- Toggle maximization state: Disabled
 - Toggle stacking inside management mode: Disabled
 - Toggle stacking mode outside management mode: Disabled
 - Launch and switch applications: Disabled

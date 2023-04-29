@@ -1,6 +1,10 @@
 # Tweaks
 
-Install Tweaks from Software. Change the following settings:
+Install with the following:
+
+```
+sudo dnf install gnome-tweaks
+```
 
 - General
   - Suspend when laptop lid is closed: Off

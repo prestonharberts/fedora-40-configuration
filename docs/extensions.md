@@ -23,11 +23,9 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Appearance and Content
       - Tooltip Titles: Show Centered
       - Tooltip Title Scale (%): 100
-    - Hot Edge
-      - Hot Edge Position: Disabled
   - Window Switcher
     - Behavior
-      - Default Filter: Current Workspace
+      - Default Filter: All
       - Minimize Windows Last: Off
     - Appearance
       - Show Window Titles: Disabled
@@ -38,6 +36,9 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Include Show Apps Icon: Off
     - Appearance
       - Hide Window Counter For Single-Window Apps: On
+  - Dock Mode
+    - Hot Edge
+      - Hot Edge Position: Disabled
   - Hotkeys
     - Custom hotkeys (you can assign up to 2 characters (keys) to each action)
       - Filter mode: W
@@ -83,17 +84,12 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
 - Caffeine by eon
   - General
     - Remember state: On
-    - Toggle shortcut: Shift+Super+C
   - Display
     - Show status indicator in top panel: Never
     - Notifications: Off
-- Clipboard History by SUPERCILEX
-  - What to show in status bar: Neither
 - Color Picker by grroot (only enable when needed)
-- Compiz alike magic lamp effect (only if computer will not lag)
+- Compiz alike magic lamp effect by hermes83(only if computer will not lag)
   - Duration (ms): 250
-- Control Blur Effect on Lock Screen by pratap@fastmail.fm
-  - Adjust Sigma: 200
 - Dash to Dock by michele_g
   - Position and size
     - Intelligent autohide
@@ -117,12 +113,8 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - Appearance
     - Shrink the dash: On
     - Show overview on startup: Off
-    - Customize windows counter indicators: Dots
-      - Customize indicator style: On
-      - Color: #1b1b1b
-    - Customize the dash color: On; #ebebeb
     - Customize opacity: Fixed
-    - Opacity: 100%
+    - Opacity: 0%
   - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
 - Date Menu Formatter by mjakubowski
   - Pattern: EEEE K:mm aaa
@@ -185,19 +177,10 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Mouse bindings
       - Left click action: play/pause
       - Middle click action: next track
-      - Right click action: open app
 - Power Profile Switcher by eliapasquali (only if on laptop)
   - Default profiles
     - On AC: Balanced
     - On battery: Power Saving
-- Quick Settings Tweaker by qwreey75
-  - Notifications
-    - Visible: Off
-  - Media Controls
-    - Visible: Off
-  - Other
-    - Remove Notifications On Date Menu: Off
-    - Remove Media Control On Date Menu: Off
 - Rounded Corners by lennart-k
   - Border radius: 16px
 - Rounded Window Corners by yilozt
@@ -213,8 +196,6 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
           - Spread Radius: -10.0
           - Opacity: 60.0
     - Global Settings
-      - Border Width: 1.0
-      - Border Color: #ffffff Zero transparency
       - Border Radius: 14.0
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
@@ -254,8 +235,6 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - General
     - Workspaces
       - Number of Workspaces in Static Mode: 1
-    - Workspace Switcher
-      - Wraparound: On
   - Colors
     - Pop-up Opacity
       - Global Opacity (%): 100
@@ -268,5 +247,4 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Show Workspace Index: Off
       - Show Workspace Name: On
     - Pop-up Inactive Workspace Indicator Content
-      - Show Workspace Index: On
       - Show Workspace Name: On

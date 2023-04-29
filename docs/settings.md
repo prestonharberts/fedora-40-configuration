@@ -10,7 +10,7 @@
 - Multitasking
   - Hot Corner: Off
 - Privacy
-  - Screen
+  - Screen Lock
     - Blank Screen Delay: Never
   - File History & Trash
     - Automatically Delete Trash Content: On
@@ -33,15 +33,15 @@
     - Close window: `Super-Q`
     - Hide all normal windows: `Super-D`
     - Hide window: `Super-S`
-    - Show the notification list: `Super-Tab`
+    - Show the notification list: `Super-A`
     - Switch applications: `Alt-Tab`
+    - Show the overview: `Super-Tab`
+    - Show all applications: `Shift-Super-Tab`
     - Move window one monitor down: `Alt-Super-J`
     - Move window one monitor to the left: `Alt-Super-H`
     - Move window one monitor to the right: `Alt-Super-L`
     - Move window one monitor up: `Alt-Super-K`
     - Settings: `Super-I`
-    - Show the overview: `Shift-Super-O`
-    - Show all applications: `Shift-Ctrl-Super-O`
     - Move to workspace on the left: `Super-;`
     - Move to workspace on the right: `Super-'`
     - Move window one workspace to the left: `Super-[`
@@ -51,6 +51,12 @@
     - View split on right: Disabled
     - Maximize window: Disabled
     - Restore window: Disabled
+    - Resize window: Disabled
+    - Launch help browser: Disabled
+    - Open the app menu: Disabled
+    - Toggle maximization state: Disabled
+    - Switch windows of an app directly: Disabled
+    - Move window: Disabled
 - Date & Time
   - Time Format: AM/PM
 - About

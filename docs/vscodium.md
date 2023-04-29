@@ -16,21 +16,17 @@ Change the following settings:
   - Font
     - Font Family: Insert `'SF Mono', ` at the beginning after following the instructions in `sf-font.md`
     - Font Size: 12
-    - Terminal > Integrated: Font Family: 'SF Mono'
-     Terminal > Integrated: Font Size: 13
   - Formatting
     - Format On Paste: On
     - Format On Save: On
   - Minimap
-    - Render Characters: Off
-    - Show Slider: Always
-    - Side: left
-    - Size: fill
-- Workbench
-  - Appearance
-    - Side Bar: Location: right
+    - Enabled: Off
 - Window
   - Auto Detect Color Scheme: On
+- Features
+  - Terminal
+    - Integrated: Font Family: 'SF Mono'
+    - Integrated: Font Size: 13
 
 Install the GitHub Theme extension by GitHub, and change the following settings:
 

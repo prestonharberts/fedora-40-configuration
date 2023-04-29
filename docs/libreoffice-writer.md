@@ -5,20 +5,23 @@
 Open "User interface" under View, and change the following settings:
 
 - UI variants: Sidebar
-	- Apply to All
+  - Apply to All
 
 Change the following settings from the toolbar:
 
 - View
-	- Toolbars
-		- Standard: Off (toggle if needed)
-	- Status Bar: Off
-	- Rulers
-		- Rulers: Off
-	- Scrollbars
-		- Vertical Scroll Bar: Off
-    - Text Boundaries: Off
-	- Sidebar: Off (toggle if needed)
+  - Toolbars
+    - Standard: Off (toggle if needed)
+  - Status Bar: Off
+  - Rulers
+    - Rulers: Off
+  - Scrollbars
+    - Horizontal Scroll Bar: Off
+    - Vertical Scroll Bar: Off
+  - Text Boundaries: Off
+  - Table Boundaries: Off
+  - Field shadings: Off
+  - Sidebar: Off (toggle if needed)
 - Tools
   - Customize
     - Context Menus
