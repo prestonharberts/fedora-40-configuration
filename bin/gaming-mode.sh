@@ -9,3 +9,4 @@ sudo keyd reload
 gsettings set org.gnome.shell disable-user-extensions true
 
 echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+gsettings set org.gnome.desktop.background picture-uri file:///home/prestonharberts/pic/wal/colors/blank-black.jpg
