@@ -14,46 +14,10 @@ Change the following settings:
   - Bilinear Filtering: On
 - Input
   - Confirm Quit: Off
-  - Menu Controls
-    - Menu Swap OK and Cancel Buttons: On
-    - All Users Control Menu: On
-    - Disable Info Button: On
-    - Disable Search Button: On
-  - Hotkeys
-    - Hotkey Enable: Controller Home button
-    - Menu Toggle (Controller Combo): L3 + R3
-    - Close Content: Right face button
-    - Restart Content: Left face button
-    - Fast-Forward (Hold): Right trigger
-    - Slow-Motion (Hold): Left trigger
-    - Pause: Bottom face button
-    - Audio Mute: Top face button
-    - Volume Up: Right shoulder button
-    - Volume Down: Left shoulder button
-    - Load State: D-pad up
-    - Save State: D-pad down
-    - Next Save State Slot: D-pad right
-    - Previous Save State Slot: D-pad left
-    - Take Screenshot: Left menu button
-    - Fullscreen (Toggle): Right menu button
-  - Port 1 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 2 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 3 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 4 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 5 Controls
-    - Analog to Digital Type: Left Analog
 - Saving
   - Sort Saves into Folders by Core Name: On
   - Sort Save States into Folders by Core Name: On
   - Auto Save State: On
-  - SaveRAM Compression: On
-  - Write Saves to Content Directory: On
-  - Write Save States to Content Directory: On
-  - Write Screenshots to Content Directory: On
 - File Browser
   - Show Hidden Files and Directories: On
   - Use Built-In Media Player: Off
@@ -70,6 +34,7 @@ Change the following settings:
   - Menu Item Visibility
     - Quick Menu
       - Show 'Replay Controls': Off
+      - Show 'Start Recording': Off
       - Show 'Start Streaming': Off
       - Show 'Latency': Off
       - Show 'Rewind': Off
@@ -122,9 +87,9 @@ cp /usr/share/libretro/autoconfig/* autoconfig/ -r
 - Directory
   - Assets: ~/.config/retroarch/assets
   - Cores: ~/.config/retroarch/cores
-  - Core info: ~/.config/retroarch/info
-  - Databases: ~/.config/retroarch/rdb
-  - Cheats: ~/.config/retroarch/cht
+  - Core info: ~/.config/retroarch/cores/info
+  - Databases: ~/.config/retroarch/database/rdb
+  - Cheat files: ~/.config/retroarch/database/cht
   - Video filters: ~/.config/retroarch/filters/video
   - Audio filters: ~/.config/retroarch/filters/audio
   - Controller Profiles: ~/.config/retroarch/autoconfig
@@ -148,7 +113,7 @@ Change the following settings from the Settings page:
 - Drivers
   - Video: Vulkan
 
-Update and change the following setting from the Online Updater:
+Quit and reopen Retroarch to save configuration, at this point. Update and change the following setting from the Online Updater:
 
 - Update Slang Shaders
 - On-Demand Thumbnail Downloads: On
@@ -184,10 +149,8 @@ Run `ln -s ~/.config/retroarch/ ret`, sync `~/ret/` with Tresorit, and add `~/re
 Change the following Input settings:
 
 - Input
-  - Confirm Quit: Off
   - Menu Controls
     - Menu Swap OK and Cancel Buttons: On
-    - All Users Control Menu: On
     - Disable Info Button: On
     - Disable Search Button: On
   - Hotkeys
@@ -244,6 +207,7 @@ Change the following settings with games loaded in their respective core:
         - Interlacing - Toggle: 0.00
       - Save (above Apply Changes)
         - Save Core Preset
+        - Also select Save Global Preset if desired
 - Nintendo - Nintendo 64 (ParaLLEl N64)
   - Quick Menu
     - Shaders
