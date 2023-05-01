@@ -11,6 +11,8 @@ Change the following settings:
 - Video
   - Fullscreen Mode
     - Start in Fullscreen Mode: On
+  - Scaling
+    - Integer Scale: On
   - Bilinear Filtering: On
 - Input
   - Confirm Quit: Off
@@ -181,89 +183,36 @@ Change the following Input settings:
   - Port 5 Controls
     - Analog to Digital Type: Left Analog
 
+Download the overlays pack from [here](http://www.mediafire.com/file/ngh4h47lr4d0i45/OrionsangelRetroarchOverlays.zip) if you would like. Move the contents to `~/.config/retroarch/overlays/orions-overlays`.
+
 Change the following settings with games loaded in their respective core:
 
-- NEC - PC Engine / SuperGrafx / CD (Beetle PCE)
-  - Quick Menu
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/crt/crt-royale.slangp
-      - Shader Parameters
-        - Interlacing - Toggle: 0.00
-      - Save (above Apply Changes)
-        - Save Core Preset
-//- Nintendo - DS (DeSmuME)
-//- Nintendo - Game Boy / Color (Gambatte)
-//- Nintendo - Game Boy Advance (mGBA)
-//- Nintendo - GameCube / Wii (Dolphin)
 - Nintendo - NES / Famicon (Nestopia UE)
   - Quick Menu
+    - Controls
+      - All ports
+        - A Button (right)/Auto Circle (btn): B
+        - B Button (down)/Auto Cross (btn): A
+        - X Button (top)/Auto Triangle (btn): A
+        - Y Button (left)/Auto Square (btn): B
+      - Manage Remap Files
+        - Save Core Remap Files
+    - On-Screen Overlay
+      - Display Overlay: On
+      - Show Overlay Behind Menu: On
+      - Hide Overlay in Menu: Off
+      - Overlay Preset: `orions-overlays/originals/NESExtra`
     - Shaders
       - Video Shaders: On
       - Remember Last Used Shader Directory: On
       - Load: shaders_slang/crt/crt-royale.slangp
       - Shader Parameters
+        - Your Display Gamma: 2.50
+        - Mask - Type: 2.00
+        - Geometry - Mode: 2.00
         - Interlacing - Toggle: 0.00
-      - Save (above Apply Changes)
+      - Save
+        - Select Save Global Preset if desired
+      - Prepend: shaders_slang/ntsc/ntsc-256px-composite.slangp
+      - Save
         - Save Core Preset
-        - Also select Save Global Preset if desired
-- Nintendo - Nintendo 64 (ParaLLEl N64)
-  - Quick Menu
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/crt/crt-royale.slangp
-      - Shader Parameters
-        - Interlacing - Toggle: 0.00
-      - Save (above Apply Changes)
-        - Save Core Preset
-- Nintendo - SNES / SFC (Snes9x - Current)
-  - Quick Menu
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/crt/crt-royale.slangp
-      - Shader Parameters
-        - Interlacing - Toggle: 0.00
-      - Save (above Apply Changes)
-        - Save Core Preset
-- Sega - MS/GG/MD/CD (Genesis Plus GX)
-  - Quick Menu
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/crt/crt-royale.slangp
-      - Shader Parameters
-        - Interlacing - Toggle: 0.00
-      - Save (above Apply Changes)
-        - Save Core Preset
-- Sony - PlayStation (Beetle PSX HW)
-  - Quick Menu
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/crt/crt-royale.slangp
-      - Shader Parameters
-        - Interlacing - Toggle: 0.00
-      - Save (above Apply Changes)
-        - Save Core Preset
-- Sony - PlayStation 2 (LRPS2)
-  - Quick Menu
-    - Core Options
-      - System
-        - BIOS: USA v01.60(07/02/2002) Console
-        - Fast Loading: On
-      - Video
-        - Aspect Ratio: Widescreen (16:9)
-        - Enable Widescreen Patches: On
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/crt/crt-royale.slangp
-      - Shader Parameters
-        - Interlacing - Toggle: 0.00
-      - Save (above Apply Changes)
-        - Save Core Preset
-     - Close Content to save to RetroArch doesn't freeze
-//- Sony - PlayStation Portable (PPSSPP) Currently broken
