@@ -134,6 +134,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Save: Click save button
 - Just Perfection by JustPerfection
   - Visibility
+    - Activities Button: Off
     - Screen Sharing Indicator: Off
     - Screen Recording Indicator: Off
     - World Clock: Off
@@ -200,7 +201,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
 - Simple Message by fredz
-  - Write your message: `Tasks  `
+  - Write your message: `  Tasks  `
   - Command to execute on click: `konsole --workdir ~/doc/ -e vim todo`
 - Time in date menu by knedme
   - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
