@@ -124,14 +124,6 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
 - Focus by scaryawr
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
 - Fullscreen On New Workspace by satran
-- Just Another Search Bar by xelad0m
-  - Click the "+" button next to Default search
-    - Name: firefox
-    - Command: xdg-open https://#
-    - Wildcard: #
-    - Query delimiter: +
-    - Example query: test query
-    - Save: Click save button
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
@@ -210,11 +202,11 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
     - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
 - Top Bar Organizer by jspp
-  - After installing the Just Another Search Bar extension, move undefined to the end of Right Top Bar Box
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
   - After installing the Simple Message extension, move simple-message to be right after activities in the Left Top Bar Box
   - Move gnome-pomodoro to be at the beginning of the Left Top Bar Box
+  - Move quickSettings to be at the end of the Right Top Bar Box
 - Transparent Window Moving by Noobsai
   - Opacity (0..255): 230
   - Animation time: 0.00
