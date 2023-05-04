@@ -8,9 +8,11 @@ sudo dnf install retroarch
 
 Change the following settings:
 
+- Drivers
+  - Menu: rgui
+  - Video: vulkan
 - Video
   - Output
-    - Video: vulkan
     - FPU Index: Confirm that it is using your primary GPU
   - Fullscreen Mode
     - Start in Fullscreen Mode: On
@@ -63,6 +65,10 @@ Change the following settings:
   - On-Screen Notifications
     - Notification Visibility
       - Menu-only Notifications: On
+    - Graphics Widgets: Off
+      - Notification Color (Red): 0
+      - Notification Color (Green): 255
+      - Notification Color (Blue): 0
   - On-Screen Overlay
     - Display Overlay: Off
 - User Interface
@@ -90,11 +96,14 @@ Change the following settings:
     - Show Battery Level: Off
     - Show Core Name: Off
   - Appearance
-    - Menu Scale Factor: 0.70x
-    - Collapse the Sidebar: On
-    - Sort Playlists After Name Truncation (Restart Required): On
-    - Menu Color Theme: Basic White
+    - Border Filler: Off
+    - Menu Aspect Ratio: Choose the centered variant of your monitor's aspect ratio
+    - Menu Color Theme: Hacking the Kernel
+    - Top Thumbnail: Off
+    - Smooth Ticker Text
+    - Switch Icons: Off
   - Pause Content When Controller Disconnects: On
+  - Mouse Support: Off
 - Playlists
   - Show Playlist Sub-Labels: Off
   - Scan Without Core Math: Off
@@ -148,12 +157,6 @@ Go to Online Updater, and complete the following:
 - Update Databases
 - Update Overlays
 - Update Slang Shaders
-- On-Demand Thumbnail Downloads: On
-
-Go to the Main Menu, and select the following option:
-
-- Configuration File
-  - Save Current Configuration
 
 Download the following from the respective Downloader:
 
@@ -166,6 +169,7 @@ Download the following from the respective Downloader:
   - Nintendo - SNES / SFC (Snes9x - Current)
   - Sega - MS/GG/MD/CD (Genesis Plus GX)
   - Sony - PlayStation (Beetle PSX HW)
+  - Sony - PlayStation 2 (LRPS2)
 
 After all this, import all content from `~/fun/emu/`. Change the following settings:
 
@@ -206,5 +210,21 @@ Change the following settings with games loaded in their respective core:
         - [ INTRO SEQUENCE ]
           - When to Show Intro: 0.00
       - Prepend: shaders_slang/ntsc/ntsc-256px-composite.slangp
+      - Save
+        - Save Core Preset
+- Sony - PlayStation 2 (LRPS2)
+  - Core Options
+    - System
+      - BIOS: Choose region
+      - Fast Loading: On
+    - Video
+      - Aspect Ratio: Widescreen (16:9)
+      - Enable Widescreen Patches: On
+    - Shaders
+      - Video Shaders: On
+      - Remember Last Used Shader Directory: On
+      - Load: shaders_slang/crt/crt-royale.slangp
+      - Shader Parameters
+        - Interlacing - Toggle: 0.00
       - Save
         - Save Core Preset
