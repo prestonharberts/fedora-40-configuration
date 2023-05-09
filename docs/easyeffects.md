@@ -4,7 +4,6 @@ Install Easy Effects by Wellington Wallace from Software. Change the following s
 
 - General
   - Launch Service at System Startup: On
-  - Shutdown on Window Closing: Off
 - Spectrum
   - State
     - Enabled: Off

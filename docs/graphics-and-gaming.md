@@ -15,8 +15,10 @@ Log out of the current session, and when you are about to enter your password, s
 Run the following to install EnvyControl:
 
 ```
-sudo dnf copr enable sunwire/envycontrol
-sudo dnf install python3-envycontrol
+git clone https://github.com/bayasdev/envycontrol
+cd envycontrol
+sudo dnf install pip
+sudo pip install .
 ```
 
 Install the [GPU profile selector extension](https://extensions.gnome.org/extension/5009/gpu-profile-selector/). Switch to NVIDIA, and enter your password when prompted. Then, restart when prompted.

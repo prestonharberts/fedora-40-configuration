@@ -19,8 +19,8 @@ sudo dnf install gnome-tweaks
   - Window Focus: Focus on Hover
   - Raise Windows When Focused: On
 
-Move the `invisible-top-bar` theme to `.themes/` after following the instructions in `sf-font.md`, and change the following setting:
+Move all the contents of `conf/tweaks/` to `.themes/` after following the instructions in `sf-font.md`, and change the following setting:
 
 - Appearance
   - Themes
-     Shell: light-top-bar
+     Shell: Choose light-top-bar or invisible-top-bar

@@ -90,13 +90,13 @@ Click the Enhancer for YouTube extension button, and change the following settin
       - Do not block ads for subscribed channels: On
 	- Playback quality
 		- Automatically select a playback quality
-			- Videos: Use one resolution less than monitor resolution (max 1080p)
-			- Playlists: Use one resolution less than monitor resolution (max 1080p)
+			- Videos: 4320p 8K
+			- Playlists: 4320p 8K
 			- Select a different playback quality when entering the full screen mode: On
-				- Videos (full screen): 2160p 4K
-				- Playlists (full screen): 2160p 4K
-				- Pop-up player and embedded videos (full screen): 2160p 4K
-			- Switch back to the previous playback quality when exiting full screen mode
+				- Videos (full screen): 4320p 8K
+				- Playlists (full screen): 4320- 8K
+				- Pop-up player and embedded videos (full screen): 4320p 8K
+			- Switch back to the previous playback quality when exiting full screen mode: Off
 	- Autoplay
 		- Disable autoplay: On
 - Appearance

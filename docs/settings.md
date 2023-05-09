@@ -9,6 +9,7 @@
   - Lock Screen Notifications: Off
 - Multitasking
   - Hot Corner: Off
+  - Active Screen Edges: Off
 - Privacy
   - Screen Lock
     - Blank Screen Delay: Never
@@ -55,6 +56,7 @@
     - Launch help browser: Disabled
     - Open the app menu: Disabled
     - Toggle maximization state: Disabled
+    - Switch windows directly: Disabled
     - Switch windows of an app directly: Disabled
     - Move window: Disabled
 - Date & Time

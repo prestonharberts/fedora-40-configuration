@@ -6,12 +6,16 @@ Install with the following line:
 sudo dnf install gnome-extensions-app
 ```
 
+Run `gsettings set org.gnome.shell disable-extension-version-validation true` so incompatible extensions will run with the current GNOME version.
+
+Choose `(light-top-bar)` settings if you want to keep the top bar visible. Choose `(invisible-top-bar)` if you want to hide the top bar.
+
 Change the following settings for the Built-In extensions:
 
 - Background Logo: Off
-- Pomodoro: On
+- (light-top-bar) Pomodoro: On
 
-Run `gsettings set org.gnome.shell disable-extension-version-validation true` so incompatible extensions will run with the current GNOME version. Visit https://extensions.gnome.org, and install the following extensions while changing their settings, as well:
+ Visit https://extensions.gnome.org, and install the following extensions while changing their settings, as well.
 
 - AATWS - Advanced Alt-Tab Window Switcher by GdH
   - Common
@@ -47,7 +51,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - General
     - Panel Display Options
       - Position in Panel: Center
-      - Show Activities Button: On
+      - (light-top-bar) Show Activities Button: On
     - General Settings
       - Hotkey: Custom Hotkey
       - Current Hotkey: Shift+Ctrl+Alt+Space
@@ -70,22 +74,14 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - Menu Button
     - Menu Button Appearance
       - Display Style: Hidden
-- Autohide Battery by iskin (only if current machine is has a battery)
-- Autohide Volume by t184256
-- Bedtime Mode by ionutbortis (currently disabled)
-  - Automatic Schedule: On
-    - Start Time: 20:00
-    - End Time: 8:00
-  - On-Demand
-    - Show Button: Always
-    - Button Location: System Menu
+- (light-top-bar) Autohide Battery by iskin (only if current machine is has a battery)
+- (light-top-bar) Autohide Volume by t184256
 - Burn My Windows by Simme (only if computer will not lag)
   - Disable Fire and enable Glide
 - Caffeine by eon
   - General
+    - Show status indicator in top panel: Off
     - Remember state: On
-  - Display
-    - Show status indicator in top panel: Never
     - Notifications: Off
 - Color Picker by grroot (only enable when needed)
 - Compiz alike magic lamp effect by hermes83(only if computer will not lag)
@@ -116,19 +112,16 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Customize opacity: Fixed
     - Opacity: 0%
   - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator, Rhythmbox
-- Date Menu Formatter by mjakubowski
+- (light-top-bar) Date Menu Formatter by mjakubowski
   - Pattern: EEEE K:mm aaa
   - Font size: 11 pt
-- Floating Panel by aylur
+- (light-top-bar) Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
-- Fullscreen On New Workspace by satran
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
-    - Screen Sharing Indicator: Off
-    - Screen Recording Indicator: Off
     - World Clock: Off
     - Weather: Off
     - Events: Off
@@ -142,18 +135,18 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Background Menu: Off
     - Ripple Box: Off
   - Icons
-    - Panel Notification Icon: Off
+    - (light-top-bar) Panel Notification Icon: Off
   - Behaviour
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
     - Startup Status: Desktop
   - Customize
-   - Clock menu position: Right
-    - Clock menu offset: 7
+   - (light-top-bar) Clock menu position: Right
+    - (light-top-bar) Clock menu offset: 7
     - Animation: No Animation (only if computer is lagging)
-    - Notification Banner Position: Top End
+    - (light-top-bar) Notification Banner Position: Top End
 - Mouse Follows Focus by LeonMatthes
-- Mpris Label by moon-0xff
+- (light-top-bar) Mpris Label by moon-0xff
   - Panel
     - Extension place: center
     - Left padding: 0
@@ -170,7 +163,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Mouse bindings
       - Left click action: play/pause
       - Middle click action: next track
-- Power Profile Switcher by eliapasquali (only if on laptop)
+- Power Profile Switcher by eliapasquali (only if on laptop) (currently disabled)
   - Default profiles
     - On AC: Balanced
     - On battery: Power Saving
@@ -192,7 +185,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
       - Border Radius: 14.0
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
-- Simple Message by fredz
+- (light-top-bar) Simple Message by fredz
   - Write your message: `  Tasks  `
   - Command to execute on click: `konsole --workdir ~/doc/ -e vim tasks`
 - Time in date menu by knedme
@@ -201,7 +194,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
     - Line 19: `let timeFormat = Shell.util_translate_time_string(N_("%-I:%M %p"));`
     - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
     - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
-- Top Bar Organizer by jspp
+- (light-top-bar) Top Bar Organizer by jspp
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
   - After installing the Simple Message extension, move simple-message to be right after activities in the Left Top Bar Box
@@ -209,20 +202,19 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - Move quickSettings to be at the end of the Right Top Bar Box
 - Transparent Window Moving by Noobsai
   - Opacity (0..255): 230
-  - Animation time: 0.00
 - Unite by hardpixel
   - General
     - Extend top bar left box: Off
     - Show system tray in top bar: Off
     - Show desktop name in top bar: Off
     - Restrict funcitonalities to the primary screen: Off
-    - Hide activities button: Never
+    - Hide activities button: Always
     - Hide window titlebars: Always
     - Show window title in app menu: Never
     - Show window buttons in top bar: Never
 - User Themes by fmuellner
-- Volume Scroller by trflynn89
-- Worksapce Dry Names by ecrevisseMiroir (typo included)
+- (light-top-bar) Volume Scroller by trflynn89
+- (light-top-bar) Worksapce Dry Names by ecrevisseMiroir (typo included)
   - Name workspaces Primary, Secondary, and so on
 - Workspace Switcher Manager by GdH
   - General
@@ -238,6 +230,7 @@ Run `gsettings set org.gnome.shell disable-extension-version-validation true` so
   - Content
     - Pop-up Active Workspace Indicator Content
       - Show Workspace Index: Off
-      - Show Workspace Name: On
+      - Show Workspace Name: Off
     - Pop-up Inactive Workspace Indicator Content
-      - Show Workspace Name: On
+      - Show Workspace Index: Off
+      - Show Workspace Name: Off

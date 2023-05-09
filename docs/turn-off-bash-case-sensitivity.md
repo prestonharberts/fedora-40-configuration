@@ -1,4 +1,4 @@
-# Turn of BASH Case Insensitivity
+# Turn Off Bash Case Sensitivity
 
 Run the following in Terminal, and restart the shell:
 

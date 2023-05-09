@@ -39,6 +39,7 @@ Now, change the following settings under Configure Konsole:
       - Expand individual tab widths to full window: On
   - Behavior
     - Put new tabs: After current tab
+  - This section may need to be completed one more time becuase it resets after exiting
 
 Edit the following keyboard shortcuts from Configure Keyboard Shortcuts:
 
