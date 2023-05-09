@@ -51,7 +51,6 @@ Change the following settings for the Built-In extensions:
   - General
     - Panel Display Options
       - Position in Panel: Center
-      - (light-top-bar) Show Activities Button: On
     - General Settings
       - Hotkey: Custom Hotkey
       - Current Hotkey: Shift+Ctrl+Alt+Space
@@ -66,7 +65,7 @@ Change the following settings for the Built-In extensions:
         - Foreground color: #000000
         - Save the theme as "Light"
     - Menu Visual Appearance
-      - Menu Location
+      -  Menu Location
         - Override Menu Rise: On; 12
     - Runner Layout Tweaks
       - Font Size: 12
@@ -141,7 +140,8 @@ Change the following settings for the Built-In extensions:
     - Double Super to App Grid: Off
     - Startup Status: Desktop
   - Customize
-   - (light-top-bar) Clock menu position: Right
+    - (invisible-top-bar) Panel Size: 1px
+    - (light-top-bar) Clock menu position: Right
     - (light-top-bar) Clock menu offset: 7
     - Animation: No Animation (only if computer is lagging)
     - (light-top-bar) Notification Banner Position: Top End
@@ -152,7 +152,6 @@ Change the following settings for the Built-In extensions:
     - Left padding: 0
     - Right padding: 0
   - Label
-    - Switch to the most recent source automatically: On
     - Hide when paused: Off
     - Max string length (each field): 150
     - Button placeholder (can be left empty): Empty
