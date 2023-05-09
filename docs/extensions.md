@@ -196,9 +196,9 @@ Change the following settings for the Built-In extensions:
 - (light-top-bar) Top Bar Organizer by jspp
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
-  - After installing the Simple Message extension, move simple-message to be right after activities in the Left Top Bar Box
+  - After installing the Simple Message extension, move simple-message to be right before workspace-name-indicator in the Left Top Bar Box
   - Move gnome-pomodoro to be at the beginning of the Left Top Bar Box
-  - Move quickSettings to be at the end of the Right Top Bar Box
+  - Move the dateMenu to be at the end of the Right Top Bar Box
 - Transparent Window Moving by Noobsai
   - Opacity (0..255): 230
 - Unite by hardpixel
