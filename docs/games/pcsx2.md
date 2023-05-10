@@ -48,5 +48,4 @@ Change the games Properties from the context menu:
 - Graphics
   - Display
     - Aspect Ratio: Widescreen (16:9) (Unless desired monitor is another aspect ratio)
-    - FMV Aspect Ratio: Auto Standard (4:3 Interlaced / 3:2 Progressive) (Unless desired monitor is another aspect ratio)
     - Enable Widescreen Patches: On (Unless desired monitor is another aspect ratio)
