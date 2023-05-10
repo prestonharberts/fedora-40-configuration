@@ -23,3 +23,5 @@ Change the following settings:
   - Post-Processing
     - Filters
       - TV Shader: Lottes CRT
+
+Make a new controller profile named after the controller in use, and set its keybinds.
