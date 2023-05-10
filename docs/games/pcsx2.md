@@ -16,12 +16,37 @@ Change the following settings:
   - Preferences
     - Theme: Fusion [Light]
 - Graphics
+  - Renderer
+    - Renderer: Software
+  - Display
+    - Anti-blur: Off
+  - Post-Processing
+    - Filters
+      - TV Shader: Lottes CRT
+  - OSD
+    - On-Screen Display
+      - Show OSD Messages: Off
+- BIOS
+  - BIOS Selection
+    - Select the most recent BIOS for your region by clicking on it
+
+Make a new controller profile named after the controller in use, and set its keybinds.
+
+For any game that is not in the same region as your current BIOS, update the Properties settings for that game to have the required BIOS.
+
+Run the following to sync saves with Tresorit:
+
+```
+ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/memcards/ ~/fun/sav/pcsx2/memcards
+ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/sstates/ ~/fun/sav/pcsx2/sstates
+```
+
+## FlatOut 2
+
+Change the games Properties from the context menu:
+
+- Graphics
   - Display
     - Aspect Ratio: Widescreen (16:9) (Unless desired monitor is another aspect ratio)
     - FMV Aspect Ratio: Auto Standard (4:3 Interlaced / 3:2 Progressive) (Unless desired monitor is another aspect ratio)
     - Enable Widescreen Patches: On (Unless desired monitor is another aspect ratio)
-  - Post-Processing
-    - Filters
-      - TV Shader: Lottes CRT
-
-Make a new controller profile named after the controller in use, and set its keybinds.
