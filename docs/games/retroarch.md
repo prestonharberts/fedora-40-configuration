@@ -184,7 +184,14 @@ Go to the Main Menu, and select the following option:
 - Configuration File
   - Save Current Configuration
 
-Run `ln -s ~/.config/retroarch/ ret`, sync `~/ret/` with Tresorit, and add `~/ret/` to Nautilus's bookmarks in it's alphabetical position. Move system files (BIOS, firmware, etc.) to `~/ret/system`.
+Run the following to sync saves with Tresorit:
+
+```
+ln -s ~/.config/retroarch/saves/ ~/fun/sav/retroarch/saves/
+ln -s ~/.config/retroarch/states/ ~/fun/sav/retroarch/states
+```
+
+Move system files (BIOS, firmware, etc.) to `~/.config/retroarch/system`.
 
 Download the [CyberLab Mega Bezel - Death To Pixels shader preset pack](https://github.com/CyberLabSystems/CyberLab-Mega-Bezel-Death-To-Pixels-Shader-Preset-Pack/releases) and the [CyberLab custom Blargg NTSC video filter presets](https://github.com/CyberLabSystems/CyberLab-Custom-Blargg-NTSC-Video-Filter-Presets/releases). Move the shaders to `~/.config/retroarch/shaders/`. Move the filter presets to `~/.config/retroarch/filters/video/`.
 
