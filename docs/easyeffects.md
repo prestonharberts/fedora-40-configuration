@@ -13,6 +13,7 @@ Run the following commands to download some [community presets](https://github.c
 ```
 cd src
 git clone https://github.com/p-chan5/EasyPulse
+git checkout 0.2.0
 ```
 
 Add them through the top menu of Easy Effects.
