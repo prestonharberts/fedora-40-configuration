@@ -182,6 +182,7 @@ Go to Online Updater, and complete the following:
 Download the following from the respective Downloader:
 
 - Core Downloader
+  - Arcade (FinalBurn Neo)
   - NEC - PC Engine / SuperGrafx / CD (Beetle PCE)
   - Nintendo - Game Boy / Color (Gambatte)
   - Nintendo - Game Boy Advance (mGBA)
@@ -255,7 +256,45 @@ Change the following latency settings, substituting x with the specific game's n
 
 Super Mario Bros: 1
 
-## Finalburn Neo
+## Nintendo - Game Boy / Color (Gambatte)
+
+Change the following settings from the Quick Menu:
+
+- Quick Menu
+  - Controls
+    - Port 1
+      - A Button (right)/Auto Circle (btn): B
+      - B Button (down)/Auto Cross (btn): A
+      - X Button (top)/Auto Triangle (btn): A
+      - Y Button (left)/Auto Square (btn): B
+    - Manage Remap Files
+      - Save Core Remap Files
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/handheld/gameboy.slangp (for Game Boy games) or shaders_slang/handheld/retro-tiles.slangp (for Game Boy Color games)
+    - Prepend: shaders_slangp/handheld/gbc-color.slangp (for Game Boy Color games)
+    - Shader Parameters (for Game Boy Color games)
+      - Lighten Screen: 0.70
+      - Tile Depth: 0.60
+      - Tile Size: 0.60
+    - Save
+      - Save Game Preset (for every game for this core)
+
+Change the following latency settings, substituting x with the specific game's number:
+
+- Latency
+  - Run-Ahead to Reduce Latency
+    - Number of Frames to Run-Ahead: x
+- Overrides
+  - Save Game Overrides
+
+Castlevania The Adventure: 2
+Operation C: 1
+Super Mario Land: 2
+The Legend of Zelda Oracle of Ages: 2
+
+## Arcade (Finalburn Neo)
 
 Change the following settings from the Quick Menu:
 
@@ -290,6 +329,46 @@ Change the following latency settings, substituting x with the specific game's n
 
 Street Fighter III: Third Strike: 3
 Super Street Fighter 2 Turbo: 3
+
+### Street Fighter III: Third Strike (widescreen hack)
+
+Change the following parameters for the shader:
+
+- Quick Menu
+  - Shaders
+    - Shader Parameters
+      - [ CRT SCREEN SCALING GENERAL ]
+        - Integer Scale Mode: 1.00
+      - [ ASPECT RATIO ]
+        - Type: 6.00
+    - Save
+      - Save Game Preset
+
+## Nintendo - Nintendo 64 (ParaLLEl N64)
+
+Change the following settings from the Quick Menu:
+
+- Quick Menu
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_N64_ADV.slangp
+    - Shader Parameters
+      - [ CRT SCREEN SCALING GENERAL ]
+        - Integer Scale Mode: 0.00
+      - [ INTRO SEQUENCE ]
+        - When to Show Intro: 0.00
+    - Prepend: shaders_slang/ntsc/ntsc-256px-composite.slangp
+    - Save
+      - Save Core Preset
+
+Change the following latency settings, substituting x with the specific game's number:
+
+- Latency
+  - Run-Ahead to Reduce Latency
+    - Number of Frames to Run-Ahead: x
+- Overrides
+  - Save Game Overrides
 
 ## Sony - PlayStation 2 (LRPS2) (currently broken for certain titles)
 
