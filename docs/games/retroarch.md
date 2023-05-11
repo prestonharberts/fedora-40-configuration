@@ -9,7 +9,6 @@ sudo dnf install retroarch
 Change the following settings:
 
 - Drivers
-  - Menu: rgui
   - Video: vulkan
 - Video
   - Output
@@ -74,16 +73,28 @@ Change the following settings:
 - User Interface
   - Menu Item Visibility
     - Quick Menu
+      - Show 'Save/Load State': Off
+      - Show 'Unde Save/Load State': Off
       - Show 'Replay Controls': Off
       - Show 'Start Recording': Off
       - Show 'Start Streaming': Off
-      - Show 'Latency': Off
+      - Show 'On-Screen Overlay': Off
       - Show 'Rewind': Off
       - Show 'Cheats': Off
       - Show 'Set Core Association': Off
       - Show 'Reset Core Association': Off
       - Show 'Download Thumbnails': Off
       - Show 'Information': Off
+    - Settings
+      - Show 'Audio': Off
+      - Show 'Frame Throttle': Off
+      - Show 'Recording': Off
+      - Show 'On-Screen Display': Off
+      - Show 'AI Service': Off
+      - Show 'Accessibility': Off
+      - Show 'Power Management': Off
+      - Show '
+      - Show '
     - Show 'Dump Disc': Off
     - Show 'Online Updater': On
     - Show 'Core Downloader': On
@@ -96,21 +107,29 @@ Change the following settings:
     - Show Battery Level: Off
     - Show Core Name: Off
   - Appearance
-    - Border Filler: Off
-    - Menu Aspect Ratio: Choose the centered variant of your monitor's aspect ratio
-    - Menu Color Theme: Hacking the Kernel
-    - Top Thumbnail: Off
-    - Smooth Ticker Text
-    - Switch Icons: Off
+    - Thumbnail Upscaling Threshold: 1024
   - Pause Content When Controller Disconnects: On
   - Mouse Support: Off
+- Achievements
+  - Achievements: On
+  - Username: Enter username
+  - Password: Enter password
+  - Hardcore Mode: On
 - Playlists
   - Show Playlist Sub-Labels: Off
   - Scan Without Core Math: Off
+  - Sort Playlists After Name Truncation: On
 - User
   - Username: Enter username
 - Directory
   - File Browser: ~/fun/emu
+
+Change the following setting after the above is complete:
+
+- User Interface
+  - Menu Item Visibility
+    - Settings
+      - Show 'On-Screen Display': Off
 
 Go to the Main Menu, and select the following option:
 
@@ -146,6 +165,8 @@ cp /usr/share/libretro/autoconfig/* autoconfig/ -r
 
 Go to the Main Menu, and select the following option:
 
+- Online Updater
+  - On-Demand Thumbnail Downloads: On
 - Configuration File
   - Save Current Configuration
 
@@ -195,43 +216,97 @@ Move system files (BIOS, firmware, etc.) to `~/.config/retroarch/system`.
 
 Download the [CyberLab Mega Bezel - Death To Pixels shader preset pack](https://github.com/CyberLabSystems/CyberLab-Mega-Bezel-Death-To-Pixels-Shader-Preset-Pack/releases) and the [CyberLab custom Blargg NTSC video filter presets](https://github.com/CyberLabSystems/CyberLab-Custom-Blargg-NTSC-Video-Filter-Presets/releases). Move the shaders to `~/.config/retroarch/shaders/`. Move the filter presets to `~/.config/retroarch/filters/video/`.
 
-Change the following settings with games loaded in their respective core:
+Now, continue to change core settings with games loaded in their respective core when needed. Run-Ahead frames will depend on the game loaded, so latency settings where x is the value for the game in the table below:
 
-- Nintendo - NES / Famicon (Nestopia UE)
-  - Quick Menu
-    - Controls
-      - All ports
-        - A Button (right)/Auto Circle (btn): B
-        - B Button (down)/Auto Cross (btn): A
-        - X Button (top)/Auto Triangle (btn): A
-        - Y Button (left)/Auto Square (btn): B
-      - Manage Remap Files
-        - Save Core Remap Files
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_NES_ADV.slangp
-      - Shader Parameters
-        - [ CRT SCREEN SCALING GENERAL ]
-          - Integer Scale Mode: 0.00
-        - [ INTRO SEQUENCE ]
-          - When to Show Intro: 0.00
-      - Prepend: shaders_slang/ntsc/ntsc-256px-composite.slangp
-      - Save
-        - Save Core Preset
-- Sony - PlayStation 2 (LRPS2)
-  - Core Options
-    - System
-      - BIOS: Choose region
-      - Fast Loading: On
-    - Video
-      - Aspect Ratio: Widescreen (16:9)
-      - Enable Widescreen Patches: On
-    - Shaders
-      - Video Shaders: On
-      - Remember Last Used Shader Directory: On
-      - Load: shaders_slang/crt/crt-royale.slangp
-      - Shader Parameters
-        - Interlacing - Toggle: 0.00
-      - Save
-        - Save Core Preset
+## Nintendo - NES / Famicon (Nestopia UE)
+
+Change the following settings from the Quick Menu:
+
+- Change `savestate_features = "serialized"` to `savestate_features = "deterministic"` in `~/.config/retroarch/cores/info/nestopia_libretro.info`
+- Quick Menu
+  - Controls
+    - All ports
+      - A Button (right)/Auto Circle (btn): B
+      - B Button (down)/Auto Cross (btn): A
+      - X Button (top)/Auto Triangle (btn): A
+      - Y Button (left)/Auto Square (btn): B
+    - Manage Remap Files
+      - Save Core Remap Files
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_NES_ADV.slangp
+    - Shader Parameters
+      - [ CRT SCREEN SCALING GENERAL ]
+        - Integer Scale Mode: 0.00
+      - [ INTRO SEQUENCE ]
+        - When to Show Intro: 0.00
+    - Prepend: shaders_slang/ntsc/ntsc-256px-composite.slangp
+    - Save
+      - Save Core Preset
+
+Change the following latency settings, substituting x with the specific game's number:
+
+- Latency
+  - Run-Ahead to Reduce Latency
+    - Number of Frames to Run-Ahead: x
+- Overrides
+  - Save Game Overrides
+
+Super Mario Bros: 1
+
+## Finalburn Neo
+
+Change the following settings from the Quick Menu:
+
+- Quick Menu
+  - Controls
+    - All ports
+      - Left Bumper: Buttons 3x Punch
+      - Right Bumper: Strong Punch
+      - Left Trigger: Buttons 3x Kick
+      - Right Trigger: Strong Kick
+    - Manage Remap Files
+      - Save Core Remap Files
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/CyberLab_Arcade-Sharp_1440p_PVM-Edition_ADV.slangp
+    - Shader Parameters
+      - [ CRT SCREEN SCALING GENERAL ]
+        - Integer Scale Mode: 0.00
+      - [ INTRO SEQUENCE ]
+        - When to Show Intro: 0.00
+    - Save
+      - Save Core Preset
+
+Change the following latency settings, substituting x with the specific game's number:
+
+- Latency
+  - Run-Ahead to Reduce Latency
+    - Number of Frames to Run-Ahead: x
+- Overrides
+  - Save Game Overrides
+
+Street Fighter III: Third Strike: 3
+Super Street Fighter 2 Turbo: 3
+
+## Sony - PlayStation 2 (LRPS2) (currently broken for certain titles)
+
+Change the following settings from the Quick Menu:
+
+- Core Options
+  - System
+    - BIOS: Choose region
+    - Fast Loading: On
+  - Video
+    - Aspect Ratio: Widescreen (16:9)
+    - Enable Widescreen Patches: On
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/crt/crt-royale.slangp
+    - Shader Parameters
+      - Interlacing - Toggle: 0.00
+    - Save
+      - Save Core Preset
