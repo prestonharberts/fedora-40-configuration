@@ -219,81 +219,6 @@ Download the [CyberLab Mega Bezel - Death To Pixels shader preset pack](https://
 
 Now, continue to change core settings with games loaded in their respective core when needed. Run-Ahead frames will depend on the game loaded, so latency settings where x is the value for the game in the table below:
 
-## Nintendo - NES / Famicon (Nestopia UE)
-
-Change the following settings from the Quick Menu:
-
-- Change `savestate_features = "serialized"` to `savestate_features = "deterministic"` in `~/.config/retroarch/cores/info/nestopia_libretro.info`
-- Quick Menu
-  - Controls
-    - All ports
-      - A Button (right)/Auto Circle (btn): B
-      - B Button (down)/Auto Cross (btn): A
-      - X Button (top)/Auto Triangle (btn): A
-      - Y Button (left)/Auto Square (btn): B
-    - Manage Remap Files
-      - Save Core Remap Files
-  - Shaders
-    - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_NES_ADV.slangp
-    - Shader Parameters
-      - [ CRT SCREEN SCALING GENERAL ]
-        - Integer Scale Mode: 0.00
-      - [ INTRO SEQUENCE ]
-        - When to Show Intro: 0.00
-    - Prepend: shaders_slang/ntsc/ntsc-256px-composite.slangp
-    - Save
-      - Save Core Preset
-
-Change the following latency settings, substituting x with the specific game's number:
-
-- Latency
-  - Run-Ahead to Reduce Latency
-    - Number of Frames to Run-Ahead: x
-- Overrides
-  - Save Game Overrides
-
-Super Mario Bros: 1
-
-## Nintendo - Game Boy / Color (Gambatte)
-
-Change the following settings from the Quick Menu:
-
-- Quick Menu
-  - Controls
-    - Port 1
-      - A Button (right)/Auto Circle (btn): B
-      - B Button (down)/Auto Cross (btn): A
-      - X Button (top)/Auto Triangle (btn): A
-      - Y Button (left)/Auto Square (btn): B
-    - Manage Remap Files
-      - Save Core Remap Files
-  - Shaders
-    - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/handheld/gameboy.slangp (for Game Boy games) or shaders_slang/handheld/retro-tiles.slangp (for Game Boy Color games)
-    - Prepend: shaders_slangp/handheld/gbc-color.slangp (for Game Boy Color games)
-    - Shader Parameters (for Game Boy Color games)
-      - Lighten Screen: 0.70
-      - Tile Depth: 0.60
-      - Tile Size: 0.60
-    - Save
-      - Save Game Preset (for every game for this core)
-
-Change the following latency settings, substituting x with the specific game's number:
-
-- Latency
-  - Run-Ahead to Reduce Latency
-    - Number of Frames to Run-Ahead: x
-- Overrides
-  - Save Game Overrides
-
-Castlevania The Adventure: 2
-Operation C: 1
-Super Mario Land: 2
-The Legend of Zelda Oracle of Ages: 2
-
 ## Arcade (Finalburn Neo)
 
 Change the following settings from the Quick Menu:
@@ -344,15 +269,62 @@ Change the following parameters for the shader:
     - Save
       - Save Game Preset
 
-## Nintendo - Nintendo 64 (ParaLLEl N64)
+## Nintendo - Game Boy / Color (Gambatte)
 
 Change the following settings from the Quick Menu:
 
 - Quick Menu
+  - Controls
+    - Port 1
+      - A Button (right)/Auto Circle (btn): B
+      - B Button (down)/Auto Cross (btn): A
+      - X Button (top)/Auto Triangle (btn): A
+      - Y Button (left)/Auto Square (btn): B
+    - Manage Remap Files
+      - Save Core Remap Files
   - Shaders
     - Video Shaders: On
     - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_N64_ADV.slangp
+    - Load: shaders_slang/handheld/gameboy.slangp (for Game Boy games) or shaders_slang/handheld/retro-tiles.slangp (for Game Boy Color games)
+    - Prepend: shaders_slangp/handheld/gbc-color.slangp (for Game Boy Color games)
+    - Shader Parameters (for Game Boy Color games)
+      - Lighten Screen: 0.70
+      - Tile Depth: 0.60
+      - Tile Size: 0.60
+    - Save
+      - Save Game Preset (for every game for this core)
+
+Change the following latency settings, substituting x with the specific game's number:
+
+- Latency
+  - Run-Ahead to Reduce Latency
+    - Number of Frames to Run-Ahead: x
+- Overrides
+  - Save Game Overrides
+
+Castlevania The Adventure: 2
+Operation C: 1
+Super Mario Land: 2
+The Legend of Zelda Oracle of Ages: 2
+
+## Nintendo - NES / Famicon (Nestopia UE)
+
+Change the following settings from the Quick Menu:
+
+- Change `savestate_features = "serialized"` to `savestate_features = "deterministic"` in `~/.config/retroarch/cores/info/nestopia_libretro.info`
+- Quick Menu
+  - Controls
+    - All ports
+      - A Button (right)/Auto Circle (btn): B
+      - B Button (down)/Auto Cross (btn): A
+      - X Button (top)/Auto Triangle (btn): A
+      - Y Button (left)/Auto Square (btn): B
+    - Manage Remap Files
+      - Save Core Remap Files
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_NES_ADV.slangp
     - Shader Parameters
       - [ CRT SCREEN SCALING GENERAL ]
         - Integer Scale Mode: 0.00
@@ -369,6 +341,50 @@ Change the following latency settings, substituting x with the specific game's n
     - Number of Frames to Run-Ahead: x
 - Overrides
   - Save Game Overrides
+
+Super Mario Bros: 1
+
+## Nintendo - Nintendo 64 (ParaLLEl N64)
+
+Change the following settings from the Quick Menu:
+
+- Change `savestate_features = "serialized"` to `savestate_features = "deterministic"` in `~/.config/retroarch/cores/info/parallel_n64_libretro.info`
+- Quick Menu
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_N64_ADV.slangp
+    - Shader Parameters
+      - [ CRT SCREEN SCALING GENERAL ]
+        - Integer Scale Mode: 0.00
+      - [ INTRO SEQUENCE ]
+        - When to Show Intro: 0.00
+    - Save
+      - Save Core Preset
+
+Change the following latency settings, substituting x and y with the specific game's values:
+
+- Latency
+  - Run-Ahead to Reduce Latency
+    - Number of Frames to Run-Ahead: x
+  - Shaders
+    - Shader Parameters
+      - [ CROPPING CORE IMAGE ]
+        - Integer Scale Mode: y
+- Overrides
+  - Save Game Overrides
+
+Donkey Kong 64: 7; 5.10
+Super Mario 64: 3; 3.20
+The Legend of Zelda Ocarina of Time: 10
+
+Change the following settings:
+
+- Quick Menu
+  - Shaders
+    - Shader Parameters
+    - Save
+      - Save Game Preset
 
 ## Sony - PlayStation 2 (LRPS2) (currently broken for certain titles)
 
