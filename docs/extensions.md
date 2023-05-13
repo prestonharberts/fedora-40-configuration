@@ -116,7 +116,7 @@ Change the following settings for the Built-In extensions:
   - Font size: 11 pt
 - (light-top-bar) Floating Panel by aylur
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
-- Focus by scaryawr
+- Focus by scaryawr (currently disabled)
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
 - Just Perfection by JustPerfection
   - Visibility
@@ -174,7 +174,7 @@ Change the following settings for the Built-In extensions:
       - Skip LibAdwaita Applications: Off
       - Window Shadow
         - Focus Window
-          - Spread Radius: -10.0
+          - Spread Radius: 6.0
         - Unfocus Window
           - Vertical Offset: 4.0
           - Blur Offset: 28.0
