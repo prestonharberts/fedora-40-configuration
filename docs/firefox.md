@@ -146,3 +146,11 @@ media.ffmpeg.vaapi.enabled = true
 media.ffvpx.enabled = false
 media.rdd-vpx.enabled = false
 ```
+
+# Other about:config changes
+
+Also change the following from `about:config`:
+
+```
+browser.tabs.closeWindowWithLastTab = false
+```
