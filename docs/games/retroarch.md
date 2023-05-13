@@ -386,6 +386,58 @@ Change the following settings:
     - Save
       - Save Game Preset
 
+## Sega - MS/GG/MD/CD (Genesis Plus GX)
+
+Change the following settings from the Quick Menu:
+
+- Change `savestate_features = "serialized"` to `savestate_features = "deterministic"` in `~/.config/retroarch/cores/info/parallel_n64_libretro.info`
+- Quick Menu
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_Genesis_for_CyberLab_or_Blargg_Composite_or_S-Video_Filter.slangp
+    - Shader Parameters
+      - [ CRT SCREEN SCALING GENERAL ]
+        - Integer Scale Mode: 0.00
+      - [ INTRO SEQUENCE ]
+        - When to Show Intro: 0.00
+    - Save
+      - Save Core Preset
+
+Change the following settings, and then navigate to the Quick Menu to save overrides:
+
+- Video
+  - Video Filter: Blargg_NTSC_Genesis_Composite_CyberLab_Special_Edition_II.filt
+- Overrides
+  - Save Core Overrides
+
+Change the following latency settings, substituting x with the specific game's values:
+
+- Latency
+  - Run-Ahead to Reduce Latency
+    - Number of Frames to Run-Ahead: x
+- Overrides
+  - Save Game Overrides
+
+Comix Zone: 
+
+## Sony - PlayStation (Beetle PSX HW)
+
+Change the following settings from the Quick Menu:
+
+- Quick Menu
+  - Shaders
+    - Video Shaders: On
+    - Remember Last Used Shader Directory: On
+    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_PSX_Composite_ADV.slangp
+    - Shader Parameters
+      - [ NON-INTEGER SCALE PERCENT ]
+        - Non-Integer Scale %: 82.97
+      - [ INTRO SEQUENCE ]
+        - When to Show Intro: 0.00
+    - Save
+      - Save Core Preset
+
 ## Sony - PlayStation 2 (LRPS2) (currently broken for certain titles)
 
 Change the following settings from the Quick Menu:
