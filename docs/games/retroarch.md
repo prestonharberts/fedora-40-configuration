@@ -12,11 +12,9 @@ Change the following settings:
   - Video: vulkan
 - Video
   - Output
-    - FPU Index: Confirm that it is using your primary GPU
+    - GPU Index: Confirm that it is using your primary GPU
   - Fullscreen Mode
     - Start in Fullscreen Mode: On
-  - Scaling
-    - Aspect Ratio: Choose monitor aspect ratio
 - Input
   - Confirm Quit: Off
   - Menu Controls
@@ -63,11 +61,16 @@ Change the following settings:
 - On-Screen Display
   - On-Screen Notifications
     - Notification Visibility
+      - "Load Content" Startup Notification: Off
+      - Input (Autoconfig) Connection Notifications: Off
+      - Cheat Code Notifications: Off
+      - Patch Notifications: Off
+      - Input Remap Loaded Notifications: Off
+      - Config Override Loaded Notifications: Off
+      - Initial Disc Restored Notifications: Off
+      - Fast-Forward Notifications: Off
+      - Screenshot Notifications: Off
       - Menu-only Notifications: On
-    - Graphics Widgets: Off
-      - Notification Color (Red): 0
-      - Notification Color (Green): 255
-      - Notification Color (Blue): 0
   - On-Screen Overlay
     - Display Overlay: Off
 - User Interface
@@ -89,7 +92,6 @@ Change the following settings:
       - Show 'Audio': Off
       - Show 'Frame Throttle': Off
       - Show 'Recording': Off
-      - Show 'On-Screen Display': Off
       - Show 'AI Service': Off
       - Show 'Accessibility': Off
       - Show 'Power Management': Off
@@ -114,6 +116,15 @@ Change the following settings:
   - Achievements: On
   - Username: Enter username
   - Password: Enter password
+  - Visibility
+    - Startup Summary: Off
+    - Unlock Notifications: Off
+    - Mastery Notifications: Off
+    - Active Challenge Indicators: Off
+    - Login Messages: Off
+    - Verbose Messages: Off
+    - Leaderboards: Disabled
+    - Rich Presence: Off
   - Hardcore Mode: On
 - Playlists
   - Show Playlist Sub-Labels: Off
@@ -191,7 +202,6 @@ Download the following from the respective Downloader:
   - Nintendo - SNES / SFC (Snes9x - Current)
   - Sega - MS/GG/MD/CD (Genesis Plus GX)
   - Sony - PlayStation (Beetle PSX HW)
-  - Sony - PlayStation 2 (LRPS2)
 
 After all this, import all content from `~/fun/emu/`. Change the following settings:
 
@@ -199,23 +209,21 @@ After all this, import all content from `~/fun/emu/`. Change the following setti
   - Manage Playlists
     - Every playlist
       - Default Core: Choose respective core
-      - Label Display Mode: Keep Disc Index
 
 Go to the Main Menu, and select the following option:
 
 - Configuration File
   - Save Current Configuration
 
-Run the following to sync saves with Tresorit:
+Run the following to sync saves and playlists with Tresorit:
 
 ```
 ln -s ~/.config/retroarch/saves/ ~/fun/sav/retroarch/saves/
 ln -s ~/.config/retroarch/states/ ~/fun/sav/retroarch/states
+ln -s ~/.config/retroarch/playlists/ ~/fun/sav/retroarch/playlists
 ```
 
 Move system files (BIOS, firmware, etc.) to `~/.config/retroarch/system`.
-
-Download the [CyberLab Mega Bezel - Death To Pixels shader preset pack](https://github.com/CyberLabSystems/CyberLab-Mega-Bezel-Death-To-Pixels-Shader-Preset-Pack/releases) and the [CyberLab custom Blargg NTSC video filter presets](https://github.com/CyberLabSystems/CyberLab-Custom-Blargg-NTSC-Video-Filter-Presets/releases). Move the shaders to `~/.config/retroarch/shaders/`. Move the filter presets to `~/.config/retroarch/filters/video/`.
 
 Now, continue to change core settings with games loaded in their respective core when needed. Run-Ahead frames will depend on the game loaded, so latency settings where x is the value for the game in the table below:
 
@@ -234,13 +242,9 @@ Change the following settings from the Quick Menu:
       - Save Core Remap Files
   - Shaders
     - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/CyberLab_Arcade-Sharp_1440p_PVM-Edition_ADV.slangp
+    - Load: shaders_slang/
     - Shader Parameters
-      - [ CRT SCREEN SCALING GENERAL ]
-        - Integer Scale Mode: 0.00
-      - [ INTRO SEQUENCE ]
-        - When to Show Intro: 0.00
+
     - Save
       - Save Core Preset
 
@@ -262,10 +266,7 @@ Change the following parameters for the shader:
 - Quick Menu
   - Shaders
     - Shader Parameters
-      - [ CRT SCREEN SCALING GENERAL ]
-        - Integer Scale Mode: 1.00
-      - [ ASPECT RATIO ]
-        - Type: 6.00
+
     - Save
       - Save Game Preset
 
@@ -284,11 +285,10 @@ Change the following settings from the Quick Menu:
       - Save Core Remap Files
   - Shaders
     - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/handheld/gameboy.slangp (for Game Boy games) or shaders_slang/handheld/retro-tiles.slangp (for Game Boy Color games)
+    - Load: shaders_slang/handheld/retro-tiles.slangp
     - Prepend: shaders_slangp/handheld/gbc-color.slangp (for Game Boy Color games)
-    - Shader Parameters (for Game Boy Color games)
-      - Lighten Screen: 0.70
+    - Shader Parameters
+      - Lighten Screen: 0.70 (for Game Boy Color games)
       - Tile Depth: 0.60
       - Tile Size: 0.60
     - Save
@@ -323,14 +323,11 @@ Change the following settings from the Quick Menu:
       - Save Core Remap Files
   - Shaders
     - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_NES_ADV.slangp
+    - Load: shaders_slang/ntsc/ntsc-256px-composite.slangp
+    - Prepend: shaders_slang/crt/crt-royale.slangp
     - Shader Parameters
-      - [ CRT SCREEN SCALING GENERAL ]
-        - Integer Scale Mode: 0.00
-      - [ INTRO SEQUENCE ]
-        - When to Show Intro: 0.00
-    - Prepend: shaders_slang/ntsc/ntsc-256px-composite.slangp
+      - Border - Size: 0.00
+      - Interlacing - Toggle: 0.00
     - Save
       - Save Core Preset
 
@@ -352,39 +349,25 @@ Change the following settings from the Quick Menu:
 - Quick Menu
   - Shaders
     - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_N64_ADV.slangp
+    - Load: shaders_slang/ntsc/ntsc-320px-composite.slangp
+    - Prepend: shaders_slang/crt/crt-royale.slangp
     - Shader Parameters
-      - [ CRT SCREEN SCALING GENERAL ]
-        - Integer Scale Mode: 0.00
-      - [ INTRO SEQUENCE ]
-        - When to Show Intro: 0.00
+      - Border - Size: 0.00
+      - Interlacing - Toggle: 0.00
     - Save
       - Save Core Preset
 
-Change the following latency settings, substituting x and y with the specific game's values:
+Change the following latency settings, substituting x with the specific game's values:
 
 - Latency
   - Run-Ahead to Reduce Latency
     - Number of Frames to Run-Ahead: x
-  - Shaders
-    - Shader Parameters
-      - [ CROPPING CORE IMAGE ]
-        - Integer Scale Mode: y
 - Overrides
   - Save Game Overrides
 
-Donkey Kong 64: 7; 5.10
-Super Mario 64: 3; 3.20
+Donkey Kong 64: 7
+Super Mario 64: 3
 The Legend of Zelda Ocarina of Time: 10
-
-Change the following settings:
-
-- Quick Menu
-  - Shaders
-    - Shader Parameters
-    - Save
-      - Save Game Preset
 
 ## Sega - MS/GG/MD/CD (Genesis Plus GX)
 
@@ -394,20 +377,16 @@ Change the following settings from the Quick Menu:
 - Quick Menu
   - Shaders
     - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_Genesis_for_CyberLab_or_Blargg_Composite_or_S-Video_Filter.slangp
+    - Load: shaders_slang/ntsc/ntsc-320px-composite.slangp
+    - Prepend: shaders_slang/crt/crt-royale.slangp
     - Shader Parameters
-      - [ CRT SCREEN SCALING GENERAL ]
-        - Integer Scale Mode: 0.00
-      - [ INTRO SEQUENCE ]
-        - When to Show Intro: 0.00
+      - Border - Size: 0.00
+      - Interlacing - Toggle: 0.00
     - Save
       - Save Core Preset
 
 Change the following settings, and then navigate to the Quick Menu to save overrides:
 
-- Video
-  - Video Filter: Blargg_NTSC_Genesis_Composite_CyberLab_Special_Edition_II.filt
 - Overrides
   - Save Core Overrides
 
@@ -425,35 +404,36 @@ Comix Zone:
 
 Change the following settings from the Quick Menu:
 
+- Core Options
+  - Video
+    - Internal GPU Resolution: 2x
+    - Dithering Pattern: Internal Resolution
+    - Texture Filtering: xBR
+    - Adaptive Smoothing: On
+    - MDEC YUV Chroma Filter: On
+  - PGXP (Precision Geometry Transform Pipeline)
+    - PGXP Operation Mode: Memory Only
+    - PGXP Primitive Culling: On
+    - PGXP Vertex Cache: On
+    - PGXP Perspective Correct Texturing
+  - Renderer (Restart Required): Software
 - Quick Menu
   - Shaders
     - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/CyberLab/MBZ_0_Smooth-Advance_Full_Reflections/[choose monitor resolution]/Console_Specific_Presets/CyberLab_PSX_Composite_ADV.slangp
+    - Load: shaders_slang/ntsc/ntsc-320px-composite.slangp
+    - Prepend: shaders_slang/crt/crt-royale.slangp
     - Shader Parameters
-      - [ NON-INTEGER SCALE PERCENT ]
-        - Non-Integer Scale %: 82.97
-      - [ INTRO SEQUENCE ]
-        - When to Show Intro: 0.00
-    - Save
-      - Save Core Preset
-
-## Sony - PlayStation 2 (LRPS2) (currently broken for certain titles)
-
-Change the following settings from the Quick Menu:
-
-- Core Options
-  - System
-    - BIOS: Choose region
-    - Fast Loading: On
-  - Video
-    - Aspect Ratio: Widescreen (16:9)
-    - Enable Widescreen Patches: On
-  - Shaders
-    - Video Shaders: On
-    - Remember Last Used Shader Directory: On
-    - Load: shaders_slang/crt/crt-royale.slangp
-    - Shader Parameters
+      - Border - Size: 0.00
       - Interlacing - Toggle: 0.00
     - Save
       - Save Core Preset
+
+Change the following setting for each of the following games:
+
+- Core Options
+  - PGXP (Precision Geometry Transform Pipeline)
+    - PGXP Operation Mode: Memory + CPU (Buggy)
+  - Manage Core Options
+    - Save Game Options
+
+Metal Gear Solid, Metal Gear Solid - VR Missions
