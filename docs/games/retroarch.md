@@ -227,9 +227,11 @@ ln -s ~/fun/sav/retroarch/playlists ~/.config/retroarch/
 Run the following to sync saves and playlists with Tresorit for the first time:
 
 ```
-ln -s ~/.config/retroarch/saves/ ~/fun/sav/retroarch/saves/
-ln -s ~/.config/retroarch/states/ ~/fun/sav/retroarch/states/
-ln -s ~/.config/retroarch/playlists/ ~/fun/sav/retroarch/playlists/
+mkdir ~/fun/sav/retroarch/
+cp ~/.config/retroarch/saves/ ~/.config/retroarch/states/ ~/.config/retroarch/playlists/ ~/fun/sav/retroarch/
+ln -s ~/fun/sav/retroarch/saves/ ~/.config/retroarch/
+ln -s ~/fun/sav/retroarch/states/ ~/.config/retroarch/
+ln -s ~/fun/sav/retroarch/playlists ~/.config/retroarch/
 ```
 
 Move system files (BIOS, firmware, etc.) to `~/.config/retroarch/system`.

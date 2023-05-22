@@ -45,8 +45,10 @@ ln -s ~/fun/sav/pcsx2/sstates/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
 Run the following to sync saves with Tresorit for the first time:
 
 ```
-ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/memcards/ ~/fun/sav/pcsx2/memcards/
-ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/sstates/ ~/fun/sav/pcsx2/sstates/
+mkdir ~/fun/sav/pcsx2/
+cp ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/memcards/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/sstates/ ~/fun/sav/pcsx2/
+ln -s ~/fun/sav/pcsx2/memcards/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
+ln -s ~/fun/sav/pcsx2/sstates/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
 ```
 
 ## FlatOut 2
