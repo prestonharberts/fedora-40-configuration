@@ -46,9 +46,16 @@ Open Application Menu, and open Settings. Change the following settings:
 		- Allow Firefox to send technical and interation data to Mozilla: Off
 		- Allow Firefox to install and run studies: Off
 
-## Bookmarks Toolbar
+## Customize Toolbar
 
-Open a new tab and right click an empty space on the Bookmarks toolbar. Change the following setting:
+Right click empty space on the toolbar (same bar as the search bar), and go to Customize Toolbar. Complete the following actions:
+
+- Remove the Flexible Space items on both sides of the search bar
+- Remove the Firefox account button
+- Remove the New Tab button next to the open tabs
+- Remove the Homepage button
+
+Right click an empty space on the Bookmarks toolbar. Change the following setting:
 
 - Bookmarks Toolbar: Never show
 
@@ -108,15 +115,6 @@ Click the Enhancer for YouTube extension button, and change the following settin
   - Hide related videos: On
   - Hide Shorts: On (Change `layout.css.has-selector.enabled` to `true` in about:config)
   - Convert Shorts: On
-
-## Customize Toolbar
-
-Right click empty space on the toolbar (same bar as the search bar), and go to Customize Toolbar. Complete the following actions:
-
-- Remove the Flexible Space items on both sides of the search bar
-- Remove the Firefox account button
-- Remove the New Tab button next to the open tabs
-- Remove the Homepage button
 
 ## GNOME Theme
 

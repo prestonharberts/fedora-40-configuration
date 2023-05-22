@@ -12,6 +12,7 @@ Open Preferences, and change the following settings:
 - General
   - Visible Columns
     - Year: On
+    - Rating: On
     - Genre: Off
 - Plugins
   - Song Lyrics: On
@@ -22,3 +23,10 @@ Open Preferences, and change the following settings:
         - Jlyric: On
         - Jetlyrics: On
       - Lyrics folder: `~/mus/lrx`
+
+Run the following to sync playlists and ratings with Tresorit:
+
+```
+ln -s ~/.local/share/rhythmbox/playlists.xml ~/mus/rhythmbox/playlists.xml
+ln -s ~/.local/share/rhythmbox/rhythmdb.xml ~/mus/rhythmbox/rhythmdb.xml
+```
