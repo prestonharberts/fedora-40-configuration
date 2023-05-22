@@ -24,7 +24,7 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
-export PATH=/home/prestonharberts/src/fedora-37-configuration/bin/:$PATH
+export PATH=/home/prestonharberts/src/fedora-36-configuration/bin/:$PATH
 export PATH=/home/prestonharberts/bin/:$PATH
 export PATH=/home/prestonharberts/go/bin/:$PATH
 
@@ -66,7 +66,7 @@ alias cdpic='cd ~/pic/'
 alias cdsrc='cd ~/src/'
 alias cdtmp='cd ~/tmp/'
 alias tasks='vi ~/doc/tasks'
-alias fedora='cd ~/src/fedora-37-configuration/docs/'
+alias fedora='cd ~/src/fedora-36-configuration/docs/'
 alias bible='cd ~/src/biblegateway-to-obsidian/ && c .'
 
 # frequently used commands: git
