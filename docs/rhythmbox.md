@@ -36,7 +36,7 @@ Run the following to sync playlists and ratings with Tresorit for the first time
 
 ```
 mkdir ~/mus/rhythmbox
-cp ~/.local/share/rhythmbox/playlists.xml ~/.local/share/rhythmbox/rhythmdb.xml ~/mus/rhythmbox/
+mv ~/.local/share/rhythmbox/playlists.xml ~/.local/share/rhythmbox/rhythmdb.xml ~/mus/rhythmbox/
 ln -s ~/mus/rhythmbox/playlists.xml ~/.local/share/rhythmbox/
 ln -s ~/mus/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/
 ```
