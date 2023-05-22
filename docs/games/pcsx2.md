@@ -34,11 +34,18 @@ Make a new controller profile named after the controller in use, and set its key
 
 For any game that is not in the same region as your current BIOS, update the Properties settings for that game to have the required BIOS.
 
-Run the following to sync saves with Tresorit:
+Run the following if you have already synced saves with Tresorit:
 
 ```
-ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/memcards/ ~/fun/sav/pcsx2/memcards
-ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/sstates/ ~/fun/sav/pcsx2/sstates
+ln -s ~/fun/sav/pcsx2/memcards/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
+ln -s ~/fun/sav/pcsx2/sstates/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
+```
+
+Run the following to sync saves with Tresorit for the first time:
+
+```
+ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/memcards/ ~/fun/sav/pcsx2/memcards/
+ln -s ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/sstates/ ~/fun/sav/pcsx2/sstates/
 ```
 
 ## FlatOut 2
