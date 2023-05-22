@@ -37,6 +37,7 @@ For any game that is not in the same region as your current BIOS, update the Pro
 Run the following if you have already synced saves with Tresorit:
 
 ```
+rm ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/memcards/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/sstates/ -r
 ln -s ~/fun/sav/pcsx2/memcards/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
 ln -s ~/fun/sav/pcsx2/sstates/ ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
 ```

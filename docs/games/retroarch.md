@@ -218,6 +218,7 @@ Go to the Main Menu, and select the following option:
 Run the following if you have already synced saves and playlists with Tresorit:
 
 ```
+rm ~/.config/retroarch/saves/ ~/.config/retroarch/states/ ~/.config/retroarch/playlists/ -r
 ln -s ~/fun/sav/retroarch/saves/ ~/.config/retroarch/
 ln -s ~/fun/sav/retroarch/states/ ~/.config/retroarch/
 ln -s ~/fun/sav/retroarch/playlists ~/.config/retroarch/

@@ -27,8 +27,9 @@ Open Preferences, and change the following settings:
 Run the following if you have already synced playlists and ratings with Tresorit:
 
 ```
+rm ~/.local/share/rhythmbox/playlists.xml ~/.local/share/rhythmbox/rhythmdb.xml
 ln -s ~/mus/rhythmbox/playlists.xml ~/.local/share/rhythmbox/
-ln -s ~/mus/rhythmbox/rhythmdb.xml~/.local/share/rhythmbox/
+ln -s ~/mus/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/
 ```
 
 Run the following to sync playlists and ratings with Tresorit for the first time:
