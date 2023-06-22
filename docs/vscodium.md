@@ -5,7 +5,7 @@ Install VSCodium with the following commands in terminal:
 ```
 sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
 printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
-sudo dnf install codium
+sudo dnf install codium -y
 ```
 
 Click "Mark as done", then disable "Show welcome page on startup" on the new page.
@@ -23,20 +23,19 @@ Change the following settings:
     - Enabled: Off
 - Window
   - Auto Detect Color Scheme: On
+  - Zoom Level: 1
 - Features
   - Terminal
     - Integrated: Font Family: 'SF Mono'
     - Integrated: Font Size: 13
 
-Install the GitHub Theme extension by GitHub, and change the following settings:
+Install the Fedora GNOME light & dark themes extension by olifink, and change the following settings:
 
 - Workbench
   - Appearance
-    - Color Theme: GitHub Light Default
-    - Preferred Dark Color Theme: GitHub Dark Default
-    - Preferred High Contrast Color Theme: GitHub Dark High Contrast
-    - Preferred High Contrast Light Color Theme: GitHub Light High Contrast
-    - Preferred Light Color Theme: GitHub Light Default
+    - Color Theme: Gnome Dark (GitHub)
+    - Preferred Dark Color Theme: Gnome Dark (GitHub)
+    - Preferred Light Color Theme: Gnome Light (GitHub)
 
 Install the Vim extension by vscodevim, Error Lens by usernamehw, Python by ms-python, clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first), Bash IDE by mads-hartmann, and ShellCheck by timonwong.
 

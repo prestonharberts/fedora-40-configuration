@@ -17,3 +17,14 @@ mkdir ~/.fonts/ ~/.fonts/opentype/
 mv ~/net/latin-modern-roman* ~/.fonts/opentype/
 fc-cache -v -f 
 ```
+
+To install Times New Roman and other Microsoft fonts, run the following:
+
+```
+cd ~/net/
+sudo yum install rpm-build cabextract ttmkfdir
+wget http://corefonts.sourceforge.net/msttcorefonts-2.5-1.spec
+rpmbuild -bb msttcorefonts-2.5-1.spec
+sudo rpm -ivh $HOME/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
+fc-cache -f -v
+```

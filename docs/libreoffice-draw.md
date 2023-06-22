@@ -1,3 +1,7 @@
 # LibreOffice Draw
 
-Install LibreOffice Draw by The Document Foundation on Software.
+Run the following to install LibreOffice Draw:
+
+```
+sudo dnf install libreoffice-draw -y
+```

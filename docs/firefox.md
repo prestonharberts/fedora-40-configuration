@@ -15,7 +15,8 @@ Open Application Menu, and open Settings. Change the following settings:
 - Search
 	- Default Search Engine: DuckDuckGo
 	- Search Suggestions
-		- Provide search suggestions: Off
+      - Show search suggestions in address bar results: On
+      - Show search suggestions ahead of browsing history in address bar results: Off
 	- Search Shortcuts
 		- Google: Off
 		- Amazon.com: Off
@@ -50,7 +51,7 @@ Open Application Menu, and open Settings. Change the following settings:
 
 Right click empty space on the toolbar (same bar as the search bar), and go to Customize Toolbar. Complete the following actions:
 
-- Remove the Flexible Space items on both sides of the search bar
+- Insert one additional Flexible Space on both sides of the search bar
 - Remove the Firefox account button
 - Remove the New Tab button next to the open tabs
 - Remove the Homepage button
@@ -63,12 +64,13 @@ Right click an empty space on the Bookmarks toolbar. Change the following settin
 
 Open Settings, and click the Extensions & Themes button at the bottom. Under the Extensions tab, click "Find more add-ons." Search and install the following extensions:
 
-- "Bitwarden - Free Password Manager" by Bitwarden Inc.
-- "Enhancer for YouTube" by Maxime RF
-- "Return YouTube Dislike" by Dmitry Selivanov
-- "SingleFile" by gildas to Firefox
-- "SponsorBlock - Skip Sponsorships on YouTube" by Ajay Ramachandran
-- "uBlock Origin" by Raymond Hill
+- Bitwarden - Free Password Manager by Bitwarden Inc.
+- Dark Reader by Alexander Shutau
+- Enhancer for YouTube by Maxime RF
+- Return YouTube Dislike by Dmitry Selivanov
+- SingleFile by gildas to Firefox
+- SponsorBlock - Skip Sponsorships on YouTube by Ajay Ramachandran
+- uBlock Origin by Raymond Hill
 	- When prompted, allow to run in private windows
 
 ### Bitwarden
@@ -81,10 +83,19 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
 			- General
 				- Clear clipboard: 2 minutes
 
+### Dark Reader
+
+Open the extension, and switch Off to On if you would like website to be displayed in dark mode. Change the following settings:
+
+- Contrast: -12
+
 ### Enhancer for YouTube
 
 Click the Enhancer for YouTube extension button, and change the following settings:
 
+- Theme
+  - Dark theme: On (if wanted); YouTube-DeepDark (custom)
+    - YouTube DeepDark (custom): ff0000; #242424; #292929; #454545
 - Video player
 	- Controls
 		- Loop: Off
@@ -150,5 +161,38 @@ media.rdd-vpx.enabled = false
 Also change the following from `about:config`:
 
 ```
+browser.fullscreen.autohide = false
 browser.tabs.closeWindowWithLastTab = false
+browser.tabs.insertAfterCurrent = true
+browser.chrome.site_icons = false
 ```
+
+## DuckDuckGo settings
+
+Change the following settings for the DuckDuckGo search engine settings page:
+
+- General
+  - Instant Answers: Off
+  - Infinite Scroll for Images, Videos, and Shopping: Off
+  - Advertisements: Off
+  - Units of Measure: US-based (pounds, feet, Fahrenheit)
+  - Install DuckDuckGo: Off
+  - Show occasional reminders to sign up for the DuckDuckGo privacy newsletters: Off
+  - Homepage Privacy Tips: Off
+  - Help Improve DuckDuckGo: Off
+- Appearance (for dark theme)
+  - Theme: Terminal
+  - Font: Custom; SF Pro Text (after following `fonts.md`)
+  - Center Alignment: On
+  - Background Color: #242424
+  - Header Behavior: On & Scrolling
+  - Header Color: #292929
+  - Title Font: Custom; SF Pro Text (after following `fonts.md`)
+  - Title Color: #87f1f3
+  - Visited Title Color: #888888
+  - URL Color: #888888
+  - URL Format: Domains Only
+  - URL Placement: Below Snippet
+  - Site Icons: Off
+- Privacy
+  - Video Playback: Open on third-party site

@@ -1,5 +1,0 @@
-sequence hyphenated {
-   safe {filename "/home/prestonharberts/.mysafe.tbl";};
-   wipeup {remove_trailing;};
-};
-

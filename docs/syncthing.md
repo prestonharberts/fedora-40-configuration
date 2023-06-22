@@ -1,8 +1,12 @@
 # Syncthing
 
-## Installation
+Run the following to install Syncthing:
 
-Run `sudo dnf install syncthing` and then run `syncthing`. A webpage should open. Decline anonymous usage reporting.
+```
+sudo dnf install syncthing
+```
+
+Then, run `syncthing`. A webpage should open. Decline anonymous usage reporting.
 
 Download Syncthing on Android, and make sure to disable battery optimizations when prompted to. Delete the Camera folder that is added by default.
 

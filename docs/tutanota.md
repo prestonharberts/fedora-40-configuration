@@ -1,16 +1,14 @@
 # Tutanota
 
-## Installation
+Run the following to download and install Tutanota:
 
-Go to the [Tutanota website](https://tutanota.com/), and download the Linux AppImage. Open Properties on the file, and change the following permission:
-
-- Permissions
-	- Execute
-		- Allow executing file as program
+```
+wget -P ~/net/ https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
+chmod u+x tutanota-desktop-linux.AppImage
+mv tutanota-desktop-linux.AppImage ~/com/app/
+```
 
 Move the file to `~/com/app/`, and execute the file.
-
-## Settings
 
 Go to Settings, and change the following settings:
 

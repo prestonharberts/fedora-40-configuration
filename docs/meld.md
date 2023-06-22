@@ -1,3 +1,7 @@
 # Meld
 
-Install Meld by The GNOME Project from Software.
+Run the following to install Meld:
+
+```
+sudo dnf install meld -y
+```

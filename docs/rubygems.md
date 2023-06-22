@@ -1,7 +1,7 @@
 # rubygems
 
-Install rubygems with the following command:
+Run the following to install rubygems:
 
 ```
-sudo dnf install rubygems
+sudo dnf install rubygems -y
 ```

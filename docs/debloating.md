@@ -1,7 +1,7 @@
 # Debloating
 
-Open Terminal, and run the following to uninstall Calendar:
+Run the following to uninstall programs that are no longer necessary after following this guide:
 
 ```
-sudo dnf remove gnome-calendar gnome-terminal
+sudo dnf remove gnome-calendar gnome-terminal -y
 ```

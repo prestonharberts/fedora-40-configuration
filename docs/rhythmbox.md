@@ -14,6 +14,10 @@ Open Preferences, and change the following settings:
     - Year: On
     - Rating: On
     - Genre: Off
+- Music
+  - Library Structure
+    - File name: Title
+    - Preferred format: FLAC
 - Plugins
   - Song Lyrics: On
     - Preferences
@@ -23,6 +27,9 @@ Open Preferences, and change the following settings:
         - Jlyric: On
         - Jetlyrics: On
       - Lyrics folder: `~/mus/lrx`
+  - Web remote control
+    - Preferences
+      - Access key: Create password
 
 Run the following if you have already synced playlists and ratings with Tresorit:
 

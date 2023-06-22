@@ -3,5 +3,5 @@
 Install xclip with the following command:
 
 ```
-sudo dnf install xclip
+sudo dnf install xclip -y
 ```

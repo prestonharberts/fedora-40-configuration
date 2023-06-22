@@ -1,6 +1,6 @@
 # Show password asterisks in terminal
 
-Open Terminal, and run the following command to open the visudo config:
+Run the following command to open the visudo config:
 
 ```
 sudo visudo

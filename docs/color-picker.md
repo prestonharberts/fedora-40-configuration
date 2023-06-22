@@ -1,5 +1,7 @@
 # Color Picker
 
-## Installation
+Run the following to install Color Picker:
 
-Install "Color Picker" by Christopher Davis from the Software program.
+```
+sudo dnf install gcolor3 -y
+```

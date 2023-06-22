@@ -1,7 +1,5 @@
 # Libreoffice Writer
 
-## Settings
-
 Open "User interface" under View, and change the following settings:
 
 - UI variants: Sidebar

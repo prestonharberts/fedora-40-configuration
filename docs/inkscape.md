@@ -1,3 +1,7 @@
 # Inkscape
 
-Install Inkscape by The Inkscape Community from Software.
+Run the following to install Inkscape:
+
+```
+sudo dnf install inkscape -y
+```

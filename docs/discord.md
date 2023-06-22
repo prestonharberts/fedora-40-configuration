@@ -1,6 +1,12 @@
 # Discord
 
-Install Discord by Discord Inc. from Software. Change the following settings:
+Run the following to install Discord:
+
+```
+sudo flatpak install flathub com.discordapp.Discord -y
+```
+
+Change the following settings:
 
 - Linux Settings
   - System Startup Behaviour

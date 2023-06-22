@@ -1,9 +1,16 @@
-# Easy Effects
+# EasyEffects
 
-Install Easy Effects by Wellington Wallace from Software. Change the following settings:
+Run the following to install EasyEffects:
+
+```
+sudo dnf install easyeffects -y
+```
+
+Change the following settings:
 
 - General
   - Launch Service at System Startup: On
+  - Currently, I do not use an equalizer. Leave the above option off if so, and enable "Shutdown on Window Closing"
 - Spectrum
   - State
     - Enabled: Off

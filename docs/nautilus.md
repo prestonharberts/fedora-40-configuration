@@ -1,6 +1,4 @@
-# Nautilus (AKA Files)
-
-## Preferences
+# Nautilus
 
 Open Preferences, and change the following settings
 

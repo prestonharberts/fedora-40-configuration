@@ -1,6 +1,12 @@
 # Konsole
 
-Install Konsole from Software. Change the following settings from the menubar:
+Run the following to install Konsole:
+
+```
+sudo dnf install konsole5 -y
+```
+
+Change the following settings from the menubar:
 
 - Toolbars shown:
   - Main toolbar: Off
@@ -20,7 +26,7 @@ Now, change the following settings under Configure Konsole:
         - Initial terminal size: 80 columns; 30 rows
         - Terminal bell mode: System Bell
     - Appearance
-      - Color scheme & font: Black on White
+      - Color scheme & font: Black on White (light) or Breeze (dark)
         - Font: SF Mono (after following the instructions in `sf-font.md`) 10.5pt
       - Cursor
         - Blinking > Enabled: On

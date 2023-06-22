@@ -1,6 +1,12 @@
 # MComix
 
-Install MComix (the one with a rating) from Software. Change the following settings from the menubar:
+Run the following to install MComix:
+
+```
+sudo flatpak install flathub net.sourceforge.mcomix -y
+```
+
+Change the following settings from the menubar:
 
 - View
   - Double page mode: On

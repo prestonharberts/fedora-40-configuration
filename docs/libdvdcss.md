@@ -3,5 +3,5 @@
 Run the following to install libdvdcss:
 
 ```
-sudo dnf install libdvdcss
+sudo dnf install libdvdcss -y
 ```

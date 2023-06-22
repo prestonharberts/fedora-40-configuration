@@ -1,3 +1,7 @@
 # Shotcut
 
-Install Shotcut by Meltytech, LLC from Software.
+Run the following to install Shotcut:
+
+```
+sudo flatpak install flathub org.shotcut.Shotcut -y
+```

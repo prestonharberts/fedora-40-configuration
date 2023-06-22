@@ -1,8 +1,12 @@
 # GStreamer Multimedia Codecs
 
-Install the following GStreamer Multimedia Codecs from Software:
+Run the following to install GStreamer Multimedia Codecs:
 
-- GStreamer Multimedia Codecs - H.264
-- GStreamer Multimedia Codecs - Non Free
-- GStreamer Multimedia Codecs - libav
-- GStreamer Multimedia Codecs - License Issues
+```
+sudo dnf install gstreamer1-plugin-openh264 -y
+sudo dnf install gstreamer1-libav -y
+sudo dnf install gstreamer1-plugin-libav -y
+sudo dnf install gstreamer1-plugins-bad-free -y
+sudo dnf install gstreamer1-plugins-ugly -y
+sudo dnf install gstreamer1-plugins-ugly-free -y
+```

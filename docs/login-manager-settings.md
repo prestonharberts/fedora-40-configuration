@@ -1,6 +1,10 @@
 # Login Manager Settings
 
-Install Login Manager Settings by Mazhar Hussain from Software.
+Run the following to install Login Manager Settings:
+
+```
+sudo flatpak install flathub io.github.realmazharhussain.GdmSettings -y
+```
 
 - Appearance
   - Background

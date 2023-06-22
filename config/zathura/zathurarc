@@ -1,0 +1,5 @@
+set adjust-open "best-fit"
+set guioptions ""
+set default-bg "#FFFFFF"
+set statusbar-bg "#FFFFFF"
+set statusbar-fg "#000000"

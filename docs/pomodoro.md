@@ -1,3 +1,7 @@
 # Gnome Pomodoro
 
-Install Pomodoro by Kamil Prusko from Software.
+Run the following to install Pomodoro:
+
+```
+sudo dnf install gnome-pomodoro -y
+```

@@ -3,5 +3,5 @@
 Run the following to install Vim:
 
 ```
-sudo dnf install vim
+sudo dnf install vim -y
 ```

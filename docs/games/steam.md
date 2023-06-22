@@ -4,14 +4,30 @@ Install Steam by Valve Corporation from Software. Also, open Terminal and run `s
 
 - In-Game
   - The Steam Overlay
-    - Enable the Steam Overlay while in-game: Off
+    - Use the Big Picture Overlay when using a controller: On
+    - Web browser home page: https://www.duckduckgo.com (make sure the s is present)
+    - Toolbar Preferences
+      - Achievements: Off
+      - Guides: Off
+      - Discussions: Off
+      - DLC: Off
+- Notifications
+  - Notifications
+    - I receive a new item in my inventory: Off
+    - There's a major sale
+- Chat Noifications
+  - When a friend joins a game: Off; Off
+  - Group events and announcements: Off; Off
+  - Flash window when I receive a chat message: Never
 - Interface
-  - Select which Steam window appears when the program starts: Library
+  - Start Up Location: Library
   - Notify me about additions or changes to my games, new releases, and upcoming releases: Off
 - Library
   - Low Bandwidth Mode: On
   - Low Performance Mode: On
+  - Disable Community Content: On
   - Show game icons in the left column: Off
+  - Ready to Play should include streamable games: Off
 - Remote Play
   - Enable Remote Play: Off
 - Controller

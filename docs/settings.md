@@ -3,13 +3,17 @@
 - Bluetooth
   - Disable Bluetooth if not needed, or connect devices as needed
 - Appearance
-  - Pick background from `conf/wallpapers` if desired
+  - Style
+    - Choose preferred style
+  - Background
+    - Choose background
 - Notifications
   - Do Not Disturb: On
   - Lock Screen Notifications: Off
 - Multitasking
   - Hot Corner: Off
   - Active Screen Edges: Off
+  - Workspaces: Fixed number of workspaces; 4
 - Privacy
   - Screen Lock
     - Blank Screen Delay: Never

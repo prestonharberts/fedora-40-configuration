@@ -1,6 +1,12 @@
 # Foliate
 
-Install Foliate by John Factotum from Software. Change the following settings:
+Run the following to install Foliate:
+
+```
+sudo dnf install foliate -y
+```
+
+Change the following settings:
 
 - Reading
   - Turn page on tap: Off

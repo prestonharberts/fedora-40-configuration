@@ -3,7 +3,7 @@
 Run the following to install Hanabi:
 
 ```
-sudo dnf install git meson ninja-build npm clapper
+sudo dnf install git meson ninja-build npm clapper -y
 cd ~/src
 git clone https://github.com/jeffshee/gnome-ext-hanabi.git
 cd gnome-ext-hanabi
