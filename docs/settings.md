@@ -52,17 +52,31 @@
     - Move window one workspace to the left: `Super-[`
     - Move window one workspace to the right: `Super-/`
     - Toggle fullscreen mode: `Super-F
-    - View split on left: Disabled
-    - View split on right: Disabled
+    - View split on left: Super+A
+    - View split on right: Super+S
+    - Toggle maximization state: Super+C
     - Maximize window: Disabled
     - Restore window: Disabled
     - Resize window: Disabled
     - Launch help browser: Disabled
     - Open the app menu: Disabled
-    - Toggle maximization state: Disabled
     - Switch windows directly: Disabled
     - Switch windows of an app directly: Disabled
     - Move window: Disabled
+    - Custom Shortcuts
+      - Create the following
+        - Game Mode; `disable-gnome-extensions.sh && kill-background-processes.sh`; Super+B
+        - Productivity Mode; `enable-gnome-extensions.sh && start-background-processes.sh`; Super+V
+        - Launch Firefox; `firefox`; `Shift+Super+1`
+        - Launch Tutanota; `~/com/app/tutanota\*`; `Shift+Super+2`
+        - Launch Todoist; `flatpak run com.todoist.Todoist`; `Shift+Super+3`
+        - Launch Obsidian; `flatpak run md.obsidian.Obsidian`; `Shift+Super+4`
+        - Launch Konsole; `konsole`; `Shift+Super+5`
+        - Launch Nautilus; `nautilus`; `Shift+Super+6`
+        - Launch Tresorit; `~/.local/share/tresorit/tresorit`; `Shift+Super+7`
+        - Launch Syncthing Web UI; `syncthing --browser-only`; `Shift+Super+8`
+        - Launch Bitwarden; `flatpak run com.bitwarden.desktop`; `Shift+Super+9`
+        - Launch Calculator; `gnome-calculator`; `Shift+Super+0`
 - Date & Time
   - Time Format: AM/PM
 - About
