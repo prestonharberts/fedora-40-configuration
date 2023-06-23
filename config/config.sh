@@ -57,6 +57,10 @@ sudo dnf install gcolor3 -y
 sudo dnf install inkscape -y
 # Ebooks
 sudo dnf install foliate -y
+# Gaming
+sudo dnf install steam -y
+sudo dnf install steam-devices -y
+sudo dnf install lutris -y
 
 # Dependencies
 
