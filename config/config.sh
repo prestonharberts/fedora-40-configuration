@@ -44,6 +44,7 @@ sudo dnf install detox -y
 sudo dnf install xclip -y
 sudo dnf install p7zip -y
 sudo dnf install p7zip-plugins -y
+sudo dnf install unrar -y
 # Syncing
 sudo dnf install syncthing -y
 # CD/DVD drive
