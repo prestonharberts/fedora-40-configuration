@@ -177,6 +177,7 @@ Change the following settings for the DuckDuckGo search engine settings page:
   - Advertisements: Off
   - Units of Measure: US-based (pounds, feet, Fahrenheit)
   - Install DuckDuckGo: Off
+  - Privacy Newsletters: Off
   - Show occasional reminders to sign up for the DuckDuckGo privacy newsletters: Off
   - Homepage Privacy Tips: Off
   - Help Improve DuckDuckGo: Off
