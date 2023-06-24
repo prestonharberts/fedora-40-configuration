@@ -4,6 +4,7 @@ Install Steam by Valve Corporation from Software. Also, open Terminal and run `s
 
 - In-Game
   - The Steam Overlay
+    - Enable the Steam Overlay while in-game: Off
     - Use the Big Picture Overlay when using a controller: On
     - Web browser home page: https://www.duckduckgo.com (make sure the s is present)
     - Toolbar Preferences
