@@ -51,3 +51,5 @@ python3 -m pip install --user pillow vdf steam
 git clone https://github.com/gasinvein/steam-desktop-updater
 ./steam_desktop_updater.py ~/.var/app/com.valvesoftware.Steam/data/Steam
 ```
+
+Add `~/.steam/steam/steamapps/common/` to Nautilus's bookmarks, after `com`.
