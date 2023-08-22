@@ -1,36 +1,39 @@
 # Steam
 
-Install Steam by Valve Corporation from Software. Also, open Terminal and run `sudo dnf install steam-devices` to install steam-devices, used to resolve issues with gamepads. Change the following settings:
+Install Steam by running the following:
 
+```
+sudo flatpak install flathub com.valvesoftware.Steam -y
+```
+
+Change the following settings:
+
+- Notifications
+  - Notifications
+    - I receive a new item in my inventory: Off
+    - There's a major sale
+  - Chat Noifications
+    - When a friend joins a game: Off; Off
+    - Group events and announcements: Off; Off
+    - Flash window when I receive a chat message: Never
+- Interface
+  - Start Up Location: Library
+  - Notify me about additions or changes to my games, new releases, and upcoming releases: Off
 - In-Game
   - The Steam Overlay
     - Enable the Steam Overlay while in-game: Off
-    - Use the Big Picture Overlay when using a controller: On
     - Web browser home page: https://www.duckduckgo.com (make sure the s is present)
     - Toolbar Preferences
       - Achievements: Off
       - Guides: Off
       - Discussions: Off
       - DLC: Off
-- Notifications
-  - Notifications
-    - I receive a new item in my inventory: Off
-    - There's a major sale
-- Chat Noifications
-  - When a friend joins a game: Off; Off
-  - Group events and announcements: Off; Off
-  - Flash window when I receive a chat message: Never
-- Interface
-  - Start Up Location: Library
-  - Notify me about additions or changes to my games, new releases, and upcoming releases: Off
 - Library
   - Low Bandwidth Mode: On
   - Low Performance Mode: On
   - Disable Community Content: On
   - Show game icons in the left column: Off
   - Ready to Play should include streamable games: Off
-- Remote Play
-  - Enable Remote Play: Off
 - Controller
   - General controller settings
     - PlayStation Configuration Support: On
@@ -38,6 +41,8 @@ Install Steam by Valve Corporation from Software. Also, open Terminal and run `s
     - Switch Configuration Support: On
     - Use Nintendo Button Layout: Off
     - Generic Gamepad Configuration Support: On
+- Remote Play
+  - Enable Remote Play: Off
 
 Collapse all collections by right-clicking on one, and selecting "Collapse all collections".
 

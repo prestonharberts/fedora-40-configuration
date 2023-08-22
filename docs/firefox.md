@@ -82,6 +82,8 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
 		- Autofill
 			- General
 				- Clear clipboard: 2 minutes
+                - Ask to add login: Off
+                - Ask to update existing login: Off
 
 ### Dark Reader
 
