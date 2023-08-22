@@ -67,6 +67,7 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 - Bitwarden - Free Password Manager by Bitwarden Inc.
 - Dark Reader by Alexander Shutau
 - Enhancer for YouTube by Maxime RF
+- OneTab by OneTab Team
 - Return YouTube Dislike by Dmitry Selivanov
 - SingleFile by gildas to Firefox
 - SponsorBlock - Skip Sponsorships on YouTube by Ajay Ramachandran
@@ -128,6 +129,13 @@ Click the Enhancer for YouTube extension button, and change the following settin
   - Hide related videos: On
   - Hide Shorts: On (Change `layout.css.has-selector.enabled` to `true` in about:config)
   - Convert Shorts: On
+
+### OneTab
+
+Click the OneTab extension icon, and unpin the newly created tab. Change the following settings:
+
+- Startup: Do not open OneTab automatically
+- Duplicates: Silently reject duplicates
 
 ## GNOME Theme
 
