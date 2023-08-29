@@ -1,4 +1,4 @@
-# Graphics and Gaming
+# GPU and graphics
 
 Run the following to install necessary graphics packages ([source](https://www.reddit.com/r/Fedora/comments/ud4uv0/fedora_for_gaming/)):
 
