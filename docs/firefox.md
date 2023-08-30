@@ -68,6 +68,7 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 - Dark Reader by Alexander Shutau
 - Enhancer for YouTube by Maxime RF
 - OneTab by OneTab Team
+- Progressive Web Apps by Filip S
 - Return YouTube Dislike by Dmitry Selivanov
 - SingleFile by gildas to Firefox
 - SponsorBlock - Skip Sponsorships on YouTube by Ajay Ramachandran
@@ -136,6 +137,25 @@ Click the OneTab extension icon, and unpin the newly created tab. Change the fol
 
 - Startup: Do not open OneTab automatically
 - Duplicates: Silently reject duplicates
+
+## Progressive Web Apps
+
+Follow the instructions presented by this extension when prompted. Make web apps for the following websites:
+
+- https://app.logos.com
+
+Now, sign in to your Firefox account to sync extensions. Uninstall every extension except for Bitwarden, Dark Reader, and uBlock Origin. Change Firefox's settings to follow this guide. Now, enable Dark Reader's "Filter+" setting from "More" tab inside the extension if the website does not display properly with the dark mode.
+
+Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `/chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
+
+```
+/* hides the title bar */
+#titlebar {
+  visibility: collapse;
+}
+```
+
+Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`. Restart the app.
 
 ## GNOME Theme
 
