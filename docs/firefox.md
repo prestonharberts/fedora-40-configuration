@@ -144,7 +144,17 @@ Follow the instructions presented by this extension when prompted. Make web apps
 
 - https://app.logos.com
 
-Now, sign in to your Firefox account to sync extensions. Uninstall every extension except for Bitwarden, Dark Reader, and uBlock Origin. Change Firefox's settings to follow this guide. Now, enable Dark Reader's "Filter+" setting from "More" tab inside the extension if the website does not display properly with the dark mode.
+Now, sign in to your Firefox account to sync extensions. Uninstall every extension except for Bitwarden, Dark Reader, and uBlock Origin. Change Firefox's settings to follow this guide.
+
+For the following websites, change the following settings:
+
+- https://app.logos.com
+  - Dark Reader
+    - Filter
+      - Brightness
+      - Contrast: -30
+    - More
+      - Filter+
 
 Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `/chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
 
