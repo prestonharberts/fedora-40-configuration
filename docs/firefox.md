@@ -143,21 +143,27 @@ Click the OneTab extension icon, and unpin the newly created tab. Change the fol
 Follow the instructions presented by this extension when prompted. Make web apps for the following websites:
 
 - https://app.logos.com
+- https://calendar.google.com/calendar/
 - https://devdocs.io
 
-Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, and uninstall every extension except for Bitwarden, Dark Reader, and uBlock Origin. Change Firefox's settings to follow this guide.
+Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, and uninstall every extension except for Dark Reader and uBlock Origin. Change Firefox's settings to follow this guide.
 
 For the following websites, change the following settings:
 
 - https://app.logos.com
   - Dark Reader
     - Filter
-      - Brightness
+      - Brightness: +50
       - Contrast: -30
     - More
       - Filter+
+- https://calendar.google.com/calendar/
+  - Dark Reader
+    - Filter
+      - Brightness +10
+      - Contrast: -10
 - https://devdocs.io
-  - Remove Bitwarden and Dark Reader extensions
+  - Remove the Dark Reader extension
   - Website preferences
     - General
       - Automatically download documentation for offline use: On
