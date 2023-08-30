@@ -143,8 +143,9 @@ Click the OneTab extension icon, and unpin the newly created tab. Change the fol
 Follow the instructions presented by this extension when prompted. Make web apps for the following websites:
 
 - https://app.logos.com
+- https://devdocs.io
 
-Now, sign in to your Firefox account to sync extensions. Uninstall every extension except for Bitwarden, Dark Reader, and uBlock Origin. Change Firefox's settings to follow this guide.
+Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, and uninstall every extension except for Bitwarden, Dark Reader, and uBlock Origin. Change Firefox's settings to follow this guide.
 
 For the following websites, change the following settings:
 
@@ -155,6 +156,11 @@ For the following websites, change the following settings:
       - Contrast: -30
     - More
       - Filter+
+- https://devdocs.io
+  - Remove Bitwarden and Dark Reader extensions
+  - Website preferences
+    - General
+      - Automatically download documentation for offline use: On
 
 Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `/chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
 
