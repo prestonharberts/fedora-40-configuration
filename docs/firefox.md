@@ -65,6 +65,7 @@ Right click an empty space on the Bookmarks toolbar. Change the following settin
 Open Settings, and click the Extensions & Themes button at the bottom. Under the Extensions tab, click "Find more add-ons." Search and install the following extensions:
 
 - Bitwarden - Free Password Manager by Bitwarden Inc.
+- Cookie AutoDelete by CAD Team
 - Dark Reader by Alexander Shutau
 - Enhancer for YouTube by Maxime RF
 - OneTab by OneTab Team
