@@ -119,7 +119,7 @@ Change the following settings for the Built-In extensions:
     - Show overview on startup: Off
     - Customize opacity: Fixed
     - Opacity: 0%
-  - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Todoist, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden, Calculator
+  - Unpin all current dock apps, and pin the following apps in order: Firefox, Tutanota, Google Calendar, Todoist, Obsidian, Konsole, Files, Tresorit, Syncthing Web UI, Bitwarden
 - (light or dark--top-bar) Date Menu Formatter by mjakubowski
   - Pattern: EEEE K:mm aaa
   - Font size: 11 pt
