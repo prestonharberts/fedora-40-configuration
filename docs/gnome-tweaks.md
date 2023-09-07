@@ -9,8 +9,8 @@ sudo dnf install gnome-tweaks -y
 - General
   - Suspend when laptop lid is closed: Off
 - Fonts
-  - Interface Text: SF Pro Display
-  - Document Text: SF Pro Display Regular
+  - Interface Text: SF Pro Text Regular
+  - Document Text: SF Pro Text Regular
   - Monospace Text: SF Mono Regular
   - Legacy Window Titles: SF Pro Display Bold
   - Antialiasing: Subpixel (for LCD screens)
