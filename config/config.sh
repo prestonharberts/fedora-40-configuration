@@ -38,6 +38,7 @@ cpan install File::Rename
 sudo dnf install vim -y
 sudo dnf install codium -y
 sudo dnf install meld -y
+sudo dnf install neovim -y
 # Command line
 sudo dnf install neofetch -y
 sudo dnf install detox -y
@@ -131,7 +132,7 @@ sudo systemctl enable keyd && sudo systemctl start keyd
 sudo cp ~/src/fedora-36-configuration/config/keyd/productivity/default.conf /etc/keyd/
 sudo keyd reload
 # Logiops
-# cd src
+# cd ~/src
 # git clone https://github.com/PixlOne/logiops
 # cd logiops
 # sudo dnf install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++ -y
@@ -142,11 +143,19 @@ sudo keyd reload
 # sudo make install
 # sudo cp ~/src/fedora-36-configuration/config/logiops/logid.cfg /etc/
 # sudo systemctl enable logid
+# Segoe fonts
+# cd ~/src/
+# git clone https://github.com/SpudGunMan/segoe-ui-linux
+# cd segoe-ui-linux
+# chmod u+x install.sh
+# sudo ./install.sh
+# sudo fc-cache -fv
 
 # Other
 
 # Tresorit
 wget -P ~/net/ https://installer.tresorit.com/tresorit_installer.run
+cd ~/net/
 sudo bash ./tresorit_installer.run
 
 # GNOME extensions
