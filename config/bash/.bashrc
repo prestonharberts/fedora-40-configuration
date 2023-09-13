@@ -48,7 +48,7 @@ alias z='zathura --fork'
 alias cls='clear && ls'
 alias cdu='cd ..'
 alias cduu='cd ../..'
-alias cduu='cd ../../..'
+alias cduuu='cd ../../..'
 
 # frequently used commands: system
 alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && sudo flatpak upgrade -y'
