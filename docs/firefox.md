@@ -123,8 +123,6 @@ Click the Enhancer for YouTube extension button, and change the following settin
 	- Autoplay
 		- Disable autoplay: On
 - Appearance
-  - Automatically enable YouTube's "Theatre mode": On
-  - Automatically expand the video player: On
   - Use the available space based on the viewport dimensions to expand the video player: On
   - Automatically expand the videos descriptions: On
   - Hide chat: On
@@ -235,18 +233,20 @@ Change the following settings for the DuckDuckGo search engine settings page:
   - Homepage Privacy Tips: Off
   - Help Improve DuckDuckGo: Off
 - Appearance (for dark theme)
-  - Theme: Terminal
+  - Theme: Terminal (dark)
   - Font: Custom; SF Pro Text (after following `fonts.md`)
   - Center Alignment: On
-  - Background Color: #242424
+  - Background Color: #242424 (dark)
   - Header Behavior: On & Scrolling
-  - Header Color: #292929
+  - Header Color: #292929 or #ebebeb (light)
   - Title Font: Custom; SF Pro Text (after following `fonts.md`)
-  - Title Color: #87f1f3
-  - Visited Title Color: #888888
-  - URL Color: #888888
+  - Title Color: #87f1f3 (dark) or #438de6 (light)
+  - Visited Title Color: #888888 (dark) or #869bb3 (light)
+  - Snippet Color: #222222 (light)
+  - URL Color: #888888 (dark) or #898888 (light)
   - URL Format: Domains Only
   - URL Placement: Below Snippet
+  - Hover, Module, and Dropdown Background Color: #f7f7f7 (light)
   - Site Icons: Off
 - Privacy
   - Video Playback: Open on third-party site
