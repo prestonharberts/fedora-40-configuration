@@ -1,4 +1,4 @@
-# Power Settings
+# tlp
 
 First, uninstall power-profiles-daemon and install TLP and powertop with the following:
 
