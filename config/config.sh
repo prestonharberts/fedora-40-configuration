@@ -48,6 +48,8 @@ sudo dnf install p7zip-plugins -y
 sudo dnf install unrar -y
 # Syncing
 sudo dnf install syncthing -y
+# Music
+sudo dnf install puddletag -y
 # CD/DVD drive
 sudo dnf install libdvdcss -y
 # Productivity
@@ -82,12 +84,11 @@ sudo flatpak install flathub com.todoist.Todoist -y
 # Music
 sudo flatpak install flathub io.bassi.Amberol -y
 sudo flatpak install flathub app.drey.EarTag -y
+sudo flatpak install flathub org.freac.freac -y
 # Files
 sudo flatpak install flathub io.gitlab.adhami3310.Converter -y
 # Social
 sudo flatpak install flathub com.discordapp.Discord -y
-# CD/DVD drive
-sudo flatpak install flathub org.freac.freac -y
 # Video
 sudo flatpak install flathub org.shotcut.Shotcut -y
 # Art
