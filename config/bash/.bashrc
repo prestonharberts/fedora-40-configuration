@@ -73,4 +73,7 @@ alias bible='cd ~/src/biblegateway-to-obsidian/ && c .'
 # frequently used commands: git
 alias gits='git status'
 alias gitcm='git commit -m'
+alias gita='git add'
 alias gitaa='git add -A'
+alias gitpl='git pull'
+alias gitps='git push'
