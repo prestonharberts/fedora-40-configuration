@@ -213,6 +213,7 @@ Change the following settings for the Built-In extensions:
 - Transparent Window Moving by Noobsai
   - Opacity (0..255): 230
 - Unite by hardpixel
+  - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
   - General
     - Extend top bar left box: Off
     - Show system tray in top bar: Off
