@@ -24,7 +24,6 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
-export PATH=/home/prestonharberts/src/fedora-38-configuration/bin/:$PATH
 export PATH=/home/prestonharberts/bin/:$PATH
 export PATH=/home/prestonharberts/go/bin/:$PATH
 
