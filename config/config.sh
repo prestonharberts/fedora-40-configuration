@@ -15,6 +15,13 @@ sudo dnf install gnome-extensions-app -y
 sudo dnf install gnome-tweaks -y
 sudo dnf install dconf-editor -y
 sudo dnf install gnome-shell-extension-pop-shell xprop -y
+# Power
+sudo dnf remove power-profiles-daemon -y
+sudo dnf install tlp tlp-rdw powertop -y
+sudo systemctl enable tlp.service
+sudo systemctl enable tlp.service
+sudo systemctl mask systemd-rfkill.service
+sudo systemctl mask systemd-rfkill.socket
 # Audio
 sudo dnf install easyeffects -y
 # Multimedia codecs
