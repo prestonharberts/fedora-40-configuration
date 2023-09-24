@@ -41,7 +41,7 @@ git clone https://github.com/SpudGunMan/segoe-ui-linux
 cd segoe-ui-linux
 ```
 
-Remove the function call that checks for an internet connection called `cekkoneksi` on line 174, then run the following:
+Remove the function call that checks for an internet connection called `cekkoneksi` on line 189, then run the following:
 
 ```
 chmod u+x install.sh
