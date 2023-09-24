@@ -21,7 +21,5 @@ sudo flatpak install flathub io.gitlab.adhami3310.Converter -y
 sudo flatpak install flathub com.discordapp.Discord -y
 # Video
 sudo flatpak install flathub org.shotcut.Shotcut -y
-# Art
-sudo flatpak install org.kde.krita -y
 # Ebooks
 sudo flatpak install flathub net.sourceforge.mcomix -y
