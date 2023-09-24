@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Git
 
@@ -26,7 +26,7 @@ git clone https://github.com/rvaiya/keyd
 cd keyd
 make && sudo make install
 sudo systemctl enable keyd && sudo systemctl start keyd
-sudo cp ~/src/fedora-36-configuration/config/keyd/productivity/default.conf /etc/keyd/
+sudo cp ~/src/fedora-38-configuration/configs/keyd/productivity/default.conf /etc/keyd/
 sudo keyd reload
 # Logiops
 # cd ~/src
@@ -38,7 +38,7 @@ sudo keyd reload
 # cmake ..
 # make
 # sudo make install
-# sudo cp ~/src/fedora-36-configuration/config/logiops/logid.cfg /etc/
+# sudo cp ~/src/fedora-38-configuration/configs/logiops/logid.cfg /etc/
 # sudo systemctl enable logid
 # Segoe fonts
 # cd ~/src/
