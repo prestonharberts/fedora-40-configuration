@@ -195,6 +195,11 @@ Change the following settings for the Built-In extensions:
       - Border Radius: 14.0
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
+      - Paddings
+        - Left: 0.0
+        - Right: 0.0
+        - Top: 0.0
+        - Bottom: 0.0
 - (light- or dark-top-bar) Simple Message by fredz (currently disabled)
   - Write your message: `  Tasks  `
   - Command to execute on click: `konsole --workdir ~/doc/ -e vim tasks`
