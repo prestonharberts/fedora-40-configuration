@@ -42,10 +42,10 @@
     - Switch applications: `Alt-Tab`
     - Show the overview: `Super-Tab`
     - Show all applications: `Shift-Super-Tab`
-    - Move window one monitor down: `Alt-Super-J`
-    - Move window one monitor to the left: `Alt-Super-H`
-    - Move window one monitor to the right: `Alt-Super-L`
-    - Move window one monitor up: `Alt-Super-K`
+    - Move window one monitor down: Disabled
+    - Move window one monitor to the left: Disabled
+    - Move window one monitor to the right: Disabled
+    - Move window one monitor up: Disabled
     - Settings: `Super-I`
     - Move to workspace on the left: `Super-;`
     - Move to workspace on the right: `Super-'`

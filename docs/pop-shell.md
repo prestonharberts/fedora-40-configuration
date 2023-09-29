@@ -16,10 +16,10 @@ Click the tray icon for Pop Shell, and change the following settings:
 
 Adjust the following settings in Settings > Keyboard > View and Customize Shortcuts:
 
-- Move window to leftward monitor: Disabled
-- Move window to lower monitor: Disabled
-- Move window to rightward monitor: Disabled
-- Move window to upper monitor: Disabled
+- Move window to leftward monitor: `Alt+Super+H`
+- Move window to lower monitor: `Alt+Super+J`
+- Move window to rightward monitor: `Alt+Super+L`
+- Move window to upper monitor: `Alt+Super+K`
 - Move window to lower workspace: Disabled
 - Move window to upper workspace: Disabled
 - Home folder: Disabled
