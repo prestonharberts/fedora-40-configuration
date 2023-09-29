@@ -15,6 +15,7 @@ sudo flatpak install flathub com.todoist.Todoist -y
 sudo flatpak install flathub io.bassi.Amberol -y
 sudo flatpak install flathub app.drey.EarTag -y
 sudo flatpak install flathub org.freac.freac -y
+sudo flatpak install flathub io.github.TheWisker.Cavasik -y
 # Files 
 sudo flatpak install flathub io.gitlab.adhami3310.Converter -y
 # Social
