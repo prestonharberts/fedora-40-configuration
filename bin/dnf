@@ -49,6 +49,7 @@ sudo dnf install xclip -y
 sudo dnf install p7zip -y
 sudo dnf install p7zip-plugins -y
 sudo dnf install unrar -y
+sudo dnf install go -y
 # Syncing
 sudo dnf install syncthing -y
 # Music
@@ -62,6 +63,8 @@ sudo dnf install gnome-pomodoro -y
 sudo dnf install gcolor3 -y
 sudo dnf install inkscape -y
 # Ebooks
+sudo dnf install zathura -y
+sudo dnf install zathura-plugins-all -y
 sudo dnf install foliate -y
 # Gaming
 sudo dnf install steam -y

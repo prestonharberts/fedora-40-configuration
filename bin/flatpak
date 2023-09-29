@@ -23,3 +23,6 @@ sudo flatpak install flathub com.discordapp.Discord -y
 sudo flatpak install flathub org.shotcut.Shotcut -y
 # Ebooks
 sudo flatpak install flathub net.sourceforge.mcomix -y
+
+# Install if needed
+# flatpak install me.timschneeberger.GalaxyBudsClient -y
