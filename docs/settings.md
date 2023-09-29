@@ -26,10 +26,6 @@
 - Displays
   - Rearrange displays if needed
   - Change refresh rate if needed
-  - Night Light
-    - Night Light: On
-    - Schedule: Manual Schedule
-      - Times: 20:00 to 8:00
 - Mouse & Touchpad
   - Touchpad
     - Tap to Click: On
@@ -41,11 +37,19 @@
     - Show the notification list: `Super-A`
     - Switch applications: `Alt-Tab`
     - Show the overview: `Super-Tab`
+<<<<<<< HEAD
     - Show all applications: `Shift-Super-Tab`
     - Move window one monitor down: Disabled
     - Move window one monitor to the left: Disabled
     - Move window one monitor to the right: Disabled
     - Move window one monitor up: Disabled
+=======
+    - Show all apps: `Shift-Super-Tab`
+    - Move window one monitor down: `Alt-Super-J`
+    - Move window one monitor to the left: `Alt-Super-H`
+    - Move window one monitor to the right: `Alt-Super-L`
+    - Move window one monitor up: `Alt-Super-K`
+>>>>>>> 8d88fabc943b3fcdfff0ec78e1a14a3987c05a8c
     - Settings: `Super-I`
     - Move to workspace on the left: `Super-;`
     - Move to workspace on the right: `Super-'`
@@ -55,10 +59,10 @@
     - View split on left: Super+Z
     - View split on right: Super+X
     - Toggle maximization state: Super+C
-    - Maximize window: Disabled
-    - Restore window: Disabled
     - Resize window: Disabled
+    - Launch email client: Disabled
     - Launch help browser: Disabled
+    - Launch web browser: Disabled
     - Open the app menu: Disabled
     - Switch windows directly: Disabled
     - Switch windows of an app directly: Disabled
