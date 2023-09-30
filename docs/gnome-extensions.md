@@ -96,6 +96,8 @@ Change the following settings for the Built-In extensions:
   - Duration (ms): 250
 - Dash to Dock by michele_g
   - Position and size
+    - Show the dock on: Choose primary monitor
+    - Position on screen: Left
     - Intelligent autohide
       - Autohide
         - Autohide: Off
@@ -147,6 +149,7 @@ Change the following settings for the Built-In extensions:
   - Icons
     - (light or dark--top-bar) Panel Notification Icon: Off
   - Behaviour
+    - Workspace Peek: Off
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
     - Startup Status: Desktop
