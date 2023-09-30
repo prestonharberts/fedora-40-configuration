@@ -21,7 +21,7 @@ Change the following settings for the Built-In extensions:
   - Common
     - Behaviour
       - Placement: Center
-      - Default Monitor: Monitor with focused window
+      - Default Monitor: Primary monitor
       - Search Mode as Default: Off
       - Up/Down Keys Action: Toggle Single App Mode
     - Appearance and Content
@@ -80,7 +80,9 @@ Change the following settings for the Built-In extensions:
       - Show Frequent Apps: On
   - Menu Button
     - Menu Button Appearance
-      - Display Style: Hidden
+      - Display Style: Text
+      - Text: Make empty
+      - Padding: 0
 - (light- or dark-top-bar) Autohide Battery by iskin (only if current machine is has a battery)
 - (light or dark--top-bar) Autohide Volume by t184256
 - Burn My Windows by Simme (only if computer will not lag)
@@ -129,6 +131,7 @@ Change the following settings for the Built-In extensions:
   - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr (currently disabled)
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
+- Fullscreen Avoider by noobsai (only use for multiple monitors)
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
@@ -139,7 +142,6 @@ Change the following settings for the Built-In extensions:
     - Events: Off
     - Search: Off
     - Show Applications Button: Off
-    - Workspace Popup: Off
     - Workspace Switcher: Off
     - Workspaces App Grid: Off
     - Window Picker Close Button: Off
@@ -159,7 +161,7 @@ Change the following settings for the Built-In extensions:
     - (light or dark--top-bar) Clock menu offset: 7
     - Animation: No Animation (only if computer is lagging)
     - (light or dark--top-bar) Notification Banner Position: Top End
-- Mouse Follows Focus by LeonMatthes
+- Mouse Follows Focus by LeonMatthes (Disable on multi-monitor setups)
 - (light or dark--top-bar) Mpris Label by moon-0xff
   - Panel
     - Extension place: center
@@ -180,7 +182,7 @@ Change the following settings for the Built-In extensions:
   - Default profiles
     - On AC: Balanced
     - On battery: Power Saving
-- Rounded Corners by lennart-k
+- Rounded Corners by lennart-k (disable if using multiple monitors)
   - Border radius: 16px
 - Rounded Window Corners by yilozt
   - General
@@ -235,21 +237,17 @@ Change the following settings for the Built-In extensions:
 - (light- or dark-top-bar) Volume Scroller by trflynn89
 - (light- or dark-top-bar) Worksapce Dry Names by ecrevisseMiroir (typo included)
   - Name workspaces Primary, Secondary, and so on
-- Workspace Switcher Manager by GdH (currently disabled)
-  - General
-    - Workspaces
-      - Number of Workspaces in Static Mode: 1
+- Workspace Switcher Manager by GdH
+  - Size & Text
+    - WS Box Width Scale (%): 120
   - Colors
     - Pop-up Opacity
       - Global Opacity (%): 100
     - Pop-up Colors
       - Allow Custom Colors: On
-      - Background color / Opacity: #FFFFFF (light) or #2C2C2C (dark)
-      - Border color / opacity: #DADADA (light) or #252525 (dark); Opacity 15 notches from the right
-  - Content
-    - Pop-up Active Workspace Indicator Content
-      - Show Workspace Index: Off
-      - Show Workspace Name: Off
-    - Pop-up Inactive Workspace Indicator Content
-      - Show Workspace Index: Off
-      - Show Workspace Name: Off
+      - Background color / opacity: #FFFFFF (light)
+      - Border color / opacity: #DADADA (light)
+      - Active WS Foreground color / opacity: #2F2F2F (light)
+      - Active WS Background color / opacity: #DADADA (light)
+      - Inactive WS Foreground color / opacity: #2F2F2F (light)
+      - Inactive WS Background color / opacity: #FFFFFF (light)

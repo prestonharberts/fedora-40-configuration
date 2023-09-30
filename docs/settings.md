@@ -13,7 +13,6 @@
 - Multitasking
   - Hot Corner: Off
   - Active Screen Edges: Off
-  - Workspaces: Fixed number of workspaces; 10
 - Privacy
   - Screen Lock
     - Blank Screen Delay: Never
