@@ -8,6 +8,8 @@ sudo flatpak install flathub io.github.TheWisker.Cavasik -y
 
 Change the following settings:
 
+- Cavasik
+  - Autohide headerbar: On
 - CAVA
   - Bars: 16
   - Noise reduction: 0.35
