@@ -240,6 +240,9 @@ Change the following settings for the Built-In extensions:
 - Workspace Switcher Manager by GdH
   - Size & Text
     - WS Box Width Scale (%): 120
+  - Pop-up
+    - Behaviour
+      - On-Screen Time (ms): 200
   - Colors
     - Pop-up Opacity
       - Global Opacity (%): 100
