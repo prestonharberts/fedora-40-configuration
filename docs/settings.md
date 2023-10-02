@@ -58,6 +58,9 @@
     - Switch windows directly: Disabled
     - Switch windows of an app directly: Disabled
     - Move window: Disabled
+    - Turn zoom on or off: Disabled
+    - Zoom in: Disabled
+    - Zoom out: Disabled
     - Custom Shortcuts
       - Create the following
         - Game Mode; `disable-gnome-extensions.sh && kill-background-processes.sh`; Super+B
