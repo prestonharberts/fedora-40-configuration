@@ -14,5 +14,4 @@ Change the following settings:
   - Bars: 16
   - Channels: Mono
   - Noise reduction: 0.35
-  - Reverse order: Off
   - Frames per second: Adjust to monitor's maximum refresh rate
