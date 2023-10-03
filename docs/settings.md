@@ -16,6 +16,7 @@
 - Privacy
   - Screen Lock
     - Blank Screen Delay: 3 minutes
+    - Automatic Screen Lock Delay: 2 minutes
   - File History & Trash
     - Automatically Delete Trash Content: On
 - Power
