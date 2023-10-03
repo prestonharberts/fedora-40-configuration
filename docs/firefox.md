@@ -126,7 +126,6 @@ Click the Enhancer for YouTube extension button, and change the following settin
   - Use the available space based on the viewport dimensions to expand the video player: On
   - Automatically expand the videos descriptions: On
   - Hide chat: On
-  - Hide related videos: On
   - Hide Shorts: On (Change `layout.css.has-selector.enabled` to `true` in about:config)
   - Convert Shorts: On
 
