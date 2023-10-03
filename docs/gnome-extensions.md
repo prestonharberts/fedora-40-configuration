@@ -89,8 +89,6 @@ Change the following settings for the Built-In extensions:
   - Disable Fire and enable Glide
 - Caffeine by eon
   - General
-    - Behaviour
-      - Remember state: On
     - Shortcut
       - Toggle shortcut: Shift+Super+C
   - Display
