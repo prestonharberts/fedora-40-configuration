@@ -6,6 +6,7 @@
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # GNOME
 sudo flatpak install flathub io.github.realmazharhussain.GdmSettings -y
+sudo flatpak install fedora org.gabmus.hydrapaper -y
 # Security
 sudo flatpak install flathub com.bitwarden.desktop -y
 # Productivity
