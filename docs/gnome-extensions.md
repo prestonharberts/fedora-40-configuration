@@ -89,7 +89,9 @@ Change the following settings for the Built-In extensions:
   - Disable Fire and enable Glide
 - Caffeine by eon
   - General
-    - Remember state: On
+    - Behaviour
+      - Remember state: On
+      - Allow screen blank: Always
   - Display
     - Show status indicator in top panel: Never
     - Notifications: Off
