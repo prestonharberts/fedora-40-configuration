@@ -89,11 +89,10 @@ Change the following settings for the Built-In extensions:
   - Disable Fire and enable Glide
 - Caffeine by eon
   - General
-    - Behaviour
-      - Remember state: On
-      - Allow screen blank: Always
+    - Shortcut
+      - Toggle shortcut: Shift+Super+C
   - Display
-    - Show status indicator in top panel: Never
+    - Show status indicator in top panel: Only when active
     - Notifications: Off
 - Color Picker by grroot (only enable when needed)
 - Compiz alike magic lamp effect by hermes83(only if computer will not lag)
