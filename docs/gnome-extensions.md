@@ -145,6 +145,7 @@ Change the following settings for the Built-In extensions:
     - Battery
       - Low Battery Notification: Off
     - Advanced
+      - MPRIS: Off
       - Notifications: Off
 - Just Perfection by JustPerfection
   - Visibility
