@@ -15,7 +15,7 @@
   - Active Screen Edges: Off
 - Privacy
   - Screen Lock
-    - Blank Screen Delay: 3 minutes
+    - Blank Screen Delay: 8 minutes
     - Automatic Screen Lock Delay: 2 minutes
   - File History & Trash
     - Automatically Delete Trash Content: On
