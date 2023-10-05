@@ -134,6 +134,19 @@ Change the following settings for the Built-In extensions:
 - Focus by scaryawr (currently disabled)
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
 - Fullscreen Avoider by noobsai (only use for multiple monitors)
+- GSConnect by dlandau
+  - Run the following to install the openssl dependency: `sudo dnf install openssl -y`
+  - Name your device
+  - Choose device once connected
+    - Sharing
+      - Desktop
+        - Clipboard Sync
+          - To Device: On
+          - From Device: On
+    - Battery
+      - Low Battery Notification: Off
+    - Advanced
+      - Notifications: Off
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
