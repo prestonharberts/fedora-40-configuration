@@ -1,6 +1,6 @@
 # Cavasik
 
-Run the following to install Cavasik by TheWisker:
+Run the following to install Cavasik:
 
 ```
 sudo flatpak install flathub io.github.TheWisker.Cavasik -y
@@ -8,10 +8,10 @@ sudo flatpak install flathub io.github.TheWisker.Cavasik -y
 
 Change the following settings:
 
-- Cavasik
-  - Autohide headerbar: On
 - CAVA
   - Bars: 16
-  - Channels: Mono
-  - Noise reduction: 0.35
-  - Frames per second: Adjust to monitor's maximum refresh rate
+  - Noise Reduction: 0.35
+  - Reverse order: Off
+  - Frames per Second: Adjust to monitor's maximum refresh rate
+- Colors
+  - Widgets Style: Light
