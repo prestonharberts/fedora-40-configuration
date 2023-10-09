@@ -18,7 +18,7 @@ Change the following settings:
 Run the following commands to download some [community presets](https://github.com/wwmm/easyeffects/wiki/Community-presets):
 
 ```
-cd src
+cd ~/Repos
 git clone https://github.com/p-chan5/EasyPulse
 git checkout 0.2.0
 ```

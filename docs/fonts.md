@@ -16,14 +16,14 @@ Download all Latin Modern Roman Regular, Bold, and Italic fonts from https://www
 
 ```
 mkdir ~/.fonts/ ~/.fonts/opentype/
-mv ~/net/latin-modern-roman* ~/.fonts/opentype/
+mv ~/Downloads/latin-modern-roman* ~/.fonts/opentype/
 fc-cache -v -f 
 ```
 
 To install Times New Roman and other Microsoft fonts, run the following:
 
 ```
-cd ~/net/
+cd ~/Downloads/
 sudo yum install rpm-build cabextract ttmkfdir
 wget http://corefonts.sourceforge.net/msttcorefonts-2.5-1.spec
 rpmbuild -bb msttcorefonts-2.5-1.spec
@@ -36,7 +36,7 @@ fc-cache -f -v
 Run the following to download the program to install the Segoe font family:
 
 ```
-cd ~/src/
+cd ~/Repos/
 git clone https://github.com/SpudGunMan/segoe-ui-linux
 cd segoe-ui-linux
 ```

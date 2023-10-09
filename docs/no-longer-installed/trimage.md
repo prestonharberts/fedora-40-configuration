@@ -17,7 +17,7 @@ Download advancecomp2.5.tar.gz from http://www.advancemame.it/download and extra
 make
 make check
 sudo -i
-cd /home/USERNAME/net/advancecomp-2.5/
+cd /home/USERNAME/Downloads/advancecomp-2.5/
 make install
 exit
 ```

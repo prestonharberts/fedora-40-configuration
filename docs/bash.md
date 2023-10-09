@@ -2,7 +2,7 @@
 
 Move `bash/.bashrc` to your home directory. Change all the necessary PATH variables in this file to have the correct username.
 
-Move all of the files in `fedora-38-configuration/configs/bash/bin/` to `~/bin/` if you would like to use several helpful scripts. Otherwise, skip or add `fedora-38-configuration/configs/bash/bin/` to your PATH in `.bashrc`.
+Move all of the files in `fedora-38-configuration/configs/bash/bin/` to `~/Bin/` if you would like to use several helpful scripts. Otherwise, skip or add `fedora-38-configuration/configs/bash/bin/` to your PATH in `.bashrc`.
 
 ## Turn Off Bash Case Sensitivity
 

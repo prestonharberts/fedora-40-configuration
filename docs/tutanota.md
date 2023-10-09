@@ -3,12 +3,12 @@
 Run the following to download and install Tutanota:
 
 ```
-wget -P ~/net/ https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
+wget -P ~/Downloads/ https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
 chmod u+x tutanota-desktop-linux.AppImage
-mv tutanota-desktop-linux.AppImage ~/com/app/
+mv tutanota-desktop-linux.AppImage ~/System/appimages/
 ```
 
-Move the file to `~/com/app/`, and execute the file.
+Move the file to `~/System/appimages/`, and execute the file.
 
 Go to Settings, and change the following settings:
 
@@ -22,5 +22,5 @@ Go to Settings, and change the following settings:
 		- Week start: Sunday
 - Desktop
 	- Run in background: No
-	- Default download path: `~/net`
+	- Default download path: `~/Downloads`
 	- Desktop integration: Activated

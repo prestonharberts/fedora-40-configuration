@@ -3,9 +3,9 @@
 Run the following from your home directory to create new Home folders:
 
 ```
-mkdir bin com doc doc/obs fun inb lnk loc mus net pic src tmp
+mkdir Bin Desktop System Games Inbox Syncthing Repos
 ```
 
-Open Nautilus, and drag `tmp`, `src`, `doc/obs`, `loc`, `lnk`, `inb`, `fun`, `com` to the left sidebar in this order to create bookmarks.
+Open Nautilus, and drag `System`, `Syncthing`, `Repos`, `Inbox`, `Games`, and `Desktop` to the left sidebar in this order to create bookmarks.
 
-Next, copy the provided `user-dirs/user-dirs.dirs` to `~/.config/`, and copy `user-dirs/user-dirs.conf` to `/etc/xdg/`. Log out and back in, then remove the old Home folders. Also, remove old Home folders from Nautilus's bookmarks.
+If you would like to rename the folders inside your home directory, edit `~/.config/user-dirs.dirs` and `/etc/xdg/user-dirs.conf`. Log out and back in, then remove the old Home folders. Also, remove old Home folders from Nautilus's bookmarks.

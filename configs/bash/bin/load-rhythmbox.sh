@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp ~/mus/rhythmbox/playlists.xml ~/mus/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/
+cp ~/Music/rhythmbox/playlists.xml ~/Music/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/

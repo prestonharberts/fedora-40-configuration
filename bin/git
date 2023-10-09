@@ -3,12 +3,12 @@
 # Git
 
 # Firefox theme
-cd ~/src/
+cd ~/Repos/
 git clone https://github.com/rafaelmardojai/firefox-gnome-theme
 cd firefox-gnome-theme
 ./scripts/auto-install.sh
 # San Francisco fonts
-cd ~/src/
+cd ~/Repos/
 git clone https://github.com/gonzaru/san-francisco-fonts.git
 cd san-francisco-fonts
 mkdir -p ~/.local/share/fonts
@@ -16,20 +16,20 @@ cp SF* ~/.local/share/fonts/ -r
 fc-cache -v -f
 # Hanabi
 # sudo dnf install git meson ninja-build npm clapper -y
-# cd ~/src
+# cd ~/Repos
 # git clone https://github.com/jeffshee/gnome-ext-hanabi.git
 # cd gnome-ext-hanabi
 # ./run.sh install
 # Keyd
-cd ~/src/
+cd ~/Repos/
 git clone https://github.com/rvaiya/keyd
 cd keyd
 make && sudo make install
 sudo systemctl enable keyd && sudo systemctl start keyd
-sudo cp ~/src/fedora-38-configuration/configs/keyd/productivity/default.conf /etc/keyd/
+sudo cp ~/Repos/fedora-38-configuration/configs/keyd/productivity/default.conf /etc/keyd/
 sudo keyd reload
 # Logiops
-cd ~/src
+cd ~/Repos
 git clone https://github.com/PixlOne/logiops
 cd logiops
 sudo dnf install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++ glib2-devel -y
@@ -38,10 +38,10 @@ cd build
 cmake ..
 make
 sudo make install
-sudo cp ~/src/fedora-38-configuration/configs/logiops/logid.cfg /etc/
+sudo cp ~/Repos/fedora-38-configuration/configs/logiops/logid.cfg /etc/
 sudo systemctl enable logid
 # Segoe fonts
-# cd ~/src/
+# cd ~/Repos/
 # git clone https://github.com/SpudGunMan/segoe-ui-linux
 # cd segoe-ui-linux
 # chmod u+x install.sh

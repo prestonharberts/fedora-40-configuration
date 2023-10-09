@@ -24,7 +24,7 @@ Open Preferences, and change the following settings:
         - Dark Lyrics: On
         - Jlyric: On
         - Jetlyrics: On
-      - Lyrics folder: `~/mus/lrx`
+      - Lyrics folder: `~/Music/lyrics`
   - Web remote control
     - Preferences
       - Access key: Create password
@@ -33,15 +33,15 @@ Run the following if you have already synced playlists and ratings with Tresorit
 
 ```
 rm ~/.local/share/rhythmbox/playlists.xml ~/.local/share/rhythmbox/rhythmdb.xml
-ln -s ~/mus/rhythmbox/playlists.xml ~/.local/share/rhythmbox/
-ln -s ~/mus/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/
+ln -s ~/Music/rhythmbox/playlists.xml ~/.local/share/rhythmbox/
+ln -s ~/Music/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/
 ```
 
 Run the following to sync playlists and ratings with Tresorit for the first time:
 
 ```
-mkdir ~/mus/rhythmbox
-mv ~/.local/share/rhythmbox/playlists.xml ~/.local/share/rhythmbox/rhythmdb.xml ~/mus/rhythmbox/
-ln -s ~/mus/rhythmbox/playlists.xml ~/.local/share/rhythmbox/
-ln -s ~/mus/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/
+mkdir ~/Music/rhythmbox
+mv ~/.local/share/rhythmbox/playlists.xml ~/.local/share/rhythmbox/rhythmdb.xml ~/Music/rhythmbox/
+ln -s ~/Music/rhythmbox/playlists.xml ~/.local/share/rhythmbox/
+ln -s ~/Music/rhythmbox/rhythmdb.xml ~/.local/share/rhythmbox/
 ```

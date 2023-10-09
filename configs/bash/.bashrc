@@ -24,7 +24,7 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
-export PATH=/home/prestonharberts/bin/:$PATH
+export PATH=/home/prestonharberts/Bin/:$PATH
 export PATH=/home/prestonharberts/go/bin/:$PATH
 
 unset rc
@@ -54,20 +54,19 @@ alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && sudo flatpak upg
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
-alias cdbin='cd ~/bin/'
-alias cdcom='cd ~/com/'
-alias cddoc='cd ~/doc/'
-alias cdfun='cd ~/fun/'
-alias cdinb='cd ~/inb/'
-alias cdlnk='cd ~/lnk/'
-alias cdmus='cd ~/mus/'
-alias cdnet='cd ~/net/'
-alias cdpic='cd ~/pic/'
-alias cdsrc='cd ~/src/'
-alias cdtmp='cd ~/tmp/'
-alias tasks='vi ~/doc/tasks'
-alias fedora='cd ~/src/fedora-38-configuration/docs/'
-alias bible='cd ~/src/biblegateway-to-obsidian/ && c .'
+alias cdbin='cd ~/Bin/'
+alias cdsys='cd ~/System/'
+alias cddoc='cd ~/Documents/'
+alias cdgam='cd ~/Games/'
+alias cdinb='cd ~/Inbox/'
+alias cdsyn='cd ~/Syncthing/'
+alias cdmus='cd ~/Music/'
+alias cddow='cd ~/Downloads/'
+alias cdpic='cd ~/Pictures/'
+alias cdrep='cd ~/Repos/'
+alias cdtmp='cd ~/Temp/'
+alias fedora='cd ~/Repos/fedora-38-configuration/docs/'
+alias bible='cd ~/Repos/biblegateway-to-obsidian/ && c .'
 
 # frequently used commands: git
 alias gits='git status'
