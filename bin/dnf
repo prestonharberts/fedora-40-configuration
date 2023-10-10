@@ -19,7 +19,8 @@ sudo systemctl enable tlp.service
 sudo systemctl mask systemd-rfkill.service
 sudo systemctl mask systemd-rfkill.socket
 # Audio
-sudo dnf install easyeffects -y
+sudo dnf swap --allowerasing pipewire-pulseaudio pulseaudio -y
+sudo dnf install pulseaudio-utils -y
 # Multimedia codecs
 sudo dnf install gstreamer1-plugin-openh264 -y
 sudo dnf install gstreamer1-libav -y
