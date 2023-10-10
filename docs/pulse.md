@@ -3,8 +3,13 @@
 Run the following to switch from Pipewire to Pulse:
 
 ```
-sudo dnf swap --allowerasing pipewire-pulseaudio pulseaudio
+sudo dnf swap --allowerasing pipewire-pulseaudio pulseaudio -y
 ```
+
+Run the following to install pulseaudio-utils:
+
+```
+sudo dnf install pulseaudio-utils -y
 
 Reboot, then run the following to edit the Pulse configuration:
 
