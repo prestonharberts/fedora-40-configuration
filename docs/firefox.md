@@ -73,6 +73,7 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 - Return YouTube Dislike by Dmitry Selivanov
 - SingleFile by gildas to Firefox
 - SponsorBlock - Skip Sponsorships on YouTube by Ajay Ramachandran
+- TWP - Translate Web Pages by Filipe Ps
 - uBlock Origin by Raymond Hill
 	- When prompted, allow to run in private windows
 
@@ -165,6 +166,10 @@ For the following websites, change the following settings:
   - Website preferences
     - General
       - Automatically download documentation for offline use: On
+- https://play.qobuz.com
+  - Name: Qobuz
+  - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
+  - 
 
 Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `/chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
 
@@ -175,7 +180,7 @@ Once all this is set up, open `about:support` and open the profile directory in 
 }
 ```
 
-Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`. Restart the app.
+Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`, as well as adjusting the VA-API settings listed later in this document. Restart the app.
 
 ## GNOME Theme
 
