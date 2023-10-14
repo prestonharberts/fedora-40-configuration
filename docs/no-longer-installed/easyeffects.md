@@ -1,10 +1,24 @@
-# EasyEffects
+# PipeWire
 
 Run the following to install EasyEffects:
 
 ```
 sudo dnf install easyeffects -y
 ```
+
+Run the following to change the sample rate to 384K:
+
+```
+pw-metadata -n settings 0 clock.force-rate 384000
+```
+
+To make this change permanent, you will need to copy some configs over with the following command:
+
+```
+sudo cp /usr/share/pipewire/ /etc/ -r
+```
+
+Now, edit `/etc/pipewire/pipewire.conf`. Uncomment `default.clock.rate` and change the value to `384000`.
 
 Change the following settings:
 
