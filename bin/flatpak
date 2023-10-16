@@ -12,6 +12,8 @@ sudo flatpak install flathub com.bitwarden.desktop -y
 # Productivity
 sudo flatpak install flathub md.obsidian.Obsidian -y
 sudo flatpak install flathub com.todoist.Todoist -y
+# Development
+sudo flatpak install flathub com.google.AndroidStudio -y
 # Music
 sudo flatpak install flathub io.bassi.Amberol -y
 sudo flatpak install flathub app.drey.EarTag -y
