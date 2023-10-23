@@ -30,6 +30,8 @@ sudo dnf install gstreamer1-plugins-ugly -y
 sudo dnf install gstreamer1-plugins-ugly-free -y
 # Terminal
 sudo dnf install konsole5 -y
+# Development
+sudo dnf install virt-manager -y
 # Python
 sudo dnf install pip -y
 # Ruby
