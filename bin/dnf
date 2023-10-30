@@ -11,6 +11,7 @@ sudo dnf install gnome-extensions-app -y
 sudo dnf install gnome-tweaks -y
 sudo dnf install dconf-editor -y
 sudo dnf install gnome-shell-extension-pop-shell xprop -y
+sudo dnf install hydrapaper -y
 # Power
 sudo dnf remove power-profiles-daemon -y
 sudo dnf install tlp tlp-rdw powertop -y
