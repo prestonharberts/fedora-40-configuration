@@ -169,7 +169,7 @@ For the following websites, change the following settings:
 - https://play.qobuz.com
   - Name: Qobuz
   - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
-  - 
+- https://chat.openai.com/
 
 Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `/chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
 
