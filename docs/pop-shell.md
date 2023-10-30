@@ -12,7 +12,7 @@ Click the tray icon for Pop Shell, and change the following settings:
 
 - Tile windows: On
 - Active hint color: (right click to change) #80b9ff
-- Gaps: 3
+- Gaps: 2
 
 Adjust the following settings in Settings > Keyboard > View and Customize Shortcuts:
 
