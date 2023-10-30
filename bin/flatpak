@@ -12,6 +12,7 @@ sudo flatpak install flathub com.bitwarden.desktop -y
 # Productivity
 sudo flatpak install flathub md.obsidian.Obsidian -y
 sudo flatpak install flathub com.todoist.Todoist -y
+sudo flatpak install flathub fr.free.Homebank -y
 # Development
 sudo flatpak install flathub com.google.AndroidStudio -y
 # Music
