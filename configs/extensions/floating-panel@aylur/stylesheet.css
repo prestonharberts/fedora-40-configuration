@@ -28,9 +28,9 @@
 #panel.floating #panelRight{ margin-right: 8px; }
 #panel.floating:floating{
     border-radius: 12px;
-    margin-top: 8px;
-    /*margin-bottom: 8px;*/
-    margin-left: 10px;
-    margin-right: 10px;
+    /*margin-top: 8px;*/
+    /*margin-bottom: 8px; /* no longer necessary */
+    margin-left: 8px;
+    margin-right: 8px;
     padding: 0;
 }

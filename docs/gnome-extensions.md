@@ -72,7 +72,7 @@ Change the following settings for the Built-In extensions:
         - Save the theme as "Dark"
     - Menu Visual Appearance
       -  Menu Location
-        - Override Menu Rise: On; 12
+        - Override Menu Rise: On; 8
     - Runner Layout Tweaks
       - Search Results Display Style: Grid
       - Width: 700
@@ -198,7 +198,7 @@ Change the following settings for the Built-In extensions:
     - On AC: Balanced
     - On battery: Power Saving
 - Rounded Corners by lennart-k (disable if using multiple monitors)
-  - Border radius: 16px
+  - Border radius: 12px
 - Rounded Window Corners by yilozt
   - General
     - Applications
@@ -212,7 +212,7 @@ Change the following settings for the Built-In extensions:
           - Spread Radius: -10.0
           - Opacity: 60.0
     - Global Settings
-      - Border Radius: 14.0
+      - Border Radius: 16.0
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
       - Paddings
@@ -250,6 +250,9 @@ Change the following settings for the Built-In extensions:
     - Show window buttons in top bar: Never
 - User Themes by fmuellner
 - (light- or dark-top-bar) Volume Scroller by trflynn89
+- Wallpaper Light Switch (in `configs/extensions/`)
+  - Run the following to move the extension to the GNOME extension directory: `cp ~/Repos/fedora-38-configuration/configs/extensions/wallpaper-light-switch@prestonharberts.github.com/ ~/.local/share/gnome-shell/extensions/ -r`
+  - Set your wallpaper, then press `Alt+F2`, and enter in `r` to restart the GNOME shell.
 - (light- or dark-top-bar) Worksapce Dry Names by ecrevisseMiroir (typo included)
   - Name workspaces Primary, Secondary, and so on
 - Workspace Switcher Manager by GdH

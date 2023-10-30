@@ -1,0 +1,7 @@
+{
+    "name": "Wallpaper Light Switch",
+    "description": "Changes the wallpaper to black when a window is focused.",
+    "uuid": "wallpaper-light-switch@prestonharberts.github.com",
+    "shell-version": ["44"],
+    "enabled": true
+}
