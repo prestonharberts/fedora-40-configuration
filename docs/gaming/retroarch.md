@@ -219,19 +219,19 @@ Run the following if you have already synced saves and playlists with Tresorit:
 
 ```
 rm ~/.config/retroarch/saves/ ~/.config/retroarch/states/ ~/.config/retroarch/playlists/ -r
-ln -s ~/fun/sav/retroarch/saves/ ~/.config/retroarch/
-ln -s ~/fun/sav/retroarch/states/ ~/.config/retroarch/
-ln -s ~/fun/sav/retroarch/playlists ~/.config/retroarch/
+ln -s ~/Games/saves/retroarch/saves/ ~/.config/retroarch/
+ln -s ~/Games/saves/retroarch/states/ ~/.config/retroarch/
+ln -s ~/Games/saves/retroarch/playlists ~/.config/retroarch/
 ```
 
 Run the following to sync saves and playlists with Tresorit for the first time:
 
 ```
-mkdir ~/fun/sav/retroarch/
-mv ~/.config/retroarch/saves/ ~/.config/retroarch/states/ ~/.config/retroarch/playlists/ ~/fun/sav/retroarch/
-ln -s ~/fun/sav/retroarch/saves/ ~/.config/retroarch/
-ln -s ~/fun/sav/retroarch/states/ ~/.config/retroarch/
-ln -s ~/fun/sav/retroarch/playlists ~/.config/retroarch/
+mkdir ~/Games/saves/retroarch/
+mv ~/.config/retroarch/saves/ ~/.config/retroarch/states/ ~/.config/retroarch/playlists/ ~/Games/sav/retroarch/
+ln -s ~/Games/saves/retroarch/saves/ ~/.config/retroarch/
+ln -s ~/Games/saves/retroarch/states/ ~/.config/retroarch/
+ln -s ~/Games/saves/retroarch/playlists ~/.config/retroarch/
 ```
 
 Move system files (BIOS, firmware, etc.) to `~/.config/retroarch/system`.
