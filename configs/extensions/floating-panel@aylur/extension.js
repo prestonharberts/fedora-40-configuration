@@ -125,7 +125,7 @@ class Extension{
             if(monitor_index === primary_index){
                 let window_y_pos = window.get_frame_rect().y;
                 if(window_y_pos < panel_bottom + 2 * scale){
-                    overlaps = false;
+                    overlaps = true;
                 }
             }
         })

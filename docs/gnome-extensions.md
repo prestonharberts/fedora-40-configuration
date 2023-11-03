@@ -129,7 +129,7 @@ Change the following settings for the Built-In extensions:
   - Pattern: EEEE K:mm aaa
   - Font size: 11 pt
 - (light or dark--top-bar) Floating Panel by aylur
-  - Copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
+  - Install, then copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr (currently disabled)
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
 - Fullscreen Avoider by noobsai (only use for multiple monitors)
@@ -193,6 +193,7 @@ Change the following settings for the Built-In extensions:
     - Mouse bindings
       - Left click action: play/pause
       - Middle click action: next track
+- Peek Top Bar on Fullscreen by marcinjahn
 - Power Profile Switcher by eliapasquali (only if on laptop) (currently disabled)
   - Default profiles
     - On AC: Balanced
