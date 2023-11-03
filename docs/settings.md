@@ -10,6 +10,7 @@
 - Notifications
   - Do Not Disturb: On
   - Lock Screen Notifications: Off
+  - Disable the notifications for all listed programs
 - Multitasking
   - Hot Corner: Off
   - Active Screen Edges: Off
