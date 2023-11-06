@@ -200,7 +200,7 @@ Change the following settings for the Built-In extensions:
     - On battery: Power Saving
 - Rounded Corners by lennart-k (disable if using multiple monitors)
   - Border radius: 12px
-- Rounded Window Corners by yilozt
+- Rounded Window Corners by Luo Yi
   - General
     - Applications
       - Skip LibAdwaita Applications: Off
