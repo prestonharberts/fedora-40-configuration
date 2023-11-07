@@ -230,7 +230,7 @@ Change the following settings for the Built-In extensions:
     - Line 19: `let timeFormat = Shell.util_translate_time_string(N_("%-I:%M %p"));`
     - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
     - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
-- (light or dark--top-bar) Top Bar Organizer by jspp
+- (light or dark--top-bar) Top Bar Organizer by Julian
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
   - After installing the Simple Message extension, move simple-message to be right before workspace-name-indicator in the Left Top Bar Box
