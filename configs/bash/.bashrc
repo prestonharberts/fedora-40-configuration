@@ -50,7 +50,7 @@ alias cduu='cd ../..'
 alias cduuu='cd ../../..'
 
 # frequently used commands: system
-alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && sudo flatpak upgrade -y'
+alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && flatpak upgrade -y'
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
@@ -65,7 +65,7 @@ alias cddow='cd ~/Downloads/'
 alias cdpic='cd ~/Pictures/'
 alias cdrep='cd ~/Repos/'
 alias cdtmp='cd ~/Temp/'
-alias fedora='cd ~/Repos/fedora-38-configuration/docs/'
+alias fedora='cd ~/Repos/fedora-39-configuration/docs/'
 alias bible='cd ~/Repos/biblegateway-to-obsidian/ && c .'
 
 # frequently used commands: git
