@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo cp ~/Repos/fedora-36-configuration/config/keyd/gaming/default.conf /etc/keyd/
+sudo cp ~/Repos/fedora-39-configuration/configs/keyd/gaming/default.conf /etc/keyd/
 sudo keyd reload
