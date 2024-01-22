@@ -47,7 +47,7 @@ Change the following settings for the Built-In extensions:
     - Custom hotkeys (you can assign up to 2 characters (keys) to each action)
       - Filter mode: W
       - Close Window / Quit Application: Q
-- ArcMenu by andrew.zaech
+- ArcMenu by andrew_z
   - General
     - Panel Display Options
       - Position in Panel: Center
@@ -75,7 +75,6 @@ Change the following settings for the Built-In extensions:
         - Override Menu Rise: On; 8
     - Runner Layout Tweaks
       - Search Results Display Style: Grid
-      - Width: 700
       - Font Size: 12
       - Show Frequent Apps: On
   - Menu Button
@@ -92,7 +91,6 @@ Change the following settings for the Built-In extensions:
     - Shortcut
       - Toggle shortcut: Shift+Super+C
   - Display
-    - Show status indicator in top panel: Only when active
     - Notifications: Off
 - Color Picker by grroot (only enable when needed)
 - Compiz alike magic lamp effect by hermes83(only if computer will not lag)
@@ -177,18 +175,20 @@ Change the following settings for the Built-In extensions:
     - Animation: No Animation (only if computer is lagging)
     - (light or dark--top-bar) Notification Banner Position: Top End
 - Mouse Follows Focus by LeonMatthes (Disable on multi-monitor setups)
-- (light or dark--top-bar) Mpris Label by moon-0xff
+- (light or dark--top-bar) Media Label and Controls (Mpris Label) by moon-0xff
   - Panel
-    - Extension place: center
-    - Left padding: 0
-    - Right padding: 0
+    - Icon
+      - Show source icon: off
+    - Position
+      - Extension place: center
+      - Left padding: 0
+      - Right padding: 0
   - Label
     - Hide when paused: Off
     - Max string length (each field): 150
     - Button placeholder (can be left empty): Empty
     - Divider string (you can use spaces): " by "
     - Visible fields and order: title artist none
-    - Show source icon: off
   - Controls
     - Mouse bindings
       - Left click action: play/pause
@@ -199,7 +199,6 @@ Change the following settings for the Built-In extensions:
     - On AC: Balanced
     - On battery: Power Saving
 - Rounded Corners by lennart-k (disable if using multiple monitors)
-  - Border radius: 12px
 - Rounded Window Corners by Luo Yi
   - General
     - Applications
@@ -221,9 +220,6 @@ Change the following settings for the Built-In extensions:
         - Right: 0.0
         - Top: 0.0
         - Bottom: 0.0
-- (light- or dark-top-bar) Simple Message by fredz (currently disabled)
-  - Write your message: `  Tasks  `
-  - Command to execute on click: `konsole --workdir ~/doc/ -e vim tasks`
 - Time in date menu by knedme
   - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
     - Line 18: `let dateFormat = Shell.util_translate_time_string(N_("(%Y/%m/%d)"));`
@@ -257,11 +253,11 @@ Change the following settings for the Built-In extensions:
 - (light- or dark-top-bar) Worksapce Dry Names by ecrevisseMiroir (typo included)
   - Name workspaces Primary, Secondary, and so on
 - Workspace Switcher Manager by GdH
-  - Size & Text
-    - WS Box Width Scale (%): 120
   - Pop-up
     - Behaviour
       - On-Screen Time (ms): 200
+  - Size & Text
+    - WS Box Width Scale (%): 120
   - Colors
     - Pop-up Opacity
       - Global Opacity (%): 100

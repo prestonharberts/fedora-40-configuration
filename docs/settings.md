@@ -53,9 +53,7 @@
     - View split on right: Super+X
     - Toggle maximization state: Super+C
     - Resize window: Disabled
-    - Launch email client: Disabled
     - Launch help browser: Disabled
-    - Launch web browser: Disabled
     - Open the app menu: Disabled
     - Switch windows directly: Disabled
     - Switch windows of an app directly: Disabled
@@ -65,18 +63,17 @@
     - Zoom out: Disabled
     - Custom Shortcuts
       - Create the following
-        - Game Mode; `disable-gnome-extensions.sh && kill-background-processes.sh`; Super+B
-        - Productivity Mode; `enable-gnome-extensions.sh && start-background-processes.sh`; Super+V
+        - Game mode; `disable-gnome-extensions.sh && kill-background-processes.sh`; Super+B
+        - Office mode; `enable-gnome-extensions.sh && start-background-processes.sh`; Super+V
         - Launch Firefox; `firefox`; `Ctrl+Super+1`
         - Launch Tutanota; `~/com/app/tutanota\*`; `Ctrl+Super+2`
-        - Launch Todoist; `flatpak run com.todoist.Todoist`; `Ctrl+Super+3`
-        - Launch Obsidian; `flatpak run md.obsidian.Obsidian`; `Ctrl+Super+4`
-        - Launch Konsole; `konsole`; `Ctrl+Super+5`
-        - Launch Nautilus; `nautilus`; `Ctrl+Super+6`
-        - Launch Tresorit; `~/.local/share/tresorit/tresorit`; `Ctrl+Super+7`
-        - Launch Syncthing Web UI; `syncthing --browser-only`; `Ctrl+Super+8`
-        - Launch Bitwarden; `flatpak run com.bitwarden.desktop`; `Ctrl+Super+9`
-        - Launch Calculator; `gnome-calculator`; `Ctrl+Super+0`
+        - Launch Todoist; `flatpak run com.todoist.Todoist`; `Ctrl+Super+4`
+        - Launch Obsidian; `flatpak run md.obsidian.Obsidian`; `Ctrl+Super+5`
+        - Launch Konsole; `konsole`; `Ctrl+Super+6`
+        - Launch Nautilus; `nautilus`; `Ctrl+Super+7`
+        - Launch Tresorit; `~/.local/share/tresorit/tresorit`; `Ctrl+Super+8`
+        - Launch Syncthing Web UI; `syncthing --browser-only`; `Ctrl+Super+9`
+        - Launch Bitwarden; `flatpak run com.bitwarden.desktop`; `Ctrl+Super+0`
 - Date & Time
   - Time Format: AM/PM
 - About

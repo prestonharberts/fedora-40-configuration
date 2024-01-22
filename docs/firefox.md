@@ -66,14 +66,11 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 
 - Bitwarden - Free Password Manager by Bitwarden Inc.
 - Cookie AutoDelete by CAD Team
-- Dark Reader by Alexander Shutau
-- Enhancer for YouTube by Maxime RF
 - OneTab by OneTab Team
 - Progressive Web Apps by Filip S
 - Return YouTube Dislike by Dmitry Selivanov
 - SingleFile by gildas to Firefox
 - SponsorBlock - Skip Sponsorships on YouTube by Ajay Ramachandran
-- TWP - Translate Web Pages by Filipe Ps
 - uBlock Origin by Raymond Hill
 	- When prompted, allow to run in private windows
 
@@ -89,47 +86,6 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
                 - Ask to add login: Off
                 - Ask to update existing login: Off
 
-### Dark Reader
-
-Open the extension, and switch Off to On if you would like website to be displayed in dark mode. Change the following settings:
-
-- Contrast: -12
-
-### Enhancer for YouTube
-
-Click the Enhancer for YouTube extension button, and change the following settings:
-
-- Theme
-  - Dark theme: On (if wanted); YouTube-DeepDark (custom)
-    - YouTube DeepDark (custom): ff0000; #242424; #292929; #454545
-- Video player
-	- Controls
-		- Loop: Off
-		- Reverse order: Off
-		- Ads: Off
-		- Mouse playback speed: Off
-		- Shortcuts: Off
-		- Options: Off
-    - Ads management
-      - Do not block ads for subscribed channels: On
-	- Playback quality
-		- Automatically select a playback quality
-			- Videos: 4320p 8K
-			- Playlists: 4320p 8K
-			- Select a different playback quality when entering the full screen mode: On
-				- Videos (full screen): 4320p 8K
-				- Playlists (full screen): 4320- 8K
-				- Pop-up player and embedded videos (full screen): 4320p 8K
-			- Switch back to the previous playback quality when exiting full screen mode: Off
-	- Autoplay
-		- Disable autoplay: On
-- Appearance
-  - Use the available space based on the viewport dimensions to expand the video player: On
-  - Automatically expand the videos descriptions: On
-  - Hide chat: On
-  - Hide Shorts: On (Change `layout.css.has-selector.enabled` to `true` in about:config)
-  - Convert Shorts: On
-
 ### OneTab
 
 Click the OneTab extension icon, and unpin the newly created tab. Change the following settings:
@@ -144,32 +100,19 @@ Follow the instructions presented by this extension when prompted. Make web apps
 - https://app.logos.com
 - https://calendar.google.com/calendar/
 - https://devdocs.io
+- https://chat.openai.com/
+- https://play.qobuz.com
+  - Name: Qobuz
+  - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
 
 Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, and uninstall every extension except for Dark Reader and uBlock Origin. Change Firefox's settings to follow this guide.
 
 For the following websites, change the following settings:
 
-- https://app.logos.com
-  - Dark Reader
-    - Filter
-      - Brightness: +50
-      - Contrast: -30
-    - More
-      - Filter+
-- https://calendar.google.com/calendar/
-  - Dark Reader
-    - Filter
-      - Brightness +10
-      - Contrast: -10
 - https://devdocs.io
-  - Remove the Dark Reader extension
   - Website preferences
     - General
       - Automatically download documentation for offline use: On
-- https://play.qobuz.com
-  - Name: Qobuz
-  - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
-- https://chat.openai.com/
 
 Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `/chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
 

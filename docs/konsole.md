@@ -39,7 +39,6 @@ Now, change the following settings under Configure Konsole:
       - Highlighting > Highlight the lines coming into view: Off
 - Tab Bar / Splitters
   - Appearance
-    - Position: Above terminal area
     - Show Close Tab Button: None
     - Miscellaneous
       - Expand individual tab widths to full window: On

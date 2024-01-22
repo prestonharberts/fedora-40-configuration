@@ -4,30 +4,25 @@
 
 # Flatpak repository
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-# GNOME
-sudo flatpak install flathub io.github.realmazharhussain.GdmSettings -y
 # Security
-sudo flatpak install flathub com.bitwarden.desktop -y
+flatpak install flathub com.bitwarden.desktop -y
 # Productivity
-sudo flatpak install flathub md.obsidian.Obsidian -y
-sudo flatpak install flathub com.todoist.Todoist -y
-sudo flatpak install flathub fr.free.Homebank -y
+flatpak install flathub md.obsidian.Obsidian -y
+flatpak install flathub com.todoist.Todoist -y
+flatpak install flathub fr.free.Homebank -y
 # Development
-sudo flatpak install flathub com.google.AndroidStudio -y
+flatpak install flathub com.google.AndroidStudio -y
 # Music
-sudo flatpak install flathub io.bassi.Amberol -y
-sudo flatpak install flathub app.drey.EarTag -y
-sudo flatpak install flathub org.freac.freac -y
-sudo flatpak install flathub io.github.TheWisker.Cavasik -y
-sudo flatpak install flathub io.gitlab.zehkira.Monophony -y
-# Files 
-sudo flatpak install flathub io.gitlab.adhami3310.Converter -y
+flatpak install flathub io.bassi.Amberol -y
+flatpak install flathub net.puddletag.puddletag -y
+flatpak install flathub org.freac.freac -y
+flatpak install flathub io.github.TheWisker.Cavasik -y
 # Social
-sudo flatpak install flathub com.discordapp.Discord -y
+flatpak install flathub com.discordapp.Discord -y
 # Video
-sudo flatpak install flathub org.shotcut.Shotcut -y
+flatpak install flathub org.shotcut.Shotcut -y
 # Ebooks
-sudo flatpak install flathub net.sourceforge.mcomix -y
+flatpak install flathub net.sourceforge.mcomix -y
 
 # Install if needed
-# flatpak install me.timschneeberger.GalaxyBudsClient -y
+flatpak install me.timschneeberger.GalaxyBudsClient -y

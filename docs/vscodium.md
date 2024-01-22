@@ -33,7 +33,7 @@ Install the Fedora GNOME light & dark themes extension by olifink, and change th
 
 - Workbench
   - Appearance
-    - Color Theme: Gnome Dark (GitHub)
+    - Color Theme: Gnome Light (GitHub)
     - Preferred Dark Color Theme: Gnome Dark (GitHub)
     - Preferred Light Color Theme: Gnome Light (GitHub)
 

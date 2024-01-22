@@ -34,6 +34,7 @@ Run the following commands to download some [community presets](https://github.c
 ```
 cd ~/Repos
 git clone https://github.com/p-chan5/EasyPulse
+cd EasyPulse
 git checkout 0.2.0
 ```
 

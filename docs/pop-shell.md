@@ -12,7 +12,6 @@ Click the tray icon for Pop Shell, and change the following settings:
 
 - Tile windows: On
 - Active hint color: (right click to change) #80b9ff
-- Gaps: 2
 
 Adjust the following settings in Settings > Keyboard > View and Customize Shortcuts:
 
@@ -25,4 +24,6 @@ Adjust the following settings in Settings > Keyboard > View and Customize Shortc
 - Home folder: Disabled
 - Toggle stacking inside management mode: Disabled
 - Toggle stacking mode outside management mode: Disabled
+- Launch email client: Disabled
+- Launch web browser: Disabled
 - Launch and switch applications: Disabled
