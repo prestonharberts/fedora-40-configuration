@@ -54,19 +54,8 @@ alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && flatpak upgrade 
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
-alias cdbin='cd ~/Bin/'
-alias cdsys='cd ~/System/'
-alias cddoc='cd ~/Documents/'
-alias cdgam='cd ~/Games/'
-alias cdinb='cd ~/Inbox/'
-alias cdsyn='cd ~/Syncthing/'
-alias cdmus='cd ~/Music/'
-alias cddow='cd ~/Downloads/'
-alias cdpic='cd ~/Pictures/'
-alias cdrep='cd ~/Repos/'
-alias cdtmp='cd ~/Temp/'
 alias fedora='cd ~/Repos/fedora-39-configuration/docs/'
-alias bible='cd ~/Repos/biblegateway-to-obsidian/ && c .'
+alias bible='cd ~/Repos/biblegateway-to-obsidian/
 
 # frequently used commands: git
 alias gits='git status'
