@@ -148,8 +148,6 @@ Change the following settings for the Built-In extensions:
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
-    - App Menu: Off
-    - App Menu Label: Off
     - World Clock: Off
     - Weather: Off
     - Events: Off
