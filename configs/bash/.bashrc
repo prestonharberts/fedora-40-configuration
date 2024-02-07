@@ -55,7 +55,7 @@ alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
 alias fedora='cd ~/Repos/fedora-39-configuration/docs/'
-alias bible='cd ~/Repos/biblegateway-to-obsidian/
+alias bible='cd ~/Repos/biblegateway-to-obsidian/'
 
 # frequently used commands: git
 alias gits='git status'
