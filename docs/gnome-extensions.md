@@ -131,6 +131,8 @@ Change the following settings for the Built-In extensions:
 - Focus by scaryawr (currently disabled)
   - Inactive Opacity: Two notches away from the right (use arrow keys to move)
 - Fullscreen Avoider by noobsai (only use for multiple monitors)
+- GPU profile selector by lori_more
+  - Make sure EnvyControl is installed (see `envycontrol.md`)
 - GSConnect by dlandau
   - Run the following to install the openssl dependency: `sudo dnf install openssl -y`
   - Name your device
