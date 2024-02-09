@@ -54,7 +54,7 @@ alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && flatpak upgrade 
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
-alias fedora='cd ~/Repos/fedora-39-configuration/'
+alias fedora='cd ~/Repos/fedora-38-configuration/'
 alias bible='cd ~/Repos/biblegateway-to-obsidian/'
 
 # frequently used commands: git
