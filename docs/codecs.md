@@ -9,4 +9,5 @@ sudo dnf install gstreamer1-plugin-libav -y
 sudo dnf install gstreamer1-plugins-bad-free -y
 sudo dnf install gstreamer1-plugins-ugly -y
 sudo dnf install gstreamer1-plugins-ugly-free -y
+sudo dnf install libavcodec-freeworld -y
 ```
