@@ -37,7 +37,7 @@ Install the Fedora GNOME light & dark themes extension by olifink, and change th
     - Preferred Dark Color Theme: Gnome Dark (GitHub)
     - Preferred Light Color Theme: Gnome Light (GitHub)
 
-Install the Vim extension by vscodevim, Error Lens by usernamehw, Python by ms-python, clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first), Bash IDE by mads-hartmann, and ShellCheck by timonwong.
+Install the Vim extension by vscodevim, Error Lens by usernamehw, Python by ms-python, clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first, in which case also press `Ctrl+Shift+P` and enter "clangd: Toggle inlay hints"), Bash IDE by mads-hartmann, and ShellCheck by timonwong.
 
 Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/gosh@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
 
