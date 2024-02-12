@@ -47,6 +47,21 @@ Open Application Menu, and open Settings. Change the following settings:
 		- Allow Firefox to send technical and interation data to Mozilla: Off
 		- Allow Firefox to install and run studies: Off
 
+## GNOME Theme
+
+Run the following to install a GNOME theme for Firefox (source: https://github.com/rafaelmardojai/firefox-gnome-theme):
+
+```
+git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
+./scripts/auto-install.sh
+```
+
+Enter `about:config` into the URL bar, and agree to enter. Click the + button for the following setting:
+
+```
+gnomeTheme.hideSingleTab
+```
+
 ## Customize Toolbar
 
 Right click empty space on the toolbar (same bar as the search bar), and go to Customize Toolbar. Complete the following actions:
@@ -66,6 +81,8 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 
 - Bitwarden - Free Password Manager by Bitwarden Inc.
 - Cookie AutoDelete by CAD Team
+- DeArrow - Better Titles and Thumbnails on YouTube
+- Enhancer for YouTube by Maxime RF
 - OneTab by OneTab Team
 - Progressive Web Apps by Filip S
 - Return YouTube Dislike by Dmitry Selivanov
@@ -85,6 +102,30 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
 				- Clear clipboard: 2 minutes
                 - Ask to add login: Off
                 - Ask to update existing login: Off
+
+### Enhancer for YouTube
+
+Click the Enhancer for YouTube extension button, and change the following settings:
+
+- Theme
+  - Dark theme: On (if wanted); YouTube-DeepDark (custom)
+    - YouTube DeepDark (custom): ff0000; #242424; #292929; #454545
+- Video player
+	- Controls
+      - Disable all controls
+	- Playback quality
+		- Automatically select a playback quality
+			- Select a different playback quality when entering the full screen mode: On
+				- Videos (full screen): Use monitor resolution
+				- Playlists (full screen): Use monitor resolution
+				- Pop-up player and embedded videos (full screen): Use monitor resolution
+	- Autoplay
+		- Disable autoplay: On
+- Appearance
+  - Use the available space based on the viewport dimensions to expand the video player: On
+  - Automatically expand the videos descriptions: On
+  - Hide chat: On
+  - Hide Shorts: On (Change `layout.css.has-selector.enabled` to `true` in about:config)
 
 ### OneTab
 
@@ -124,21 +165,6 @@ Once all this is set up, open `about:support` and open the profile directory in 
 ```
 
 Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`, as well as adjusting the VA-API settings listed later in this document. Restart the app.
-
-## GNOME Theme
-
-Run the following to install a GNOME theme for Firefox (source: https://github.com/rafaelmardojai/firefox-gnome-theme):
-
-```
-git clone https://github.com/rafaelmardojai/firefox-gnome-theme && cd firefox-gnome-theme
-./scripts/auto-install.sh
-```
-
-Enter `about:config` into the URL bar, and agree to enter. Click the + button for the following setting:
-
-```
-gnomeTheme.hideSingleTab
-```
 
 ## Netflix 1080p
 
