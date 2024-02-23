@@ -10,6 +10,7 @@ Sign out and log back in, once this is complete. Change the following settings f
 
 Click the tray icon for Pop Shell, and change the following settings:
 
+- Allow stacking with mouse: Off
 - Tile windows: On
 - Active hint color: (right click to change) #80b9ff
 
@@ -27,3 +28,34 @@ Adjust the following settings in Settings > Keyboard > View and Customize Shortc
 - Launch email client: Disabled
 - Launch web browser: Disabled
 - Launch and switch applications: Disabled
+
+Set the following Floating Window Exceptions to personal preference:
+
+- Floating Window Exceptions (open this window twice so that it is visible when selecting)
+- AppImageLauncher Settings
+- Calculator
+- Characters
+- Color Picker
+- dconf Editor
+- Decibels
+- Disk Usage Analyzer
+- Disks
+- Easy Effects
+- Extensions
+- Fonts
+- Galaxy Buds Client
+- Konsole
+- Lrcget
+- Help
+- HydraPaper
+- Image Viewer
+- Logs
+- Nautilus
+- Pomodoro
+- Problem Reporting
+- Settings
+- Software
+- System Monitor
+- Text Editor
+- Tresorit
+- Tweaks
