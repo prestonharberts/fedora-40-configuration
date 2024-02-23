@@ -47,6 +47,9 @@ Change the following settings for the Built-In extensions:
     - Custom hotkeys (you can assign up to 2 characters (keys) to each action)
       - Filter mode: W
       - Close Window / Quit Application: Q
+- Alphabetical App Grid by Stuart Hayhurst
+  - General settings
+    - Position of ordered folders: Start
 - ArcMenu by andrew_z
   - General
     - Panel Display Options
