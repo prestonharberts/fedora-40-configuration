@@ -82,7 +82,6 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 - Bitwarden - Free Password Manager by Bitwarden Inc.
 - Cookie AutoDelete by CAD Team
 - DeArrow - Better Titles and Thumbnails on YouTube
-- Enhancer for YouTube by Maxime RF
 - OneTab by OneTab Team
 - Progressive Web Apps by Filip S
 - Return YouTube Dislike by Dmitry Selivanov
@@ -105,6 +104,13 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
 
 ### Enhancer for YouTube
 
+Enhancer for YouTube by Maxime RF can be installed by downloading the XPI file to isntall manually. As of now (Feb. 23, 2024), it is not available on the Firefox Add-Ons page. Run the following in terminal, and add manually:
+
+```
+cd ~/Downloads
+wget https://web.archive.org/web/20231022152055mp_/https://addons.mozilla.org/firefox/downloads/file/4157491/enhancer_for_youtube-2.0.121.xpi
+```
+
 Click the Enhancer for YouTube extension button, and change the following settings:
 
 - Theme
@@ -119,6 +125,7 @@ Click the Enhancer for YouTube extension button, and change the following settin
 				- Videos (full screen): Use monitor resolution
 				- Playlists (full screen): Use monitor resolution
 				- Pop-up player and embedded videos (full screen): Use monitor resolution
+            - Switch back to the previous playback quality when exiting the full screen mode: On
 	- Autoplay
 		- Disable autoplay: On
 - Appearance
@@ -142,11 +149,13 @@ Follow the instructions presented by this extension when prompted. Make web apps
 - https://calendar.google.com/calendar/
 - https://devdocs.io
 - https://chat.openai.com/
-- https://play.qobuz.com
+- https://music.youtube.com
+- https://play.qobuz.com (if subscribed)
   - Name: Qobuz
   - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
+- https://youtube.com
 
-Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, and uninstall every extension except for Dark Reader and uBlock Origin. Change Firefox's settings to follow this guide.
+Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, restart the app, and uninstall every extension except for Cookie AutoDelete and uBlock Origin. For YouTube, keep all related extensions. Change Firefox's application settings to follow this guide.
 
 For the following websites, change the following settings:
 
@@ -155,7 +164,7 @@ For the following websites, change the following settings:
     - General
       - Automatically download documentation for offline use: On
 
-Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `/chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
+Once all this is set up, open `about:support` and open the profile directory in a terminal. Create `chrome/userChrome.css` and paste the following into it to hide the titlebar ([source](https://superuser.com/a/1619663)):
 
 ```
 /* hides the title bar */
