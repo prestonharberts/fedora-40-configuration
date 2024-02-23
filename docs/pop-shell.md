@@ -51,6 +51,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Image Viewer
 - Logs
 - Nautilus
+- NVIDIA X Server Settings
 - Pomodoro
 - Problem Reporting
 - Settings
@@ -59,3 +60,4 @@ Set the following Floating Window Exceptions to personal preference:
 - Text Editor
 - Tresorit
 - Tweaks
+- VLC
