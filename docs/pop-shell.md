@@ -33,6 +33,7 @@ Set the following Floating Window Exceptions to personal preference:
 
 - Floating Window Exceptions (open this window twice so that it is visible when selecting)
 - AppImageLauncher Settings
+- Bitwarden
 - Calculator
 - Characters
 - Color Picker
