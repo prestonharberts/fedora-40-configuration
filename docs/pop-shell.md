@@ -47,7 +47,6 @@ Set the following Floating Window Exceptions to personal preference:
 - Galaxy Buds Client
 - Konsole
 - Lrcget
-- Help
 - HydraPaper
 - Image Viewer
 - Logs
