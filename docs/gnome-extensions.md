@@ -245,7 +245,7 @@ Change the following settings for the Built-In extensions:
   - After installing the Simple Message extension, move simple-message to be right before workspace-name-indicator in the Left Top Bar Box
   - Move gnome-pomodoro to be at the beginning of the Left Top Bar Box
   - Move the dateMenu to be at the end of the Right Top Bar Box
-- Transparent Window Moving by Noobsai
+- Transparent Window Moving by Noobsai (doesn't work with alt dragging)
   - Opacity (0..255): 230
 - Unite by hardpixel
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
