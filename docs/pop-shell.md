@@ -62,3 +62,5 @@ Set the following Floating Window Exceptions to personal preference:
 - Tresorit
 - Tweaks
 - VLC
+
+Also add Discord's Nautilus file attachment window.
