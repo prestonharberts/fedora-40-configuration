@@ -37,6 +37,7 @@
     - Hide window: `Super-S`
     - Show the notification list: `Super-A`
     - Switch applications: `Alt-Tab`
+    - Switch windows of an application: `Alt-Escape` (if using HHKB)
     - Show the overview: `Super-Tab`
     - Show all apps: `Shift-Super-Tab`
     - Move window one monitor down: `Alt-Super-J`
