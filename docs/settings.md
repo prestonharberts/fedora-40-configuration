@@ -50,9 +50,10 @@
     - Move window one workspace to the left: `Super-[`
     - Move window one workspace to the right: `Super-/`
     - Toggle fullscreen mode: `Super-F
-    - View split on left: Super+Z
-    - View split on right: Super+X
-    - Toggle maximization state: Super+C
+    - Toggle window on all workspaces or one: `Super+X`
+    - View split on left: Disabled
+    - View split on right: Disabled
+    - Toggle maximization state: Disabled
     - Resize window: Disabled
     - Launch help browser: Disabled
     - Open the app menu: Disabled
