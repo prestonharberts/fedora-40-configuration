@@ -36,6 +36,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Bitwarden
 - Calculator
 - Characters
+- Chess
 - Color Picker
 - dconf Editor
 - Decibels
@@ -56,10 +57,13 @@ Set the following Floating Window Exceptions to personal preference:
 - Problem Reporting
 - Settings
 - Software
+- Space Cadet Pinball
+- Sudoku
 - System Monitor
 - Text Editor
 - Tresorit
 - Tweaks
+- Warble
 - VLC
 
 Also add Discord's Nautilus file attachment window.
