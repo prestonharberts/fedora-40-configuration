@@ -38,6 +38,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Calculator
 - Characters
 - Chess
+- Clock
 - Color Picker
 - dconf Editor
 - Decibels
