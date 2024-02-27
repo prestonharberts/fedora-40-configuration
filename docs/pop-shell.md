@@ -62,6 +62,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Sudoku
 - System Monitor
 - Text Editor
+- Todoist
 - Tresorit
 - Tweaks
 - Warble
