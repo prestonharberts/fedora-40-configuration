@@ -11,3 +11,6 @@ Change the following settings:
 - `/org/gnome/desktop/wm/keybindings/always-on-top`
   - Use default value: Off
   - Custom value: `['<Super>z']`
+- `/org/gnome/desktop/wm/keybindings/move-to-center`
+  - Use default value: Off
+  - Custom value: `['<Super>c']`
