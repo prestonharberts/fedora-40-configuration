@@ -137,7 +137,7 @@ Change the following settings for the Built-In extensions:
     - Syncthing Web UI
     - Bitwarden
 - (light or dark--top-bar) Date Menu Formatter by mjakubowski
-  - Pattern: EEEE K:mm aaa
+  - Pattern: EEEE `K:mm:ss` (or do `K:mm aaa` for AM/PM without seconds)
   - Font size: 11 pt
 - (light or dark--top-bar) Floating Panel by aylur
   - Install, then copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
