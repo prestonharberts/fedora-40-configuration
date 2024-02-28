@@ -38,6 +38,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Calculator
 - Characters
 - Chess
+- Clock
 - Color Picker
 - dconf Editor
 - Decibels
@@ -57,6 +58,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Pomodoro
 - Problem Reporting
 - Settings
+- Simon Thatham's Portable Puzzle Collection
 - Software
 - Space Cadet Pinball
 - Sudoku
