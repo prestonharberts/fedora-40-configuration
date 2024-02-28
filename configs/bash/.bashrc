@@ -55,7 +55,7 @@ alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
 alias csc='cd ~/Documents/college/classes/csc/ && cd'
-alias obsidian='cd ~/Documents/obsidian/obsidian/'
+alias obsidian='cd ~/Documents/obsidian/'
 alias .obsidian='cd ~/Documents/obsidian/.obsidian/'
 alias snippets='cd ~/Documents/obsidian/.obsidian/snippets/'
 alias fedora='cd ~/Repos/fedora-38-configuration/'
