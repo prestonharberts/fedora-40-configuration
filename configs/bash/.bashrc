@@ -54,8 +54,16 @@ alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && flatpak upgrade 
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
+alias csc='cd ~/Documents/college/classes/csc/'
+alias obsidian='cd ~/Documents/obsidian/obsidian/'
+alias .obsidian='cd ~/Documents/obsidian/.obsidian/'
+alias snippets='cd ~/Documents/obsidian/.obsidian/snippets/'
 alias fedora='cd ~/Repos/fedora-38-configuration/'
+alias fedorar='cd ~/Repos/fedora-38-configuration/readmes/'
+alias fedoras='cd ~/Repos/fedora-38-configuration/scripts/'
+alias fedorac='cd ~/Repos/fedora-38-configuration/configs/'
 alias bible='cd ~/Repos/biblegateway-to-obsidian/'
+alias bibles='cd ~/Repos/biblegateway-to-obsidian/scripts/'
 
 # frequently used commands: git
 alias gits='git status'
