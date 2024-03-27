@@ -266,6 +266,9 @@ Change the following settings for the Built-In extensions:
 - (light- or dark-top-bar) Worksapce Dry Names by ecrevisseMiroir (typo included)
   - Name workspaces Primary, Secondary, and so on
 - Workspace Switcher Manager by GdH
+  - General
+    - Workspaces
+      - Workspaces on Primary Display Only: Off
   - Pop-up
     - Behaviour
       - On-Screen Time (ms): 200
