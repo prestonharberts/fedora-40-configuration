@@ -13,6 +13,9 @@ Click "Mark as done", then disable "Show welcome page on startup" on the new pag
 Change the following settings:
 
 - Text Editor
+  - Detect Indentation: Off
+  - Inlay Hints: Off
+  - Tab Size: 2
   - Font
     - Font Family: Insert `'SF Mono', ` at the beginning after following the instructions in `sf-font.md`
     - Font Size: 12
