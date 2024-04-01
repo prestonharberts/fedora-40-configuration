@@ -54,7 +54,7 @@ alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && flatpak upgrade 
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
-alias csc='cd ~/Documents/college/classes/csc/ && cd'
+alias csc='cd ~/Documents/school/classes/csc/ && cd'
 alias obsidian='cd ~/Documents/obsidian/'
 alias .obsidian='cd ~/Documents/obsidian/.obsidian/'
 alias snippets='cd ~/Documents/obsidian/.obsidian/snippets/'
