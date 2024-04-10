@@ -102,6 +102,7 @@ Change the following settings for the Built-In extensions:
 - Compiz alike magic lamp effect by hermes83(only if computer will not lag)
   - Duration (ms): 250
 - Dash to Dock by michele_g
+  - Comment every line containing `animateLaunch` in `.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/appIcons.js` 
   - Position and size
     - Show the dock on: Choose primary monitor
     - Position on screen: Left
