@@ -59,7 +59,7 @@ alias obsidian='cd ~/Documents/obsidian/'
 alias .obsidian='cd ~/Documents/obsidian/.obsidian/'
 alias snippets='cd ~/Documents/obsidian/.obsidian/snippets/'
 alias fedora='cd ~/Repos/fedora-38-configuration/'
-alias bg2obs='cd ~/Repos/biblegateway-to-obsidian/'
+alias bg2ob='cd ~/Repos/biblegateway-to-obsidian/'
 
 # frequently used commands: git
 alias gits='git status'
