@@ -12,13 +12,17 @@ cp SF* ~/.local/share/fonts/ -r
 fc-cache -v -f
 ```
 
+## Latin Modern Roman fonts
+
 Download all Latin Modern Roman Regular, Bold, and Italic fonts from https://www.1001fonts.com/latin-modern-roman-font.html. Then, run the following commands:
 
 ```
-mkdir ~/.fonts/ ~/.fonts/opentype/
+mkdir -p ~/.fonts/ ~/.fonts/opentype/
 mv ~/Downloads/latin-modern-roman* ~/.fonts/opentype/
 fc-cache -v -f 
 ```
+
+## Times New Roman and Microsoft fonts
 
 To install Times New Roman and other Microsoft fonts, run the following:
 
