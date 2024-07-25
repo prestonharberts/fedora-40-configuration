@@ -50,6 +50,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Galaxy Buds Client
 - Konsole
 - Lrcget
+- Homebank
 - HydraPaper
 - Image Viewer
 - Logs
