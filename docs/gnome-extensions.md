@@ -216,7 +216,7 @@ Change the following settings for the Built-In extensions:
     - On AC: Balanced
     - On battery: Power Saving
 - Rounded Corners by lennart-k (disable if using multiple monitors)
-- Rounded Window Corners by Luo Yi
+- Rounded Window Corners by Luo Yi (Old - do not install)
   - General
     - Applications
       - Skip LibAdwaita Applications: Off
@@ -237,6 +237,42 @@ Change the following settings for the Built-In extensions:
         - Right: 0.0
         - Top: 0.0
         - Bottom: 0.0
+- Rounded Window Corners Reborn by flexagoon
+  - General
+    - Applications
+      - Skip LibAdwaita Applications: Off
+    - Global Settings
+      - Border Radius: 16.0
+      - Window Shadow
+        - Focused shadow prefrences
+          - Spread Radius: 6.0
+        - Unfocus Window
+          - Vertical offset: 4.0
+          - Blur radius: 28
+          - Opacity: 60
+      - Keep Rounded Corners when Maximized: On
+      - Keep Rounded Corners when Fullscreen: On
+      - Paddings
+        - Left: 0.0
+        - Right: 0.0
+        - Top: 0.0
+        - Bottom: 0.0
+- Space Bar by luchrioh
+  - Behavior
+    - General
+      - Show empty workspaces: Off
+  - Appearance
+    - General
+      - Workspaces-bar padding: 0
+      - Workspace margin: 0
+    - Active Workspace
+      - Font size: 10
+      - Font weight: Semi Bold
+  - Shortcuts
+    - Switch to workspace: Off
+    - Move current workspace left: Disabled
+    - Move current workspace right: Disabled
+    - Switch to empty workspace: Disabled
 - Time in date menu by knedme
   - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
     - Line 18: `let dateFormat = Shell.util_translate_time_string(N_("(%Y/%m/%d)"));`
@@ -244,17 +280,17 @@ Change the following settings for the Built-In extensions:
     - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
     - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
 - (light or dark--top-bar) Top Bar Organizer by Julian
+  - Download the GNOME 46 patched version [here](https://github.com/jamespo/gnome-extensions) and move the contents to the Top Bar Organizer folder in `~/.local/share/gnome-shell/extensions`.
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
-  - After installing the Worksapce Dry Names (typo included) extension, move workspace-name-indicator to be right after activities in the Left Top Bar Box
   - After installing the Simple Message extension, move simple-message to be right before workspace-name-indicator in the Left Top Bar Box
   - Move gnome-pomodoro to be at the beginning of the Left Top Bar Box
   - Move the dateMenu to be at the end of the Right Top Bar Box
 - Transparent Window Moving by Noobsai (doesn't work with alt dragging)
   - Opacity (0..255): 230
 - Unite by hardpixel
+  - Download the GNOME 46 patched version [here](https://github.com/hardpixel/unite-shell/releases) and move the contents to the Top Bar Organizer folder in `~/.local/share/gnome-shell/extensions`.
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
   - General
-    - Extend top bar left box: Off
     - Show system tray in top bar: Off
     - Show desktop name in top bar: Off
     - Restrict funcitonalities to the primary screen: Off
@@ -262,13 +298,13 @@ Change the following settings for the Built-In extensions:
     - Hide window titlebars: Always
     - Show window title in app menu: Never
     - Show window buttons in top bar: Never
+  - Appearance
+    - Extend top bar left box: Off
 - User Themes by fmuellner
-- (light- or dark-top-bar) Volume Scroller by trflynn89
+- (light- or dark-top-bar) Volume Scroller by francislavoie
 - Wallpaper Light Switch (in `configs/extensions/`)
   - Run the following to move the extension to the GNOME extension directory: `cp ~/Repos/fedora-38-configuration/configs/extensions/wallpaper-light-switch@prestonharberts.github.com/ ~/.local/share/gnome-shell/extensions/ -r`
   - Set your wallpaper, then press `Alt+F2`, and enter in `r` to restart the GNOME shell.
-- (light- or dark-top-bar) Worksapce Dry Names by ecrevisseMiroir (typo included)
-  - Name workspaces Primary, Secondary, and so on
 - Workspace Switcher Manager by GdH
   - General
     - Workspaces
