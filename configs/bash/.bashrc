@@ -58,7 +58,7 @@ alias csc='cd ~/Documents/school/classes/csc/ && cd'
 alias obsidian='cd ~/Documents/obsidian/'
 alias .obsidian='cd ~/Documents/obsidian/.obsidian/'
 alias snippets='cd ~/Documents/obsidian/.obsidian/snippets/'
-alias fedora='cd ~/Repos/fedora-38-configuration/'
+alias fedora='cd ~/Repos/fedora-40-configuration/'
 alias bg2ob='cd ~/Repos/biblegateway-to-obsidian/'
 
 # frequently used commands: git
