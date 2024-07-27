@@ -42,6 +42,7 @@ Now, change the following settings under Configure Konsole:
     - Show Close Tab Button: None
     - Miscellaneous
       - Expand individual tab widths to full window: On
+      - Use user-defined stylesheet: Select CSS file in `configs/konsole`
   - Behavior
     - Put new tabs: After current tab
   - This section may need to be completed one more time becuase it resets after exiting
