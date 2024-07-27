@@ -272,6 +272,9 @@ Change the following settings for the Built-In extensions:
     - Active Workspace
       - Font size: 10
       - Font weight: Semi Bold
+      - Border radius: 8
+      - Horizontal padding: 12
+      - Vertical padding: 2
   - Shortcuts
     - Switch to workspace: Off
     - Move current workspace left: Disabled
