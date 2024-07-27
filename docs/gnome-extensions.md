@@ -270,6 +270,7 @@ Change the following settings for the Built-In extensions:
       - Workspaces-bar padding: 0
       - Workspace margin: 0
     - Active Workspace
+      - Background color: #404040
       - Font size: 10
       - Font weight: Semi Bold
       - Border radius: 8
