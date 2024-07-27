@@ -292,6 +292,7 @@ Change the following settings for the Built-In extensions:
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
   - General
     - Show system tray in top bar: Off
+    - Show appmenu in top bar: Off
     - Show desktop name in top bar: Off
     - Restrict funcitonalities to the primary screen: Off
     - Hide activities button: Always
