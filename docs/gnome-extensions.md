@@ -149,8 +149,9 @@ Change the following settings for the Built-In extensions:
   - Font size: 11 pt
 - (light or dark--top-bar) Floating Panel by aylur
   - Install, then copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
-- Focus by scaryawr (currently disabled)
-  - Inactive Opacity: Two notches away from the right (use arrow keys to move)
+- Focus by scaryawr
+  - Inactive Opacity: One notch away from the right (use arrow keys to move)
+  - Special Focus Opacity: Full
 - Fullscreen Avoider by noobsai (only use for multiple monitors)
 - GPU profile selector by lori_more
   - Make sure EnvyControl is installed (see `envycontrol.md`)
