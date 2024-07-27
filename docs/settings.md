@@ -36,7 +36,8 @@
     - Hide all normal windows: `Super-D`
     - Hide window: `Super-S`
     - Open the quick settings menu: `Super-A`
-    - Show the notification list: `Super-Shift-A`
+    - Show the notification list: `Super-N`
+    - Focus the active notification: `Shift+Super+N`
     - Switch applications: `Alt-Tab`
     - Switch windows of an application: `Alt-Escape` (if using HHKB)
     - Show the overview: `Super-Tab`
