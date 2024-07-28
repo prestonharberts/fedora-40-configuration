@@ -16,5 +16,7 @@ Open a file and change the Font & Layout Settings:
 - Font
   - Font Size
     - Default Font Size: 20
-- Behaviour
-  - Reduce Animation: On
+  - Font Family
+    - Serif Font: Noto Serif
+    - Sans-Serif Font: SF Pro Display
+    - Monospace Font: SF Mono
