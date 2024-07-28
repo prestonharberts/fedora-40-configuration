@@ -271,12 +271,15 @@ Change the following settings for the Built-In extensions:
       - Workspaces-bar padding: 0
       - Workspace margin: 0
     - Active Workspace
-      - Background color: #404040
+      - Background color: Any color, fully transparent
       - Font size: 10
       - Font weight: Semi Bold
       - Border radius: 8
+      - Border width: 0
       - Horizontal padding: 12
-      - Vertical padding: 2
+      - Vertical padding: 1
+    - Inactive Workspace
+      - Text color: #AAAAAA
   - Shortcuts
     - Switch to workspace: Off
     - Move current workspace left: Disabled
