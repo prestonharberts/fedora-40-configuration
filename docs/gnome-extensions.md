@@ -144,8 +144,8 @@ Change the following settings for the Built-In extensions:
   - Pattern: I prefer these options
     - EEEE `K:mm:ss`
     - `K:mm aaa` for AM/PM without seconds
-    - `M·dd·yy     h:mm a` to have date as well
-    - `M·dd·yy     h:mm:ss` to replace AM/PM with seconds
+    - `M·dd·y     h:mm a` to have date as well
+    - `M·d·y     h:mm:ss` to replace AM/PM with seconds
   - Font size: 11 pt
 - (light or dark--top-bar) Floating Panel by aylur
   - Install, then copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
