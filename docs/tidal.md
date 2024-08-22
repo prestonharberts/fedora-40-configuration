@@ -3,5 +3,5 @@
 Run the following to install Tidal:
 
 ```
-flatpak install flathub com.mastermindzh.tidal-hifi
+flatpak install flathub com.mastermindzh.tidal-hifi -y
 ```
