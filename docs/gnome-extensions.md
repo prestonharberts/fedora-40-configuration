@@ -142,8 +142,8 @@ Change the following settings for the Built-In extensions:
     - Bitwarden
 - (light or dark--top-bar) Date Menu Formatter by mjakubowski
   - Pattern: I prefer these options
-    - EEEE `K:mm:ss`
-    - `K:mm aaa` for AM/PM without seconds
+    - `EEEE K:mm aaa`
+    - `EEEE K:mm:ss` for seconds
     - `M·dd·y     h:mm a` to have date as well
     - `M·d·y     h:mm:ss` to replace AM/PM with seconds
   - Font size: 11 pt
