@@ -30,6 +30,14 @@ stage {
     border-top:0px;border-right:0px;border-left:0px;
     font-weight: bold;
     height: 26px;
+    /*floating top bar*/
+    border-radius: 12px;
+    /*margin-top: 8px;*/
+    /*margin-bottom: 8px; /* no longer necessary */
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+
 }
 
 #panel:overview {

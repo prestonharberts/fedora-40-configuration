@@ -147,8 +147,6 @@ Change the following settings for the Built-In extensions:
     - `M·dd·y     h:mm a` to have date as well
     - `M·d·y     h:mm:ss` to replace AM/PM with seconds
   - Font size: 11 pt
-- (light or dark--top-bar) Floating Panel by aylur
-  - Install, then copy `floating-panel@aylur` to `~/.local/share/gnome-shell/extensions/`
 - Focus by scaryawr
   - Inactive Opacity: One notch away from the right (use arrow keys to move)
   - Special Focus Opacity: Full
@@ -272,6 +270,7 @@ Change the following settings for the Built-In extensions:
       - Workspace margin: 0
     - Active Workspace
       - Background color: Any color, fully transparent
+      - Text color: #000000
       - Font size: 10
       - Font weight: Semi Bold
       - Border radius: 8
@@ -279,7 +278,7 @@ Change the following settings for the Built-In extensions:
       - Horizontal padding: 12
       - Vertical padding: 1
     - Inactive Workspace
-      - Text color: #AAAAAA
+      - Text color: #808080
   - Shortcuts
     - Switch to workspace: Off
     - Move current workspace left: Disabled
