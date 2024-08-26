@@ -8,12 +8,10 @@ sudo dnf install gnome-extensions-app -y
 
 Run `gsettings set org.gnome.shell disable-extension-version-validation true` so incompatible extensions will run with the current GNOME version.
 
-Choose (light- or dark-top-bar) settings if you want to keep the top bar visible. Choose `(invisible-top-bar)` if you want to hide the top bar.
-
 Change the following settings for the Built-In extensions:
 
 - Background Logo: Off
-- (light- or dark-top-bar) Pomodoro: On
+- Pomodoro: On
 
  Visit https://extensions.gnome.org, and install the following extensions while changing their settings, as well.
 
@@ -62,17 +60,11 @@ Change the following settings for the Built-In extensions:
     - Menu Theme
       - Override Theme: On
       - Menu Themes
-        - Current Theme: Light Blue (for light theme)
+        - Current Theme: Light Blue
       - Menu Styling
         - Background Color: #ffffff
         - Foreground color: #000000
         - Save the theme as "Light"
-      - Menu Themes
-        - Current Theme: ArcMenu Style (for dark theme)
-      - Menu Styling
-        - Background Color: #2c2c2c
-        - Foreground color: #ffffff
-        - Save the theme as "Dark"
     - Menu Visual Appearance
       -  Menu Location
         - Override Menu Rise: On; 8
@@ -85,8 +77,8 @@ Change the following settings for the Built-In extensions:
       - Display Style: Text
       - Text: Make empty
       - Padding: 0
-- (light- or dark-top-bar) Autohide Battery by iskin (only if current machine is has a battery)
-- (light or dark--top-bar) Autohide Volume by t184256
+- Autohide Battery by iskin (only if current machine is has a battery)
+- Autohide Volume by t184256
 - Burn My Windows by Simme (only if computer will not lag)
   - Disable Fire and enable Glide
 - Caffeine by eon
@@ -140,7 +132,7 @@ Change the following settings for the Built-In extensions:
     - Tresorit
     - Syncthing Web UI
     - Bitwarden
-- (light or dark--top-bar) Date Menu Formatter by mjakubowski
+- Date Menu Formatter by mjakubowski
   - Pattern: I prefer these options
     - `EEEE K:mm aaa`
     - `EEEE K:mm:ss` for seconds
@@ -182,20 +174,20 @@ Change the following settings for the Built-In extensions:
     - Background Menu: Off
     - Ripple Box: Off
   - Icons
-    - (light or dark--top-bar) Panel Notification Icon: Off
+    - Panel Notification Icon: Off
   - Behaviour
     - Workspace Peek: Off
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
     - Startup Status: Desktop
   - Customize
-    - (invisible-top-bar) Panel Size: 1px
-    - (light or dark--top-bar) Clock menu position: Right
-    - (light or dark--top-bar) Clock menu offset: 7
+    - Panel Button Padding Size: 0px
+    - Clock menu position: Right
+    - Clock menu offset: 7
     - Animation: No Animation (only if computer is lagging)
-    - (light or dark--top-bar) Notification Banner Position: Top End
+    - Notification Banner Position: Top End
 - Mouse Follows Focus by LeonMatthes (Disable on multi-monitor setups)
-- (light or dark--top-bar) Media Label and Controls (Mpris Label) by moon-0xff
+- Media Label and Controls (Mpris Label) by moon-0xff
   - Panel
     - Icon
       - Show source icon: off
@@ -219,27 +211,6 @@ Change the following settings for the Built-In extensions:
     - On AC: Balanced
     - On battery: Power Saving
 - Rounded Corners by lennart-k (disable if using multiple monitors)
-- Rounded Window Corners by Luo Yi (Old - do not install)
-  - General
-    - Applications
-      - Skip LibAdwaita Applications: Off
-      - Window Shadow
-        - Focus Window
-          - Spread Radius: 6.0
-        - Unfocus Window
-          - Vertical Offset: 4.0
-          - Blur Offset: 28.0
-          - Spread Radius: -10.0
-          - Opacity: 60.0
-    - Global Settings
-      - Border Radius: 16.0
-      - Keep Rounded Corners when Maximized: On
-      - Keep Rounded Corners when Fullscreen: On
-      - Paddings
-        - Left: 0.0
-        - Right: 0.0
-        - Top: 0.0
-        - Bottom: 0.0
 - Rounded Window Corners Reborn by flexagoon
   - General
     - Applications
@@ -266,6 +237,21 @@ Change the following settings for the Built-In extensions:
       - Show empty workspaces: Off
     - Smart Workspace Names
       - Enable smart workspace names: On
+      - Open the following apps and name them accordingly:
+        - Bible (Logos)
+        - Documents (Document Viewer, LibreOffice Calc, LibreOffice Impress, LibreOffice Writer, Zathura)
+        - Coding (Sigil, VSCodium)
+        - Drawing (Inkscape, LibreOffice Draw)
+        - Mail (Tuta Mail)
+        - Messages (Discord)
+        - Music (Tidal, YouTube Music, Rhythmbox)
+        - Notes (Obsidian)
+        - Photo (Krita)
+        - Reading (Foliate)
+        - Video (Shotcut)
+        - Videos (YouTube)
+        - Visualizer (Cavasik)
+        - VM (Virtual Machine Manager)
   - Appearance
     - General
       - Workspaces-bar padding: 0
@@ -286,13 +272,7 @@ Change the following settings for the Built-In extensions:
     - Move current workspace left: Disabled
     - Move current workspace right: Disabled
     - Switch to empty workspace: Disabled
-- Time in date menu by knedme
-  - Copy `time-in-date-menu@knedme/extension.js` to ~/.local/share/gnome-shell/extensions/time-in-date-menu\@knedme/`, or change the following:
-    - Line 18: `let dateFormat = Shell.util_translate_time_string(N_("(%Y/%m/%d)"));`
-    - Line 19: `let timeFormat = Shell.util_translate_time_string(N_("%-I:%M %p"));`
-    - Line 21: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat));`
-    - Line 27: `date.toLocaleFormat(timeFormat) + " " + date.toLocaleFormat(dateFormat);`
-- (light or dark--top-bar) Top Bar Organizer by Julian
+- Top Bar Organizer by Julian
   - Download the GNOME 46 patched version [here](https://github.com/jamespo/gnome-extensions) and move the contents to the Top Bar Organizer folder in `~/.local/share/gnome-shell/extensions`.
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
   - After installing the Simple Message extension, move simple-message to be right before workspace-name-indicator in the Left Top Bar Box
@@ -315,10 +295,7 @@ Change the following settings for the Built-In extensions:
   - Appearance
     - Extend top bar left box: Off
 - User Themes by fmuellner
-- (light- or dark-top-bar) Volume Scroller by francislavoie
-- Wallpaper Light Switch (in `configs/extensions/`)
-  - Run the following to move the extension to the GNOME extension directory: `cp ~/Repos/fedora-38-configuration/configs/extensions/wallpaper-light-switch@prestonharberts.github.com/ ~/.local/share/gnome-shell/extensions/ -r`
-  - Set your wallpaper, then press `Alt+F2`, and enter in `r` to restart the GNOME shell.
+- Volume Scroller by francislavoie
 - Workspace Switcher Manager by GdH
   - General
     - Workspaces
@@ -335,9 +312,9 @@ Change the following settings for the Built-In extensions:
       - Global Opacity (%): 100
     - Pop-up Colors
       - Allow Custom Colors: On
-      - Background color / opacity: #FFFFFF (light)
-      - Border color / opacity: #DADADA (light)
-      - Active WS Foreground color / opacity: #2F2F2F (light)
-      - Active WS Background color / opacity: #DADADA (light)
-      - Inactive WS Foreground color / opacity: #2F2F2F (light)
-      - Inactive WS Background color / opacity: #FFFFFF (light)
+      - Background color / opacity: #FFFFFF
+      - Border color / opacity: #DADADA
+      - Active WS Foreground color / opacity: #2F2F2F
+      - Active WS Background color / opacity: #DADADA
+      - Inactive WS Foreground color / opacity: #2F2F2F
+      - Inactive WS Background color / opacity: #FFFFFF
