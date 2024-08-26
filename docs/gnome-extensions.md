@@ -242,6 +242,7 @@ Change the following settings for the Built-In extensions:
         - Documents (Document Viewer, LibreOffice Calc, LibreOffice Impress, LibreOffice Writer, Zathura)
         - Coding (Sigil, VSCodium)
         - Drawing (Inkscape, LibreOffice Draw)
+        - Internet (Firefox)
         - Mail (Tuta Mail)
         - Messages (Discord)
         - Music (Tidal, YouTube Music, Rhythmbox)
