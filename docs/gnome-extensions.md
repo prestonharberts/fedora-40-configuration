@@ -264,6 +264,8 @@ Change the following settings for the Built-In extensions:
   - Behavior
     - General
       - Show empty workspaces: Off
+    - Smart Workspace Names
+      - Enable smart workspace names: On
   - Appearance
     - General
       - Workspaces-bar padding: 0
@@ -321,6 +323,8 @@ Change the following settings for the Built-In extensions:
   - General
     - Workspaces
       - Workspaces on Primary Display Only: Off
+    - Workspace Switcher
+      - Wraparound: On
   - Pop-up
     - Behaviour
       - On-Screen Time (ms): 200
