@@ -278,7 +278,7 @@ Change the following settings for the Built-In extensions:
       - Horizontal padding: 12
       - Vertical padding: 1
     - Inactive Workspace
-      - Text color: #808080
+      - Text color: #696969
   - Shortcuts
     - Switch to workspace: Off
     - Move current workspace left: Disabled
