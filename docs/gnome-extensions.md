@@ -240,6 +240,7 @@ Change the following settings for the Built-In extensions:
       - Open the following apps and name them accordingly:
         - Bible (Logos)
         - Documents (Document Viewer, LibreOffice Calc, LibreOffice Impress, LibreOffice Writer, Zathura)
+        - Calendar (Google Calendar)
         - Coding (Sigil, VSCodium)
         - Drawing (Inkscape, LibreOffice Draw)
         - Internet (Firefox)
