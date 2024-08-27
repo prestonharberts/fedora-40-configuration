@@ -119,6 +119,7 @@ Change the following settings for the Built-In extensions:
   - Appearance
     - Shrink the dash: On
     - Show overview on startup: Off
+    - Customize windows counter indicators: Dots
     - Customize opacity: Fixed
     - Opacity: 0%
   - Unpin all current dock apps, and pin the following apps in order:
@@ -139,6 +140,7 @@ Change the following settings for the Built-In extensions:
     - `M·dd·y     h:mm a` to have date as well
     - `M·d·y     h:mm:ss` to replace AM/PM with seconds
   - Font size: 11 pt
+- Disable Workspace Animation by ethnarque (optional)
 - Focus by scaryawr
   - Inactive Opacity: One notch away from the right (use arrow keys to move)
   - Special Focus Opacity: Full
@@ -159,6 +161,7 @@ Change the following settings for the Built-In extensions:
     - Advanced
       - MPRIS: Off
       - Notifications: Off
+- Hide the dock in overview by Roslax
 - Just Perfection by JustPerfection
   - Visibility
     - Activities Button: Off
@@ -167,20 +170,22 @@ Change the following settings for the Built-In extensions:
     - Events: Off
     - Search: Off
     - Show Applications Button: Off
+    - Workspace Popup: Off
     - Workspace Switcher: Off
     - Workspaces App Grid: Off
     - Window Picker Close Button: Off
     - Window Picker Caption: Off
-    - Background Menu: Off
     - Ripple Box: Off
   - Icons
     - Panel Notification Icon: Off
   - Behaviour
+    - Workspace Wraparound: On
     - Workspace Peek: Off
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
     - Startup Status: Desktop
   - Customize
+    - Workspace Background Corner Size: 16px
     - Panel Button Padding Size: 0px
     - Clock menu position: Right
     - Clock menu offset: 7
@@ -234,12 +239,16 @@ Change the following settings for the Built-In extensions:
 - Space Bar by luchrioh
   - Behavior
     - General
+      - Indicator Style
+        - Custom labe text
+          - Custom label for unnamed workspaces: Workspace
       - Show empty workspaces: Off
     - Smart Workspace Names
       - Enable smart workspace names: On
       - Open the following apps and name them accordingly:
         - Bible (Logos)
         - Documents (Document Viewer, LibreOffice Calc, LibreOffice Impress, LibreOffice Writer, Zathura)
+        - Audio (fre:ac)
         - Calendar (Google Calendar)
         - Coding (Sigil, VSCodium)
         - Drawing (Inkscape, LibreOffice Draw)
@@ -298,7 +307,7 @@ Change the following settings for the Built-In extensions:
     - Extend top bar left box: Off
 - User Themes by fmuellner
 - Volume Scroller by francislavoie
-- Workspace Switcher Manager by GdH
+- Workspace Switcher Manager by GdH (currently disabled in favor of Space Bar)
   - General
     - Workspaces
       - Workspaces on Primary Display Only: Off
