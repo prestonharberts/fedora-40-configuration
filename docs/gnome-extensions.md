@@ -243,7 +243,6 @@ Change the following settings for the Built-In extensions:
         - Calendar (Google Calendar)
         - Coding (Sigil, VSCodium)
         - Drawing (Inkscape, LibreOffice Draw)
-        - Internet (Firefox)
         - Mail (Tuta Mail)
         - Messages (Discord)
         - Music (Tidal, YouTube Music, Rhythmbox)
@@ -254,6 +253,7 @@ Change the following settings for the Built-In extensions:
         - Videos (YouTube)
         - Visualizer (Cavasik)
         - VM (Virtual Machine Manager)
+        - Web (Firefox)
   - Appearance
     - General
       - Workspaces-bar padding: 0
