@@ -47,6 +47,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Easy Effects
 - Extensions
 - Fonts
+- Fretboard
 - Galaxy Buds Client
 - Konsole
 - Lrcget
