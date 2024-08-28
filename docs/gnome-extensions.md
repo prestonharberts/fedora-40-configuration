@@ -249,9 +249,11 @@ Change the following settings for the Built-In extensions:
         - Bible (Logos)
         - Documents (Document Viewer, LibreOffice Calc, LibreOffice Impress, LibreOffice Writer, Zathura)
         - Audio (fre:ac)
+        - Browser (Firefox)
         - Calendar (Google Calendar)
         - Coding (Sigil, VSCodium)
         - Drawing (Inkscape, LibreOffice Draw)
+        - Ebooks (Calibre)
         - Mail (Tuta Mail)
         - Messages (Discord)
         - Music (Tidal, YouTube Music, Rhythmbox)
@@ -262,7 +264,6 @@ Change the following settings for the Built-In extensions:
         - Videos (YouTube)
         - Visualizer (Cavasik)
         - VM (Virtual Machine Manager)
-        - Web (Firefox)
   - Appearance
     - General
       - Workspaces-bar padding: 0
