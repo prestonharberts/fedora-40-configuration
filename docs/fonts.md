@@ -52,3 +52,23 @@ chmod u+x install.sh
 sudo ./install.sh
 sudo fc-cache -fv
 ```
+
+## Sabon fonts
+
+Download Sabon font pack from https://www.dafontfree.io/sabon-font/. Then, run the following commands:
+
+```
+mkdir -p ~/.fonts/ ~/.fonts/opentype/
+mv ~/Downloads/sabon\ font/Sabon\ Free/* ~/.fonts/opentype/
+fc-cache -v -f 
+```
+
+## Bookerly fonts
+
+Download Bookerly font pack from https://www.cufonfonts.com/font/bookerly. Then, run the following commands:
+
+```
+mkdir -p ~/.fonts/ ~/.fonts/truetype/
+mv ~/Downloads/bookerly-cufonfonts/* ~/.fonts/truetype/
+fc-cache -v -f 
+```
