@@ -247,7 +247,7 @@ Change the following settings for the Built-In extensions:
       - Enable smart workspace names: On
       - Open the following apps and name them accordingly:
         - Bible (Logos)
-        - Documents (Document Viewer, LibreOffice Calc, LibreOffice Impress, LibreOffice Writer, Zathura)
+        - Documents (Document Viewer, LibreOffice Writer, Zathura)
         - Audio (fre:ac)
         - Browser (Firefox)
         - Calendar (Google Calendar)
@@ -260,6 +260,8 @@ Change the following settings for the Built-In extensions:
         - Notes (Obsidian)
         - Photo (Krita)
         - Reading (Foliate)
+        - Slides (LibreOffice Impress)
+        - Spreadsheets (LibreOffice Calc)
         - Video (Shotcut)
         - Videos (YouTube)
         - Visualizer (Cavasik)
