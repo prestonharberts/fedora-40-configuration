@@ -12,16 +12,6 @@ cp SF* ~/.local/share/fonts/ -r
 fc-cache -v -f
 ```
 
-## Latin Modern Roman fonts
-
-Download all Latin Modern Roman Regular, Bold, and Italic fonts from https://www.1001fonts.com/latin-modern-roman-font.html. Then, run the following commands:
-
-```
-mkdir -p ~/.fonts/ ~/.fonts/opentype/
-mv ~/Downloads/latin-modern-roman* ~/.fonts/opentype/
-fc-cache -v -f 
-```
-
 ## Times New Roman and Microsoft fonts
 
 To install Times New Roman and other Microsoft fonts, run the following:
@@ -53,22 +43,16 @@ sudo ./install.sh
 sudo fc-cache -fv
 ```
 
-## Sabon fonts
+## More fonts
 
-Download Sabon font pack from https://www.dafontfree.io/sabon-font/. Then, run the following commands:
+Some more interesting and fun fonts are named below to find or buy elsewhere:
 
-```
-mkdir -p ~/.fonts/ ~/.fonts/opentype/
-mv ~/Downloads/sabon\ font/Sabon\ Free/* ~/.fonts/opentype/
-fc-cache -v -f 
-```
-
-## Bookerly fonts
-
-Download Bookerly font pack from https://www.cufonfonts.com/font/bookerly. Then, run the following commands:
-
-```
-mkdir -p ~/.fonts/ ~/.fonts/truetype/
-mv ~/Downloads/bookerly-cufonfonts/* ~/.fonts/truetype/
-fc-cache -v -f 
-```
+- 1454 Gutenberg Bible
+- Black Sam's Gold
+- Bookerly
+- Carta Magna
+- Good City Modern
+- KJV 1611
+- Latin Modern Roman
+- Middle Ages
+- Sabon
