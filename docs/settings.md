@@ -65,6 +65,7 @@
     - Turn zoom on or off: Disabled
     - Zoom in: Disabled
     - Zoom out: Disabled
+    - Turn screen reader on or off: Disabled
     - Custom Shortcuts
       - Create the following
         - Game mode; `disable-gnome-extensions.sh && kill-background-processes.sh`; Super+B
