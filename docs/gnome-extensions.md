@@ -254,6 +254,7 @@ Change the following settings for the Built-In extensions:
         - Coding (Sigil, VSCodium)
         - Drawing (Inkscape, LibreOffice Draw)
         - Ebooks (Calibre)
+        - Hypervisor (Virtual Machine Manager)
         - Mail (Tuta Mail)
         - Messages (Discord)
         - Music (Tidal, YouTube Music, Rhythmbox)
@@ -265,7 +266,6 @@ Change the following settings for the Built-In extensions:
         - Video (Shotcut)
         - Videos (YouTube)
         - Visualizer (Cavasik)
-        - VM (Virtual Machine Manager)
   - Appearance
     - General
       - Workspaces-bar padding: 0
