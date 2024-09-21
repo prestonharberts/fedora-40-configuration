@@ -36,6 +36,7 @@ Set the following Floating Window Exceptions to personal preference:
 - AppImageLauncher Settings
 - Bitwarden
 - Calculator
+- Calibre
 - Characters
 - Chess
 - Clock
