@@ -151,7 +151,7 @@ Follow the instructions presented by this extension when prompted. Make web apps
 - https://app.logos.com
 - https://calendar.google.com/calendar/
 - https://devdocs.io
-- https://chat.openai.com/
+- https://chatgpt.com
 - https://music.youtube.com
 - https://play.qobuz.com (if subscribed)
   - Name: Qobuz
