@@ -82,6 +82,7 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 - Bitwarden - Free Password Manager by Bitwarden Inc.
   - Open vault popup: Alt+L
 - Cookie AutoDelete by CAD Team
+- CSS Override by swcolegrove
 - DeArrow - Better Titles and Thumbnails on YouTube
 - OneTab by OneTab Team
 - Progressive Web Apps by Filip S
@@ -104,6 +105,105 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
 				- Clear clipboard: 2 minutes
                 - Ask to add login: Off
                 - Ask to update existing login: Off
+
+### CSS Override
+
+Add the following to these specific websites CSS using this extension:
+
+ChatGPT:
+
+```
+/* change the message area */
+.text-base {
+    max-width: 100% !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+/* remove notice below the texting box */
+@media (min-width: 768px) {
+  .md\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
+    opacity: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+/* hide 'add team workspace' button */
+div.flex.flex-col.py-2.empty\:hidden {
+    display: none;
+}
+
+/* hide 'help'  button */
+button.flex.h-6.w-6.items-center.justify-center.rounded-full {
+    opacity: 0;
+}
+
+/* hide 'close sidebar' and 'new chat' buttons */
+button.h-10.rounded-lg.px-2.text-token-text-secondary {
+    display: none;
+}
+/* add more padding after hiding 'close sidebar' and 'new chat' buttons */
+@media (min-width: 768px) {
+  .md\:h-header-height {
+    height: 0.4rem;
+  }
+}
+
+/* hide horizontal line from recent GPTs list */
+.h-px {
+    height: 0;
+}
+/* fix spacing after hiding horizontal line from recent GPTs list */
+.my-2 {
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+/* make recent GPTs list more compact */
+.mt-5 {
+  margin-top: 0rem;
+}
+
+/* change label color in recent GPTs list */
+.text-xs {
+  color: #5881d7 !important;
+}
+
+/* add border to right side of recent GPTs container */
+/* and change background color of it too */
+nav[aria-label="Chat history"] {
+  background-color: #fafafa;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  border-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top: 0;
+    border-top-color: currentcolor;
+  border-top-color: currentcolor;
+  border-bottom: 0;
+    border-bottom-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-left: 0;
+    border-left-color: currentcolor;
+  border-left-color: currentcolor;
+  border-color: #e0e0e0;
+}
+
+/* add border to texting box and change bg color */
+.bg-\[\#f4f4f4\] {
+  background-color: #fafafa;
+  border-width: 1px;
+  border-color: #e0e0e0;
+}
+```
 
 ### Enhancer for YouTube
 
