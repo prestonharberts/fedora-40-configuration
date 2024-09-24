@@ -113,13 +113,6 @@ Add the following to these specific websites CSS using this extension:
 ChatGPT:
 
 ```
-/* change the message area */
-.text-base {
-    max-width: 100% !important;
-    padding-left: 100px !important;
-    padding-right: 100px !important;
-}
-
 /* remove notice below the texting box */
 @media (min-width: 768px) {
   .md\:px-\[60px\] {
