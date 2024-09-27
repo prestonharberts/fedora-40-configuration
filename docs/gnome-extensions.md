@@ -217,6 +217,7 @@ Change the following settings for the Built-In extensions:
     - On battery: Power Saving
 - Rounded Corners by lennart-k (disable if using multiple monitors)
 - Rounded Window Corners Reborn by flexagoon
+  - In case it errors or doesn't work, run `dconf reset -f /org/gnome/shell/extensions/rounded-window-corners-reborn/` in Terminal
   - General
     - Applications
       - Skip LibAdwaita Applications: Off
@@ -231,12 +232,7 @@ Change the following settings for the Built-In extensions:
           - Opacity: 60
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
-      - Paddings
-        - Left: 0.0
-        - Right: 0.0
-        - Top: 0.0
-        - Bottom: 0.0
-- Space Bar by luchrioh
+  - Space Bar by luchrioh
   - Behavior
     - General
       - Indicator Style
