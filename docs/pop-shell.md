@@ -71,6 +71,11 @@ Set the following Floating Window Exceptions to personal preference:
 - Tresorit
 - Tweaks
 - Warble
+- Virtual Machine Manager
 - VLC
+
+If installed aside from this guide, I also recommend floating the following:
+
+- VirtualBox
 
 Also add Discord's Nautilus file attachment window.

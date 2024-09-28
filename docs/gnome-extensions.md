@@ -179,7 +179,6 @@ Change the following settings for the Built-In extensions:
   - Icons
     - Panel Notification Icon: Off
   - Behaviour
-    - Workspace Wraparound: On
     - Workspace Peek: Off
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
