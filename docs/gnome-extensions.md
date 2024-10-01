@@ -130,9 +130,9 @@ Change the following settings for the Built-In extensions:
     - Files
     - Tutanota
     - Google Calendar
-    - Tresorit
-    - Syncthing Web UI
-    - Bitwarden
+    - Tidal
+    - Rhythmbox
+    - ChatGPT (see Firefox setup)
 - Date Menu Formatter by mjakubowski
   - Pattern: I prefer these options
     - `EEEE K:mm aaa`
