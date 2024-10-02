@@ -71,6 +71,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Tresorit
 - Tweaks
 - Warble
+- Upscaler
 - Virtual Machine Manager
 - VLC
 
