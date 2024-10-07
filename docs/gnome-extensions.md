@@ -292,7 +292,7 @@ Change the following settings for the Built-In extensions:
 - True Color Invert
   - Run `cd ~/.local/share/gnome-shell/extensions && git clone https://github.com/GabePoel/gnome-true-color-invert && mv gnome-true-color-invert true-color-window-invert\@lynet101`
   - Add support for the latest GNOME version within the folder's `metadata.json` by adding or changing one of the existing values to your GNOME version.
-  - Adjust `0.1` in `float white_bias = c.a * 0.1; // lower -> higher contrast` to be `0.0` if you want black instead of gray.
+  - Adjust `0.1` in `float white_bias = c.a * 0.1; // lower -> higher contrast` to be `0.0` if you want black instead of gray or my preferred `0.22` if you want brighter grays.
 - Unite by hardpixel
   - Download the GNOME 46 patched version [here](https://github.com/hardpixel/unite-shell/releases) and move the contents to the Top Bar Organizer folder in `~/.local/share/gnome-shell/extensions`.
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
