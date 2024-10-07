@@ -53,5 +53,6 @@ Edit the following keyboard shortcuts from Configure Keyboard Shortcuts:
 - Last Used Tabs (Reverse): None
 - Next Tab: `Ctrl+Tab`
 - Previous Tab: `Ctrl+Shift+Tab`
+- Print Screen: `Ctrl+Alt+Shift+P`
 
 Disable Show Menubar from the menubar. Open again when needed with `Ctrl-Shift-M`.
