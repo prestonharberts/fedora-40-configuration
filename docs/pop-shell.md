@@ -80,3 +80,15 @@ If installed aside from this guide, I also recommend floating the following:
 - VirtualBox
 
 Also add Discord's Nautilus file attachment window.
+
+## Blank Top Bar Icon
+
+Run the following (with adjustments for paths) to replace the top bar icon with a blank icon:
+
+```
+cd /usr/share/gnome-shell/extensions/pop-shell@system76.com/icons/
+sudo mv pop-shell-auto-off-symbolic.svg pop-shell-auto-off-symbolic.svg_backup
+sudo mv pop-shell-auto-on-symbolic.svg pop-shell-auto-on-symbolic.svg_backup
+sudo cp path/to/config/blank.svg svg pop-shell-auto-off-symbolic.svg
+sudo cp path/to/config/blank.svg pop-shell-auto-on-symbolic.svg
+```
