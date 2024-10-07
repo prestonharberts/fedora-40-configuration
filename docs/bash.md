@@ -28,3 +28,11 @@ Then, place the second line of the follow code directly after the first line as 
 Defaults    env_reset
 Defaults    pwfeedback
 ```
+
+## Forward search
+
+Run the following to enable forward searching with `Ctrl+S`:
+
+```
+stty -ixon
+```
