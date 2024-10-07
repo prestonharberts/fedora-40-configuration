@@ -289,6 +289,9 @@ Change the following settings for the Built-In extensions:
   - Move the dateMenu to be at the end of the Right Top Bar Box
 - Transparent Window Moving by Noobsai (doesn't work with alt dragging)
   - Opacity (0..255): 230
+- True Color Invert
+  - Run `cd ~/.local/share/gnome-shell/extensions && git clone https://github.com/GabePoel/gnome-true-color-invert && mv gnome-true-color-invert true-color-window-invert\@lynet101`
+  - Add support for the latest GNOME version within the folder's `metadata.json` by adding or changing one of the existing values to your GNOME version.
 - Unite by hardpixel
   - Download the GNOME 46 patched version [here](https://github.com/hardpixel/unite-shell/releases) and move the contents to the Top Bar Organizer folder in `~/.local/share/gnome-shell/extensions`.
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.

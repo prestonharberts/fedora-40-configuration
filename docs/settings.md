@@ -46,7 +46,7 @@
     - Move window one monitor to the left: `Alt-Super-H`
     - Move window one monitor to the right: `Alt-Super-L`
     - Move window one monitor up: `Alt-Super-K`
-    - Settings: `Super-I`
+    - Settings: `Super-O`
     - Move to workspace on the left: `Super-;`
     - Move to workspace on the right: `Super-'`
     - Move window one workspace to the left: `Super-[`
