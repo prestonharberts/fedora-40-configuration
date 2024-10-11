@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo cp ~/Repos/fedora-40-configuration/configs/keyd/hhkb.conf /etc/keyd/default.conf
+sudo keyd reload
