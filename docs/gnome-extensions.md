@@ -249,6 +249,7 @@ Change the following settings for the Built-In extensions:
         - Coding (Sigil, VSCodium)
         - Drawing (Inkscape, LibreOffice Draw)
         - Ebooks (Calibre)
+        - GPT (ChatGPT)
         - Hypervisor (Virtual Machine Manager)
         - Mail (Tuta Mail)
         - Messages (Discord)
