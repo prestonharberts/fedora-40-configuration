@@ -68,8 +68,9 @@
     - Turn screen reader on or off: Disabled
     - Custom Shortcuts
       - Create the following
-        - Game mode; `disable-gnome-extensions.sh && kill-background-processes.sh`; Super+B
-        - Office mode; `enable-gnome-extensions.sh && start-background-processes.sh`; Super+V
+        - Bible Study Suite; `bible-study`; `Super+B`
+        - Game mode; `disable-gnome-extensions && kill-background-processes`; `Super+Shift+B`
+        - Office mode; `enable-gnome-extensions && start-background-processes`; `Super+V`
         - Launch Firefox; `firefox`; `Ctrl+Super+1`
         - Launch Tutanota; `~/com/app/tutanota\*`; `Ctrl+Super+2`
         - Launch Todoist; `flatpak run com.todoist.Todoist`; `Ctrl+Super+4`
