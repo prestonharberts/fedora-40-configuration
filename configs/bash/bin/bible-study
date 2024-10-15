@@ -1,0 +1,14 @@
+#!/bin/bash
+
+flatpak run md.obsidian.Obsidian &
+konsole &
+firefox &
+/usr/bin/firefoxpwa site launch 01HEXG5HQQVD8Y5YY11DPQ307W & # Logos
+/usr/bin/firefoxpwa site launch 01J8FHKM8X2YG4NPWJHQFQKJ7G & # ChatGPT
+sleep 4
+
+wmctrl -r Firefox -t 1   
+sleep 0.3
+wmctrl -r Logos -t 2
+sleep 0.3
+wmctrl -r ChatGPT -t 3
