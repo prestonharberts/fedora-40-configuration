@@ -104,6 +104,7 @@ Change the following settings for the Built-In extensions:
         - Dodge windows: Off
     - Dock size limit: 80%
     - Icon size limit: 40 px
+    - Preview size scale: 0.00
   - Launchers
     - Keep the focused application always visible in the dash: Off
     - Show Appplications icon: Off

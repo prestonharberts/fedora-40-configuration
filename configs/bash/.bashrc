@@ -40,6 +40,7 @@ alias c='codium'
 alias d='detox -s hyphenated'
 alias g='gio open'
 alias n='nvim'
+alias p='xclip -sel c'
 alias v='vim'
 alias z='zathura --fork'
 
@@ -69,3 +70,15 @@ alias gitrm='git rm'
 alias gitaa='git add -A'
 alias gitpl='git pull'
 alias gitps='git push'
+
+# frequently used commands: vm
+alias vv='LD_PRELOAD=/path/to/hide-menubar.so virt-viewer'
+alias f40='sudo virsh start fedora40 && sudo LD_PRELOAD=~/src/hide-menubar/hide-menubar.so virt-viewer fedora40'
+alias vf40='sudo LD_PRELOAD=~/src/hide-menubar/hide-menubar.so virt-viewer fedora40'
+alias sf40='sudo virsh shutdown fedora40'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/prestonharberts/.bin/google-cloud-sdk/path.bash.inc' ]; then . '/home/prestonharberts/.bin/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/prestonharberts/.bin/google-cloud-sdk/completion.bash.inc' ]; then . '/home/prestonharberts/.bin/google-cloud-sdk/completion.bash.inc'; fi
