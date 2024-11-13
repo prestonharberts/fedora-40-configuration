@@ -5,3 +5,23 @@ Run the following to install Neovim:
 ```
 sudo dnf install neovim -y
 ```
+
+Run the following to make necessary folders and files:
+
+```
+mkdir -p ~/.local/share/nvim/plugged ~/.local/share/nvim/site ~/.config/nvim
+touch ~/.config/nvim/init.lua
+```
+
+Copy my config to `~/.config/nvim` with something like the following (change the config location to where my config folder is on your disk):
+
+```
+cp ../configs/nvim/init.lua ~/.config/nvim
+```
+
+Run the following to install `vim-plug`:
+
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```

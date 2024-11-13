@@ -35,15 +35,20 @@ PERL_LOCAL_LIB_ROOT="/home/prestonharberts/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_L
 PERL_MB_OPT="--install_base \"/home/prestonharberts/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/prestonharberts/perl5"; export PERL_MM_OPT;
 
+# aliases
+alias sudo='sudo '
+
 # frequently used commands: software
 alias b='bib'
 alias c='codium'
 alias d='detox -s hyphenated'
 alias g='gio open'
-alias n='nvim'
 alias p='xclip -sel c'
-alias v='vim'
 alias z='zathura --fork'
+
+alias n='nvim'
+alias v='nvim'
+alias vi='nvim'
 
 # frequently used commands: navigation
 alias cls='clear && ls'
@@ -83,3 +88,5 @@ if [ -f '/home/prestonharberts/.bin/google-cloud-sdk/path.bash.inc' ]; then . '/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/prestonharberts/.bin/google-cloud-sdk/completion.bash.inc' ]; then . '/home/prestonharberts/.bin/google-cloud-sdk/completion.bash.inc'; fi
+
+PS1='\[\e]0;\W\a\][\[\033[01;34m\]\h \W\[\033[00m\]] $ '

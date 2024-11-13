@@ -6,6 +6,8 @@ Run the following to install Konsole:
 sudo dnf install konsole5 -y
 ```
 
+Download `github-light.colorscheme` from [here](https://www.pling.com/p/1574065/), and run `mv Downloads/github-light.colorscheme .local/share/konsole/`.
+
 Change the following settings from the menubar:
 
 - Toolbars shown:
@@ -25,8 +27,11 @@ Now, change the following settings under Configure Konsole:
         - Default profile: On
         - Initial terminal size: 80 columns; 30 rows
         - Terminal bell mode: System Bell
+    - Tabs
+      - Tab titles
+        - Tab title format: `%w`
     - Appearance
-      - Color scheme & font: Black on White (light) or Breeze (dark)
+      - Color scheme & font: Github Light
         - Font: SF Mono (after following the instructions in `sf-font.md`) 10.5pt
       - Cursor
         - Blinking > Enabled: On
@@ -37,6 +42,11 @@ Now, change the following settings under Configure Konsole:
     - Scrolling
       - Scrollbar position: Hidden
       - Highlighting > Highlight the lines coming into view: Off
+    - Mouse
+      - Text interaction
+        - Copy options
+          - Trim leading spaces: On
+          - Trim trailing spaces: On
 - Tab Bar / Splitters
   - Appearance
     - Show Close Tab Button: None
