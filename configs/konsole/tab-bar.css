@@ -1,18 +1,24 @@
-QWidget, QTabWidget::pane, QTabWidget::tab-bar {
-    background-color: #ffffff;
+QWidget,
+QTabWidget::pane,
+QTabWidget::tab-bar {
+    background-color: #ebebeb;
 }
-QTabBar, QTabBar::tab {
+
+QTabBar,
+QTabBar::tab {
     font-family: "SF Mono";
     font-size: 10pt;
     color: #323232;
-    background-color: #ffffff;
+    background-color: #ebebeb;
     height: 28px;
     padding: 1px;
     border: 0px;
     border-bottom: 1px solid;
     border-color: #dcdcdc;
 }
-QTabBar::tab:selected, QTabBar::tab:hover {
+
+QTabBar::tab:selected,
+QTabBar::tab:hover {
     /*background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #1e5799, stop: 0.01 #2989d8, stop: 0.11 rgb(205, 205, 205));*/
-    background-color: #ebebeb;
+    background-color: #ffffff;
 }
