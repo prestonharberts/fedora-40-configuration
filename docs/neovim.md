@@ -25,3 +25,14 @@ Run the following to install `vim-plug`:
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
+
+
+Run the following to install language servers:
+
+```
+sudo dnf install clang-tools-extra -y # C++
+sudo npm install -g bash-language-server # Bash
+sudo npm install -g pyright # Python
+sudo npm install -g typescript typescript-language-server # JS
+sudo npm install -g vscode-langservers-extracted # CSS/HTML
+```
