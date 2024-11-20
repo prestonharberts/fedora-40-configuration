@@ -17,8 +17,11 @@ QTabBar::tab {
     border-color: #dcdcdc;
 }
 
-QTabBar::tab:selected,
-QTabBar::tab:hover {
+QTabBar::tab:selected {
     /*background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #1e5799, stop: 0.01 #2989d8, stop: 0.11 rgb(205, 205, 205));*/
     background-color: #ffffff;
+}
+
+QTabBar::tab:hover {
+    background-color: #f8f8f8;
 }
