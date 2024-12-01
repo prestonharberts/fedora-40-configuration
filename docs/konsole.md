@@ -6,7 +6,7 @@ Run the following to install Konsole:
 sudo dnf install konsole5 -y
 ```
 
-Download `github-light.colorscheme` from [here](https://www.pling.com/p/1574065/), and run `mv Downloads/github-light.colorscheme .local/share/konsole/`.
+Download `github-light.colorscheme` from [here](https://www.pling.com/p/1574065/), and run `mv ~/Downloads/github-light.colorscheme .local/share/konsole/`.
 
 Change the following settings from the menubar:
 
