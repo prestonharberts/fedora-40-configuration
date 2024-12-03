@@ -1,0 +1,32 @@
+body {
+    font-family: "Noto Serif";
+    /*font-size: 1.2rem;*/
+}
+
+#write {
+    padding: 20px 30px 100px 30px;
+}
+
+#write>ul:first-child,
+#write>ol:first-child {
+    margin-top: 12px;
+}
+
+:root {
+    --monospace: "SF Mono";
+}
+
+h1 {
+    font-size: 1.75em;
+    border-bottom: 2px solid #ebebeb;
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-style: italic;
+    color: #b3b3b3;
+    border-bottom: none;
+    margin: 0;
+}
