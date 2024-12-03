@@ -50,6 +50,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Fonts
 - Fretboard
 - Galaxy Buds Client
+- Jagex Launcher
 - Konsole
 - Lrcget
 - Homebank
