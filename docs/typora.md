@@ -3,7 +3,7 @@
 Run the following to install Typora:
 
 ```
-flatpak install io.typora.Typora -y
+flatpak install io.typora.Typora -y --user
 ```
 
 Activate your license, then change the following settings:
@@ -12,7 +12,6 @@ Activate your license, then change the following settings:
   - Save & Recover
     - Auto Save: On
 - Editor
-  - Indent Size on Save: 2
   - Auto Pair
     - Auto pair common Markdown syntax: On
   - Live Rendering
@@ -20,9 +19,9 @@ Activate your license, then change the following settings:
   - Default Copy Behavior
     - Copy or cut the whole lines that have cursors on them, if there is no selection when doing copy/cut: On
   - Spell Check: Disable Spell Check
-  - Image
-    - When Insert: Copy image to custom folder: `/home/USER/Documents/typora/`
-      - Apply above rules to online images
+- Image
+  - When Insert: Copy image to custom folder: `/home/USER/Documents/typora/`
+    - Apply above rules to online images
 - Markdown
   - Syntax Support
     - Inline Math: On
@@ -33,8 +32,9 @@ Activate your license, then change the following settings:
     - Smart Quotes: On
     - Smart dashes: On
   - Code Fences
-    - Default Code Language: Last Used
+    - Display line numbers for code fences: On
     - Indent Size for Code: 2
+    - Default Code Language: Last Used
 - Appearance
   - Zoom: 120%
   - Status Bar
