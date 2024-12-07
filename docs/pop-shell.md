@@ -59,8 +59,10 @@ Set the following Floating Window Exceptions to personal preference:
 - Logs
 - Nautilus
 - NVIDIA X Server Settings
+- Obsidian
 - Pomodoro
 - Problem Reporting
+- Rhythmbox
 - Settings
 - Simon Thatham's Portable Puzzle Collection
 - Software
