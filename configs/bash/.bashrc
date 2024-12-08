@@ -2,12 +2,11 @@
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+    . /etc/bashrc
 fi
 
 # User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
-then
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
 export PATH
@@ -17,11 +16,11 @@ export PATH
 
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
-	for rc in ~/.bashrc.d/*; do
-		if [ -f "$rc" ]; then
-			. "$rc"
-		fi
-	done
+    for rc in ~/.bashrc.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
 fi
 
 export PATH=/home/prestonharberts/Bin/:$PATH
@@ -29,11 +28,16 @@ export PATH=/home/prestonharberts/go/bin/:$PATH
 
 unset rc
 
-PATH="/home/prestonharberts/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/prestonharberts/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/prestonharberts/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/prestonharberts/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/prestonharberts/perl5"; export PERL_MM_OPT;
+PATH="/home/prestonharberts/perl5/bin${PATH:+:${PATH}}"
+export PATH
+PERL5LIB="/home/prestonharberts/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"
+export PERL5LIB
+PERL_LOCAL_LIB_ROOT="/home/prestonharberts/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"
+export PERL_LOCAL_LIB_ROOT
+PERL_MB_OPT="--install_base \"/home/prestonharberts/perl5\""
+export PERL_MB_OPT
+PERL_MM_OPT="INSTALL_BASE=/home/prestonharberts/perl5"
+export PERL_MM_OPT
 
 # aliases
 alias sudo='sudo '
@@ -90,3 +94,8 @@ if [ -f '/home/prestonharberts/.bin/google-cloud-sdk/path.bash.inc' ]; then . '/
 if [ -f '/home/prestonharberts/.bin/google-cloud-sdk/completion.bash.inc' ]; then . '/home/prestonharberts/.bin/google-cloud-sdk/completion.bash.inc'; fi
 
 PS1='\[\e]0;\W\a\][\[\033[01;34m\]\h \W\[\033[00m\]] $ '
+
+# disable Ctrl+S and Ctrl+Q
+stty -ixon
+stty intr ^d
+stty eof ^w

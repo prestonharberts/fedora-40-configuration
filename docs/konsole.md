@@ -59,10 +59,14 @@ Now, change the following settings under Configure Konsole:
 
 Edit the following keyboard shortcuts from Configure Keyboard Shortcuts:
 
+- New Tab: `Ctrl+T`
 - Last Used Tabs: None
 - Last Used Tabs (Reverse): None
 - Next Tab: `Ctrl+Tab`
 - Previous Tab: `Ctrl+Shift+Tab`
 - Print Screen: `Ctrl+Alt+Shift+P`
+- Clear Scrollback and Reset: `Ctrl+L`
+- Copy: `Ctrl+C`
+- Paste: `Ctrl+P`
 
 Disable Show Menubar from the menubar. Open again when needed with `Ctrl-Shift-M`.
