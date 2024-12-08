@@ -1,4 +1,19 @@
+-- input
+
+-- use ctrl-q instead of ctrl-w
+vim.keymap.set('', '<C-q>', '<C-w>', { noremap = true }) -- Unmap in normal, visual, select, operator-pending modes
+vim.keymap.set('i', '<C-q>', '<C-w>', { noremap = true }) -- Unmap in insert mode
+vim.keymap.set('v', '<C-q>', '<C-w>', { noremap = true }) -- Unmap in visual mode
+vim.keymap.set('c', '<C-q>', '<C-w>', { noremap = true }) -- Unmap in command mode
+vim.keymap.set('n', '<C-q>', '<C-w>', { noremap = true, silent = true })
+vim.keymap.set('', '<C-w>', '<Nop>', { noremap = true })
+vim.keymap.set('i', '<C-w>', '<Nop>', { noremap = true })
+vim.keymap.set('v', '<C-w>', '<Nop>', { noremap = true })
+vim.keymap.set('c', '<C-w>', '<Nop>', { noremap = true })
+
 -- look
+
+-- gutter
 vim.opt.relativenumber = true
 vim.opt.number = true
 vim.opt.numberwidth = 1

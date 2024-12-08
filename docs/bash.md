@@ -12,7 +12,7 @@ Move all of the files in `fedora-38-configuration/configs/bash/bin/` to `~/Bin/`
 
 ## Turn Off Bash Case Sensitivity
 
-Run the following in Terminal to turn off case sensitivity in Bash, and restart the shell:
+Skip this step if you are using my `.inputrc`: run the following in Terminal to turn off case sensitivity in Bash, and restart the shell:
 
 ```
 echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
