@@ -64,6 +64,7 @@ Edit the following keyboard shortcuts from Configure Keyboard Shortcuts:
 - Last Used Tabs (Reverse): None
 - Next Tab: `Ctrl+Tab`
 - Previous Tab: `Ctrl+Shift+Tab`
+- New Window: `Ctr+N`
 - Print Screen: `Ctrl+Alt+Shift+P`
 - Clear Scrollback and Reset: `Ctrl+L`
 - Copy: `Ctrl+C`
