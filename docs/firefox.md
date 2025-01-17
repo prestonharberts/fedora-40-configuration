@@ -101,10 +101,20 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
 - Other
 	- Options
 		- Autofill
-			- General
-				- Clear clipboard: 2 minutes
-                - Ask to add login: Off
-                - Ask to update existing login: Off
+          - Autofill suggestions
+            - Show autofill suggestions as form fields: Off
+            - Show identities suggestions as Autofill suggestions on Vault view
+            - Click items to autofill on Vault view
+		  - Additional options
+			- Clear clipboard: 2 minutes
+        - Notifications
+          - Save to vault options
+            - Ask to save and use passkeys: Off
+            - Ask to add login: Off
+            - Ask to update existing login: Off
+        - Appearance
+          - Compact mode: On
+          - Show quick copy options on Vault
 
 ### CSS Override
 
@@ -235,7 +245,6 @@ Click the Enhancer for YouTube extension button, and change the following settin
 Click the OneTab extension icon, and unpin the newly created tab. Change the following settings:
 
 - Startup: Do not open OneTab automatically
-- Duplicates: Silently reject duplicates
 
 ## Progressive Web Apps
 
@@ -309,7 +318,7 @@ Change the following settings for the DuckDuckGo search engine settings page:
   - Show occasional reminders to sign up for the DuckDuckGo privacy newsletters: Off
   - Homepage Privacy Tips: Off
   - Help Improve DuckDuckGo: Off
-- Appearance (for dark theme)
+- Appearance
   - Theme: Terminal (dark)
   - Font: Custom; SF Pro Text (after following `fonts.md`)
   - Center Alignment: On
@@ -325,5 +334,6 @@ Change the following settings for the DuckDuckGo search engine settings page:
   - URL Placement: Below Snippet
   - Hover, Module, and Dropdown Background Color: #f7f7f7 (light)
   - Site Icons: Off
+  - 'Always private' Reminder: Off
 - Privacy
   - Video Playback: Open on third-party site
