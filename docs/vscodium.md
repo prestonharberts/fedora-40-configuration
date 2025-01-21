@@ -64,6 +64,7 @@ Install the following extensions:
 - Bash IDE by mads-hartmann
 - ShellCheck by timonwong.
 - Active File In StatusBar by RoscoP
+- Dart by Dart-Code
 
 Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/gosh@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
 
