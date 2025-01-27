@@ -25,6 +25,7 @@ fi
 
 export PATH=/home/prestonharberts/Bin/:$PATH
 export PATH=/home/prestonharberts/go/bin/:$PATH
+export PATH=/home/prestonharberts/Bin/flutter/bin/:$PATH
 
 unset rc
 
@@ -69,7 +70,7 @@ alias csc='cd ~/Documents/school/classes/csc/'
 alias obsidian='cd ~/Documents/obsidian/'
 alias .obsidian='cd ~/Documents/obsidian/.obsidian/'
 alias snippets='cd ~/Documents/obsidian/.obsidian/snippets/'
-alias fedora='cd ~/Repos/fedora-40-configuration/'
+alias fedora='cd ~/Repos/fedora-41-config/'
 alias bg2ob='cd ~/Repos/biblegateway-to-obsidian/'
 
 # frequently used commands: git
