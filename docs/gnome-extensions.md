@@ -18,10 +18,7 @@ Change the following settings for the Built-In extensions:
 - AATWS - Advanced Alt-Tab Window Switcher by GdH
   - Common
     - Behaviour
-      - Placement: Center
-      - Default Monitor: Primary monitor
       - Search Mode as Default: Off
-      - Up/Down Keys Action: Toggle Single App Mode
     - Appearance and Content
       - Tooltip Titles: Show Centered
       - Tooltip Title Scale (%): 100
@@ -34,17 +31,16 @@ Change the following settings for the Built-In extensions:
   - App Switcher
     - Behaviour
       - Raise First Window Only: On
-      - Include Favorite Apps: Off
+      - Include Favorite  (Pinned) Apps: Off
       - Include Show Apps Icon: Off
     - Appearance
       - Hide Window Counter For Single-Window Apps: On
-  - Dock Mode
-    - Hot Edge
-      - Hot Edge Position: Disabled
   - Hotkeys
-    - Custom hotkeys (you can assign up to 2 characters (keys) to each action)
-      - Filter mode: W
+    - Custom hotkeys
+      - Switch Filter Mode Termporary: W
       - Close Window / Quit Application: Q
+    -  Fixed Hotkeys
+      - Up/Down Keys Action: Toggle Single App Mode
 - Alphabetical App Grid by Stuart Hayhurst
   - General settings
     - Position of ordered folders: Start
@@ -74,13 +70,11 @@ Change the following settings for the Built-In extensions:
       - Show Frequent Apps: On
   - Menu Button
     - Menu Button Appearance
-      - Display Style: Text
-      - Text: Make empty
-      - Padding: 0
+      - Display Style: Hidden
 - Autohide Battery by iskin (only if current machine is has a battery)
 - Autohide Volume by t184256
 - Burn My Windows by Simme (only if computer will not lag)
-  - Disable Fire and enable Glide
+  - Click "Disable All" and enable Glide
 - Caffeine by eon
   - General
     - Behavior
@@ -97,14 +91,12 @@ Change the following settings for the Built-In extensions:
   - Comment every line containing `animateLaunch` in `.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/appIcons.js` 
   - Position and size
     - Show the dock on: Choose primary monitor
-    - Position on screen: Left
     - Intelligent autohide
       - Autohide
         - Autohide: Off
         - Dodge windows: Off
     - Dock size limit: 80%
     - Icon size limit: 40 px
-    - Preview size scale: 0.00
   - Launchers
     - Keep the focused application always visible in the dash: Off
     - Show Appplications icon: Off
@@ -135,13 +127,14 @@ Change the following settings for the Built-In extensions:
     - Rhythmbox
     - ChatGPT (see Firefox setup)
 - Date Menu Formatter by mjakubowski
+  - Formatter: SimpleDateFormat
   - Pattern: I prefer these options
     - `EEEE K:mm aaa`
     - `EEEE K:mm:ss` for seconds
     - `M·dd·y     h:mm a` to have date as well
     - `M·d·y     h:mm:ss` to replace AM/PM with seconds
   - Font size: 11 pt
-- Disable Workspace Animation by ethnarque (optional)
+- Disable Workspace Animation by monologique (optional)
 - Focus by scaryawr
   - Inactive Opacity: One notch away from the right (use arrow keys to move)
   - Special Focus Opacity: Full
@@ -188,7 +181,7 @@ Change the following settings for the Built-In extensions:
     - Workspace Background Corner Size: 16px
     - Panel Button Padding Size: 0px
     - Clock menu position: Right
-    - Clock menu offset: 7
+    - Clock menu offset: 10
     - Animation: No Animation (only if computer is lagging)
     - Notification Banner Position: Top End
 - Mouse Follows Focus by LeonMatthes (Disable on multi-monitor setups)
@@ -210,6 +203,7 @@ Change the following settings for the Built-In extensions:
     - Mouse bindings
       - Left click action: play/pause
       - Middle click action: next track
+- No overview at start-up by fthx
 - Peek Top Bar on Fullscreen by marcinjahn
 - Power Profile Switcher by eliapasquali (only if on laptop) (currently disabled)
   - Default profiles
@@ -222,7 +216,7 @@ Change the following settings for the Built-In extensions:
     - Applications
       - Skip LibAdwaita Applications: Off
     - Global Settings
-      - Border Radius: 16.0
+      - Border Radius: 14.0
       - Window Shadow
         - Focused shadow prefrences
           - Spread Radius: 6.0
@@ -233,88 +227,98 @@ Change the following settings for the Built-In extensions:
       - Keep Rounded Corners when Maximized: On
       - Keep Rounded Corners when Fullscreen: On
   - Space Bar by luchrioh
-  - Behavior
-    - General
-      - Indicator Style
-        - Custom labe text
-          - Custom label for unnamed workspaces: Workspace
-      - Show empty workspaces: Off
-    - Smart Workspace Names
-      - Enable smart workspace names: On
-      - Open the following apps and name them accordingly:
-        - Bible (Logos)
-        - Documents (Document Viewer, LibreOffice Writer, Zathura)
-        - Audio (fre:ac)
-        - Browser (Firefox)
-        - Calendar (Google Calendar)
-        - Coding (Sigil, VSCodium)
-        - Drawing (Inkscape, LibreOffice Draw)
-        - Ebooks (Calibre)
-        - GPT (ChatGPT)
-        - Hypervisor (Virtual Machine Manager)
-        - Mail (Tuta Mail)
-        - Messages (Discord)
-        - Music (Tidal, YouTube Music, Rhythmbox)
-        - Notes (Obsidian)
-        - Photo (Krita)
-        - Reading (Foliate)
-        - Slides (LibreOffice Impress)
-        - Spreadsheets (LibreOffice Calc)
-        - Video (Shotcut)
-        - Videos (YouTube)
-        - Visualizer (Cavasik)
-  - Appearance
-    - General
-      - Workspaces-bar padding: 0
-      - Workspace margin: 0
-    - Active Workspace
-      - Background color: Any color, fully transparent
-      - Text color: #000000
-      - Font size: 10
-      - Font weight: Semi Bold
-      - Border radius: 8
-      - Border width: 0
-      - Horizontal padding: 12
-      - Vertical padding: 1
-    - Inactive Workspace
-      - Text color: #606060
-  - Shortcuts
-    - Switch to workspace: Off
-    - Move current workspace left: Disabled
-    - Move current workspace right: Disabled
-    - Switch to empty workspace: Disabled
-- Top Bar Organizer by Julian
-  - Download the GNOME 46 patched version [here](https://github.com/jamespo/gnome-extensions) and move the contents to the Top Bar Organizer folder in `~/.local/share/gnome-shell/extensions`.
+    - Behavior
+      - General
+        - Indicator Style
+          - Custom labe text
+            - Custom label for unnamed workspaces: Workspace
+        - Show empty workspaces: Off
+      - Smart Workspace Names
+        - Enable smart workspace names: On
+        - Open the following apps and name them accordingly:
+          - Bible (Logos)
+          - Documents (Document Viewer, LibreOffice Writer, Zathura)
+          - Audio (fre:ac)
+          - Browser (Firefox)
+          - Calendar (Google Calendar)
+          - Coding (Sigil, VSCodium)
+          - Drawing (Inkscape, LibreOffice Draw)
+          - Ebooks (Calibre)
+          - GPT (ChatGPT)
+          - Hypervisor (Virtual Machine Manager)
+          - Mail (Tuta Mail)
+          - Messages (Discord)
+          - Music (Tidal, YouTube Music, Rhythmbox)
+          - Notes (Obsidian)
+          - Photo (Krita)
+          - Reading (Foliate)
+          - Slides (LibreOffice Impress)
+          - Spreadsheets (LibreOffice Calc)
+          - Video (Shotcut)
+          - Videos (YouTube)
+          - Visualizer (Cavasik)
+    - Appearance
+      - General
+        - Workspaces-bar padding: 0
+        - Workspace margin: 0
+      - Active Workspace
+        - Background color: Any color, fully transparent
+        - Text color: #000000
+        - Font size: 11
+        - Font weight: Semi Bold
+        - Border radius: 8
+        - Border width: 0
+        - Horizontal padding: 12
+        - Vertical padding: 1
+      - Inactive Workspace
+        - Text color: #606060
+    - Shortcuts
+      - Switch to workspace: Off
+      - Move current workspace left: Disabled
+      - Move current workspace right: Disabled
+      - Switch to empty workspace: Disabled
+- Top Bar Organizer by June
   - After installing the Mpris Label extension, move Mpris Label to the beginning of the Center Top Bar Box
-  - After installing the Simple Message extension, move simple-message to be right before workspace-name-indicator in the Left Top Bar Box
   - Move gnome-pomodoro to be at the beginning of the Left Top Bar Box
   - Move the dateMenu to be at the end of the Right Top Bar Box
 - Transparent Window Moving by Noobsai (doesn't work with alt dragging)
   - Opacity (0..255): 230
+  - Aimation time: 0.25
 - True Color Invert
   - Run `cd ~/.local/share/gnome-shell/extensions && git clone https://github.com/GabePoel/gnome-true-color-invert && mv gnome-true-color-invert true-color-window-invert\@lynet101`
   - Add support for the latest GNOME version within the folder's `metadata.json` by adding or changing one of the existing values to your GNOME version.
-  - Adjust `0.1` in `float white_bias = c.a * 0.1; // lower -> higher contrast` to be `0.0` if you want black instead of gray or my preferred `0.22` if you want brighter grays.
+  - Edit `extension.js`, and adjust `0.1` in `float white_bias = c.a * 0.1; // lower -> higher contrast` to be `0.0` if you want black instead of gray or my preferred `0.22` if you want brighter grays.
 - Unite by hardpixel
-  - Download the GNOME 46 patched version [here](https://github.com/hardpixel/unite-shell/releases) and move the contents to the Top Bar Organizer folder in `~/.local/share/gnome-shell/extensions`.
+  - Run the following to download and install: `wget https://github.com/hardpixel/unite-shell/releases/download/v80/unite-v80.zip; gnome-extensions install unite-v80.zip`
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
   - General
-    - Show system tray in top bar: Off
-    - Show appmenu in top bar: Off
-    - Show desktop name in top bar: Off
-    - Restrict funcitonalities to the primary screen: Off
-    - Hide activities button: Always
-    - Hide window titlebars: Always
-    - Show window title in app menu: Never
-    - Show window buttons in top bar: Never
-  - Appearance
-    - Extend top bar left box: Off
+    - Layout Tweaks
+      - Extend top bar left box: Off
+      - Notifications position: Right
+    - System Tray
+      - Enable tray: Off
+    - Application Menu
+      - Enable appmenu: Off
+    - Workspace Switcher
+      - Use text button: Off
+      - Hide switcher: Always
+    - Desktop name
+      - Enable desktop name: Off
+      - Desktop name label: Empty
+  - Windows
+    - Behavior
+      - Primary screen only: Off
+      - Auto focus: Off
+      - Panel click actions: Off
+    - Titlebars
+      - Hide window titlebars: Always
+      - Show appmenu title: Never
+    - Buttons
+      - Show buttons: Never
 - User Themes by fmuellner
 - Volume Scroller by francislavoie
-- Workspace Switcher Manager by GdH (currently disabled in favor of Space Bar)
+- WSM (Workspace Switcher Manager) by GdH (currently disabled in favor of Space Bar)
   - General
-    - Workspaces
-      - Workspaces on Primary Display Only: Off
     - Workspace Switcher
       - Wraparound: On
   - Pop-up
@@ -323,10 +327,7 @@ Change the following settings for the Built-In extensions:
   - Size & Text
     - WS Box Width Scale (%): 120
   - Colors
-    - Pop-up Opacity
-      - Global Opacity (%): 100
     - Pop-up Colors
-      - Allow Custom Colors: On
       - Background color / opacity: #FFFFFF
       - Border color / opacity: #DADADA
       - Active WS Foreground color / opacity: #2F2F2F

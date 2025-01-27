@@ -3,7 +3,7 @@
 Run the following to install Typora:
 
 ```
-flatpak install io.typora.Typora -y --user
+flatpak install io.typora.Typora -y
 ```
 
 Activate your license, then change the following settings:

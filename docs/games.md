@@ -23,5 +23,5 @@ Change the following options:
   - New Game: `N`
   - Pause/Resume Game: Escape
   - Full Screen: `F`
-  - Sounds: `+`
+  - Sounds: `=`
   - `Music`: `-`

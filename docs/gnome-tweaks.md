@@ -6,23 +6,19 @@ Run the following to install GNOME Tweaks:
 sudo dnf install gnome-tweaks -y
 ```
 
-- General
-  - Suspend when laptop lid is closed: Off
 - Fonts
   - Interface Text: SF Pro Text Regular
   - Document Text: SF Pro Text Regular
   - Monospace Text: SF Mono Regular
-  - Legacy Window Titles: SF Pro Display Bold
   - Antialiasing: Subpixel (for LCD screens)
 - Window Titlebars
   - Titlebar Actions
-    - Double-Click: Menu
-    - Middle-Click: Menu
+    - Double-Click: None
+    - Middle-Click: None
 - Windows
-  - Attach Modal Dialogs: Off
   - Center New Windows: On
-  - Resize with Secondary-Click: On
   - Window Action Key: Alt
+  - Resize with Secondary-Click: On
   - Window Focus: Focus on Hover
     - Raise Windows When Focused: On
 

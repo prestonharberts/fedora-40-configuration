@@ -6,8 +6,11 @@ Open Application Menu, and open Settings. Change the following settings:
 	- Sign in
 	- Device Name: Same as device name
 - Home
+    - New Windows and Tabs
+      - Homepage and new windows: Firefox Home (Default)
+      - New tabs: Firefox Home (Default)
 	- Firefox Home Content
-		- Web Search: Off
+		- Web Search: On
 		- Shortcuts: Off
 		- Recommended by Pocket: Off
 		- Recent activity: Off
@@ -17,6 +20,14 @@ Open Application Menu, and open Settings. Change the following settings:
 	- Search Suggestions
       - Show search suggestions in address bar results: On
       - Show search suggestions ahead of browsing history in address bar results: Off
+    - Address Bar - Firefox Suggest
+		- Browsing history: Off
+		- Bookmarks: Off
+		- Open tabs: Off
+		- Shortcuts: Off
+		- Search engines: Off
+      - Suggestions from Firefox: Off
+      - Suggestions from sponsers: Off
 	- Search Shortcuts
 		- Google: Off
 		- Amazon.com: Off
@@ -29,20 +40,13 @@ Open Application Menu, and open Settings. Change the following settings:
 		- History: Off
 - Privacy & Security
 	- Enhanced Tracking Protection: Strict
-		- Send websites a "Do Not Track" signal that you don't want to be tracked: Always
-	- Logins and Passwords
-		- Ask to save logins and passwords for websites: Off
+        - Tell websites not to sell or share my data: On
+		- Send websites a "Do Not Track" signal that you don't want to be tracked: On
+	- Passwords
+		- Ask to passwords: Off
 	- Forms and Autofill
-		- Autofill addresses: Off
-		- Autofill credit cards: Off
-	- Address Bar - Firefox Suggest
-		- Browsing history: Off
-		- Bookmarks: Off
-		- Open tabs: Off
-		- Shortcuts: Off
-		- Search engines: Off
-		- Suggestions from the web: Off
-		- Suggestions from sponsors: Off
+		- Save and fill addresses: Off
+		- Save and fill payment methods: Off
 	- Firefox Data Collection and Use
 		- Allow Firefox to send technical and interation data to Mozilla: Off
 		- Allow Firefox to install and run studies: Off
@@ -70,6 +74,7 @@ Right click empty space on the toolbar (same bar as the search bar), and go to C
 - Remove the Firefox account button
 - Remove the New Tab button next to the open tabs
 - Remove the Homepage button
+- Right click the Download icon and uncheck "Hide Button When Empty"
 
 Right click an empty space on the Bookmarks toolbar. Change the following setting:
 
@@ -103,8 +108,8 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
 		- Autofill
           - Autofill suggestions
             - Show autofill suggestions as form fields: Off
-            - Show identities suggestions as Autofill suggestions on Vault view
-            - Click items to autofill on Vault view
+            - Show identities suggestions as Autofill suggestions on Vault view: Off
+            - Click items to autofill on Vault view: On
 		  - Additional options
 			- Clear clipboard: 2 minutes
         - Notifications
@@ -114,7 +119,7 @@ Click the Bitwarden extension button, and log in (making sure to check the remem
             - Ask to update existing login: Off
         - Appearance
           - Compact mode: On
-          - Show quick copy options on Vault
+          - Show quick copy options on Vault: On
 
 ### CSS Override
 
@@ -226,7 +231,7 @@ Click the Enhancer for YouTube extension button, and change the following settin
 	- Controls
       - Disable all controls
 	- Playback quality
-		- Automatically select a playback quality
+		- Automatically select a playback quality: On
 			- Select a different playback quality when entering the full screen mode: On
 				- Videos (full screen): Use monitor resolution
 				- Playlists (full screen): Use monitor resolution
@@ -236,7 +241,6 @@ Click the Enhancer for YouTube extension button, and change the following settin
 		- Disable autoplay: On
 - Appearance
   - Use the available space based on the viewport dimensions to expand the video player: On
-  - Automatically expand the videos descriptions: On
   - Hide chat: On
   - Hide Shorts: On (Change `layout.css.has-selector.enabled` to `true` in about:config)
 
@@ -282,7 +286,7 @@ Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.style
 
 ## Netflix 1080p
 
-Follow the directions [here](https://github.com/vladikoff/netflix-1080p-firefox/issues/63#issuecomment-1470154520), downloading the file, renaming the file extension from `.zip` to `.xpi`, and installing it manually from the Firefox extensions page.
+Follow the directions [here](https://github.com/vladikoff/netflix-1080p-firefox/issues/63), downloading the file, renaming the file extension from `.zip` to `.xpi`, and installing it manually from the Firefox extensions page.
 
 ## VA-API
 

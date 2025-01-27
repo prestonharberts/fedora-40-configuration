@@ -2,6 +2,16 @@
 
 - Bluetooth
   - Disable Bluetooth if not needed, or connect devices as needed
+- Displays
+  - Rearrange displays if needed
+  - Change refresh rate if needed
+- Power
+  - Power Mode: Select preferred power mode
+  - Screen Blank: 10 minutes
+  - Dim Screen: Off
+- Multitasking
+  - Hot Corner: Off
+  - Active Screen Edges: Off
 - Appearance
   - Style
     - Choose preferred style
@@ -11,22 +21,6 @@
   - Do Not Disturb: On
   - Lock Screen Notifications: Off
   - Disable the notifications for all listed programs
-- Multitasking
-  - Hot Corner: Off
-  - Active Screen Edges: Off
-- Privacy
-  - Screen Lock
-    - Blank Screen Delay: 8 minutes
-    - Automatic Screen Lock Delay: 2 minutes
-  - File History & Trash
-    - Automatically Delete Trash Content: On
-- Power
-  - Power Mode: Select preferred power mode
-  - Automatic Screen Brightness: Off
-  - Dim Screen: Off
-- Displays
-  - Rearrange displays if needed
-  - Change refresh rate if needed
 - Mouse & Touchpad
   - Touchpad
     - Tap to Click: On
@@ -39,7 +33,7 @@
     - Show the notification list: `Super-N`
     - Focus the active notification: `Shift+Super+N`
     - Switch applications: `Alt-Tab`
-    - Switch windows of an application: `Alt-Escape` (if using HHKB)
+    - Switch windows of an application: `Alt-~` (`Alt-Escape` if using HHKB)
     - Show the overview: `Super-Tab`
     - Show all apps: `Shift-Super-Tab`
     - Move window one monitor down: `Alt-Super-J`
@@ -47,20 +41,21 @@
     - Move window one monitor to the right: `Alt-Super-L`
     - Move window one monitor up: `Alt-Super-K`
     - Settings: `Super-O`
-    - Move to workspace on the left: `Super-;`
-    - Move to workspace on the right: `Super-'`
+    - Switch to workspace on the left: `Super-;`
+    - Switch to workspace on the right: `Super-'`
     - Move window one workspace to the left: `Super-[`
     - Move window one workspace to the right: `Super-/`
-    - Toggle fullscreen mode: `Super-F
+    - Toggle fullscreen mode: `Super-F`
     - Toggle window on all workspaces or one: `Super+X`
     - View split on left: Disabled
     - View split on right: Disabled
     - Toggle maximization state: Disabled
     - Resize window: Disabled
     - Launch help browser: Disabled
-    - Open the app menu: Disabled
+    - Activate the window menu: Disabled
     - Switch windows directly: Disabled
     - Switch windows of an app directly: Disabled
+    - Switch system controls directly: Disabled
     - Move window: Disabled
     - Turn zoom on or off: Disabled
     - Zoom in: Disabled
@@ -68,7 +63,7 @@
     - Turn screen reader on or off: Disabled
     - Custom Shortcuts
       - Create the following
-        - Bible Study Suite; `bible-study`; `Super+B`
+        - Bible study; `bible-study`; `Super+B`
         - Game mode; `disable-gnome-extensions && kill-background-processes`; `Super+Shift+B`
         - Office mode; `enable-gnome-extensions && start-background-processes`; `Super+V`
         - Launch Firefox; `firefox`; `Ctrl+Super+1`
@@ -80,7 +75,14 @@
         - Launch Tresorit; `~/.local/share/tresorit/tresorit`; `Ctrl+Super+8`
         - Launch Syncthing Web UI; `syncthing --browser-only`; `Ctrl+Super+9`
         - Launch Bitwarden; `flatpak run com.bitwarden.desktop`; `Ctrl+Super+0`
-- Date & Time
-  - Time Format: AM/PM
-- About
-  - Device Name: Pick name
+- Privacy
+  - Screen Lock
+    - Automatic Screen Lock Delay: Screen Turns Off
+  - File History & Trash
+    - File History
+      - File History Duration: 30 days
+    - Trash & Temporary Files
+      - Automatically Empty Trash: On
+- System
+  - About
+    - Device Name: Pick name

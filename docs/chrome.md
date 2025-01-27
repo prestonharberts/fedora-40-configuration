@@ -43,6 +43,7 @@ Open the [Chrome Web Store](https://chromewebstore.google.com/) and install the 
 
 - Bitwarden - Free Password Manager by Bitwarden Inc.
   - Activate the extension: Alt+L
+- Don't Close Window With Last Tab by Marcel Dopita
 - OneTab by OneTab Team
 
 ### Bitwarden

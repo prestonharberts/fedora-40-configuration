@@ -15,4 +15,4 @@ sudo mkdir -p /usr/share/stardict/dic
 sudo tar -xvjf stardict-dictd_www.dict.org_gcide-2.4.2.tar.bz2 -C /usr/share/stardict/dic
 ```
 
-Use like `sdcv <word>` or use my `define` script in my Bin folder.
+Use like `sdcv <word>` or use my `def` script in my Bin folder.

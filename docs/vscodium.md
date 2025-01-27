@@ -64,6 +64,7 @@ Install the following extensions:
 - Bash IDE by mads-hartmann
 - ShellCheck by timonwong.
 - Active File In StatusBar by RoscoP
+- statusbar-commands by anweber
 - Dart by Dart-Code
 
 Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/gosh@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
@@ -145,3 +146,9 @@ var sb = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 1);
 ```
 
 Restart VSCodium for some changes to take effect.
+
+Remove the following keybind by rightclicking it in Keyboard Shortcuts (open it by searching it through `Ctrl+Shift+P`)
+
+- workbench.action.quit
+
+Open VSCode Neovim's settings, and add `q` to "Ctrl Keys For Insert Mode" and "Ctrl Keys For Normal Mode"

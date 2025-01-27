@@ -8,7 +8,7 @@ Move `bash/.inputrc` to your home directory, and run the following in a terminal
 bind -f ~/.inputrc
 ```
 
-Move all of the files in `fedora-38-configuration/configs/bash/bin/` to `~/Bin/` if you would like to use several helpful scripts. Otherwise, skip or add `fedora-38-configuration/configs/bash/bin/` to your PATH in `.bashrc`.
+Move all of the files in `fedora-38-configuration/configs/bash/bin/` to `~/Bin/` if you would like to use several helpful scripts. Otherwise, skip or add `fedora-41-configuration/configs/bash/bin/` to your PATH in `.bashrc`.
 
 ## Turn Off Bash Case Sensitivity
 

@@ -8,9 +8,10 @@ sudo dnf install gnome-shell-extension-pop-shell xprop -y
 
 Sign out and log back in, once this is complete. Change the following settings from Extensions (the extension will be located under "Built-In"):
 
+- Allow stacking with mouse: Off
+
 Click the tray icon for Pop Shell, and change the following settings:
 
-- Allow stacking with mouse: Off
 - Tile windows: On
 - Active hint color: (right click to change) #80b9ff
 
@@ -36,7 +37,6 @@ Set the following Floating Window Exceptions to personal preference:
 - AppImageLauncher Settings
 - Bitwarden
 - Calculator
-- Calibre
 - Characters
 - Chess
 - Clock
