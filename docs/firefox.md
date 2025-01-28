@@ -88,7 +88,6 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
   - Open vault popup: Alt+L
 - Cookie AutoDelete by CAD Team
 - CSS Override by swcolegrove
-- DeArrow - Better Titles and Thumbnails on YouTube
 - OneTab by OneTab Team
 - Progressive Web Apps by Filip S
 - Return YouTube Dislike by Dmitry Selivanov
