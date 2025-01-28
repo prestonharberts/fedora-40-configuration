@@ -282,7 +282,18 @@ Once all this is set up, open `about:support` and open the profile directory in 
 }
 ```
 
-Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`, as well as adjusting the VA-API settings listed later in this document. Restart the app.
+Now, open `about:config`, and set `` to `true`, as well as adjusting the VA-API settings listed later in this document. Restart the app.
+
+Change the following in `about:config` (including some VA-API controls we'll also do in our main application later):
+
+```
+toolkit.legacyUserProfileCustomizations.stylesheets
+media.ffmpeg.vaapi.enabled = true
+media.ffvpx.enabled = false
+media.rdd-vpx.enabled = false
+```
+
+Right-click the titlebar, and click "Customize Toolbar." Enable the title bar option at the bottom, save, then right-click the titlebar again and enable the hide icons option.
 
 ## Netflix 1080p
 
