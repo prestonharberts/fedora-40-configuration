@@ -6,7 +6,9 @@ firefox &
 /usr/bin/firefoxpwa site launch 01HEXG5HQQVD8Y5YY11DPQ307W & # Logos
 /usr/bin/firefoxpwa site launch 01J8FHKM8X2YG4NPWJHQFQKJ7G & # ChatGPT
 sleep 4
+wmctrl -r Konsole -b add,sticky
 
+sleep 0.3
 wmctrl -r Firefox -t 1   
 sleep 0.3
 wmctrl -r Logos -t 2
