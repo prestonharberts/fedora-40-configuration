@@ -252,7 +252,7 @@ Click the OneTab extension icon, and unpin the newly created tab. Change the fol
 
 ## Progressive Web Apps
 
-Follow the instructions presented by this extension when prompted. Make web apps for the following websites:
+Follow the instructions presented by this extension when prompted. Make web apps for the following websites (make sure to select the Default profile for all of these):
 
 - https://app.logos.com
 - https://calendar.google.com/calendar/
@@ -264,7 +264,16 @@ Follow the instructions presented by this extension when prompted. Make web apps
   - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
 - https://youtube.com
 
-Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, restart the app, and uninstall every extension except for Cookie AutoDelete and uBlock Origin. For YouTube, keep all related extensions. Change Firefox's application settings to follow this guide.
+Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, restart the app, and uninstall these extension:
+
+- Bitwarden - Free Password Manager 
+- Cookie AutoDelete 
+- CSS Override by swcolegrove
+- Return YouTube Dislike 
+- SponsorBlock - Skip Sponsorships on YouTube 
+- uBlock Origin 
+
+Change Firefox's application settings to follow this guide.
 
 For the following websites, change the following settings:
 
