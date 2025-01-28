@@ -73,6 +73,8 @@ Change the following settings for the Built-In extensions:
       - Display Style: Hidden
 - Autohide Battery by iskin (only if current machine is has a battery)
 - Autohide Volume by t184256
+- Auto Power Profile by dmy3k
+  - On Battery: Power Saver
 - Burn My Windows by Simme (only if computer will not lag)
   - Click "Disable All" and enable Glide
 - Caffeine by eon
@@ -203,7 +205,6 @@ Change the following settings for the Built-In extensions:
     - Mouse bindings
       - Left click action: play/pause
       - Middle click action: next track
-- No overview at start-up by fthx
 - Peek Top Bar on Fullscreen by marcinjahn
 - Power Profile Switcher by eliapasquali (only if on laptop) (currently disabled)
   - Default profiles
