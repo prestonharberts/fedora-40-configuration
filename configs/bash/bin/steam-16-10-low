@@ -1,0 +1,5 @@
+#!/bin/bash
+
+disable-gnome-extensions
+kill-background-processes
+gamescope -W 1920 -H 1200 -f -- steam

@@ -128,6 +128,24 @@ Change the following settings for the Built-In extensions:
     - Tidal
     - Rhythmbox
     - ChatGPT (see Firefox setup)
+- Custom Command Toggle by storageb
+  - First go to Configuration, and change "Number of Toggle Buttons" to 4, then close and reopen this extension settings window. Set Them all up like this:
+    - Commands
+      - Toggle OFF command:
+        - Button 1: `steam-16-10-low`
+        - Button 2: `steam-16-10-high`
+        - Button 3: `steam-16-9-low`
+        - Button 4: `steam-16-9-high`
+    - Appearance
+      - Button name:
+        - Button 1: Steam (16:10 L)
+        - Button 2: Steam (16:10 H)
+        - Button 3: Steam (16:9 L)
+        - Button 4: Steam (16:9 H)
+      - Icon: `input-gaming-symbolic`
+    - Toggle Behavior
+      - Button Click Action: Always off
+      - Close Menu After Button Press: On
 - Date Menu Formatter by mjakubowski
   - Formatter: SimpleDateFormat
   - Pattern: I prefer these options
