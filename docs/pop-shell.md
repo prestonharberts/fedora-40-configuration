@@ -39,7 +39,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Calculator
 - Characters
 - Chess
-- Clock
+- Clocks
 - Color Picker
 - dconf Editor
 - Decibels
@@ -48,14 +48,10 @@ Set the following Floating Window Exceptions to personal preference:
 - Easy Effects
 - Extensions
 - Fonts
-- Fretboard
 - Galaxy Buds Client
 - Google Calendar
-- Jagex Launcher
 - Konsole
-- Lrcget
 - Homebank
-- HydraPaper
 - Image Viewer
 - Logs
 - Nautilus
@@ -67,7 +63,6 @@ Set the following Floating Window Exceptions to personal preference:
 - Settings
 - Simon Thatham's Portable Puzzle Collection
 - Software
-- Space Cadet Pinball
 - Sudoku
 - System Monitor
 - Text Editor

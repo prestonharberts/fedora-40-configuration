@@ -262,6 +262,7 @@ Follow the instructions presented by this extension when prompted. Make web apps
   - Name: Qobuz
   - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
 - https://youtube.com
+- TODO: Add URLs for these too `Crunchyroll, Disney+, Hulu, Max, Netflix, Paramount+, Prime Video, Tubi`
 
 Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, restart the app, and uninstall these extension:
 

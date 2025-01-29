@@ -75,6 +75,21 @@ Change the following settings for the Built-In extensions:
 - Autohide Volume by t184256
 - Auto Power Profile by dmy3k
   - On Battery: Power Saver
+- Blur my Shell by aunetx
+  - Pipelines
+    - Default > Manage effects
+      - Native gaussian blur
+        - Brightness: 1.00
+      - Add the Corner effect
+  - Panel
+    - Panel blur
+    - Override background: Off
+    - Disable in overview: Off
+  - Overview
+    - Background blur: Off
+    - Application folder blur: Off
+  - Dash
+    - Dash to Dock blur: Off
 - Burn My Windows by Simme (only if computer will not lag)
   - Click "Disable All" and enable Glide
 - Caffeine by eon
@@ -86,6 +101,7 @@ Change the following settings for the Built-In extensions:
   - Display
     - Show status indicator in top panel: Never
     - Notifications: Off
+- ClipQR by drien (only enable when needed)
 - Color Picker by grroot (only enable when needed)
 - Compiz alike magic lamp effect by hermes83(only if computer will not lag)
   - Duration (ms): 250
@@ -161,6 +177,8 @@ Change the following settings for the Built-In extensions:
 - Fullscreen Avoider by noobsai (only use for multiple monitors)
 - GPU profile selector by lori_more
   - Make sure EnvyControl is installed (see `envycontrol.md`)
+- Gravatar by dsheeler
+  - Enter email, press keyboard shortcut, clear shortcut, and uninstall plugin
 - GSConnect by dlandau
   - Run the following to install the openssl dependency: `sudo dnf install openssl -y`
   - Name your device
@@ -202,7 +220,7 @@ Change the following settings for the Built-In extensions:
     - Panel Button Padding Size: 0px
     - Clock menu position: Right
     - Clock menu offset: 10
-    - Animation: No Animation (only if computer is lagging)
+    - Animation: Slower (No Animation if computer is lagging)
     - Notification Banner Position: Top End
 - Mouse Follows Focus by LeonMatthes (Disable on multi-monitor setups)
 - Media Label and Controls (Mpris Label) by moon-0xff
@@ -228,6 +246,24 @@ Change the following settings for the Built-In extensions:
   - Default profiles
     - On AC: Balanced
     - On battery: Power Saving
+- QSTweak - Quick Setting Tweaker by qwreey
+  - Volume Mixer
+    - Add volume mixer (PuseAudio, Pipewire): Off
+  - Noti&Media
+    - Notification Widget: Off
+  - Quick Toggles
+    - Add more buttons
+      - DND Quick Toggle: Off
+    - Buttons to remove
+      - St_BoxLayout: On
+      - BrightnesItem: On
+      - NighLightToggle: On
+      - DarkModeToggle: On
+      - KeyboardBrightnessToggle: On
+      - RfkillToggle: On
+      - BackgroundAppsToggle: On
+      - MediaSection: On
+      - Notifications: On
 - Rounded Corners by lennart-k (disable if using multiple monitors)
 - Rounded Window Corners Reborn by flexagoon
   - In case it errors or doesn't work, run `dconf reset -f /org/gnome/shell/extensions/rounded-window-corners-reborn/` in Terminal
@@ -262,17 +298,18 @@ Change the following settings for the Built-In extensions:
           - Calendar (Google Calendar)
           - Coding (Sigil, VSCodium)
           - Drawing (Inkscape, LibreOffice Draw)
-          - Ebooks (Calibre)
           - GPT (ChatGPT)
           - Hypervisor (Virtual Machine Manager)
           - Mail (Tuta Mail)
           - Messages (Discord)
-          - Music (Tidal, YouTube Music, Rhythmbox)
+          - Music (Amberol, Tidal, YouTube Music, Rhythmbox)
           - Notes (Obsidian)
           - Photo (Krita)
-          - Reading (Foliate)
+          - Photos (showFoto)
+          - Reading (Calibre, Foliate)
           - Slides (LibreOffice Impress)
           - Spreadsheets (LibreOffice Calc)
+          - Streaming (Crunchyroll, Disney+, Hulu, Max, Netflix, Paramount+, Prime Video, Tubi)
           - Video (Shotcut)
           - Videos (YouTube)
           - Visualizer (Cavasik)

@@ -21,6 +21,13 @@
   - Do Not Disturb: On
   - Lock Screen Notifications: Off
   - Disable the notifications for all listed programs
+- Search
+  - Disable the following apps in Search Results
+    - Settings
+    - Characters
+    - Clocks
+    - Firefox
+    - Software
 - Mouse & Touchpad
   - Touchpad
     - Tap to Click: On

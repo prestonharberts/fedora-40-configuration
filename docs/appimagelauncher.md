@@ -6,4 +6,13 @@ Go to the [AppImageLauncher website](https://github.com/TheAssassin/AppImageLaun
 sudo dnf install ~/Downloads/filename.rpm -y
 ```
 
-When asked for a location, select `~/System/appimages`. Integrate and run.
+Change the following settings:
+
+- AppImageLauncher
+  - Ask whether to move AppImage files into the applications directory
+  - Location where to store your AppImage files to ease their management: `/home/prestonharberts/System/appimages`
+- appimagelauncherd
+  - General settings
+    - Auto start auto-integration daemon: Off
+
+Remove all files created by this app in `~/.local/share/applications/`.
