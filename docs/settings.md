@@ -54,6 +54,8 @@
     - Move window one workspace to the right: `Super-/`
     - Toggle fullscreen mode: `Super-F`
     - Toggle window on all workspaces or one: `Super+X`
+    - Move window to last workspace: Disabled
+    - Move window to workspace 1: Disabled
     - View split on left: Disabled
     - View split on right: Disabled
     - Toggle maximization state: Disabled
