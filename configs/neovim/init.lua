@@ -19,12 +19,68 @@ vim.opt.number = true
 vim.opt.numberwidth = 1
 vim.opt.statuscolumn = "%=%{v:virtnum == 0 ? (v:relnum > 0 ? v:relnum : v:lnum) : ' '} "
 vim.opt.statusline = "%-4l%=%f %2p%%%=%4c"
-vim.opt.cmdheight = 0
+vim.opt.cmdheight = 1
+-- Set cmdheight to 1
+vim.opt.cmdheight = 1
+-- Set cmdheight to 1
+vim.opt.cmdheight = 1
+
+-- Helper function to center a message
+local function center_text(text)
+  local width = vim.o.columns -- Get the width of the current window
+  local padding = math.floor((width - #text) / 2) -- Calculate the padding for centering
+  return string.rep(" ", padding) .. text
+end
+
+-- Autocommand to display placeholder text with current mode when the command line is empty
+vim.api.nvim_create_autocmd({ "CmdlineLeave", "BufEnter", "ModeChanged" }, {
+  callback = function()
+    if vim.opt.cmdheight:get() == 1 and vim.fn.getcmdline() == "" then
+      vim.defer_fn(function()
+        if vim.fn.getcmdline() == "" then
+          local mode_map = {
+            n = "normal",
+            i = "insert",
+            v = "visual",
+            V = "visual line",
+            [""] = "visual block",
+            c = "command",
+            R = "replace",
+            s = "select",
+          }
+          local current_mode = vim.api.nvim_get_mode().mode
+          local mode_text = mode_map[current_mode] or "UNKNOWN"
+          local message = center_text("" .. mode_text .. "")
+          vim.cmd([[echomsg "]] .. message .. [["]])
+        end
+      end, 10) -- Slight delay to avoid conflicts
+    end
+  end,
+  pattern = "*",
+})
+
 vim.opt.fillchars='eob: '
 
 -- cursor
 vim.opt.cursorline = true
-vim.opt.guicursor = "i:block-blinkon400-blinkoff400"
+vim.opt.guicursor = "i:blinkon400-blinkoff400"
+-- Set highlights for different cursors
+vim.cmd([[
+  highlight Cursor guibg=#5f87af ctermbg=67
+  highlight iCursor guibg=#ffffaf ctermbg=229
+  highlight rCursor guibg=#d70000 ctermbg=124
+]])
+
+-- Set cursor styles for different modes
+vim.opt.guicursor = table.concat({
+  "n-v-c:block-Cursor/lCursor",
+  "i-ci-ve:ver100-iCursor",
+  "r-cr:block-rCursor",
+  "o:hor50-Cursor/lCursor",
+  "sm:block-iCursor",
+  "a:blinkwait1000-blinkon500-blinkoff250"
+}, ",")
+
 vim.opt.mouse = "a"
 vim.opt.clipboard = "unnamedplus"
 vim.opt.scrolloff = 5
@@ -42,14 +98,14 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.autoindent = true
 vim.opt.showmode = false
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.bo.softtabstop = 4
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.bo.softtabstop = 2
 
 -- line wrapping
 vim.opt.linebreak = true
 vim.opt.breakindent = true
-vim.opt.showbreak = "     "
+vim.opt.showbreak = "    "
 
 -- disable unnecessary button in context menu
 vim.cmd.aunmenu{'PopUp.How-to\\ disable\\ mouse'}
@@ -141,13 +197,26 @@ local lspconfig = require'lspconfig'
 
 -- cmp setup
 cmp.setup({
-  mapping = cmp.mapping.preset.insert({
-    ['<C-b>'] = cmp.mapping.scroll_docs(-4),
-    ['<C-f>'] = cmp.mapping.scroll_docs(4),
-    ['<C-Space>'] = cmp.mapping.complete(),
-    ['<C-e>'] = cmp.mapping.abort(),
-    ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item.
-  }),
+    mapping = cmp.mapping.preset.insert({
+  ['<C-b>'] = cmp.mapping.scroll_docs(-4),
+  ['<C-f>'] = cmp.mapping.scroll_docs(4),
+  ['<C-Space>'] = cmp.mapping.complete(),
+  ['<C-e>'] = cmp.mapping.abort(),
+  ['<Tab>'] = cmp.mapping(function(fallback)
+    if cmp.visible() then
+      cmp.select_next_item() -- Tab navigates to the next item
+    else
+      fallback() -- Use normal Tab behavior when no menu
+    end
+  end, { "i", "s" }),
+  ['<S-Tab>'] = cmp.mapping(function(fallback)
+    if cmp.visible() then
+      cmp.select_prev_item() -- Shift-Tab navigates to the previous item
+    else
+      fallback() -- Use normal Shift-Tab behavior when no menu
+    end
+  end, { "i", "s" }),
+}),
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },   -- Use LSP as the source for autocompletion
   }, {
@@ -206,6 +275,14 @@ lspconfig.cssls.setup {
 lspconfig.html.setup {
   capabilities = capabilities,
   on_attach = on_attach,
+  settings = {
+    html = {
+      format = {
+        wrapLineLength = 0
+      }
+    }
+  }
+
 }
 
 -- treesitter setup

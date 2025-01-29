@@ -20,6 +20,9 @@ Change the following settings:
   - Inlay Hints: Off
   - Sticky Scroll: Off
   - Tab Size: 2
+  - Word Wrap: On
+  - Wrapping Indent: indent
+  - HTML > Format: Wrap Line Length: 0
   - Font
     - Font Family: Insert `'SF Mono', ` at the beginning after following the instructions in `sf-font.md`
     - Font Size: 12
