@@ -12,9 +12,9 @@ Open Application Menu, and open Settings. Change the following settings:
 	- Firefox Home Content
 		- Web Search: On
 		- Shortcuts: Off
-		- Recommended by Pocket: Off
+        - Weather: Off
+		- Recommended stories: Off
 		- Recent activity: Off
-		- Snippets: Off
 - Search
 	- Default Search Engine: DuckDuckGo
 	- Search Suggestions
@@ -95,8 +95,10 @@ Open Settings, and click the Extensions & Themes button at the bottom. Under the
 - SponsorBlock - Skip Sponsorships on YouTube by Ajay Ramachandran
 - Todoist for Firefox by Todoist
   - Add to Todoist: Alt+A
+- TWP - Translate Web Pages by Filipe Dev
 - uBlock Origin by Raymond Hill
 	- When prompted, allow to run in private windows
+- UltraWideo by dvlden
 
 ### Bitwarden
 
@@ -257,12 +259,15 @@ Follow the instructions presented by this extension when prompted. Make web apps
 - https://calendar.google.com/calendar/
 - https://devdocs.io
 - https://chatgpt.com
+  - Icon URL: https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=000000
 - https://music.youtube.com
 - https://play.qobuz.com (if subscribed)
   - Name: Qobuz
   - Icon URL: https://external-content.duckduckgo.com/ip3/www.qobuz.com.ico
 - https://youtube.com
 - TODO: Add URLs for these too `Crunchyroll, Disney+, Hulu, Max, Netflix, Paramount+, Prime Video, Tubi`
+  - Prime video
+    - Icon URL: https://img.icons8.com/?size=100&id=mJTj7Q9EPSVn&format=png&color=000000
 
 Now, sign in to your Firefox account to sync extensions. Sign out of your account once everything is synced, restart the app, and uninstall these extension:
 
@@ -272,6 +277,8 @@ Now, sign in to your Firefox account to sync extensions. Sign out of your accoun
 - Return YouTube Dislike 
 - SponsorBlock - Skip Sponsorships on YouTube 
 - uBlock Origin 
+
+Install the hide-scrollbars extension by qashto from the Firefox Add-Ons website.
 
 Change Firefox's application settings to follow this guide.
 
@@ -287,26 +294,31 @@ Once all this is set up, open `about:support` and open the profile directory in 
 ```
 /* hides the title bar */
 #titlebar {
-  visibility: collapse;
+  visibility: collapse !important;
+}
+
+#TabsToolbar {
+  visibility: collapse !important;
 }
 ```
 
-Now, open `about:config`, and set `` to `true`, as well as adjusting the VA-API settings listed later in this document. Restart the app.
-
-Change the following in `about:config` (including some VA-API controls we'll also do in our main application later):
+Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`, as well as these VA-API settings listed later in this document:
 
 ```
-toolkit.legacyUserProfileCustomizations.stylesheets
 media.ffmpeg.vaapi.enabled = true
 media.ffvpx.enabled = false
 media.rdd-vpx.enabled = false
 ```
 
-Right-click the titlebar, and click "Customize Toolbar." Enable the title bar option at the bottom, save, then right-click the titlebar again and enable the hide icons option.
-
 ## Netflix 1080p
 
 Follow the directions [here](https://github.com/vladikoff/netflix-1080p-firefox/issues/63), downloading the file, renaming the file extension from `.zip` to `.xpi`, and installing it manually from the Firefox extensions page.
+
+## TWP - Translate Web Pages by Filipe Dev
+
+Change the following settings in the extension's menu:
+
+- Show the button to translate the selected text: Off
 
 ## VA-API
 
