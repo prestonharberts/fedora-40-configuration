@@ -274,7 +274,7 @@ Change the following settings for the Built-In extensions:
       - Notifications: On
 - Rounded Corners by lennart-k (disable if using multiple monitors)
   - General settings
-    - Border radius: 10px
+    - Border radius: 14px
 - Rounded Window Corners Reborn by flexagoon
   - In case it errors or doesn't work, run `dconf reset -f /org/gnome/shell/extensions/rounded-window-corners-reborn/` in Terminal
   - General
