@@ -65,12 +65,15 @@ Install the following extensions:
 - Error Lens by usernamehw
 - Python by ms-python
 - clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first in which case also press `Ctrl+Shift+P` and enter "clangd: Toggle inlay hints")
+- Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, God, and more by Codeium
 - Bash IDE by mads-hartmann
 - ShellCheck by timonwong.
 - Active File In StatusBar by RoscoP
 - statusbar-commands by anweber
 - Dart by Dart-Code
 - Flutter by Dart-Code
+
+Open the Codeium website when prompted, sign in, close the notification in VSCodium, and open the website when prompted again. Copy the authentication token, and the press `CTRL-P` in VSCodium, then search for `Codeium: Provide Authentication Token`. Paste the copied token and press enter.
 
 Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/gosh@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
 
@@ -135,7 +138,6 @@ Press `Ctrl+Shift+P` and enter "Open User Settings (JSON)." Then, add a comma to
 Right click the bottom status bar, and disable the following items:
 
 - Remote Host
-- Source Control Checkout
 - Source Control Publish
 - Forwarded Ports
 - VSCode Neovim (Extension)
