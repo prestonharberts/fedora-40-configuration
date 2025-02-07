@@ -39,7 +39,7 @@ Change the following settings:
   - Breadcrumbs
     - Enabled: Off
   - View
-    - Show Quietly: Off
+    - Show Quietly: On
   - Zen
     - Hide Line Numbers: Off
     - Show tabs: none
