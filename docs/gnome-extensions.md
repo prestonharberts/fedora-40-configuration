@@ -19,6 +19,7 @@ Change the following settings for the Built-In extensions:
   - Common
     - Behaviour
       - Search Mode as Default: Off
+      - Delay Switcher Display (ms): 150
     - Appearance and Content
       - Tooltip Titles: Show Centered
       - Tooltip Title Scale (%): 100
@@ -49,8 +50,8 @@ Change the following settings for the Built-In extensions:
     - Panel Display Options
       - Position in Panel: Center
     - General Settings
-      - Hotkey: Custom Hotkey
-      - Current Hotkey: Shift+Ctrl+Alt+Space
+      - ArcMenu Hotkey: Shift+Ctrl+Alt+Space
+      - Hide Overview on Startup: On
   - Menu
     - Menu Layout: Launcher Menu Layouts > Runner
     - Menu Theme
@@ -65,7 +66,6 @@ Change the following settings for the Built-In extensions:
       -  Menu Location
         - Override Menu Rise: On; 8
     - Runner Layout Tweaks
-      - Search Results Display Style: Grid
       - Font Size: 12
       - Show Frequent Apps: On
   - Menu Button
@@ -79,7 +79,7 @@ Change the following settings for the Built-In extensions:
   - Pipelines
     - Default > Manage effects
       - Native gaussian blur
-        - Brightness: 1.00
+        - Brightness: 0.8
       - Add the Corner effect
   - Panel
     - Panel blur
@@ -106,7 +106,7 @@ Change the following settings for the Built-In extensions:
 - Compiz alike magic lamp effect by hermes83(only if computer will not lag)
   - Duration (ms): 250
 - Dash to Dock by michele_g
-  - Comment every line containing `animateLaunch` in `.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/appIcons.js` 
+  - Comment every line containing `animateLaunch` in `.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/appIcons.js`
   - Position and size
     - Show the dock on: Choose primary monitor
     - Intelligent autohide
@@ -130,7 +130,7 @@ Change the following settings for the Built-In extensions:
   - Appearance
     - Shrink the dash: On
     - Show overview on startup: Off
-    - Customize windows counter indicators: Dots
+    - Customize windows counter indicators: Dot
     - Customize opacity: Fixed
     - Opacity: 0%
   - Unpin all current dock apps, and pin the following apps in order:
@@ -162,7 +162,7 @@ Change the following settings for the Built-In extensions:
     - Toggle Behavior
       - Button Click Action: Always off
       - Close Menu After Button Press: On
-- Date Menu Formatter by mjakubowski
+- Date Menu Formatter by Marcin Jakubowski
   - Formatter: SimpleDateFormat
   - Pattern: I prefer these options
     - `EEEE K:mm aaa`
@@ -178,7 +178,7 @@ Change the following settings for the Built-In extensions:
 - GPU profile selector by lori_more
   - Make sure EnvyControl is installed (see `envycontrol.md`)
 - Gravatar by dsheeler
-  - Enter email, press keyboard shortcut, clear shortcut, and uninstall plugin
+  - Enter email, press keyboard shortcut, clear shortcut, and disable plugin until needed again
 - GSConnect by dlandau
   - Run the following to install the openssl dependency: `sudo dnf install openssl -y`
   - Name your device
@@ -210,7 +210,9 @@ Change the following settings for the Built-In extensions:
     - Ripple Box: Off
   - Icons
     - Panel Notification Icon: Off
+    - Power Icon: Off (if on desktop)
   - Behaviour
+    - Workspace Wraparound
     - Workspace Peek: Off
     - Window Demands Attention Focus: On
     - Double Super to App Grid: Off
@@ -219,9 +221,14 @@ Change the following settings for the Built-In extensions:
     - Workspace Background Corner Size: 16px
     - Panel Button Padding Size: 0px
     - Clock menu position: Right
-    - Clock menu offset: 10
-    - Animation: Slower (No Animation if computer is lagging)
+    - Clock menu offset: 20
+    - Animation: Slow (No Animation if computer is lagging)
     - Notification Banner Position: Top End
+- Lock screen background by xiaoguang_wang
+  - Change background
+    - Adjust Radius: 30
+    - Adjust Brightness: 0.65
+    - Picture: Choose same wallpaper but without top bar adjustments
 - Mouse Follows Focus by LeonMatthes (Disable on multi-monitor setups)
 - Media Label and Controls (Mpris Label) by moon-0xff
   - Panel
@@ -250,6 +257,7 @@ Change the following settings for the Built-In extensions:
   - Volume Mixer
     - Add volume mixer (PuseAudio, Pipewire): Off
   - Noti&Media
+    - Media Controls Widget: Off
     - Notification Widget: Off
   - Quick Toggles
     - Add more buttons
@@ -265,6 +273,8 @@ Change the following settings for the Built-In extensions:
       - MediaSection: On
       - Notifications: On
 - Rounded Corners by lennart-k (disable if using multiple monitors)
+  - General settings
+    - Border radius: 10px
 - Rounded Window Corners Reborn by flexagoon
   - In case it errors or doesn't work, run `dconf reset -f /org/gnome/shell/extensions/rounded-window-corners-reborn/` in Terminal
   - General
@@ -323,7 +333,6 @@ Change the following settings for the Built-In extensions:
         - Font size: 11
         - Font weight: Semi Bold
         - Border radius: 8
-        - Border width: 0
         - Horizontal padding: 12
         - Vertical padding: 1
       - Inactive Workspace
@@ -344,13 +353,15 @@ Change the following settings for the Built-In extensions:
   - Run `cd ~/.local/share/gnome-shell/extensions && git clone https://github.com/GabePoel/gnome-true-color-invert && mv gnome-true-color-invert true-color-window-invert\@lynet101`
   - Add support for the latest GNOME version within the folder's `metadata.json` by adding or changing one of the existing values to your GNOME version.
   - Edit `extension.js`, and adjust `0.1` in `float white_bias = c.a * 0.1; // lower -> higher contrast` to be `0.0` if you want black instead of gray or my preferred `0.22` if you want brighter grays.
+- Unblank lock screen by xiaoguang_wang
+  - Only unblank when on AC: Off
+- Timeout to blank after locking the screen: 5 minutes
 - Unite by hardpixel
   - Run the following to download and install: `wget https://github.com/hardpixel/unite-shell/releases/download/v80/unite-v80.zip; gnome-extensions install unite-v80.zip`
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
   - General
     - Layout Tweaks
       - Extend top bar left box: Off
-      - Notifications position: Right
     - System Tray
       - Enable tray: Off
     - Application Menu
@@ -374,9 +385,6 @@ Change the following settings for the Built-In extensions:
 - User Themes by fmuellner
 - Volume Scroller by francislavoie
 - WSM (Workspace Switcher Manager) by GdH (currently disabled in favor of Space Bar)
-  - General
-    - Workspace Switcher
-      - Wraparound: On
   - Pop-up
     - Behaviour
       - On-Screen Time (ms): 200

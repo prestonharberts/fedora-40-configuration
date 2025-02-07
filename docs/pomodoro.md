@@ -10,5 +10,3 @@ Change the following settings:
 
 - Notifications
   - Screen notifications: Off
-- Desktop
-  - Hide other notifications: On

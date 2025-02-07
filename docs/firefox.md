@@ -280,7 +280,27 @@ Now, sign in to your Firefox account to sync extensions. Sign out of your accoun
 
 Install the hide-scrollbars extension by qashto from the Firefox Add-Ons website.
 
-Change Firefox's application settings to follow this guide.
+Change Firefox's application settings to follow this guide, and then adjust these settings apart from the other settings:
+
+- Privacy & Security
+  - Browser Privacy
+    - Enhanced Tracking Protection: Standard
+  - Permissions
+    - Location
+      - Settings
+        - Block new requests asking to access your location
+    - Camera
+      - Settings
+        - Block new requests asking to access your location
+    - Microphone
+      - Settings
+        - Block new requests asking to access your location
+    - Notifications
+      - Settings
+        - Block new requests asking to access your location
+    - Virtual Reality
+      - Settings
+        - Block new requests asking to access your location
 
 For the following websites, change the following settings:
 
@@ -308,6 +328,7 @@ Now, open `about:config`, and set `toolkit.legacyUserProfileCustomizations.style
 media.ffmpeg.vaapi.enabled = true
 media.ffvpx.enabled = false
 media.rdd-vpx.enabled = false
+screenshots.browser.component.enabled = false
 ```
 
 ## Netflix 1080p
@@ -338,6 +359,7 @@ Also change the following from `about:config`:
 browser.tabs.closeWindowWithLastTab = false
 browser.tabs.insertAfterCurrent = true
 browser.chrome.site_icons = false
+screenshots.browser.component.enabled = false
 ```
 
 ## DuckDuckGo settings

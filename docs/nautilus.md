@@ -3,6 +3,8 @@
 Open Preferences, and change the following settings
 
 - Menu
-	- Show hidden files: On
+  - Show hidden files: On
 - General
-	- Action to Open Items: Single click
+  - Action to Open Items: Single click
+- Optional Context Menu Actions
+  - Create Link

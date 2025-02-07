@@ -38,17 +38,18 @@ Change the following settings:
 - Workbench
   - Breadcrumbs
     - Enabled: Off
+  - View
+    - Show Quietly: Off
   - Zen
     - Hide Line Numbers: Off
     - Show tabs: none
 - Window
   - Auto Detect Color Scheme: On
-  - Zoom Level: 1
 - Features
   - Source Control
     - Diff Decorations Gutter Width: 1
   - Terminal
-    - Integrated: Font Family: 'SF Mono'
+    - Integrated: Font Family: `'SF Mono'`
     - Integrated: Font Size: 13
 
 Install the Fedora GNOME light & dark themes extension by olifink, and change the following settings:
@@ -69,6 +70,7 @@ Install the following extensions:
 - Active File In StatusBar by RoscoP
 - statusbar-commands by anweber
 - Dart by Dart-Code
+- Flutter by Dart-Code
 
 Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/gosh@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
 

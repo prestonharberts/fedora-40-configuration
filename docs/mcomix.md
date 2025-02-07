@@ -25,12 +25,12 @@ Change the following settings from Preferences:
     - Use fullscreen by default: On (only if titlebar is present)
 - Shortcuts
   - Navigation
-    - Back ten pages: `H` (Key 1)
-    - First page: `G` (Key 1)
-    - Forward ten pages: `L` (Key 1)
-    - Go to page: `F` (Key 1)
-    - Last page: `Shift-G` (Key 1)
-    - Next page: `J` (Key 1)
-    - Previous page: `K` (Key 1)
+    - Back ten pages: `h` (Key 1)
+    - First page: `g` (Key 1)
+    - Forward ten pages: `l` (Key 1)
+    - Go to page: `f` (Key 1)
+    - Last page: `Shift-g` (Key 1)
+    - Next page: `j` (Key 1)
+    - Previous page: `k` (Key 1)
 
-Press `I` to hide all UI. Add all manga to library by right-clicking the application's blank space.
+Press `i` to hide all UI. Add all manga to library by right-clicking the application's blank space.

@@ -40,7 +40,7 @@
     - Show the notification list: `Super-N`
     - Focus the active notification: `Shift+Super+N`
     - Switch applications: `Alt-Tab`
-    - Switch windows of an application: `Alt-~` (`Alt-Escape` if using HHKB)
+    - Switch windows of an application: `Alt-\`` (`Alt-Escape` if using HHKB)
     - Show the overview: `Super-Tab`
     - Show all apps: `Shift-Super-Tab`
     - Move window one monitor down: `Alt-Super-J`
@@ -54,8 +54,10 @@
     - Move window one workspace to the right: `Super-/`
     - Toggle fullscreen mode: `Super-F`
     - Toggle window on all workspaces or one: `Super+X`
-    - Move window to last workspace: Disabled
+    - Move window to last workspace: `Super+Shift+/`
     - Move window to workspace 1: Disabled
+    - Switch to workspace 1: Disabled
+    - Switch to last workspace: Disabled
     - View split on left: Disabled
     - View split on right: Disabled
     - Toggle maximization state: Disabled
@@ -64,6 +66,7 @@
     - Activate the window menu: Disabled
     - Switch windows directly: Disabled
     - Switch windows of an app directly: Disabled
+    - Switch system controls: Disabled
     - Switch system controls directly: Disabled
     - Move window: Disabled
     - Turn zoom on or off: Disabled
@@ -85,8 +88,6 @@
         - Launch Syncthing Web UI; `syncthing --browser-only`; `Ctrl+Super+9`
         - Launch Bitwarden; `flatpak run com.bitwarden.desktop`; `Ctrl+Super+0`
 - Privacy
-  - Screen Lock
-    - Automatic Screen Lock Delay: Screen Turns Off
   - File History & Trash
     - File History
       - File History Duration: 30 days

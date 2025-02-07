@@ -38,6 +38,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Bitwarden
 - Calculator
 - Characters
+- ChatGPT
 - Chess
 - Clocks
 - Color Picker
@@ -70,7 +71,6 @@ Set the following Floating Window Exceptions to personal preference:
 - Tresorit
 - Tweaks
 - Warble
-- Upscaler
 - Virtual Machine Manager
 - VLC
 
@@ -88,6 +88,6 @@ Run the following (with adjustments for paths) to replace the top bar icon with 
 cd /usr/share/gnome-shell/extensions/pop-shell@system76.com/icons/
 sudo mv pop-shell-auto-off-symbolic.svg pop-shell-auto-off-symbolic.svg_backup
 sudo mv pop-shell-auto-on-symbolic.svg pop-shell-auto-on-symbolic.svg_backup
-sudo cp path/to/config/blank.svg svg pop-shell-auto-off-symbolic.svg
+sudo cp path/to/config/blank.svg pop-shell-auto-off-symbolic.svg
 sudo cp path/to/config/blank.svg pop-shell-auto-on-symbolic.svg
 ```

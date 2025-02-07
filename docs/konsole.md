@@ -52,7 +52,7 @@ Now, change the following settings under Configure Konsole:
     - Show Close Tab Button: None
     - Miscellaneous
       - Expand individual tab widths to full window: On
-      - Use user-defined stylesheet: Select CSS file in `configs/konsole`
+      - Use user-defined stylesheet: Move the CSS file in `configs/konsole` to `~/.local/share/konsole` and select it for this field
   - Behavior
     - Put new tabs: After current tab
   - This section may need to be completed one more time becuase it resets after exiting
@@ -68,6 +68,6 @@ Edit the following keyboard shortcuts from Configure Keyboard Shortcuts:
 - Print Screen: `Ctrl+Alt+Shift+P`
 - Clear Scrollback and Reset: `Ctrl+L`
 - Copy: `Ctrl+C`
-- Paste: `Ctrl+P`
+- Paste: `Ctrl+V`
 
 Disable Show Menubar from the menubar. Open again when needed with `Ctrl-Shift-M`.

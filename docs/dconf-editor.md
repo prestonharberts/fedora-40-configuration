@@ -17,7 +17,3 @@ Change the following settings:
 - `/org/gnome/mutter`
   - auto-maximize: Off
   - focus-change-on-pointer-rest: Off
-- `/org/gnome/nautilus/preferences`
-  - show-create-link: On
-- `/org/gnome/desktop/notifications/`
-  - show-banners: Off

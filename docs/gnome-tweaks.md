@@ -24,9 +24,10 @@ sudo dnf install gnome-tweaks -y
 
 Move all the contents of `conf/tweaks/` to `.themes/` after following the instructions in `sf-font.md`, and change the following setting:
 
+Download the Mocu cursor by sevmeyer from [here](https://www.gnome-look.org/p/1526606). Unzip, and move the `Mocu-Black-Right` folder to `~/.icons/`. Create this folder if it does not already exist.
+
 - Appearance
   - Themes
+    - Cursor: Mocu-Black-Right
     - Shell: Choose light-top-bar, dark-top-bar, or invisible-top-bar
     - Legacy Applications: Adwaita-dark (only if you want dark theme)    
-
-Download the Mocu cursor by sevmeyer from [here](https://www.gnome-look.org/p/1526606). Unzip, and move the `Mocu-Black-Right` folder to `~/.icons/`. Create this folder if it does not already exist.

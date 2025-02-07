@@ -25,6 +25,8 @@ Change the following settings:
 - General
   - Launch Service at System Startup: On
   - Currently, I do not use an equalizer. Leave the above option off if so, and enable "Shutdown on Window Closing"
+  - Audio
+    - Inactivity Timeout: Off
 - Spectrum
   - State
     - Enabled: Off

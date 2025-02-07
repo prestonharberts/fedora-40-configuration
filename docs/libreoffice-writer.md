@@ -18,7 +18,6 @@ Change the following settings from the toolbar:
     - Vertical Scroll Bar: Off
   - Text Boundaries: Off
   - Table Boundaries: Off
-  - Field shadings: Off
   - Sidebar: Off (toggle if needed)
 - Tools
   - Customize

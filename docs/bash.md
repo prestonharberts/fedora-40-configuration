@@ -8,7 +8,7 @@ Move `bash/.inputrc` to your home directory, and run the following in a terminal
 bind -f ~/.inputrc
 ```
 
-Move all of the files in `fedora-38-configuration/configs/bash/bin/` to `~/Bin/` if you would like to use several helpful scripts. Otherwise, skip or add `fedora-41-configuration/configs/bash/bin/` to your PATH in `.bashrc`.
+Move all of the files in `fedora-40-configuration/configs/bash/bin/` to `~/Bin/` if you would like to use several helpful scripts. Otherwise, skip or add `fedora-40-configuration/configs/bash/bin/` to your PATH in `.bashrc`.
 
 ## Turn Off Bash Case Sensitivity
 
@@ -33,6 +33,14 @@ Then, place the second line of the follow code directly after the first line as 
 ```
 Defaults    env_reset
 Defaults    pwfeedback
+```
+
+Add this to the end of the file to enable running these commands without sudo:
+
+```
+prestonharberts ALL=(ALL) NOPASSWD: /usr/bin/dnf
+# currently, I don't use this full line. it's for my old keyd configuration
+#prestonharberts ALL=(ALL) NOPASSWD: /usr/bin/dnf, /usr/local/bin/keyd
 ```
 
 ## Forward search
