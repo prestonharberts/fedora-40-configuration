@@ -73,6 +73,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Warble
 - Virtual Machine Manager
 - VLC
+- zenity
 
 If installed aside from this guide, I also recommend floating the following:
 
