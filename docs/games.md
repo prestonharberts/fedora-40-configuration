@@ -15,13 +15,15 @@ flatpak install flathub uk.org.greenend.chiark.sgtatham.puzzles -y
 Change the following options:
 
 - Player Controls:
-  - Left Flipper: `,`
-  - Right Flipper: `.`
-  - Left Table Bump: `M`
-  - Right Table Bump: `/`
-  - Bottom Table Bump: `J`
-  - New Game: `N`
+  - Left Flipper: `j`
+  - Right Flipper: `k`
+  - Left Table Bump: `h`
+  - Right Table Bump: `l`
+  - Bottom Table Bump: `;`
+  - New Game: `n`
   - Pause/Resume Game: Escape
-  - Full Screen: `F`
+  - Full Screen: `f`
   - Sounds: `=`
   - `Music`: `-`
+
+Press F9 to hide the menu.

@@ -64,6 +64,7 @@ Set the following Floating Window Exceptions to personal preference:
 - Settings
 - Simon Thatham's Portable Puzzle Collection
 - Software
+- Space Cadet Pinball
 - Sudoku
 - System Monitor
 - Text Editor
