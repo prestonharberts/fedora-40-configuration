@@ -289,13 +289,19 @@ Change the following settings for the Built-In extensions:
 - Quick Settings Audio Device Renamer by marcinjahn
   - Outputs
     - Output Audio Devices
+      - HDMI / DisplayPort - GP108 High Definition Audio Controller: HDMI Device
       - Speakers - Built-in Audio: Dell XPS 15
+      - Speakers - Built-in Audio: Dell OptiPlex
       - Direct Scarlett Solo USB - Scarlett Solo (3rd Gen.): Scarlett Solo USB
       - Analog Output - FiiO BTR7: FiiO BTR7
+      - Headphones - Built-in Audio: Headphone Out
       - Headset - Preston's Buds: Preston's Buds
+      - Line Out - Built-in Audio: Line Out
   - Inputs
     - Input Audio Devices
       - Internal Microphone - Built-in Audio: Dell XPS 15
+      - Rear Microphone - Built-in Audio: Line In
+      - Front Microphone - Built-in Audio: Microphone In
 - Rounded Corners by lennart-k (disable if using multiple monitors)
   - General settings
     - Border radius: 14px
