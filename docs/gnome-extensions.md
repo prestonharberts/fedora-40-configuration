@@ -272,6 +272,30 @@ Change the following settings for the Built-In extensions:
       - BackgroundAppsToggle: On
       - MediaSection: On
       - Notifications: On
+- Quick Settings Audio Devices Hider by marcinjahn
+  - Outputs
+    - Output Audio Devices
+      - Easy Effects Sink: Off
+      - Digital Output (S/PDIF) - FiiO BTR7: Off
+      - Handsfree - Preston's Buds: Off
+      - Headphones / Line 1-2 - Scarlett Solo (3rd Gen.): Off
+  - Inputs
+    - Input Audio Devices
+      - Easy Effects Source: Off
+      - Direct Scarlett Solo USB - Scarlett Solo (3rd Gen.): Off
+      - Handsfree - Preston's Buds: Off
+      - Input 2 Inst/Line - Scarlett Solo (3rd Gen.): Off
+      - Input 1 Mic - Scarlett Solo (3rd Gen.): Off
+- Quick Settings Audio Device Renamer by marcinjahn
+  - Outputs
+    - Output Audio Devices
+      - Speakers - Built-in Audio: Dell XPS 15
+      - Direct Scarlett Solo USB - Scarlett Solo (3rd Gen.): Scarlett Solo USB
+      - Analog Output - FiiO BTR7: FiiO BTR7
+      - Headset - Preston's Buds: Preston's Buds
+  - Inputs
+    - Input Audio Devices
+      - Internal Microphone - Built-in Audio: Dell XPS 15
 - Rounded Corners by lennart-k (disable if using multiple monitors)
   - General settings
     - Border radius: 14px
