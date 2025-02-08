@@ -13,26 +13,14 @@ Now, move the provided `productivity/default.conf` into `/etc/keyd/`, and run `s
 
 ## No longer used
 
-Paste the following into a new file at `~/.config/systemd/user/keyd-user.service`:
+Add the following line to the end of the file upon running `sudo visudo`:
 
 ```
-[Unit]
-Description=Setup Keyd User Permissions
-After=network.target
-
-[Service]
-Type=oneshot
-ExecStart=/home/%u/Bin/keyd-user
-RemainAfterExit=true
-StandardOutput=journal
-
-[Install]
-WantedBy=default.target
+prestonharberts ALL=(ALL) NOPASSWD: /usr/local/bin/keyd
 ```
 
-Run the following so that it runs at login:
+Finally, give user permissions to `/etc/keyd/` with this command:
 
 ```
-systemctl --user daemon-reload
-systemctl --user restart keyd-setup.service
+sudo chmod u+x /etc/keyd/
 ```
