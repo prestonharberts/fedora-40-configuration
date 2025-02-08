@@ -277,6 +277,7 @@ Change the following settings for the Built-In extensions:
     - Output Audio Devices
       - Easy Effects Sink: Off
       - Digital Output (S/PDIF) - FiiO BTR7: Off
+      - Digital Output (S/PDIF) - KT USB Audio: Off
       - Handsfree - Preston's Buds: Off
       - Headphones / Line 1-2 - Scarlett Solo (3rd Gen.): Off
   - Inputs
@@ -290,16 +291,18 @@ Change the following settings for the Built-In extensions:
   - Outputs
     - Output Audio Devices
       - HDMI / DisplayPort - GP108 High Definition Audio Controller: HDMI Device
-      - Speakers - Built-in Audio: Dell XPS 15
+      - HDMI / DisplayPort - Built-in Audio: 
+      - Speakers - Built-in Audio: Dell XPS
       - Speakers - Built-in Audio: Dell OptiPlex
       - Direct Scarlett Solo USB - Scarlett Solo (3rd Gen.): Scarlett Solo USB
       - Analog Output - FiiO BTR7: FiiO BTR7
       - Headphones - Built-in Audio: Headphone Out
+      - Headphones - KT USB Audio: KT USB
       - Headset - Preston's Buds: Preston's Buds
       - Line Out - Built-in Audio: Line Out
   - Inputs
     - Input Audio Devices
-      - Internal Microphone - Built-in Audio: Dell XPS 15
+      - Internal Microphone - Built-in Audio: Dell XPS
       - Rear Microphone - Built-in Audio: Line In
       - Front Microphone - Built-in Audio: Microphone In
 - Rounded Corners by lennart-k (disable if using multiple monitors)
