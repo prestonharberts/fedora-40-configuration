@@ -388,7 +388,7 @@ Change the following settings for the Built-In extensions:
   - Edit `extension.js`, and adjust `0.1` in `float white_bias = c.a * 0.1; // lower -> higher contrast` to be `0.0` if you want black instead of gray or my preferred `0.22` if you want brighter grays.
 - Unblank lock screen by xiaoguang_wang
   - Only unblank when on AC: Off
-- Timeout to blank after locking the screen: 5 minutes
+  - Timeout to blank after locking the screen: 5 minutes
 - Unite by hardpixel
   - Run the following to download and install: `wget https://github.com/hardpixel/unite-shell/releases/download/v80/unite-v80.zip; gnome-extensions install unite-v80.zip`
   - Run the following in terminal to hide the close button of every window: `gsettings set org.gnome.desktop.wm.preferences button-layout :`.
