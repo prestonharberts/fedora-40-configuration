@@ -1,9 +1,16 @@
 # Retroarch
 
-Install Retroarch with the following line:
+Run the following to install Retroarch:
 
 ```
-sudo dnf install retroarch
+sudo dnf install retroarch -y
+cp /usr/share/applications/com.libretro.RetroArch.desktop ~/.local/share/applications/
+```
+
+Edit the `Exec` line in `~/.local/share/applications/` to be 
+
+```
+Exec=gamemodelaunch -W 1920 -H 1440 -w 320 -h 240 -M windowed -S integer -- retroarch
 ```
 
 Change the following settings:
