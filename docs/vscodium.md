@@ -61,17 +61,18 @@ Install the Fedora GNOME light & dark themes extension by olifink, and change th
     - Preferred Light Color Theme: Gnome Light (GitHub)
 
 Install the following extensions:
-- VSCode Neovim extension by asvetliakov
-- Error Lens by usernamehw
-- Python by ms-python
-- clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first in which case also press `Ctrl+Shift+P` and enter "clangd: Toggle inlay hints")
-- Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, God, and more by Codeium
-- Bash IDE by mads-hartmann
-- ShellCheck by timonwong.
 - Active File In StatusBar by RoscoP
-- statusbar-commands by anweber
+- Bash IDE by mads-hartmann
+- Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, God, and more by Codeium
 - Dart by Dart-Code
+- Error Lens by usernamehw
 - Flutter by Dart-Code
+- Live Server by ritwickdey
+- Python by ms-python
+- ShellCheck by timonwong.
+- VSCode Neovim extension by asvetliakov
+- clangd by llvm-vs-code-extensions (install clangd when propted; you may have to open a .cpp file first in which case also press `Ctrl+Shift+P` and enter "clangd: Toggle inlay hints")
+- statusbar-commands by anweber
 
 Open the Codeium website when prompted, sign in, close the notification in VSCodium, and open the website when prompted again. Copy the authentication token, and the press `CTRL-P` in VSCodium, then search for `Codeium: Provide Authentication Token`. Paste the copied token and press enter.
 
