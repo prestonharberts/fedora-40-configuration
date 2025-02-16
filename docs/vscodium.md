@@ -76,7 +76,7 @@ Install the following extensions:
 
 Open the Codeium website when prompted, sign in, close the notification in VSCodium, and open the website when prompted again. Copy the authentication token, and the press `CTRL-P` in VSCodium, then search for `Codeium: Provide Authentication Token`. Paste the copied token and press enter.
 
-Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/gosh@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
+Also install shfmt by mkhl. Then, run `go install mvdan.cc/sh/v3/cmd/shfmt@latest` to install the dependency. The directory `~/go/bin/` may need to be added to your PATH if it is not already.
 
 Select View from the top bar, and under Appearance, disable the Menu Bar.
 
