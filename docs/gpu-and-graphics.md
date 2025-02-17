@@ -27,3 +27,23 @@ DefaultSession=gnome-xorg.desktop
 ```
 
 Source: https://docs.fedoraproject.org/en-US/quick-docs/configuring-xorg-as-default-gnome-session/
+
+## GRUB changes
+
+Run the following to open the GRUB config file:
+
+```
+sudo vi /etc/default/grub
+```
+
+Change the `GRUB_CMDLINE_LINUX_DEFAULT` line to be this:
+
+```
+GRUB_CMDLINE_LINUX="rhgb quiet nomodeset nvidia-drm.modeset=1"
+```
+
+Run the following to apply changes:
+
+```
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```

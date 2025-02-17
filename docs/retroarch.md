@@ -23,73 +23,90 @@ Change the following settings:
   - Fullscreen Mode
     - Start in Fullscreen Mode: On
 - Input
-  - Confirm Quit: Off
   - Menu Controls
     - Menu Swap OK and Cancel Buttons: On
     - Disable Info Button: On
     - Disable Search Button: On
   - Hotkeys
-    - Hotkey Enable: Controller Home button
     - Menu Toggle (Controller Combo): L3 + R3
-    - Close Content: Right face button
-    - Restart Content: Left face button
-    - Fast-Forward (Hold): Right trigger
-    - Slow-Motion (Hold): Left trigger
-    - Pause: Bottom face button
-    - Audio Mute: Top face button
-    - Volume Up: Right shoulder button
-    - Volume Down: Left shoulder button
-    - Load State: D-pad up
-    - Save State: D-pad down
-    - Next Save State Slot: D-pad right
-    - Previous Save State Slot: D-pad left
-    - Take Screenshot: Left menu button
-    - Fullscreen (Toggle): Right menu button
-  - Port 1 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 2 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 3 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 4 Controls
-    - Analog to Digital Type: Left Analog
-  - Port 5 Controls
-    - Analog to Digital Type: Left Analog
+    - Slow-Motion (Hold): None
+    - Rewind: None
+    - Pause: `=`
+    - Frame Advance: `-`
+    - Volume Up: None
+    - Volume Down: None
+    - Shaders (Toggle): None
+    - Next Shader: None
+    - Previous Shader: None
+    - Cheats (Toggle): None
+    - Next Cheat Index: None
+    - Previous Cheat Index: None
+    - Fullscreen (Toggle): None
+    - Show FPS (Toggle: None
+    - Netplay Play/Spectate Mode (Toggle): None
+    - Netplay Player Chat: None
+  - RetroPad Binds
+    - Port 1 Controls
+      - Analog to Digital Type: Left Analog
+      - B Button (Down): `k`
+      - A Button (Right): `j`
+      - Y Button (Left): `h`
+      - X Button (Top): `l`
+      - Select Button: `Right shift`
+      - Start Button: `Enter`
+      - L Button (Shoulder): `q`
+      - R Button (Shoulder): `e`
+      - L2 Button (Trigger): `f`
+      - R2 Button (Trigger): `r`
+      - L3 Button (Thumb): `t`
+      - R3 Button (Thumb): `t`
+      - Left Analog Y- (Up): `W`
+      - Left Analog Y+ (Down): `S`
+      - Left Analog X- (Left): `A`
+      - Left Analog X+ (Right): `D`
+      - Right Analog Y- (Up): None
+      - Right Analog Y+ (Down): None
+      - Right Analog X- (Left): None
+      - Right Analog X+ (Right): None
+      - Fast-Forward (Hold): None
+    - Port 2 Controls
+      - Analog to Digital Type: Left Analog
+    - Port 3 Controls
+      - Analog to Digital Type: Left Analog
+    - Port 4 Controls
+      - Analog to Digital Type: Left Analog
+    - Port 5 Controls
+      - Analog to Digital Type: Left Analog
 - Saving
   - Sort Saves into Folders by Core Name: On
   - Sort Save States into Folders by Core Name: On
   - Auto Save State: On
-- File Browser
-  - Show Hidden Files and Directories: On
-  - Use Built-In Media Player: Off
-  - Use Built-In Image Viewer: Off
-  - Filter by Current Core: On
-  - Remember Last Used Start Directory: On
-- On-Screen Display
-  - On-Screen Notifications
-    - Notification Visibility
-      - "Load Content" Startup Notification: Off
-      - Input (Autoconfig) Connection Notifications: Off
-      - Cheat Code Notifications: Off
-      - Patch Notifications: Off
-      - Input Remap Loaded Notifications: Off
-      - Config Override Loaded Notifications: Off
-      - Initial Disc Restored Notifications: Off
-      - Fast-Forward Notifications: Off
-      - Screenshot Notifications: Off
-      - Menu-only Notifications: On
-  - On-Screen Overlay
-    - Display Overlay: Off
 - User Interface
+  - File Browser
+    - Show Hidden Files and Directories: On
+    - Use Built-In Media Player: Off
+    - Use Built-In Image Viewer: Off
+    - Filter by Current Core: On
+    - Remember Last Used Start Directory: On
+  - On-Screen Display
+    - On-Screen Notifications
+      - Notification Visibility
+        - "Load Content" Startup Notification: Off
+        - Input (Autoconfig) Connection Notifications: Off
+        - Cheat Code Notifications: Off
+        - Patch Notifications: Off
+        - Input Remap Loaded Notifications: Off
+        - Config Override Loaded Notifications: Off
+        - Initial Disc Restored Notifications: Off
+        - Fast-Forward Notifications: Off
+        - Screenshot Notifications: Off
+        - Menu-only Notifications: On
   - Menu Item Visibility
     - Quick Menu
-      - Show 'Save/Load State': Off
-      - Show 'Unde Save/Load State': Off
       - Show 'Replay Controls': Off
       - Show 'Start Recording': Off
       - Show 'Start Streaming': Off
       - Show 'On-Screen Overlay': Off
-      - Show 'Rewind': Off
       - Show 'Cheats': Off
       - Show 'Set Core Association': Off
       - Show 'Reset Core Association': Off
@@ -99,11 +116,11 @@ Change the following settings:
       - Show 'Audio': Off
       - Show 'Frame Throttle': Off
       - Show 'Recording': Off
-      - Show 'AI Service': Off
       - Show 'Accessibility': Off
+      - Show 'AI Service': Off
       - Show 'Power Management': Off
-      - Show '
-      - Show '
+      - Show 'Achievements'
+      - Show 'Logging'
     - Show 'Dump Disc': Off
     - Show 'Online Updater': On
     - Show 'Core Downloader': On
@@ -116,7 +133,10 @@ Change the following settings:
     - Show Battery Level: Off
     - Show Core Name: Off
   - Appearance
-    - Thumbnail Upscaling Threshold: 1024
+    - Color Theme: Brogrammer
+      - Border Filler: Off
+      - Shadow Effects: On
+      - Switch Icons: Off
   - Pause Content When Controller Disconnects: On
   - Mouse Support: Off
 - Achievements
@@ -128,19 +148,16 @@ Change the following settings:
     - Unlock Notifications: Off
     - Mastery Notifications: Off
     - Active Challenge Indicators: Off
-    - Login Messages: Off
-    - Verbose Messages: Off
-    - Leaderboards: Disabled
+    - Progress Indicator: Off
+    - Leaderboard Start Messages: Off
+    - Leaderboard Submit Messages: Off
+    - Leaderboard Failed Messages: Off
+    - Leaderboard Trackers: Off
     - Rich Presence: Off
-  - Hardcore Mode: On
-- Playlists
-  - Show Playlist Sub-Labels: Off
-  - Scan Without Core Math: Off
-  - Sort Playlists After Name Truncation: On
 - User
   - Username: Enter username
 - Directory
-  - File Browser: ~/fun/emu
+  - File Browser: ~/Games/emulation
 
 Change the following setting after the above is complete:
 
@@ -183,8 +200,6 @@ cp /usr/share/libretro/autoconfig/* autoconfig/ -r
 
 Go to the Main Menu, and select the following option:
 
-- Online Updater
-  - On-Demand Thumbnail Downloads: On
 - Configuration File
   - Save Current Configuration
 
@@ -195,7 +210,7 @@ Go to Online Updater, and complete the following:
 - Update Cheats
 - Update Databases
 - Update Overlays
-- Update Slang Shaders
+- Update GLSL Shaders
 
 Download the following from the respective Downloader:
 
@@ -204,13 +219,13 @@ Download the following from the respective Downloader:
   - NEC - PC Engine / SuperGrafx / CD (Beetle PCE)
   - Nintendo - Game Boy / Color (Gambatte)
   - Nintendo - Game Boy Advance (mGBA)
-  - Nintendo - NES / Famicon (Nestopia UE)
+  - Nintendo - NES / Famicon (Nestopia)
   - Nintendo - Nintendo 64 (ParaLLEl N64)
-  - Nintendo - SNES / SFC (Snes9x - Current)
+  - Nintendo - SNES / SFC (Snes9x)
   - Sega - MS/GG/MD/CD (Genesis Plus GX)
   - Sony - PlayStation (Beetle PSX HW)
 
-After all this, import all content from `~/fun/emu/`. Change the following settings:
+After all this, import all content from `~/Games/emulation/`. Change the following settings:
 
 - Playlists
   - Manage Playlists
