@@ -248,7 +248,7 @@ Change the following settings for the Built-In extensions:
     - Mouse bindings
       - Left click action: play/pause
       - Middle click action: next track
-- Peek Top Bar on Fullscreen by marcinjahn
+- Peek Top Bar on Fullscreen by marcinjahn (currently disabled)
 - Power Profile Switcher by eliapasquali (only if on laptop) (currently disabled)
   - Default profiles
     - On AC: Balanced
@@ -323,7 +323,6 @@ Change the following settings for the Built-In extensions:
           - Blur radius: 28
           - Opacity: 60
       - Keep Rounded Corners when Maximized: On
-      - Keep Rounded Corners when Fullscreen: On
   - Space Bar by luchrioh
     - Behavior
       - General

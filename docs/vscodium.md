@@ -13,12 +13,14 @@ Click "Mark as done", then disable "Show welcome page on startup" on the new pag
 Change the following settings:
 
 - Text Editor
+  - Accept Suggestion On Enter: Off
   - Line Numbers: relative
   - Scrollbar: Horizontal: hidden
   - Scrollbar: Vertical: hidden
   - Detect Indentation: Off
   - Inlay Hints: Off
   - Sticky Scroll: Off
+  - Tab Completion: On
   - Tab Size: 2
   - Word Wrap: On
   - Wrapping Indent: indent
@@ -136,6 +138,10 @@ Press `Ctrl+Shift+P` and enter "Open User Settings (JSON)." Then, add a comma to
     ]
 ```
 
+Change the following settings once all plugins have been installed:
+
+- Neovim Viewport Height Extend: 10000
+
 Right click the bottom status bar, and disable the following items:
 
 - Remote Host
@@ -158,5 +164,13 @@ Restart VSCodium for some changes to take effect.
 Remove the following keybind by rightclicking it in Keyboard Shortcuts (open it by searching it through `Ctrl+Shift+P`)
 
 - workbench.action.quit
+- insertSuggestion
+
+Change the following shortcuts:
+
+- selectNextSuggestion: `Ctrl+Down arrow` to `Tab`
+- selectPrevSuggestion: `Ctrl+Up arrow` to `Shift+Tab`
+- Accept Inline Suggestion (both options): `Tab` to `Ctrl+Enter`
+- codeium.supercompleteAccept: `Ctrl+Enter`
 
 Open VSCode Neovim's settings, and add `q` to "Ctrl Keys For Insert Mode" and "Ctrl Keys For Normal Mode"

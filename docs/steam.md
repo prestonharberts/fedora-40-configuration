@@ -4,6 +4,8 @@ Run the following to install Steam and other utilities:
 
 ```
 sudo dnf install steam gamescope xdotool -y
+sudo cp /usr/share/applications/steam.desktop .local/share/applications/
+sudo chown $USER:$USER ~/.local/share/applications/steam.desktop
 ```
 
 Remove all Steam, Proton, and game shortcuts from `~/.local/share/applications/` and use the GNOME extension Custom Command Toggle combined with my Bash scripts to launch Steam using Gamescope. Info on how to set this up is in my `gnome-extensions.md`.

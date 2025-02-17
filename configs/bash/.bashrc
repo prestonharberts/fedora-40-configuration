@@ -25,6 +25,7 @@ fi
 
 export PATH=/home/prestonharberts/Bin/:$PATH
 export PATH=/home/prestonharberts/go/bin/:$PATH
+export PATH=/home/prestonharberts/Bin/flutter/bin/:$PATH
 
 unset rc
 
@@ -61,7 +62,7 @@ alias cduu='cd ../..'
 alias cduuu='cd ../../..'
 
 # frequently used commands: system
-alias upgrade='sudo dnf upgrade -y && sudo dnf autoremove -y && flatpak upgrade -y'
+alias upgrade='sudo dnf upgrade --refresh -y && sudo dnf autoremove -y && flatpak upgrade -y'
 alias fetch='neofetch --off'
 
 # frequently used commands: files and folders
