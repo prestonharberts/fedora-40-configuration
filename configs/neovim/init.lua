@@ -102,6 +102,12 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.bo.softtabstop = 2
 
+-- comments
+vim.api.nvim_create_autocmd("BufEnter", {
+    pattern = "*",
+    command = "set formatoptions-=cro"
+})
+
 -- line wrapping
 vim.opt.linebreak = true
 vim.opt.breakindent = true
