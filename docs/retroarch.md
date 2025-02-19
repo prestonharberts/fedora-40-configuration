@@ -20,8 +20,12 @@ Change the following settings:
 - Video
   - Output
     - GPU Index: Confirm that it is using your primary GPU
+  - Synchronization
+    - Max Swapchain Images: 2
   - Fullscreen Mode
     - Start in Fullscreen Mode: On
+  - Windowed Mode
+    - Show Window Decorations: Off
 - Input
   - Menu Controls
     - Menu Swap OK and Cancel Buttons: On
@@ -98,7 +102,10 @@ Change the following settings:
         - Input Remap Loaded Notifications: Off
         - Config Override Loaded Notifications: Off
         - Initial Disc Restored Notifications: Off
+        - Disc Control Notifications: Off
+        - Save State Notifications: Off
         - Fast-Forward Notifications: Off
+        - Refresh Rate Notifications: Off
         - Screenshot Notifications: Off
         - Menu-only Notifications: On
   - Menu Item Visibility
@@ -139,6 +146,7 @@ Change the following settings:
       - Switch Icons: Off
   - Pause Content When Controller Disconnects: On
   - Mouse Support: Off
+  - Disable Desktop Composition: On
 - Achievements
   - Achievements: On
   - Username: Enter username
@@ -154,6 +162,7 @@ Change the following settings:
     - Leaderboard Failed Messages: Off
     - Leaderboard Trackers: Off
     - Rich Presence: Off
+  - Rich Presence: Off
 - User
   - Username: Enter username
 - Directory
@@ -423,7 +432,7 @@ Change the following settings, and then navigate to the Quick Menu to save overr
 - Overrides
   - Save Core Overrides
 
-Change the following latency settings, substituting x with the specific game's values:
+Change the following latency settings, substituting x with the specific game's values found frame advancing while holding an input, counting the frames until something happens, and subtracting 1 from that:
 
 - Latency
   - Run-Ahead to Reduce Latency
@@ -431,42 +440,23 @@ Change the following latency settings, substituting x with the specific game's v
 - Overrides
   - Save Game Overrides
 
-Comix Zone: 
+## udev permissions
 
-## Sony - PlayStation (Beetle PSX HW)
+Change the following settings and run the following commands to switch input drivers to udev:
 
-Change the following settings from the Quick Menu:
+- Drivers
+  - Video: vulkan
 
-- Core Options
-  - Video
-    - Internal GPU Resolution: 2x
-    - Dithering Pattern: Internal Resolution
-    - Texture Filtering: xBR
-    - Adaptive Smoothing: On
-    - MDEC YUV Chroma Filter: On
-  - PGXP (Precision Geometry Transform Pipeline)
-    - PGXP Operation Mode: Memory Only
-    - PGXP Primitive Culling: On
-    - PGXP Vertex Cache: On
-    - PGXP Perspective Correct Texturing
-  - Renderer (Restart Required): Software
-- Quick Menu
-  - Shaders
-    - Video Shaders: On
-    - Load: shaders_slang/ntsc/ntsc-320px-composite.slangp
-    - Prepend: shaders_slang/crt/crt-royale.slangp
-    - Shader Parameters
-      - Border - Size: 0.00
-      - Interlacing - Toggle: 0.00
-    - Save
-      - Save Core Preset
+```
+sudo usermod -a -G input `whoami`
+```
 
-Change the following setting for each of the following games:
+Log out, and log back in.
 
-- Core Options
-  - PGXP (Precision Geometry Transform Pipeline)
-    - PGXP Operation Mode: Memory + CPU (Buggy)
-  - Manage Core Options
-    - Save Game Options
+Add `KERNEL=="event*", NAME="input/%k", MODE="666"` to `/etc/udev/rules.d/99-evdev.rules`, and run the following:
 
-Metal Gear Solid, Metal Gear Solid - VR Missions
+
+```
+sudo udevadm control --reload-rules
+sudo reboot
+```
