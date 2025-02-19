@@ -1,10 +1,6 @@
 # PipeWire
 
-Run the following to install EasyEffects:
-
-```
-sudo dnf install easyeffects -y
-```
+## Sample rate (no longer needed)
 
 Run the following to change the sample rate to 384K:
 
@@ -19,6 +15,14 @@ sudo cp /usr/share/pipewire/ /etc/ -r
 ```
 
 Now, edit `/etc/pipewire/pipewire.conf`. Uncomment `default.clock.rate` and change the value to `384000`.
+
+## EasyEffects
+
+Run the following to install EasyEffects:
+
+```
+sudo dnf install easyeffects -y
+```
 
 Change the following settings:
 
